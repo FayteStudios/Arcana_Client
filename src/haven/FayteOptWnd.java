@@ -845,9 +845,7 @@ public class FayteOptWnd extends Window {
                 "Bring back every \"Are you sure?\" question you told Arcana not to ask again.",
                 140,
                 () -> {
-                    FayteConfirm.forget("profbuy");
-                    FayteConfirm.forget("craving");
-                    FayteConfirm.forget("kinremove");
+                    FayteConfirm.forgetall();
                     FayteMsg.say("Arcana will ask again before those choices.");
                 });
         endrow(FayteSkin.s(34));

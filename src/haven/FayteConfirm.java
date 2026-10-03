@@ -26,8 +26,16 @@ public class FayteConfirm extends Window {
         current = new FayteConfirm(gui, null, title, msg, yes);
     }
 
-    public static void forget(String key) {
-        Utils.setpref("fayte_ask_" + key, "");
+    public static void forgetall() {
+        try {
+            for (String k : Utils.prefs().keys()) {
+                if (k.startsWith("fayte_ask_")) {
+                    Utils.setpref(k, "");
+                }
+            }
+        } catch (Exception e) {
+            FayteLog.log("Confirm: could not reset the questions: " + e);
+        }
     }
 
     private FayteConfirm(GameUI gui, String key, String title, String msg, Runnable yes) {
