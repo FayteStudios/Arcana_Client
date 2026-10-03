@@ -347,8 +347,11 @@ public class FayteDump {
     }
 
     public static void tick(GameUI gui) {
+        if (!FayteConfig.DEV) {
+            return;
+        }
         long nowm = System.currentTimeMillis();
-        if (FayteConfig.diagnostics.get()) {
+        if (FayteConfig.diag()) {
             stationtick(gui, nowm);
         }
         if (nowm - lastmem > 300000L) {

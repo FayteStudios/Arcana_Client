@@ -978,7 +978,7 @@ public class FayteRecipes {
         }
         if (mw == null && stage == 1 && now - since > 1500) {
             mw = find(gui, null);
-            if (stage == 1 && FayteConfig.diagnostics.get() && now - namelog > 5000) {
+            if (stage == 1 && FayteConfig.diag() && now - namelog > 5000) {
                 namelog = now;
                 StringBuilder sb = new StringBuilder();
                 allnames(gui, sb);
@@ -1033,7 +1033,7 @@ public class FayteRecipes {
                 if (mw != null) {
                     craftwin = mw;
                     madesig = invsig(gui);
-                    if (FayteConfig.diagnostics.get()) {
+                    if (FayteConfig.diag()) {
                         FayteLog.log("Crafting: make " + crafting.name + " in window \"" + mw.recipe
                                 + "\", matching items in bag " + madesig);
                     }
@@ -1061,7 +1061,7 @@ public class FayteRecipes {
                         stop("Stopped after " + made + ": the crafting window closed");
                     }
                 } else if (now - since > 3000) {
-                    if (FayteConfig.diagnostics.get()) {
+                    if (FayteConfig.diag()) {
                         FayteLog.log("Crafting: no progress bar and no new " + crafting.name + " (bag count "
                                 + invsig(gui) + ", was " + madesig + ", window "
                                 + (mw == null ? "gone" : "\"" + mw.recipe + "\"") + ")");

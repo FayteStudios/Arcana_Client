@@ -77,6 +77,11 @@ public class FayteConfig {
     public static final FayteConfig.DoubleSetting tooltipScale =
             add(new FayteConfig.DoubleSetting("tooltip_scale", 1.0, 1.0, 2.0));
     public static final FayteConfig.BoolSetting diagnostics = add(new FayteConfig.BoolSetting("diagnostics", false));
+    public static final boolean DEV = Boolean.getBoolean("fayte.dev");
+
+    public static boolean diag() {
+        return DEV && diagnostics.get();
+    }
     public static final FayteConfig.BoolSetting autoTimers = add(new FayteConfig.BoolSetting("auto_timers", true));
     public static final FayteConfig.BoolSetting mapPerChar = add(new FayteConfig.BoolSetting("map_per_char", false));
     public static final FayteConfig.BoolSetting markersPerChar =

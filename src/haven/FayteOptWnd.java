@@ -851,11 +851,13 @@ public class FayteOptWnd extends Window {
                     FayteMsg.say("Arcana will ask again before those choices.");
                 });
         endrow(FayteSkin.s(34));
-        check(
-                "Diagnostics",
-                "Record station windows and window moves to files. Only turn this on when asked, to help hunt a bug.",
-                FayteConfig.diagnostics.get(),
-                FayteConfig.diagnostics::set);
+        if (FayteConfig.DEV) {
+            check(
+                    "Diagnostics",
+                    "Record station windows and window moves to files.",
+                    FayteConfig.diagnostics.get(),
+                    FayteConfig.diagnostics::set);
+        }
         y += FayteSkin.s(6);
         note("Logged in this session: " + FayteProgress.fmt(FayteTrade.online())
                 + (FayteTrade.ready() ? "  (trade orders can be taken)" : "  (trade orders need an hour online)"));

@@ -331,7 +331,9 @@ public class FayteTools {
         }
         String m = msg.toLowerCase();
         if (m.contains("need") || m.contains("must") || m.contains("require") || m.contains("without")) {
-            FayteLog.log("Game message: " + msg);
+            if (FayteConfig.diag()) {
+                FayteLog.log("Game message: " + msg);
+            }
             if (!FayteConfig.toolsSwap.get() || swapstage != 0 || System.currentTimeMillis() - lastswap < 3000) {
                 return;
             }

@@ -47,7 +47,7 @@ public class FayteDeath {
             String all = sb.toString();
             if (!all.equals(lastposes)) {
                 lastposes = all;
-                if (ko) {
+                if (ko && FayteConfig.diag()) {
                     FayteLog.log("Death check: your poses are now [" + all + "]");
                 }
             }
@@ -82,7 +82,7 @@ public class FayteDeath {
         if (msg == null || gui == null) {
             return;
         }
-        if (HINT.matcher(msg).matches()) {
+        if (FayteConfig.diag() && HINT.matcher(msg).matches()) {
             FayteLog.log("Death check: game message \"" + msg + "\"");
         }
         if (DIED.matcher(msg).matches()) {

@@ -211,8 +211,10 @@ public class FayteCraving {
         List<String> ig = new ArrayList<>(groups(it));
         ig.addAll(wikigroups(nm));
         List<String> cg = cravgroups(cr);
-        FayteLog.log("Craving check: craving " + cn + " (" + cr.name + ", groups " + cg + "); eating " + nm + " ("
-                + it.resname() + ", groups " + ig + ")");
+        if (FayteConfig.diag()) {
+            FayteLog.log("Craving check: craving " + cn + " (" + cr.name + ", groups " + cg + "); eating " + nm + " ("
+                    + it.resname() + ", groups " + ig + ")");
+        }
         if (cr.name.equals(it.resname()) || (nm != null && nm.equalsIgnoreCase(cn))) {
             return cn;
         }

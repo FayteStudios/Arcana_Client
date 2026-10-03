@@ -14,7 +14,7 @@ public class FayteModContainers extends FayteModule {
 
     @Override
     public void tick(GameUI gui) {
-        boolean diag = FayteConfig.diagnostics.get();
+        boolean diag = FayteConfig.diag();
         if (diag) {
             FayteWinWatch.tick(gui);
         }
