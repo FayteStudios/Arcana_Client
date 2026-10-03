@@ -134,16 +134,20 @@ public class WorldMapMarkers {
                                     p[0], p[1], Integer.parseInt(p[2]), Integer.parseInt(p[3]), p[4]));
                             n++;
                         } catch (NumberFormatException e) {
+                            FayteLog.log("Map markers: skipped an unreadable line in " + f + ": " + ln);
                         }
                     }
                 }
             }
         } catch (IOException e) {
+            FayteLog.log("Map markers: could not import from " + f + ": " + e);
             return 0;
         }
         save();
         return n;
     }
+
+    private static boolean unreadable = false;
 
     private static synchronized void ensure() {
         String srv =
@@ -152,23 +156,43 @@ public class WorldMapMarkers {
             loadedfor = srv;
             markers = new ArrayList<>();
             pointed = null;
+            unreadable = false;
             File f = file();
             if (f.exists()) {
+                int bad = 0;
                 try (BufferedReader in =
                         new BufferedReader(new InputStreamReader(new FileInputStream(f), StandardCharsets.UTF_8))) {
                     String ln;
                     while ((ln = in.readLine()) != null) {
+                        if (ln.trim().isEmpty()) {
+                            continue;
+                        }
                         String[] p = ln.split("\t", 5);
-                        if (p.length == 5) {
-                            try {
-                                markers.add(new WorldMapMarkers.Marker(
-                                        p[0], p[1], Integer.parseInt(p[2]), Integer.parseInt(p[3]), p[4]));
-                            } catch (NumberFormatException e) {
+                        try {
+                            if (p.length != 5) {
+                                throw new NumberFormatException();
                             }
+                            markers.add(new WorldMapMarkers.Marker(
+                                    p[0], p[1], Integer.parseInt(p[2]), Integer.parseInt(p[3]), p[4]));
+                        } catch (NumberFormatException e) {
+                            bad++;
                         }
                     }
                 } catch (IOException e) {
-                    System.out.println("Could not read " + f + ": " + e);
+                    unreadable = true;
+                    FayteLog.log("Map markers: could not read " + f + ", so marker changes won't be saved: " + e);
+                }
+                if (bad > 0) {
+                    File keep = new File(f.getPath() + ".bad");
+                    try {
+                        Files.copy(f.toPath(), keep.toPath(), StandardCopyOption.REPLACE_EXISTING);
+                        FayteLog.log("Map markers: " + bad + " unreadable lines in " + f + "; the original was kept as "
+                                + keep);
+                    } catch (IOException e) {
+                        unreadable = true;
+                        FayteLog.log("Map markers: " + bad + " unreadable lines in " + f
+                                + " and no copy could be kept, so marker changes won't be saved: " + e);
+                    }
                 }
             }
         }
@@ -176,6 +200,10 @@ public class WorldMapMarkers {
 
     private static synchronized void save() {
         File f = file();
+        if (unreadable) {
+            FayteLog.log("Map markers: not saving " + f + " because it couldn't be read");
+            return;
+        }
         File tmp = new File(f.getPath() + ".tmp");
         try {
             f.getParentFile().mkdirs();
@@ -193,7 +221,7 @@ public class WorldMapMarkers {
                 Files.move(tmp.toPath(), f.toPath(), StandardCopyOption.REPLACE_EXISTING);
             }
         } catch (IOException e) {
-            System.out.println("Could not write " + f + ": " + e);
+            FayteLog.log("Map markers: could not write " + f + ": " + e);
             tmp.delete();
         }
     }
