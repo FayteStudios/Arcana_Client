@@ -1,3 +1,9 @@
+# vFool - Seven of Swords
+Day 1 Hotfix: Several features shipped turned off by default.
+Obviously, this looks like they were broken, because they were!
+Window snapping, movable minimap, right-click arranging and smart interact now turned on for new players.
+The world map is turned on too!
+Happy hunting, pilgrims!
 # vFool: Fool's Path
 A new journey begins.
 # Things to look out for
