@@ -150,15 +150,15 @@ public class FayteKeys {
         for (int i = 0; i < nk.length; i++) {
             fixed.add(new FayteKeys.Action("belt.n" + (i + 1), "Number belt slot " + (i + 1), BELTS, nk[i], 0));
         }
-        fork("worldmap", "World Map");
-        fork("almanac", "Almanac");
+        fork("worldmap", "World Map", KeyEvent.VK_M, 0);
+        fork("almanac", "Almanac", KeyEvent.VK_C, 0);
         fork("chatwindow", "New Chat Window");
         fork("classicchat", "Classic chat on/off");
-        fork("lockui", "Lock UI on/off");
+        fork("lockui", "Lock UI on/off", KeyEvent.VK_HOME, 0);
         fork("gatherwindows", "Gather windows");
-        fork("invpack", "Inventory + backpack");
+        fork("invpack", "Inventory + backpack", KeyEvent.VK_TAB, 0);
         fork("smart", "Smart interact", KeyEvent.VK_SPACE, 0);
-        fork("cancel", "Cancel action / put down (right-click ground)");
+        fork("cancel", "Cancel action / put down (right-click ground)", KeyEvent.VK_PERIOD, 0);
         fork("keybinds", "Key Bindings");
         fork("actions", "Actions panel", KeyEvent.VK_A, ALT);
         fork("options", "Arcana Options");
@@ -238,10 +238,28 @@ public class FayteKeys {
         if (b != null) {
             return b;
         } else if (a.builtin()) {
-            return new int[] {a.dcode, a.dmods};
+            return taken(a.dcode, a.dmods) ? null : new int[] {a.dcode, a.dmods};
         } else {
             return a.fcode != 0 ? new int[] {a.fcode, a.fmods} : null;
         }
+    }
+
+    private static boolean taken(int code, int mods) {
+        for (FayteKeys.Action x : fixed) {
+            if (!x.builtin()) {
+                int[] b = binds.get(x.id);
+                int[] e = b != null ? b : (x.fcode != 0 ? new int[] {x.fcode, x.fmods} : null);
+                if (e != null && e[0] == code && e[1] == mods) {
+                    return true;
+                }
+            }
+        }
+        for (Map.Entry<String, int[]> e : binds.entrySet()) {
+            if (e.getKey().startsWith("pag:") && e.getValue()[0] == code && e.getValue()[1] == mods) {
+                return true;
+            }
+        }
+        return false;
     }
 
     public static boolean changed(FayteKeys.Action a) {
