@@ -34,8 +34,7 @@ public class FayteFeedbackWnd extends Window {
     }
 
     private static String to() {
-        String e = conf("email");
-        return e.isEmpty() ? "sorinf@faytestudios.com" : e;
+        return conf("email");
     }
 
     private static final String[] KINDS = {"Bug", "Suggestion", "Question", "Other"};
@@ -178,6 +177,9 @@ public class FayteFeedbackWnd extends Window {
             body = body.substring(0, 1800) + "\n(cut short)";
         }
         try {
+            if (to().isEmpty()) {
+                throw new IllegalStateException("no email address set");
+            }
             URI u = new URI("mailto:" + to() + "?subject=" + enc(subject()) + "&body=" + enc(body));
             if (Desktop.isDesktopSupported() && Desktop.getDesktop().isSupported(Desktop.Action.MAIL)) {
                 Desktop.getDesktop().mail(u);
@@ -290,8 +292,13 @@ public class FayteFeedbackWnd extends Window {
         try {
             Toolkit.getDefaultToolkit().getSystemClipboard().setContents(new StringSelection(all), null);
             String dc = conf("discord");
-            FayteMsg.say(
-                    "Copied. Paste it to " + (dc.isEmpty() ? "" : dc + " on Discord, or ") + "email " + to() + ".");
+            String where = dc.isEmpty() ? "" : dc + " on Discord";
+            if (!to().isEmpty()) {
+                where += (where.isEmpty() ? "" : ", or ") + "email " + to();
+            }
+            FayteMsg.say(where.isEmpty()
+                    ? "Copied. Paste it in the Arcana thread on the Salem forum."
+                    : "Copied. Paste it to " + where + ".");
         } catch (Exception e) {
             FayteMsg.say("Could not copy: " + e.getMessage(), GameUI.MsgType.BAD);
         }
