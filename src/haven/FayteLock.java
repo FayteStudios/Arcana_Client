@@ -14,7 +14,7 @@ public class FayteLock {
         {"Tools & Automation", "tools & automation"},
         {"View & Performance", "view & performance"},
         {"Key Bindings", "key bindings"},
-        {"Arcana Modules", "fayte modules"},
+        {"Arcana Modules", "arcana modules"},
         {"Character (game)", "character"},
         {"Kin (game)", "kin"},
         {"Crafting (game)", "crafting"},
