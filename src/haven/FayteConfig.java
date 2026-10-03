@@ -24,7 +24,7 @@ public class FayteConfig {
     public static final FayteConfig.DoubleSetting uiScale =
             add(new FayteConfig.DoubleSetting("ui_scale", 1.0, 1.0, 3.0));
     public static final FayteConfig.BoolSetting minimapMovable =
-            add(new FayteConfig.BoolSetting("minimap_movable", false));
+            add(new FayteConfig.BoolSetting("minimap_movable", true));
     public static final FayteConfig.CoordSetting minimapPos = add(new FayteConfig.CoordSetting("minimap_pos"));
     public static final FayteConfig.BoolSetting minimapLocked =
             add(new FayteConfig.BoolSetting("minimap_locked", false));
@@ -43,7 +43,7 @@ public class FayteConfig {
     public static final FayteConfig.IntSetting buttonPanelCols =
             add(new FayteConfig.IntSetting("button_panel_cols", 8, 1, 32));
     public static final FayteConfig.CoordSetting buttonPanelPos = add(new FayteConfig.CoordSetting("button_panel_pos"));
-    public static final FayteConfig.BoolSetting windowSnap = add(new FayteConfig.BoolSetting("window_snap", false));
+    public static final FayteConfig.BoolSetting windowSnap = add(new FayteConfig.BoolSetting("window_snap", true));
     public static final FayteConfig.IntSetting snapGrid = add(new FayteConfig.IntSetting("snap_grid", 10, 2, 100));
     public static final FayteConfig.IntSetting snapDist = add(new FayteConfig.IntSetting("snap_distance", 8, 0, 50));
     public static final FayteConfig.BoolSetting classicChat = add(new FayteConfig.BoolSetting("classic_chat", true));
@@ -82,7 +82,7 @@ public class FayteConfig {
     public static final FayteConfig.BoolSetting markersPerChar =
             add(new FayteConfig.BoolSetting("markers_per_char", false));
     public static final FayteConfig.BoolSetting miniFill = add(new FayteConfig.BoolSetting("mini_fill", true));
-    public static final FayteConfig.BoolSetting menuArrange = add(new FayteConfig.BoolSetting("menu_arrange", false));
+    public static final FayteConfig.BoolSetting menuArrange = add(new FayteConfig.BoolSetting("menu_arrange", true));
     public static final FayteConfig.BoolSetting stationRecipes =
             add(new FayteConfig.BoolSetting("station_recipes", true));
     public static final FayteConfig.BoolSetting smartAny = add(new FayteConfig.BoolSetting("smart_any", false));
@@ -92,12 +92,12 @@ public class FayteConfig {
     public static final FayteConfig.BoolSetting doorsGates = add(new FayteConfig.BoolSetting("doors_gates", true));
     public static final FayteConfig.BoolSetting smartHerbs = add(new FayteConfig.BoolSetting("smart_herbs", true));
     public static final FayteConfig.BoolSetting smartItems = add(new FayteConfig.BoolSetting("smart_items", true));
-    public static final FayteConfig.BoolSetting smartCrops = add(new FayteConfig.BoolSetting("smart_crops", false));
-    public static final FayteConfig.BoolSetting smartBushes = add(new FayteConfig.BoolSetting("smart_bushes", false));
-    public static final FayteConfig.BoolSetting smartTrees = add(new FayteConfig.BoolSetting("smart_trees", false));
+    public static final FayteConfig.BoolSetting smartCrops = add(new FayteConfig.BoolSetting("smart_crops", true));
+    public static final FayteConfig.BoolSetting smartBushes = add(new FayteConfig.BoolSetting("smart_bushes", true));
+    public static final FayteConfig.BoolSetting smartTrees = add(new FayteConfig.BoolSetting("smart_trees", true));
     public static final FayteConfig.BoolSetting smartBoulders =
-            add(new FayteConfig.BoolSetting("smart_boulders", false));
-    public static final FayteConfig.BoolSetting smartAnimals = add(new FayteConfig.BoolSetting("smart_animals", false));
+            add(new FayteConfig.BoolSetting("smart_boulders", true));
+    public static final FayteConfig.BoolSetting smartAnimals = add(new FayteConfig.BoolSetting("smart_animals", true));
     public static final FayteConfig.BoolSetting smartGround = add(new FayteConfig.BoolSetting("smart_ground", true));
     public static final FayteConfig.IntSetting smartRadius = add(new FayteConfig.IntSetting("smart_radius", 8, 1, 30));
     public static final FayteConfig.IntSetting viewTerrain = add(new FayteConfig.IntSetting("view_terrain", 2, 1, 3));
