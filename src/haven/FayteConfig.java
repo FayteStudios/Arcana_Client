@@ -29,7 +29,7 @@ public class FayteConfig {
     public static final FayteConfig.BoolSetting minimapLocked =
             add(new FayteConfig.BoolSetting("minimap_locked", false));
     public static final FayteConfig.BoolSetting worldmapEnabled =
-            add(new FayteConfig.BoolSetting("worldmap_enabled", false));
+            add(new FayteConfig.BoolSetting("worldmap_enabled", true));
     public static final FayteConfig.CoordSetting worldmapCenter = add(new FayteConfig.CoordSetting("worldmap_center"));
     public static final FayteConfig.DoubleSetting worldmapZoom =
             add(new FayteConfig.DoubleSetting("worldmap_zoom", 1.0, 0.25, 4.0));
