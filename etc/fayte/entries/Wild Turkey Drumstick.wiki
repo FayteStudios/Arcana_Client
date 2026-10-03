@@ -1,0 +1,51 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.17
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Simple Cooking}} [[Simple Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Wild Stuffed Turkey}} [[Wild Stuffed Turkey]]
+| Or= {{icon|Raw Turkey Drumstick}} [[Raw Turkey Drumstick]], [[Any Stove]]
+}}
+
+{{Facts
+| Title=Used By
+| Counts as= {{icon|Any Poultry Drumstick}} [[Any Poultry Drumstick]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 7 || 17.5 || 7 || 7
+|-
+! Gluttony min
+| 0 || 0 || 7 || 0
+|-
+! Gluttony max
+| 0 || 0 || 9 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Poultry}} [[Poultry]]
+| Full and Fed= 00:06:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Poultry= 40% (40% chance)
+}}
+
+==About==
+
+2x {{i|Wild Turkey Drumstick}}s are received when Cutting Up a {{i|Stuffed Wild Turkey}}. Additionally a Wild Turkey Drumstick can be obtained by baking a {{i|Raw Turkey Drumstick}} in {{i|Any Stove}}.

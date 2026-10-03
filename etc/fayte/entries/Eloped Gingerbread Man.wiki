@@ -1,0 +1,51 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Baking}} [[Baking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Baking Table}} [[Baking Table]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Gingerbread Man Arms}} [[Gingerbread Man Arms]]
+| b)= {{icon|Gingerbread Man Head}} [[Gingerbread Man Head]]
+| c)= {{icon|Gingerbread Man Torso}} [[Gingerbread Man Torso]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 18 || 18 || 18 || 18
+|-
+! Gluttony min
+| 5 || 5 || 5 || 5
+|-
+! Gluttony max
+| 10 || 10 || 10 || 10
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Bread}} [[Bread]]
+| Full and Fed= 00:05:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+}}
+
+==About==
+
+An {{i|Eloped Gingerbread Man}} is received by chance when preparing Food on a {{i|Baking Table}}. With the [[Bullying]] Skill learned you can right-click an Eloped Gingerbread Man and select "Interrogate" to split it into {{i|Gingerbread Man Arms}}, {{i|Gingerbread Man Head}}, and {{i|Gingerbread Man Torso}}.

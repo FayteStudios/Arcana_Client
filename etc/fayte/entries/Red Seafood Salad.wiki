@@ -1,0 +1,64 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.08
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Seafood Chef}} [[Seafood Chef]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Shellfish}} [[Any Shellfish]], {{icon|Radish}} [[Radish]], {{icon|Red Bell Peppers}} [[Red Bell Peppers]], {{icon|Tomato}} [[Tomato]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 8.5 || 12.5 || 10.5 || 1.5
+|-
+! Crawdad min
+| style="background:#e6b8b8" | 36.45 || 13.5 || 13.5 || 13.5
+|-
+! Crawdad max
+| style="background:#e6b8b8" | 49.95 || 18.5 || 18.5 || 18.5
+|-
+! Crab min
+| 13.5 || style="background:#6fa0ff" | 33.75 || 13.5 || 13.5
+|-
+! Crab max
+| 18.5 || style="background:#6fa0ff" | 46.25 || 18.5 || 18.5
+|-
+! Lobster min
+| 13.5 || 13.5 || style="background:#f0d860" | 45.9 || 13.5
+|-
+! Lobster max
+| 18.5 || 18.5 || style="background:#f0d860" | 62.9 || 18.5
+|-
+! Oyster min
+| 13.5 || 13.5 || 13.5 || style="background:#b8c8e6" | 33.75
+|-
+! Oyster max
+| 18.5 || 18.5 || 18.5 || style="background:#b8c8e6" | 46.25
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Shellfish}} [[Crustacea and Shellfish]]
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Crustacea and Shellfish= 20% (40% chance)
+| Menu= Craft > Food > Shellfish
+}}
+
+==About==
+
+{{i|Red Seafood Salad}} does '''NOT''' need to be cooked.

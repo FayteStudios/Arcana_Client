@@ -1,0 +1,53 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Gardening}} [[Gardening]]
+| Skill 2= {{icon|Pumpkin Planting}} [[Pumpkin Planting]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= Seeds of Pumpkin;θ, [[Tilled Field]]
+| Or= {{icon|Baby Bear}} [[Baby Bear]], {{icon|Gardening Pot}} [[Gardening Pot]], {{icon|Humus}} [[Humus]], [[Potable Water]] 0.2 L
+| Or 2= {{icon|Gardening Pot}} [[Gardening Pot]], {{icon|Humus}} [[Humus]], {{icon|New World Gourd}} [[New World Gourd]], [[Potable Water]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= [[Pumpkin]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 3 || 3 || 3 || 3
+|-
+! Gluttony min
+| 0 || 0 || 0 || 6
+|-
+! Gluttony max
+| 0 || 0 || 0 || 9
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Pumpkins & Gourds}} [[Pumpkins and Gourds]]
+| Full and Fed= 01:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Pumpkins and Gourds= 70% (70% chance)
+}}
+
+==About==
+
+A {{i|Baby Bear}} is the product of a first growth stage, first tier {{i|Pumpkin}} Harvest. Additionally a Baby Bear can be grown by planting another Baby Bear in a {{i|Gardening Pot}} or by chance when Planting a {{i|New World Gourd}}. Planting in Gardening Pots lowers [[Insanity]]. Right-clicking a Baby Bear and selecting "Slice" will give you 2x {{i|Pumpkin Flesh}} and 6x {{i|Seeds of Pumpkin}}. A Baby Bear can be stored in a {{i|Stockbin}}.

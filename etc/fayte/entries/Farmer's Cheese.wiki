@@ -1,0 +1,47 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.20
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Cheese Making}} [[Cheese Making]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= Unknown
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 12 || 12 || 12 || 12
+|-
+! Gluttony min
+| 5 || 5 || 5 || 5
+|-
+! Gluttony max
+| 10 || 10 || 10 || 10
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Dairy Foods}} [[Dairy Foods]]
+| Full and Fed= 00:20:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Dairy Foods= 50% (50% chance)
+}}
+
+{{Arcane}}
+
+==About==
+
+Although not explicitly forbidden knowledge, [[Cheese Making]] is shrouded in secrecy.

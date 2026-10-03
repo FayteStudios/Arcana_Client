@@ -1,0 +1,61 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Vegetable Potting}} [[Vegetable Potting]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Carrot}} [[Carrot]], {{icon|Gardening Pot}} [[Gardening Pot]], {{icon|Humus}} [[Humus]], [[Potable Water]] 0.2 L
+| Or= {{icon|Dead Rabbit}} [[Dead Rabbit]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Cooked Carrot}} [[Cooked Carrot]]
+| b)= {{icon|Corn & Crab Chowder}} [[Corn & Crab Chowder]]
+| c)= {{icon|Cornmash Gobbler}} [[Cornmash Gobbler]]
+| d)= {{icon|Frontier Stew}} [[Frontier Stew]]
+| e)= {{icon|Fyne Salad}} [[Fyne Salad]]
+| f)= {{icon|Lean Rabbit}} [[Lean Rabbit]]
+| g)= {{icon|Pumpkin Sandwich}} [[Pumpkin Sandwich]]
+| h)= {{icon|Roost Roasted Roots}} [[Roost Roasted Roots]]
+| i)= {{icon|Shepherds Pie}} [[Shepherds Pie]]
+| j)= {{icon|Sizzling Stirfry}} [[Sizzling Stirfry]]
+| k)= {{icon|Totally Average Sized Carrot}} [[Totally Average Sized Carrot]]
+| Counts as= {{icon|Any Vegetable}} [[Any Vegetable]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 5 || 15 || 5 || 5
+|-
+! Gluttony min
+| 0 || 8 || 0 || 0
+|-
+! Gluttony max
+| 0 || 12 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Vegetables & Greens}} [[Vegetables and Greens]]
+| Full and Fed= 00:10:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+}}
+
+==About==
+
+A {{i|Carrot}} is received by chance when picking up a recently killed {{i|Dead Rabbit}}, or, with the [[Vegetable Potting]] Skill learned, a Carrot can be grown by planting another Carrot in a {{i|Gardening Pot}}. Planting Vegetables in Gardening Pots lowers [[Insanity]]. Feeding a Carrot to a {{i|Sheep}} will lower its [[Domesticated Animals#Temperament|Temperament]]. A Carrot can be stored in a {{i|Veggie Sack}}.

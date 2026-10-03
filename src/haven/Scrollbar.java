@@ -44,7 +44,14 @@ public class Scrollbar extends Widget {
     }
     
     public void draw(GOut g) {
-	if(vis()) {
+	if(vis() && FayteSkin.on()) {
+	    int w = sflarp.sz().x;
+	    FayteSkin.box(g, new Coord(w / 2 - 1, 0), new Coord(2, sz.y), FayteSkin.BORDER, null);
+	    double a = (double)val / (double)(max - min);
+	    int th = sflarp.sz().y;
+	    int fy = (int)((sz.y - th) * a);
+	    FayteSkin.box(g, new Coord(w / 2 - 4, fy), new Coord(8, th), FayteSkin.BORDER, FayteSkin.HOVER);
+	} else if(vis()) {
 	    int cx = (sflarp.sz().x / 2) - (schain.sz().x / 2);
 	    for(int y = 0; y < sz.y; y += schain.sz().y - 1)
 		g.image(schain, new Coord(cx, y));

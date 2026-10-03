@@ -46,9 +46,15 @@ public class ActAudio extends GLState.Abstract {
 
     public static class PosClip implements Rendered {
 	private final Audio.DataClip clip;
+	private final String cat;
 	
 	public PosClip(Audio.DataClip clip) {
+	    this(clip, "effects");
+	}
+
+	public PosClip(Audio.DataClip clip, String cat) {
 	    this.clip = clip;
+	    this.cat = cat;
 	}
 	
 	public void draw(GOut g) {
@@ -57,7 +63,7 @@ public class ActAudio extends GLState.Abstract {
 	    if(list != null) {
 		Coord3f pos = g.st.mv.mul4(Coord3f.o);
 		double pd = Math.sqrt((pos.x * pos.x) + (pos.y * pos.y));
-		this.clip.vol = Math.min(1.0, 50.0 / pd);
+		this.clip.vol = Math.min(1.0, 50.0 / pd) * FayteSound.gain(this.cat);
 		list.add(clip);
 	    }
 	}
@@ -131,7 +137,7 @@ public class ActAudio extends GLState.Abstract {
 	    }
 
 	    public void add(double vol) {
-		vacc += vol;
+		vacc += vol * FayteSound.gain("ambient");
 		n++;
 	    }
 	}

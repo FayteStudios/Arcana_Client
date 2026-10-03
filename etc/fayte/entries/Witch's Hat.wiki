@@ -1,0 +1,56 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Fungiculture}} [[Fungiculture]]
+}}
+
+{{Facts
+| Title=Forage
+| Found= [[Autumnal]], [[Coniferous]], [[Crag]], [[Pine Forest]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Boiled Witch's Hat}} [[Boiled Witch's Hat]]
+| b)= {{icon|Fungus Amungus}} [[Fungus Amungus]]
+| c)= [[Jam Sandwich]]
+| d)= {{icon|Scary Stroganoff}} [[Scary Stroganoff]]
+| Counts as= [[Any Mushroom]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 9 || 9 || 9 || 9
+|-
+! Gluttony min
+| 10 || 10 || 10 || 10
+|-
+! Gluttony max
+| 10 || 10 || 10 || 10
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Mushrooms}} [[Mushrooms]]
+| Full and Fed= 00:10:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Variable food multiplier= Blood 0.5 / Phlegm 0.5 / Yellow 0.5 / Black 1.35
+}}
+
+==About==
+
+A Witch's Hat is a Poisonous Mushroom which can be found in the wild or, with the [[Fungiculture]] Skill learned, grown by planting another {{i|Witch's Hat}} in a {{i|Gardening Pot}}. When planting a Witch's Hat there is a chance for it to grow into a {{i|Spooky Redcap}} instead. Planting Mushrooms in Gardening Pots lowers [[Insanity]]. A Witch's Hat can be stored in a {{i|MushiSack}}.
+
+When boiled a Witch's Hat will become a {{i|Boiled Witch's Hat}}. Both a Boiled Witch's Hat and a Witch's Hat count as a Witch's Hat when planting and in Food recipes.

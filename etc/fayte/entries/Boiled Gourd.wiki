@@ -1,0 +1,45 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 1.00
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Colonial Tradesmanship}} [[Colonial Tradesmanship]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Any Pot]], {{icon|New World Gourd}} [[New World Gourd]], {{icon|Fireplace}} [[Fireplace]], [[Potable Water]] ×5
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 12 || 16 || 14 || 16
+|-
+! Gluttony min
+| 13 || 13 || 13 || 13
+|-
+! Gluttony max
+| 15 || 15 || 15 || 15
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Pumpkins & Gourds}} [[Pumpkins and Gourds]]
+| Full and Fed= 00:15:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 4
+| Reduces Pumpkins and Gourds= 10% (10% chance)
+}}
+
+==About==
+
+A {{i|Boiled Gourd}} is made by boiling a {{i|New World Gourd}} in a {{i|Clay Pot}}, {{i|Copper Pot}}, or {{i|Cauldron}}. It is recommended that you use a New World Gourd that is on its last use when making a Boiled Gourd.

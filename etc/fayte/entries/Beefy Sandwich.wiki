@@ -1,0 +1,43 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= [[Stalls]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Salem Crappy Meal}} [[Salem Crappy Meal]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 20 || 15 || 20 || 15
+|-
+! Gluttony min
+| 32 || 32 || 32 || 32
+|-
+! Gluttony max
+| 43 || 43 || 43 || 43
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Domesticated Meats}} [[Domesticated Meat]]
+| Full and Fed= 02:00:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 4
+}}
+
+==About==
+A {{i|Beefy Sandwich}} is received when Opening a {{i|Salem Crappy Meal}}.

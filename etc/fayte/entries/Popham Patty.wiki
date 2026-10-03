@@ -1,0 +1,203 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 2.00
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Advanced Cooking}} [[Advanced Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= [[Any Raw Domesticated Steak]] ×2, {{icon|Clover Rolls}} [[Clover Rolls]] ×2, {{icon|Tomato}} [[Tomato]], {{icon|Cheddar Cheese}} [[Cheddar Cheese]], {{icon|Leaf of Green Cabbage}} [[Leaf of Green Cabbage]] ×2, {{icon|Onion}} [[Onion]]
+}}
+
+{|
+|+ Heal and Gluttony values — With Oatmeal (Blood)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 9.5 || 9.5 || 9.5 || 9.5
+|-
+! Oatmeal min
+| style="background:#e6b8b8" | 121 || 99 || 99 || 99
+|-
+! Oatmeal max
+| style="background:#e6b8b8" | 132 || 108 || 108 || 108
+|-
+! Pork min
+| style="background:#e6b8b8" | 169.4 || 49.5 || 49.5 || 49.5
+|-
+! Pork max
+| style="background:#e6b8b8" | 184.8 || 54 || 54 || 54
+|-
+! Mutton min
+| 60.5 || style="background:#6fa0ff" | 138.6 || 49.5 || 49.5
+|-
+! Mutton max
+| 66 || style="background:#6fa0ff" | 151.2 || 54 || 54
+|-
+! Beef min
+| 60.5 || 49.5 || style="background:#f0d860" | 158.4 || 49.5
+|-
+! Beef max
+| 66 || 54 || style="background:#f0d860" | 172.8 || 54
+|-
+! Chevon min
+| 60.5 || 49.5 || 49.5 || style="background:#b8c8e6" | 158.4
+|-
+! Chevon max
+| 66 || 54 || 54 || style="background:#b8c8e6" | 172.8
+|}
+
+{|
+|+ With Barley (Phlegm)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Barley min
+| 99 || style="background:#6fa0ff" | 132 || 99 || 99
+|-
+! Barley max
+| 108 || style="background:#6fa0ff" | 144 || 108 || 108
+|-
+! Pork min
+| style="background:#e6b8b8" | 138.6 || 66 || 49.5 || 49.5
+|-
+! Pork max
+| style="background:#e6b8b8" | 151.2 || 72 || 54 || 54
+|-
+! Mutton min
+| 49.5 || style="background:#6fa0ff" | 184.8 || 49.5 || 49.5
+|-
+! Mutton max
+| 60 || style="background:#6fa0ff" | 201.6 || 54 || 54
+|-
+! Beef min
+| 49.5 || 66 || style="background:#f0d860" | 158.4 || 49.5
+|-
+! Beef max
+| 54 || 72 || style="background:#f0d860" | 172.8 || 54
+|-
+! Chevon min
+| 49.5 || 66 || 49.5 || style="background:#b8c8e6" | 158.4
+|-
+! Chevon max
+| 54 || 72 || 54 || style="background:#b8c8e6" | 172.8
+|}
+
+{|
+|+ With Rye (Yellow Bile)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Rye min
+| 99 || 99 || style="background:#f0d860" | 132 || 99
+|-
+! Rye max
+| 108 || 108 || style="background:#f0d860" | 144 || 108
+|-
+! Pork min
+| style="background:#e6b8b8" | 138.6 || 49.5 || 66 || 49.5
+|-
+! Pork max
+| style="background:#e6b8b8" | 151.2 || 54 || 72 || 54
+|-
+! Mutton min
+| 49.5 || style="background:#6fa0ff" | 138.6 || 66 || 49.5
+|-
+! Mutton max
+| 54 || style="background:#6fa0ff" | 151.2 || 72 || 54
+|-
+! Beef min
+| 49.5 || 49.5 || style="background:#f0d860" | 211.2 || 49.5
+|-
+! Beef max
+| 54 || 54 || style="background:#f0d860" | 230.4 || 54
+|-
+! Chevon min
+| 49.5 || 49.5 || 66 || style="background:#b8c8e6" | 176
+|-
+! Chevon max
+| 54 || 54 || 72 || style="background:#b8c8e6" | 192
+|}
+
+{|
+|+ With Wheat (Black Bile)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Wheat min
+| 99 || 99 || 99 || style="background:#b8c8e6" | 143
+|-
+! Wheat max
+| 108 || 108 || 108 || style="background:#b8c8e6" | 156
+|-
+! Pork min
+| style="background:#e6b8b8" | 138.6 || 49.5 || 49.5 || 71.5
+|-
+! Pork max
+| style="background:#e6b8b8" | 151.2 || 54 || 54 || 78
+|-
+! Mutton min
+| 49.5 || style="background:#6fa0ff" | 138.6 || 49.5 || 71.5
+|-
+! Mutton max
+| 54 || style="background:#6fa0ff" | 151.2 || 54 || 78
+|-
+! Beef min
+| 49.5 || 49.5 || style="background:#f0d860" | 158.4 || 71.5
+|-
+! Beef max
+| 54 || 54 || style="background:#f0d860" | 172.8 || 78
+|-
+! Chevon min
+| 49.5 || 49.5 || 49.5 || style="background:#b8c8e6" | 228.8
+|-
+! Chevon max
+| 54 || 54 || 54 || style="background:#b8c8e6" | 249.6
+|}
+
+{|
+|+ With Domesticated Meat
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Pork min
+| style="background:#e6b8b8" | 154 || 110 || 110 || 110
+|-
+! Pork max
+| style="background:#e6b8b8" | 168 || 120 || 120 || 120
+|-
+! Mutton min
+| 110 || style="background:#6fa0ff" | 154 || 110 || 110
+|-
+! Mutton max
+| 120 || style="background:#6fa0ff" | 168 || 120 || 120
+|-
+! Beef min
+| 110 || 110 || style="background:#f0d860" | 176 || 110
+|-
+! Beef max
+| 120 || 120 || style="background:#f0d860" | 192 || 120
+|-
+! Chevon min
+| 110 || 110 || 110 || style="background:#b8c8e6" | 176
+|-
+! Chevon max
+| 120 || 120 || 120 || style="background:#b8c8e6" | 192
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Domesticated Meats}} [[Domesticated Meat]]
+| Full and Fed= 01:10:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Domesticated Meats
+}}
+
+==About==
+
+{{i|Popham Patty}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}. Popham Patty is [[Gluttony#Double Variable Recipe|Double Variable Recipe]].

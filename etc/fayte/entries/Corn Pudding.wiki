@@ -1,0 +1,47 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Maize Planting}} [[Maize Planting]]
+| Skill 2= {{icon|Tasty Pastries}} [[Tasty Pastries]]
+}}
+
+{{Facts
+| Title=Bake
+| Needs= [[Any Poultry Egg]], [[Cornmeal]] 0.35 L, {{icon|Milk}} [[Milk]] 0.6 L, {{icon|Sugar}} [[Sugar]] 0.55 L, {{icon|Yellow Corn}} [[Yellow Corn]] ×60
+| Second Stage= {{icon|Bread Oven}} [[Bread Oven]], {{icon|Unbaked Corn Pudding}} [[Unbaked Corn Pudding]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 17 || 17 || 17 || 17
+|-
+! Gluttony min
+| 49 || 49 || 49 || 49
+|-
+! Gluttony max
+| 66 || 66 || 66 || 66
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Corn}} [[Maize]]
+| Full and Fed= 00:50:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Corn
+}}
+
+==About==
+
+Crafting {{i|Corn Pudding}} will make an {{i|Unbaked Corn Pudding}} which can then be baked in a {{i|Bread Oven}} to produce a Corn Pudding. When baking Foods in a Bread Oven there is a chance for them to become {{i|Animal Crackers}} instead. Corn Pudding is a major [[Restore Food]] for the {{i2|Bread}} Food Group.

@@ -1,0 +1,55 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Fungiculture}} [[Fungiculture]]
+}}
+
+{{Facts
+| Title=Forage
+| Found= [[Autumnal]], [[Deep Swamp]], [[Shrub]], [[Swamp]], [[Woodland]], [[Pine Forest]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Autumn Delight}} [[Autumn Delight]]
+| b)= {{icon|Empire Bluecakes}} [[Empire Bluecakes]]
+| c)= {{icon|Fried Blewit}} [[Fried Blewit]]
+| d)= {{icon|Fungus Amungus}} [[Fungus Amungus]]
+| e)= {{icon|Sauteed Shellshrooms}} [[Sauteed Shellshrooms]]
+| Counts as= [[Any Mushroom]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 6 || 6 || 6 || 6
+|-
+! Gluttony min
+| 7 || 7 || 7 || 7
+|-
+! Gluttony max
+| 7 || 7 || 7 || 7
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Mushrooms}} [[Mushrooms]]
+| Full and Fed= 00:07:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Variable food multiplier= Blood 0.5 / Phlegm 1.3 / Yellow 0.5 / Black 0.5
+}}
+
+==About==
+
+A Lavender Blewit can be found in the wild or, with the [[Fungiculture]] skill learned, grown by planting another {{i|Lavender Blewit}} in a {{i|Gardening Pot}}. When planting a Lavender Blewit there is a chance for it to grow into a {{i|Spooky Redcap}} instead. Planting Mushrooms in Gardening Pots lowers [[Insanity]]. A Lavender Blewit can be stored in a {{i|MushiSack}}.

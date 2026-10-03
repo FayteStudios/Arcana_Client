@@ -1,0 +1,141 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.45
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= [[Legacy]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Filet of Any Fish}} [[Filet of any Fish]] ×2, [[Fire]], {{icon|Ghostly Whitefish}} [[Ghostly Whitefish]], {{icon|Ghost Rider}} [[Ghost Rider]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 0 || 0 || 35 || 35
+|-
+! Angel-Winged Seabass min
+| style="background:#e6b8b8" | 25.2 || 12 || 12 || 12
+|-
+! Angel-Winged Seabass max
+| style="background:#e6b8b8" | 30.45 || 14.5 || 14.5 || 14.5
+|-
+! Ghostly Whitefish min
+| style="background:#e6b8b8" | 28.8 || 12 || 12 || 12
+|-
+! Ghostly Whitefish max
+| style="background:#e6b8b8" | 34.8 || 14.5 || 14.5 || 14.5
+|-
+! Tiger Trout min
+| style="background:#e6b8b8" | 26.4 || 12 || 12 || 12
+|-
+! Tiger Trout max
+| style="background:#e6b8b8" | 31.9 || 14.5 || 14.5 || 14.5
+|-
+! Blueback Tuna min
+| 12 || style="background:#6fa0ff" | 27.6 || 12 || style="background:#b8c8e6" | 27.6
+|-
+! Blueback Tuna max
+| 14.5 || style="background:#6fa0ff" | 33.35 || 14.5 || style="background:#b8c8e6" | 33.35
+|-
+! Darkwater Bluegill min
+| 12 || style="background:#6fa0ff" | 27.6 || 12 || 12
+|-
+! Darkwater Bluegill max
+| 14.5 || style="background:#6fa0ff" | 33.35 || 14.5 || 14.5
+|-
+! Red-Finned Mullet min
+| 12 || style="background:#6fa0ff" | 25.2 || 12 || 12
+|-
+! Red-Finned Mullet max
+| 14.5 || style="background:#6fa0ff" | 30.45 || 14.5 || 14.5
+|-
+! Silt-Dwelling Mudsnapper min
+| 12 || style="background:#6fa0ff" | 25.2 || 12 || 12
+|-
+! Silt-Dwelling Mudsnapper max
+| 14.5 || style="background:#6fa0ff" | 30.45 || 14.5 || 14.5
+|-
+! Cape Codfish min
+| 12 || 12 || style="background:#f0d860" | 25.2 || 12
+|-
+! Cape Codfish max
+| 14.5 || 14.5 || style="background:#f0d860" | 30.45 || 14.5
+|-
+! Gold Pickerel min
+| 12 || 12 || style="background:#f0d860" | 27.6 || 12
+|-
+! Gold Pickerel max
+| 14.5 || 14.5 || style="background:#f0d860" | 33.35 || 14.5
+|-
+! Shin Spinner min
+| 12 || 12 || style="background:#f0d860" | 26.4 || 12
+|-
+! Shin Spinner max
+| 14.5 || 14.5 || style="background:#f0d860" | 31.9 || 14.5
+|-
+! Raging Bullhead min
+| 12 || 12 || 12 || style="background:#b8c8e6" | 30
+|-
+! Raging Bullhead max
+| 14.5 || 14.5 || 14.5 || style="background:#b8c8e6" | 36.25
+|-
+! Sargasso Eel min
+| 12 || 12 || 12 || style="background:#b8c8e6" | 25.2
+|-
+! Sargasso Eel max
+| 14.5 || 14.5 || 14.5 || style="background:#b8c8e6" | 30.45
+|-
+! Trunk-Nosed Lake Perch min
+| 12 || 12 || 12 || style="background:#b8c8e6" | 25.2
+|-
+! Trunk-Nosed Lake Perch max
+| 14.5 || 14.5 || 14.5 || style="background:#b8c8e6" | 30.45
+|-
+! Crimson Carp min
+| style="background:#e6b8b8" | 72 || style="background:#6fa0ff" | 72 || style="background:#f0d860" | 72 || style="background:#b8c8e6" | 72
+|-
+! Crimson Carp max
+| style="background:#e6b8b8" | 87 || style="background:#6fa0ff" | 87 || style="background:#f0d860" | 87 || style="background:#b8c8e6" | 87
+|-
+! Hellish Halibut min
+| style="background:#e6b8b8" | 28.8 || style="background:#6fa0ff" | 28.8 || style="background:#f0d860" | 28.8 || style="background:#b8c8e6" | 28.8
+|-
+! Hellish Halibut max
+| style="background:#e6b8b8" | 34.8 || style="background:#6fa0ff" | 34.8 || style="background:#f0d860" | 34.8 || style="background:#b8c8e6" | 34.8
+|-
+! Long-Whiskered Catfish min
+| style="background:#e6b8b8" | 28.8 || style="background:#6fa0ff" | 28.8 || style="background:#f0d860" | 28.8 || style="background:#b8c8e6" | 28.8
+|-
+! Long-Whiskered Catfish max
+| style="background:#e6b8b8" | 34.8 || style="background:#6fa0ff" | 34.8 || style="background:#f0d860" | 34.8 || style="background:#b8c8e6" | 34.8
+|-
+! Red Herring min
+| style="background:#e6b8b8" | 25.2 || style="background:#6fa0ff" | 25.2 || style="background:#f0d860" | 25.2 || style="background:#b8c8e6" | 25.2
+|-
+! Red Herring max
+| style="background:#e6b8b8" | 30.45 || style="background:#6fa0ff" | 30.45 || style="background:#f0d860" | 30.45 || style="background:#b8c8e6" | 30.45
+|}
+
+{{Facts
+| Title=Food Group
+| Group= None
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Fish & Seafood
+}}
+
+==About==
+
+{{i|Spooky Ghosts}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

@@ -1,0 +1,51 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= None
+}}
+
+{{Facts
+| Title=Forage
+| Found= [[Pine Forest]]
+| Or= [[Mossy Log]]
+}}
+
+{{Facts
+| Title=Used By
+| Counts as= [[Any Mushroom]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 7 || 7 || 7 || 7
+|-
+! Gluttony min
+| 8 || 8 || 8 || 8
+|-
+! Gluttony max
+| 8 || 8 || 8 || 8
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Mushrooms}} [[Mushrooms]]
+| Full and Fed= 00:10:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Variable food multiplier= Blood 0 / Phlegm 0 / Yellow 0 / Black 0
+}}
+
+==About==
+
+A Monk's Pan can be found in the wild or, with the [[Fungiculture]] skill learned, grown by planting another {{i|Monk's Pan}} in a {{i|Gardening Pot}}. When planting a Monk's Pan there is a chance for it to grow into a {{i|Spooky Redcap}} instead. Planting Mushrooms in Gardening Pots lowers [[Insanity]]. A Monk's Pan can be stored in a {{i|MushiSack}}.

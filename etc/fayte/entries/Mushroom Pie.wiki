@@ -1,0 +1,100 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 1.00
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Baking}} [[Baking]]
+}}
+
+{{Facts
+| Title=Bake
+| Needs= [[Any Mushroom]] ×4, {{icon|Baking Table}} [[Baking Table]], {{icon|Rested Pie Dough}} [[Rested Pie Dough]]
+| Second Stage= {{icon|Bread Oven}} [[Bread Oven]], {{icon|Unbaked Mushroom Pie}} [[Unbaked Mushroom Pie]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= [[Little Jack Horner's Thumbnail]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 16.5 || 17.5 || 13.5 || 14
+|-
+! Spooky Redcap min
+| 54.4 || 54.4 || 54.4 || 54.4
+|-
+! Spooky Redcap max
+| 73.6 || 73.6 || 73.6 || 73.6
+|-
+! Monk's Pan min
+| style="background:#e6b8b8" | 42.5 || 17 || 17 || 17
+|-
+! Monk's Pan max
+| style="background:#e6b8b8" | 57.5 || 23 || 23 || 23
+|-
+! Toadstool min
+| style="background:#e6b8b8" | 45.9 || 17 || 17 || 17
+|-
+! Toadstool max
+| style="background:#e6b8b8" | 62.1 || 23 || 23 || 23
+|-
+! Lavender Blewit min
+| 17 || style="background:#6fa0ff" | 42.5 || 17 || 17
+|-
+! Lavender Blewit max
+| 23 || style="background:#6fa0ff" | 57.5 || 23 || 23
+|-
+! Honeylamp min
+| 17 || style="background:#6fa0ff" | 42.5 || 17 || 17
+|-
+! Honeylamp max
+| 23 || style="background:#6fa0ff" | 57.5 || 23 || 23
+|-
+! Lobster Mushroom min
+| 17 || 17 || style="background:#f0d860" | 42.5 || 17
+|-
+! Lobster Mushroom max
+| 23 || 23 || style="background:#f0d860" | 57.5 || 23
+|-
+! Yellow Morel min
+| 17 || 17 || style="background:#f0d860" | 45.9 || 17
+|-
+! Yellow Morel max
+| 23 || 23 || style="background:#f0d860" | 62.1 || 23
+|-
+! Sugar Caps min
+| 17 || 17 || 17 || style="background:#b8c8e6" | 42.5
+|-
+! Sugar Caps max
+| 23 || 23 || 23 || style="background:#b8c8e6" | 57.5
+|-
+! Witch's Hat min
+| 17 || 17 || 17 || style="background:#b8c8e6" | 45.9
+|-
+! Witch's Hat max
+| 23 || 23 || 23 || style="background:#b8c8e6" | 62.1
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Mushrooms}} [[Mushrooms]]
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Fungus
+}}
+
+==About==
+
+Crafting {{i|Mushroom Pie}} at a {{i|Baking Table}} will make an {{i|Unbaked Mushroom Pie}} which can then be baked in a {{i|Bread Oven}} to produce a Mushroom Pie. '''NOTE:''' Remember to boil your Mushrooms to reduce {{i|'Shroom Poisoning}}. Preparing Foods on a Baking Table removes a small amount of [[Insanity]] and has a chance of giving you an {{i|Eloped Gingerbread Man}}. When baking Foods in a Bread Oven there is a chance for them to become {{i|Animal Crackers}} instead. Right-clicking a Mushroom Pie with the [[Baking]] Skill learned and selecting "Slice" will divide your Pie into 8x {{i|Slice of Pie}}s. When Slicing Pie there is small chance to receive a {{i|Little Jack Horner's Thumbnail}}.
+{{Notice|WARNING!| Finding a Little Jack Horner's Thumbnail in your Pie adds a great deal of [[Insanity]].}}

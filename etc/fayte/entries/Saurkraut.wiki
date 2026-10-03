@@ -1,0 +1,46 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Cabbage Growing}} [[Cabbage Growing]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Cabbage Leaf}} [[Any Cabbage Leaf]] ×6, {{icon|Coarse Salt}} [[Coarse Salt]], {{icon|Glass Jar}} [[Glass Jar]]
+| Second Stage= {{icon|Containers}} [[Containers]], {{icon|Unfermented Cabbage}} [[Unfermented Cabbage]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 55 || 85 || 25 || 25
+|-
+! Gluttony min
+| 10 || 10 || 10 || 10
+|-
+! Gluttony max
+| 10 || 10 || 10 || 10
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Cabbage & Kale}} [[Cabbage and Kale]]
+| Full and Fed= 02:00:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Cabbage
+}}
+
+==About==
+
+Crafting {{i|Saurkraut}} will make an {{i|Unfermented Cabbage}} which can then be placed in a [[Container]] for a few days to produce a Saurkraut. Saurkraut is a major [[Restore Food]] for the {{i2|Cabbage and Kale}} Food Group. Eating Saurkraut will '''NOT''' give you back a {{i|Glass Jar}}.

@@ -1,0 +1,51 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.05
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Gardening}} [[Gardening]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Containers}} [[Containers]], {{icon|Red Grapes}} [[Red Grapes]]
+| Or= {{icon|Containers}} [[Containers]], {{icon|White Grapes}} [[White Grapes]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Trailmix}} [[Trailmix]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 2 || 2 || 2 || 2
+|-
+! Gluttony min
+| 11 || 11 || 11 || 11
+|-
+! Gluttony max
+| 14 || 14 || 14 || 14
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Fruit Food}} [[Fruits]]
+| Full and Fed= 00:10:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 9
+| Menu= Craft > Food > Nuts
+}}
+
+==About==
+
+{{i|Red Grapes}} or {{i|White Grapes}} placed in a [[Container]] for about 48 hours will become {{i|Raisins}}.

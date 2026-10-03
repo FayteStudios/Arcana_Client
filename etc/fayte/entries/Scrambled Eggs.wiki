@@ -1,0 +1,70 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Simple Cooking}} [[Simple Cooking]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Any Poultry Egg]], [[Fire]], {{icon|Milk}} [[Milk]] 0.1 L
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 12 || 16 || 14 || 16
+|-
+! Argopelter Egg min
+| style="background:#e6b8b8" | 33.73 || 21.9 || 21.9 || 21.9
+|-
+! Argopelter Egg max
+| style="background:#e6b8b8" | 42.2 || 27.4 || 27.4 || 27.4
+|-
+! Sparrow Eggs min
+| 21.9 || style="background:#6fa0ff" | 29.78 || 21.9 || 21.9
+|-
+! Sparrow Eggs max
+| 27.4 || style="background:#6fa0ff" | 37.26 || 27.4 || 27.4
+|-
+! Eagle Egg min
+| 21.9 || 21.9 || style="background:#f0d860" | 31.75 || 21.9
+|-
+! Eagle Egg max
+| 27.4 || 27.4 || style="background:#f0d860" | 39.73 || 27.4
+|-
+! Turkey Egg min
+| 21.9 || 21.9 || 21.9 || style="background:#b8c8e6" | 26.72
+|-
+! Turkey Egg max
+| 27.4 || 27.4 || 27.4 || style="background:#b8c8e6" | 33.43
+|-
+! Green Easter Egg min
+| style="background:#e6b8b8" | 35.92 || style="background:#6fa0ff" | 35.92 || style="background:#f0d860" | 35.92 || style="background:#b8c8e6" | 35.92
+|-
+! Green Easter Egg max
+| style="background:#e6b8b8" | 44.94 || style="background:#6fa0ff" | 44.94 || style="background:#f0d860" | 44.94 || style="background:#b8c8e6" | 44.94
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Poultry}} [[Poultry]]
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Poultry= 20% (40% chance)
+| Menu= Craft > Food > Poultry & Fowl
+}}
+
+==About==
+
+{{i|Scrambled Eggs}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

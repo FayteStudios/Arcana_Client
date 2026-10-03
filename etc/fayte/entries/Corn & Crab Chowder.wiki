@@ -1,0 +1,64 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+| Skill 2= {{icon|Seafood Chef}} [[Seafood Chef]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Corn}} [[Any Corn]] ×15, {{icon|Carrot}} [[Carrot]], {{icon|Crab Meat}} [[Crab Meat]], {{icon|Milk}} [[Milk]] 0.35 L
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 25 || 24 || 23 || 24
+|-
+! White Corn min
+| style="background:#e6b8b8" | 43.2 || 18 || 18 || 18
+|-
+! White Corn max
+| style="background:#e6b8b8" | 58.8 || 24.5 || 24.5 || 24.5
+|-
+! Blue Corn min
+| 18 || style="background:#6fa0ff" | 43.2 || 18 || 18
+|-
+! Blue Corn max
+| 24.5 || style="background:#6fa0ff" | 58.8 || 24.5 || 24.5
+|-
+! Golden Corn min
+| 18 || 18 || style="background:#f0d860" | 46.8 || 18
+|-
+! Golden Corn max
+| 24.5 || 24.5 || style="background:#f0d860" | 63.7 || 24.5
+|-
+! Yellow Corn min
+| 18 || 18 || 18 || style="background:#b8c8e6" | 39.6
+|-
+! Yellow Corn max
+| 24.5 || 24.5 || 24.5 || style="background:#b8c8e6" | 53.9
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Corn}} [[Maize]]
+| Full and Fed= 00:38:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Corn
+}}
+
+==About==
+
+{{i|Corn & Crab Chowder}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

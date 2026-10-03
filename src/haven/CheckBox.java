@@ -43,10 +43,19 @@ public class CheckBox extends Widget {
 	}
     }
 
+    private static Coord bsz() {
+	if(FayteSkin.on()) {
+	    int s = Math.max(box.sz().y, FayteSkin.labelf.height() + 2);
+	    return(new Coord(s, s));
+	}
+	return(box.sz());
+    }
+
     public CheckBox(Coord c, Widget parent, String lbl) {
-	super(c, box.sz(), parent);
-	this.lbl = lblf.render(lbl);
-	sz = new Coord(box.sz().x + 2 + this.lbl.sz().x, Math.max(box.sz().y, this.lbl.sz().y));
+	super(c, bsz(), parent);
+	this.lbl = (FayteSkin.on() ? FayteSkin.labelf : lblf).render(lbl);
+	Coord b = bsz();
+	sz = new Coord(b.x + 2 + this.lbl.sz().x, Math.max(b.y, this.lbl.sz().y));
     }
 	
     public boolean mousedown(Coord c, int button) {
@@ -66,8 +75,20 @@ public class CheckBox extends Widget {
 	if(!enabled){
 	    g.chcolor(128, 128, 128, 255);
 	}
-	g.image(lbl.tex(), new Coord(box.sz().x + 2, (box.sz().y - lbl.sz().y) / 2));
-	g.image(a?act:box, Coord.z);
+	Coord bb = bsz();
+	g.image(lbl.tex(), new Coord(bb.x + 2, (bb.y - lbl.sz().y) / 2));
+	if(FayteSkin.on()) {
+	    int bw = Math.max(12, bb.y - 4);
+	    Coord bs = new Coord(bw, bw);
+	    Coord bc = bb.sub(bs).div(2);
+	    FayteSkin.box(g, bc, bs, FayteSkin.PANEL, FayteSkin.BORDER);
+	    if(a)
+		FayteSkin.box(g, bc.add(3, 3), bs.sub(6, 6), FayteSkin.TEXT, null);
+	    if(!enabled)
+		g.chcolor(128, 128, 128, 255);
+	} else {
+	    g.image(a?act:box, Coord.z);
+	}
 	g.chcolor();
 	super.draw(g);
     }

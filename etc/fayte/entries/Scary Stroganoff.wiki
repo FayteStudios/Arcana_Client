@@ -1,0 +1,69 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Advanced Cooking}} [[Advanced Cooking]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Any Raw Domesticated Steak]] ×2, {{icon|Coarse Salt}} [[Coarse Salt]], [[Fire]], {{icon|Spooky Redcap}} [[Spooky Redcap]], {{icon|Witch's Hat}} [[Witch's Hat]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 65 || 53 || 48 || 65
+|-
+! Pork min
+| style="background:#e6b8b8" | 41.6 || 16 || 16 || 16
+|-
+! Pork max
+| style="background:#e6b8b8" | 72.8 || 28 || 28 || 28
+|-
+! Mutton min
+| 16 || style="background:#6fa0ff" | 41.6 || 16 || 16
+|-
+! Mutton max
+| 28 || style="background:#6fa0ff" | 72.8 || 28 || 28
+|-
+! Beef min
+| 16 || 16 || style="background:#f0d860" | 41.6 || 16
+|-
+! Beef max
+| 28 || 28 || style="background:#f0d860" | 72.8 || 28
+|-
+! Horse min
+| 16 || 16 || style="background:#f0d860" | 57.6 || 16
+|-
+! Horse max
+| 28 || 28 || style="background:#f0d860" | 100.8 || 28
+|-
+! Chevon min
+| 16 || 16 || 16 || style="background:#b8c8e6" | 41.6
+|-
+! Chevon max
+| 28 || 28 || 28 || style="background:#b8c8e6" | 72.8
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Domesticated Meats}} [[Domesticated Meat]]
+| Full and Fed= 00:35:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Domesticated Meats
+}}
+
+==About==
+
+{{i|Scary Stroganoff}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

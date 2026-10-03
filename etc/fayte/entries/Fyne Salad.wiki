@@ -1,0 +1,63 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.11
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Advanced Cooking}} [[Advanced Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Cabbage Leaf}} [[Any Cabbage Leaf]] ×4, {{icon|Baby Corn}} [[Baby Corn]], {{icon|Carrot}} [[Carrot]], {{icon|Dehydrated Blackberry}} [[Dehydrated Blackberry]], {{icon|Dehydrated Cranberry}} [[Dehydrated Cranberry]], {{icon|Ostrich Fiddlehead}} [[Ostrich Fiddlehead]] ×2, {{icon|Walnut}} [[Walnut]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 42 || 51 || 47 || 39
+|-
+! White Cabbage min
+| style="background:#e6b8b8" | 69.6 || 29 || 29 || 29
+|-
+! White Cabbage max
+| style="background:#e6b8b8" | 72 || 30 || 30 || 30
+|-
+! Red Cabbage min
+| 29 || style="background:#6fa0ff" | 75.4 || 29 || 29
+|-
+! Red Cabbage max
+| 30 || style="background:#6fa0ff" | 78 || 30 || 30
+|-
+! Green Cabbage min
+| 29 || 29 || style="background:#f0d860" | 69.6 || 29
+|-
+! Green Cabbage max
+| 30 || 30 || style="background:#f0d860" | 72 || 30
+|-
+! Colewort min
+| 29 || 29 || 29 || style="background:#b8c8e6" | 63.8
+|-
+! Colewort max
+| 30 || 30 || 30 || style="background:#b8c8e6" | 66
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Cabbage & Kale}} [[Cabbage and Kale]]
+| Full and Fed= 00:45:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Cabbage
+}}
+
+==About==
+
+{{i|Fyne Salad}} does '''NOT''' need to be cooked.

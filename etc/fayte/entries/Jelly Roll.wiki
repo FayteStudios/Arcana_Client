@@ -1,0 +1,63 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.14
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Advanced Cooking}} [[Advanced Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Baking Table}} [[Baking Table]], {{icon|Fruit Jelly}} [[Fruit Jelly]] ×2, {{icon|Wheat Flour}} [[Wheat Flour]] 0.2 L
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 35 || 45 || 25 || 25
+|-
+! Cranberry min
+| style="background:#e6b8b8" | 54.05 || 23.5 || 23.5 || 23.5
+|-
+! Cranberry max
+| style="background:#e6b8b8" | 72.45 || 31.5 || 31.5 || 31.5
+|-
+! Crowberry min
+| 23.5 || style="background:#6fa0ff" | 63.45 || 23.5 || 23.5
+|-
+! Crowberry max
+| 31.5 || style="background:#6fa0ff" | 85.05 || 31.5 || 31.5
+|-
+! Huckleberries min
+| 23.5 || 23.5 || style="background:#f0d860" | 61.1 || 23.5
+|-
+! Huckleberries max
+| 31.5 || 31.5 || style="background:#f0d860" | 81.9 || 31.5
+|-
+! Blackberries min
+| 23.5 || 23.5 || 23.5 || style="background:#b8c8e6" | 54.05
+|-
+! Blackberries max
+| 31.5 || 31.5 || 31.5 || style="background:#b8c8e6" | 72.45
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Berries}} [[Berries]]
+| Full and Fed= 00:35:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Berries
+}}
+
+==About==
+
+When preparing a {{i|Jelly Roll}} at a {{i|Baking Table}} there is a chance to receive a {{i|Eloped Gingerbread Man}}. Using a Baking Table removes a small amount of [[Insanity]].

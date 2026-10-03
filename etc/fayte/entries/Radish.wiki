@@ -1,0 +1,55 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.05
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Vegetable Potting}} [[Vegetable Potting]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Gardening Pot}} [[Gardening Pot]], {{icon|Humus}} [[Humus]], [[Potable Water]] 0.2 L, {{icon|Radish}} [[Radish]]
+| Or= {{icon|Dead Rabbit}} [[Dead Rabbit]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= [[Lilypoultry]]
+| b)= {{icon|Pisces Iscariot}} [[Pisces Iscariot]]
+| c)= {{icon|Red Seafood Salad}} [[Red Seafood Salad]]
+| d)= {{icon|Salted Radish}} [[Salted Radish]]
+| e)= [[Shroom-Legume Salad]]
+| Counts as= {{icon|Any Vegetable}} [[Any Vegetable]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 5 || 5 || 15 || 5
+|-
+! Gluttony min
+| 0 || 0 || 8 || 0
+|-
+! Gluttony max
+| 0 || 0 || 12 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Vegetables & Greens}} [[Vegetables and Greens]]
+| Full and Fed= 00:10:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+}}
+
+==About==
+
+A {{i|Radish}} is received by chance when picking up a recently killed {{i|Dead Rabbit}}, or, with the [[Vegetable Potting]] Skill learned, a Radish can be grown by planting another Radish in a {{i|Gardening Pot}}. Planting Vegetables in Gardening Pots lowers [[Insanity]]. A Radish can be stored in a {{i|Veggie Sack}}.

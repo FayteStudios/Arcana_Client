@@ -1,0 +1,56 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.03
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= None
+}}
+
+{{Facts
+| Title=Forage
+| Found= [[Marshland]], [[Greenwood]], [[Woodland]]
+| Or= {{icon|Gardening Pot}} [[Gardening Pot]], {{icon|Humus}} [[Humus]], [[Potable Water]] 0.2 L, {{icon|Any Vegetable}} [[Any Vegetable]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Funny Foam}} [[Funny Foam]]
+| b)= {{icon|Jonah and the Whales}} [[Jonah and the Whales]]
+| c)= {{icon|Sizzled Slug}} [[Sizzled Slug]]
+| d)= {{icon|Three Virginians}} [[Three Virginians]]
+| e)= {{icon|Wee Menagerie}} [[Wee Menagerie]]
+| Counts as= [[Any Bugs]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 2 || 5 || 3 || 1
+|-
+! Gluttony min
+| 0 || 5 || 0 || 0
+|-
+! Gluttony max
+| 0 || 8 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Slugs N' Bugs}} [[Slugs Bugs and Kritters]]
+| Full and Fed= 00:05:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Slugs Bugs and Kritters= 50% (50% chance)
+}}
+
+==About==
+
+{{i|Virginia Snail}}s are commonly found in the wild. Learning the [[Slug Hunting]] Skill increases your chances of finding Virginia Snails. Additionally, when Picking ripe {{i|Any Vegetable}}s which have sat for a day or two, you may occasionally find that a Virginia Snail has eaten one of your Vegetables and taken its [[Purity]].

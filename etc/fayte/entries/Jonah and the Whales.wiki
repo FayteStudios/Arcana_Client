@@ -1,0 +1,142 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Advanced Cooking}} [[Advanced Cooking]]
+| Skill 2= {{icon|Seamanship}} [[Seamanship]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Any Fish]] ×2, [[Fire]], {{icon|Vegetable Oil}} [[Vegetable Oil]] 0.15 L, {{icon|Virginia Snail}} [[Virginia Snail]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 35 || 35 || 35 || 35
+|-
+! Angel-Winged Seabass min
+| style="background:#e6b8b8" | 33.6 || 16 || 16 || 16
+|-
+! Angel-Winged Seabass max
+| style="background:#e6b8b8" | 45.15 || 21.5 || 21.5 || 21.5
+|-
+! Ghostly Whitefish min
+| style="background:#e6b8b8" | 38.4 || 16 || 16 || 16
+|-
+! Ghostly Whitefish max
+| style="background:#e6b8b8" | 51.6 || 21.5 || 21.5 || 21.5
+|-
+! Tiger Trout min
+| style="background:#e6b8b8" | 35.2 || 16 || 16 || 16
+|-
+! Tiger Trout max
+| style="background:#e6b8b8" | 47.3 || 21.5 || 21.5 || 21.5
+|-
+! Blueback Tuna min
+| 16 || style="background:#6fa0ff" | 36.8 || 16 || style="background:#b8c8e6" | 36.8
+|-
+! Blueback Tuna max
+| 21.5 || style="background:#6fa0ff" | 49.45 || 21.5 || style="background:#b8c8e6" | 49.45
+|-
+! Darkwater Bluegill min
+| 16 || style="background:#6fa0ff" | 36.8 || 16 || 16
+|-
+! Darkwater Bluegill max
+| 21.5 || style="background:#6fa0ff" | 49.45 || 21.5 || 21.5
+|-
+! Red-Finned Mullet min
+| 16 || style="background:#6fa0ff" | 33.6 || 16 || 16
+|-
+! Red-Finned Mullet max
+| 21.5 || style="background:#6fa0ff" | 45.15 || 21.5 || 21.5
+|-
+! Silt-Dwelling Mudsnapper min
+| 16 || style="background:#6fa0ff" | 33.6 || 16 || 16
+|-
+! Silt-Dwelling Mudsnapper max
+| 21.5 || style="background:#6fa0ff" | 45.15 || 21.5 || 21.5
+|-
+! Cape Codfish min
+| 16 || 16 || style="background:#f0d860" | 33.6 || 16
+|-
+! Cape Codfish max
+| 21.5 || 21.5 || style="background:#f0d860" | 45.15 || 21.5
+|-
+! Gold Pickerel min
+| 16 || 16 || style="background:#f0d860" | 36.8 || 16
+|-
+! Gold Pickerel max
+| 21.5 || 21.5 || style="background:#f0d860" | 49.45 || 21.5
+|-
+! Shin Spinner min
+| 16 || 16 || style="background:#f0d860" | 35.2 || 16
+|-
+! Shin Spinner max
+| 21.5 || 21.5 || style="background:#f0d860" | 47.3 || 21.5
+|-
+! Raging Bullhead min
+| 16 || 16 || 16 || style="background:#b8c8e6" | 40
+|-
+! Raging Bullhead max
+| 21.5 || 21.5 || 21.5 || style="background:#b8c8e6" | 53.75
+|-
+! Sargasso Eel min
+| 16 || 16 || 16 || style="background:#b8c8e6" | 33.6
+|-
+! Sargasso Eel max
+| 21.5 || 21.5 || 21.5 || style="background:#b8c8e6" | 45.15
+|-
+! Trunk-Nosed Lake Perch min
+| 16 || 16 || 16 || style="background:#b8c8e6" | 33.6
+|-
+! Trunk-Nosed Lake Perch max
+| 21.5 || 21.5 || 21.5 || style="background:#b8c8e6" | 45.15
+|-
+! Crimson Carp min
+| style="background:#e6b8b8" | 96 || style="background:#6fa0ff" | 96 || style="background:#f0d860" | 96 || style="background:#b8c8e6" | 96
+|-
+! Crimson Carp max
+| style="background:#e6b8b8" | 129 || style="background:#6fa0ff" | 129 || style="background:#f0d860" | 129 || style="background:#b8c8e6" | 129
+|-
+! Hellish Halibut min
+| style="background:#e6b8b8" | 38.4 || style="background:#6fa0ff" | 38.4 || style="background:#f0d860" | 38.4 || style="background:#b8c8e6" | 38.4
+|-
+! Hellish Halibut max
+| style="background:#e6b8b8" | 51.6 || style="background:#6fa0ff" | 51.6 || style="background:#f0d860" | 51.6 || style="background:#b8c8e6" | 51.6
+|-
+! Long-Whiskered Catfish min
+| style="background:#e6b8b8" | 38.4 || style="background:#6fa0ff" | 38.4 || style="background:#f0d860" | 38.4 || style="background:#b8c8e6" | 38.4
+|-
+! Long-Whiskered Catfish max
+| style="background:#e6b8b8" | 51.6 || style="background:#6fa0ff" | 51.6 || style="background:#f0d860" | 51.6 || style="background:#b8c8e6" | 51.6
+|-
+! Red Herring min
+| style="background:#e6b8b8" | 33.6 || style="background:#6fa0ff" | 33.6 || style="background:#f0d860" | 33.6 || style="background:#b8c8e6" | 33.6
+|-
+! Red Herring max
+| style="background:#e6b8b8" | 45.15 || style="background:#6fa0ff" | 45.15 || style="background:#f0d860" | 45.15 || style="background:#b8c8e6" | 45.15
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Fish}} [[Fishes]]
+| Full and Fed= 00:32:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Fish & Seafood
+}}
+
+==About==
+
+{{i|Jonah and the Whales}} must be Cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

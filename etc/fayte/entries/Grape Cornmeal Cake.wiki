@@ -1,0 +1,64 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.20
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Maize Planting}} [[Maize Planting]]
+| Skill 2= {{icon|Vineyards}} [[Vineyards]]
+}}
+
+{{Facts
+| Title=Bake
+| Needs= {{icon|Baking Table}} [[Baking Table]], [[Cornmeal]] 0.3 L, {{icon|Oatmeal}} [[Oatmeal]] 0.1 L, [[Potable Water]] 0.65 L, {{icon|Red Grapes}} [[Red Grapes]] ×3, {{icon|White Grapes}} [[White Grapes]] ×3
+| Second Stage= {{icon|Bread Oven}} [[Bread Oven]], {{icon|Unbaked Grape Cornmeal Cake}} [[Unbaked Grape Cornmeal Cake]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 12 || 12 || 12 || 12
+|-
+! White Corn min
+| style="background:#e6b8b8" | 48 || 20 || 20 || 20
+|-
+! White Corn max
+| style="background:#e6b8b8" | 66 || 27.5 || 27.5 || 27.5
+|-
+! Blue Corn min
+| 20 || style="background:#6fa0ff" | 48 || 20 || 20
+|-
+! Blue Corn max
+| 27.5 || style="background:#6fa0ff" | 66 || 27.5 || 27.5
+|-
+! Golden Corn min
+| 20 || 20 || style="background:#f0d860" | 52 || 20
+|-
+! Golden Corn max
+| 27.5 || 27.5 || style="background:#f0d860" | 71.5 || 27.5
+|-
+! Yellow Corn min
+| 20 || 20 || 20 || style="background:#b8c8e6" | 44
+|-
+! Yellow Corn max
+| 27.5 || 27.5 || 27.5 || style="background:#b8c8e6" | 60.5
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Corn}} [[Maize]]
+| Full and Fed= 00:42:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+}}
+
+==About==
+
+Crafting {{i|Grape Cornmeal Cake}} at a {{i|Baking Table}} will make an {{i|Unbaked Grape Cornmeal Cake}} which can then be baked in a {{i|Bread Oven}} to produce a Grape Cornmeal Cake. When baking Foods in a Bread Oven there is a chance for them to become {{i|Animal Crackers}} instead.

@@ -91,6 +91,7 @@ public class Landwindow extends Window {
 	super(c, new Coord(0, 0), parent, "Stake");
 	this.cc1 = this.c1 = c1;
 	this.cc2 = this.c2 = c2;
+	WorldMapMarkers.autoclaim(this.ui.gui, c1, c2);
 	this.map = this.ui.sess.glob.map;
 	ui.gui.map.enol(0, 1, 16);
 	this.ol = map.new Overlay(this.cc1, this.cc2, 65536);

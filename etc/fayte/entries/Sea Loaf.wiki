@@ -1,0 +1,142 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Filet of Any Fish}} [[Filet of any Fish]] ×3, {{icon|Flowers & Herbs}} [[Flowers & Herbs]] ×2, {{icon|Raw Oyster Meat}} [[Raw Oyster Meat]]
+| Second Stage= [[Any Pot]], {{icon|Fireplace}} [[Fireplace]], [[Potable Water]] ×5, {{icon|Unboiled Sea Loaf}} [[Unboiled Sea Loaf]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 9.5 || 7.5 || 12 || 12
+|-
+! Angel-Winged Seabass min
+| style="background:#e6b8b8" | 25.2 || 12 || 12 || 12
+|-
+! Angel-Winged Seabass max
+| style="background:#e6b8b8" | 36.75 || 17.5 || 17.5 || 17.5
+|-
+! Ghostly Whitefish min
+| style="background:#e6b8b8" | 28.8 || 12 || 12 || 12
+|-
+! Ghostly Whitefish max
+| style="background:#e6b8b8" | 42 || 17.5 || 17.5 || 17.5
+|-
+! Tiger Trout min
+| style="background:#e6b8b8" | 26.4 || 12 || 12 || 12
+|-
+! Tiger Trout max
+| style="background:#e6b8b8" | 38.5 || 17.5 || 17.5 || 17.5
+|-
+! Blueback Tuna min
+| 12 || style="background:#6fa0ff" | 27.6 || 12 || style="background:#b8c8e6" | 27.6
+|-
+! Blueback Tuna max
+| 17.5 || style="background:#6fa0ff" | 40.25 || 17.5 || style="background:#b8c8e6" | 40.25
+|-
+! Darkwater Bluegill min
+| 12 || style="background:#6fa0ff" | 27.6 || 12 || 12
+|-
+! Darkwater Bluegill max
+| 17.5 || style="background:#6fa0ff" | 40.25 || 17.5 || 17.5
+|-
+! Red-Finned Mullet min
+| 12 || style="background:#6fa0ff" | 25.2 || 12 || 12
+|-
+! Red-Finned Mullet max
+| 17.5 || style="background:#6fa0ff" | 36.75 || 17.5 || 17.5
+|-
+! Silt-Dwelling Mudsnapper min
+| 12 || style="background:#6fa0ff" | 25.2 || 12 || 12
+|-
+! Silt-Dwelling Mudsnapper max
+| 17.5 || style="background:#6fa0ff" | 36.75 || 17.5 || 17.5
+|-
+! Cape Codfish min
+| 12 || 12 || style="background:#f0d860" | 25.2 || 12
+|-
+! Cape Codfish max
+| 17.5 || 17.5 || style="background:#f0d860" | 36.75 || 17.5
+|-
+! Gold Pickerel min
+| 12 || 12 || style="background:#f0d860" | 27.6 || 12
+|-
+! Gold Pickerel max
+| 17.5 || 17.5 || style="background:#f0d860" | 40.25 || 17.5
+|-
+! Shin Spinner min
+| 12 || 12 || style="background:#f0d860" | 26.4 || 12
+|-
+! Shin Spinner max
+| 17.5 || 17.5 || style="background:#f0d860" | 38.5 || 17.5
+|-
+! Raging Bullhead min
+| 12 || 12 || 12 || style="background:#b8c8e6" | 30
+|-
+! Raging Bullhead max
+| 17.5 || 17.5 || 17.5 || style="background:#b8c8e6" | 43.75
+|-
+! Sargasso Eel min
+| 12 || 12 || 12 || style="background:#b8c8e6" | 25.2
+|-
+! Sargasso Eel max
+| 17.5 || 17.5 || 17.5 || style="background:#b8c8e6" | 36.75
+|-
+! Trunk-Nosed Lake Perch min
+| 12 || 12 || 12 || style="background:#b8c8e6" | 25.2
+|-
+! Trunk-Nosed Lake Perch max
+| 17.5 || 17.5 || 17.5 || style="background:#b8c8e6" | 36.75
+|-
+! Crimson Carp min
+| style="background:#e6b8b8" | 72 || style="background:#6fa0ff" | 72 || style="background:#f0d860" | 72 || style="background:#b8c8e6" | 72
+|-
+! Crimson Carp max
+| style="background:#e6b8b8" | 105 || style="background:#6fa0ff" | 105 || style="background:#f0d860" | 105 || style="background:#b8c8e6" | 105
+|-
+! Hellish Halibut min
+| style="background:#e6b8b8" | 28.8 || style="background:#6fa0ff" | 28.8 || style="background:#f0d860" | 28.8 || style="background:#b8c8e6" | 28.8
+|-
+! Hellish Halibut max
+| style="background:#e6b8b8" | 42 || style="background:#6fa0ff" | 42 || style="background:#f0d860" | 42 || style="background:#b8c8e6" | 42
+|-
+! Long-Whiskered Catfish min
+| style="background:#e6b8b8" | 28.8 || style="background:#6fa0ff" | 28.8 || style="background:#f0d860" | 28.8 || style="background:#b8c8e6" | 28.8
+|-
+! Long-Whiskered Catfish max
+| style="background:#e6b8b8" | 42 || style="background:#6fa0ff" | 42 || style="background:#f0d860" | 42 || style="background:#b8c8e6" | 42
+|-
+! Red Herring min
+| style="background:#e6b8b8" | 25.2 || style="background:#6fa0ff" | 25.2 || style="background:#f0d860" | 25.2 || style="background:#b8c8e6" | 25.2
+|-
+! Red Herring max
+| style="background:#e6b8b8" | 36.75 || style="background:#6fa0ff" | 36.75 || style="background:#f0d860" | 36.75 || style="background:#b8c8e6" | 36.75
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Fish}} [[Fishes]]
+| Full and Fed= 00:25:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 4
+| Menu= Craft > Food > Fish & Seafood
+}}
+
+==About==
+
+Crafting a {{i|Sea Loaf}} will make an {{i|Unboiled Sea Loaf}} which can then be boiled in a {{i|Clay Pot}}, {{i|Copper Pot}}, or {{i|Cauldron}} for 30 minutes to produce a Sea Loaf.

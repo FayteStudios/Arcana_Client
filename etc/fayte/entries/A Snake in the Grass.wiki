@@ -1,0 +1,70 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Any Vegetable}} [[Any Vegetable]] ×2, {{icon|Autumn Grass}} [[Autumn Grass]] ×6, [[Fire]], {{icon|Raw Snake Cut}} [[Raw Snake Cut]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 14 || 14 || 14 || 14
+|-
+! Big Red min
+| style="background:#e6b8b8" | 56 || 17.5 || 17.5 || 17.5
+|-
+! Big Red max
+| style="background:#e6b8b8" | 75.2 || 23.5 || 23.5 || 23.5
+|-
+! Tomato min
+| style="background:#e6b8b8" | 43.75 || 17.5 || 17.5 || 17.5
+|-
+! Tomato max
+| style="background:#e6b8b8" | 58.75 || 23.5 || 23.5 || 23.5
+|-
+! Carrot min
+| 17.5 || style="background:#6fa0ff" | 42 || 17.5 || 17.5
+|-
+! Carrot max
+| 23.5 || style="background:#6fa0ff" | 56.4 || 23.5 || 23.5
+|-
+! Radish min
+| 17.5 || 17.5 || style="background:#f0d860" | 42 || 17.5
+|-
+! Radish max
+| 23.5 || 23.5 || style="background:#f0d860" | 56.4 || 23.5
+|-
+! Onion min
+| 17.5 || 17.5 || 17.5 || style="background:#b8c8e6" | 47.25
+|-
+! Onion max
+| 23.5 || 23.5 || 23.5 || style="background:#b8c8e6" | 63.45
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Vegetables & Greens}} [[Vegetables and Greens]]
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 5
+| Reduces Vegetables and Greens= 25% (15% chance)
+| Menu= Craft > Food > Vegetables
+}}
+
+==About==
+
+{{i|A Snake in the Grass}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

@@ -1,0 +1,141 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Filet of Any Fish}} [[Filet of any Fish]] ×3, [[Fire]], {{icon|Leaf of White Cabbage}} [[Leaf of White Cabbage]] ×3, {{icon|Tiger Trout}} [[Tiger Trout]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 12.5 || 17 || 5 || 22.5
+|-
+! Angel-Winged Seabass min
+| style="background:#e6b8b8" | 21 || 10 || 10 || 10
+|-
+! Angel-Winged Seabass max
+| style="background:#e6b8b8" | 31.5 || 15 || 15 || 15
+|-
+! Ghostly Whitefish min
+| style="background:#e6b8b8" | 24 || 10 || 10 || 10
+|-
+! Ghostly Whitefish max
+| style="background:#e6b8b8" | 36 || 15 || 15 || 15
+|-
+! Tiger Trout min
+| style="background:#e6b8b8" | 22 || 10 || 10 || 10
+|-
+! Tiger Trout max
+| style="background:#e6b8b8" | 33 || 15 || 15 || 15
+|-
+! Blueback Tuna min
+| 10 || style="background:#6fa0ff" | 23 || 10 || style="background:#b8c8e6" | 23
+|-
+! Blueback Tuna max
+| 15 || style="background:#6fa0ff" | 34.5 || 15 || style="background:#b8c8e6" | 34.5
+|-
+! Darkwater Bluegill min
+| 10 || style="background:#6fa0ff" | 23 || 10 || 10
+|-
+! Darkwater Bluegill max
+| 15 || style="background:#6fa0ff" | 34.5 || 15 || 15
+|-
+! Red-Finned Mullet min
+| 10 || style="background:#6fa0ff" | 21 || 10 || 10
+|-
+! Red-Finned Mullet max
+| 15 || style="background:#6fa0ff" | 31.5 || 15 || 15
+|-
+! Silt-Dwelling Mudsnapper min
+| 10 || style="background:#6fa0ff" | 21 || 10 || 10
+|-
+! Silt-Dwelling Mudsnapper max
+| 15 || style="background:#6fa0ff" | 31.5 || 15 || 15
+|-
+! Cape Codfish min
+| 10 || 10 || style="background:#f0d860" | 21 || 10
+|-
+! Cape Codfish max
+| 15 || 15 || style="background:#f0d860" | 31.5 || 15
+|-
+! Gold Pickerel min
+| 10 || 10 || style="background:#f0d860" | 23 || 10
+|-
+! Gold Pickerel max
+| 15 || 15 || style="background:#f0d860" | 34.5 || 15
+|-
+! Shin Spinner min
+| 10 || 10 || style="background:#f0d860" | 22 || 10
+|-
+! Shin Spinner max
+| 15 || 15 || style="background:#f0d860" | 33 || 15
+|-
+! Raging Bullhead min
+| 10 || 10 || 10 || style="background:#b8c8e6" | 25
+|-
+! Raging Bullhead max
+| 15 || 15 || 15 || style="background:#b8c8e6" | 37.5
+|-
+! Sargasso Eel min
+| 10 || 10 || 10 || style="background:#b8c8e6" | 21
+|-
+! Sargasso Eel max
+| 15 || 15 || 15 || style="background:#b8c8e6" | 31.5
+|-
+! Trunk-Nosed Lake Perch min
+| 10 || 10 || 10 || style="background:#b8c8e6" | 21
+|-
+! Trunk-Nosed Lake Perch max
+| 15 || 15 || 15 || style="background:#b8c8e6" | 31.5
+|-
+! Crimson Carp min
+| style="background:#e6b8b8" | 60 || style="background:#6fa0ff" | 60 || style="background:#f0d860" | 60 || style="background:#b8c8e6" | 60
+|-
+! Crimson Carp max
+| style="background:#e6b8b8" | 90 || style="background:#6fa0ff" | 90 || style="background:#f0d860" | 90 || style="background:#b8c8e6" | 90
+|-
+! Hellish Halibut min
+| style="background:#e6b8b8" | 24 || style="background:#6fa0ff" | 24 || style="background:#f0d860" | 24 || style="background:#b8c8e6" | 24
+|-
+! Hellish Halibut max
+| style="background:#e6b8b8" | 36 || style="background:#6fa0ff" | 36 || style="background:#f0d860" | 36 || style="background:#b8c8e6" | 36
+|-
+! Long-Whiskered Catfish min
+| style="background:#e6b8b8" | 24 || style="background:#6fa0ff" | 24 || style="background:#f0d860" | 24 || style="background:#b8c8e6" | 24
+|-
+! Long-Whiskered Catfish max
+| style="background:#e6b8b8" | 36 || style="background:#6fa0ff" | 36 || style="background:#f0d860" | 36 || style="background:#b8c8e6" | 36
+|-
+! Red Herring min
+| style="background:#e6b8b8" | 21 || style="background:#6fa0ff" | 21 || style="background:#f0d860" | 21 || style="background:#b8c8e6" | 21
+|-
+! Red Herring max
+| style="background:#e6b8b8" | 31.5 || style="background:#6fa0ff" | 31.5 || style="background:#f0d860" | 31.5 || style="background:#b8c8e6" | 31.5
+|}
+
+{{Facts
+| Title=Food Group
+| Group= None
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Fish & Seafood
+}}
+
+==About==
+
+{{i|Tigerkraut}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

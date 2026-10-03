@@ -1,0 +1,83 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Simple Cooking}} [[Simple Cooking]]
+| Skill 2= {{icon|Small Game Hunting}} [[Small Game Hunting]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Any Raw Meat Cut}} [[Any Raw Meat Cut]], {{icon|Carrot}} [[Carrot]] ×2, [[Fire]], {{icon|Raw Rabbit Cut}} [[Raw Rabbit Cut]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 6 || 17 || 4.5 || 12
+|-
+! Bear min
+| style="background:#e6b8b8" | 31 || 10 || 10 || 10
+|-
+! Bear max
+| style="background:#e6b8b8" | 34.1 || 11 || 11 || 11
+|-
+! Timber Rattler min
+| style="background:#e6b8b8" | 25 || 10 || 10 || 10
+|-
+! Timber Rattler max
+| style="background:#e6b8b8" | 27.5 || 11 || 11 || 11
+|-
+! Cougar min
+| 10 || style="background:#6fa0ff" | 29 || 10 || 10
+|-
+! Cougar max
+| 11 || style="background:#6fa0ff" | 31.9 || 11 || 11
+|-
+! Rabbit min
+| 10 || style="background:#6fa0ff" | 25 || 10 || 10
+|-
+! Rabbit max
+| 11 || style="background:#6fa0ff" | 27.5 || 11 || 11
+|-
+! Deer min
+| 10 || 10 || style="background:#f0d860" | 29 || 10
+|-
+! Deer max
+| 11 || 11 || style="background:#f0d860" | 31.9 || 11
+|-
+! Varmint min
+| 10 || 10 || style="background:#f0d860" | 23 || 10
+|-
+! Varmint max
+| 11 || 11 || style="background:#f0d860" | 25.3 || 11
+|-
+! Beaver min
+| 10 || 10 || 10 || style="background:#b8c8e6" | 27
+|-
+! Beaver max
+| 11 || 11 || 11 || style="background:#b8c8e6" | 29.7
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Game}} [[Game Meat]]
+| Full and Fed= 00:15:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Game Meat= 20% (40% chance)
+| Menu= Craft > Food > Game Meats
+}}
+
+==About==
+
+A {{i|Lean Rabbit}} must be Cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

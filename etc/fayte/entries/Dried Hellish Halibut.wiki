@@ -1,0 +1,44 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= [[Legacy]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Drying Frame}} [[Drying Frame]], [[Hellish Halibut]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 70 || 12 || 12 || 8
+|-
+! Gluttony min
+| 0 || 0 || 0 || 0
+|-
+! Gluttony max
+| 1 || 1 || 1 || 1
+|}
+
+{{Facts
+| Title=Food Group
+| Group= None
+| Full and Fed= 00:03:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+}}
+
+==About==
+
+A {{i|Hellish Halibut}} can be dried on a {{i|Drying Frame}} for 72 hours to make a {{i|Dried Hellish Halibut}}. Due to the current nature of the most recent Fish rework there is no reason to ever make a Dried Hellish Halibut.

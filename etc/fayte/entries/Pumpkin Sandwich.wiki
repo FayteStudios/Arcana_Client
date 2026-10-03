@@ -1,0 +1,113 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Pumpkin Planting}} [[Pumpkin Planting]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Carrot}} [[Carrot]] ×2, {{icon|Loaf of Ryebread}} [[Loaf of Ryebread]], {{icon|Pumpkin Flesh}} [[Pumpkin Flesh]] ×3
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 22.5 || 18.5 || 17 || 21
+|-
+! Ghost Rider min
+| style="background:#e6b8b8" | 37.8 || 14 || 14 || 14
+|-
+! Ghost Rider max
+| style="background:#e6b8b8" | 52.65 || 19.5 || 19.5 || 19.5
+|-
+! Jack-o-Lantern min
+| style="background:#e6b8b8" | 39.2 || 14 || 14 || 14
+|-
+! Jack-o-Lantern max
+| style="background:#e6b8b8" | 54.6 || 19.5 || 19.5 || 19.5
+|-
+! Spooktacular min
+| style="background:#e6b8b8" | 36.4 || 14 || 14 || 14
+|-
+! Spooktacular max
+| style="background:#e6b8b8" | 50.7 || 19.5 || 19.5 || 19.5
+|-
+! Big Autumn min
+| 14 || style="background:#6fa0ff" | 33.6 || 14 || 14
+|-
+! Big Autumn max
+| 19.5 || style="background:#6fa0ff" | 46.8 || 19.5 || 19.5
+|-
+! Bushkin min
+| 14 || style="background:#6fa0ff" | 35 || 14 || 14
+|-
+! Bushkin max
+| 19.5 || style="background:#6fa0ff" | 48.75 || 19.5 || 19.5
+|-
+! Small Sugar min
+| 14 || style="background:#6fa0ff" | 32.2 || 14 || 14
+|-
+! Small Sugar max
+| 19.5 || style="background:#6fa0ff" | 44.85 || 19.5 || 19.5
+|-
+! Connecticut Field min
+| 14 || 14 || style="background:#f0d860" | 33.6 || 14
+|-
+! Connecticut Field max
+| 19.5 || 19.5 || style="background:#f0d860" | 46.8 || 19.5
+|-
+! Harvest Moon min
+| 14 || 14 || style="background:#f0d860" | 35 || 14
+|-
+! Harvest Moon max
+| 19.5 || 19.5 || style="background:#f0d860" | 48.75 || 19.5
+|-
+! Sugar Treat min
+| 14 || 14 || style="background:#f0d860" | 32.2 || 14
+|-
+! Sugar Treat max
+| 19.5 || 19.5 || style="background:#f0d860" | 44.85 || 19.5
+|-
+! Aspen min
+| 14 || 14 || 14 || style="background:#b8c8e6" | 30.8
+|-
+! Aspen max
+| 19.5 || 19.5 || 19.5 || style="background:#b8c8e6" | 42.9
+|-
+! Autumn Gold min
+| 14 || 14 || 14 || style="background:#b8c8e6" | 32.2
+|-
+! Autumn Gold max
+| 19.5 || 19.5 || 19.5 || style="background:#b8c8e6" | 44.85
+|-
+! Baby Bear min
+| 14 || 14 || 14 || style="background:#b8c8e6" | 29.4
+|-
+! Baby Bear max
+| 19.5 || 19.5 || 19.5 || style="background:#b8c8e6" | 40.95
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Pumpkins & Gourds}} [[Pumpkins and Gourds]]
+| Full and Fed= 00:45:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 3
+| Reduces Pumpkins and Gourds= 20% (40% chance)
+| Restores Bread= 15% (85% chance)
+| Menu= Craft > Food > Pumpkins
+}}
+
+==About==
+
+A {{i|Pumpkin Sandwich}} does '''NOT''' need to be cooked.

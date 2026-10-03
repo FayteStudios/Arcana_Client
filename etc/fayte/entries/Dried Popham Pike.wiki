@@ -1,0 +1,45 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= [[Expeditions]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= [[Popham Pike]], {{icon|Drying Frame}} [[Drying Frame]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| ? || ? || ? || ?
+|-
+! Gluttony min
+| ? || ? || ? || ?
+|-
+! Gluttony max
+| ? || ? || ? || ?
+|}
+
+{{Facts
+| Title=Food Group
+| Group= None
+| Full and Fed= 00:03:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Fishes= 10% (20% chance)
+}}
+
+==About==
+
+A {{i|Popham Pike}} can be dried on a {{i|Drying Frame}} for 72 hours to make a {{i|Dried Popham Pike}}. Due to the current nature of the most recent Fish rework there is no reason to ever make a Dried Popham Pike.

@@ -1,0 +1,59 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 1.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Pumpkin Planting}} [[Pumpkin Planting]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= Seeds of Pumpkin;θ, [[Tilled Field]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= [[Ghost Rider Masque]]
+| b)= {{icon|Ghost Rider Pack}} [[Ghost Rider Pack]]
+| c)= [[Pumpkin]]
+| d)= [[Spooky Ghosts]]
+| Counts as= [[Any Large Pumpkin]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 8 || 8 || 9 || 8
+|-
+! Gluttony min
+| 18 || 0 || 0 || 0
+|-
+! Gluttony max
+| 54 || 0 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Pumpkins & Gourds}} [[Pumpkins and Gourds]]
+| Full and Fed= 06:00:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Pumpkins and Gourds= 70% (70% chance)
+| Inspiration= Arts & Crafts 1500, Faith & Wisdom 2100, Herbs & Sprouts 1200, Law & Lore 1180, Mines & Mountains 1100, Sparks & Embers 1215, Stocks & Cultivars 3660, Sugar & Spice 1210, Natural Philosophy 1235
+}}
+
+==Flavor Text==
+
+''Pale white across wild, endless skies, ripe with portents of storm and thunder.''
+
+==About==
+
+A {{i|Ghost Rider}} is the product of a third growth stage, third tier {{i|Pumpkin}} Harvest. Right-clicking a Ghost Rider and selecting "Slice" will give you 6x {{i|Pumpkin Flesh}} and 15x {{i|Seeds of Pumpkin}}. A Ghost Rider counts as {{i|Any Large Pumpkin}}. A Ghost Rider can be stored in a {{i|Stockbin}}.

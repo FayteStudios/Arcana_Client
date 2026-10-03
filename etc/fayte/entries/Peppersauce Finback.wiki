@@ -1,0 +1,45 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= None
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Seamanship}} [[Seamanship]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Any Bellpeppers}} [[Any Bellpeppers]], [[Any Fish]], {{icon|Clove of Garlic}} [[Clove of Garlic]], [[Fire]], {{icon|Pepper}} [[Pepper]] 0.05 L
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 0 || 0 || 0 || 0
+|-
+! Gluttony min
+| ? || ? || ? || ?
+|-
+! Gluttony max
+| ? || ? || ? || ?
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Fish}} [[Fishes]]
+| Full and Fed= None
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Fish & Seafood
+}}
+
+==About==
+
+{{i|Peppersauce Finback}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

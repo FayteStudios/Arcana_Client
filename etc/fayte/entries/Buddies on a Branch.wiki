@@ -1,0 +1,45 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Fishing}} [[Fishing]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Any Fish]] ×2, [[Fire]], {{icon|Sharpened Stick}} [[Sharpened Stick]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 7 || 7 || 7 || 7
+|-
+! Gluttony min
+| 13 || 13 || 13 || 13
+|-
+! Gluttony max
+| 17 || 17 || 17 || 17
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Fish}} [[Fishes]]
+| Full and Fed= 00:10:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 10
+| Menu= Craft > Food > Fish & Seafood
+}}
+
+==About==
+
+{{i|Buddies on a Branch}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

@@ -1,0 +1,45 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.05
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= [[Inherent Rights]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Prickly Pear Cactus}} [[Prickly Pear Cactus]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 0.3 || 4 || 0 || 0.4
+|-
+! Gluttony min
+| 5 || 5 || 5 || 5
+|-
+! Gluttony max
+| 6 || 6 || 6 || 6
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Vegetables & Greens}} [[Vegetables and Greens]]
+| Full and Fed= 00:10:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Vegetables and Greens= 50% (70% chance)
+}}
+
+==About==
+
+A {{i|Prickly Pear}} in recieved by chance when Splitting a {{i|Prickly Pear Cactus}}.

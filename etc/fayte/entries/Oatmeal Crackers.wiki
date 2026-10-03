@@ -1,0 +1,64 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.07
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Baking}} [[Baking]]
+}}
+
+{{Facts
+| Title=Bake
+| Needs= {{icon|Baking Table}} [[Baking Table]], {{icon|Flour}} [[Flour]] 0.25 L, [[Potable Water]] 0.75 L
+| Second Stage= {{icon|Bread Oven}} [[Bread Oven]], {{icon|Unbaked Oatmeal Crackers}} [[Unbaked Oatmeal Crackers]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 8 || 8 || 8 || 8
+|-
+! Oatmeal min
+| style="background:#e6b8b8" | 20.9 || 17.1 || 17.1 || 17.1
+|-
+! Oatmeal max
+| style="background:#e6b8b8" | 27.5 || 22.5 || 22.5 || 22.5
+|-
+! Barley min
+| 17.1 || style="background:#6fa0ff" | 22.8 || 17.1 || 17.1
+|-
+! Barley max
+| 22.5 || style="background:#6fa0ff" | 30 || 22.5 || 22.5
+|-
+! Rye min
+| 17.1 || 17.1 || style="background:#f0d860" | 22.8 || 17.1
+|-
+! Rye max
+| 22.5 || 22.5 || style="background:#f0d860" | 30 || 22.5
+|-
+! Wheat min
+| 17.1 || 17.1 || 17.1 || style="background:#b8c8e6" | 24.7
+|-
+! Wheat max
+| 22.5 || 22.5 || 22.5 || style="background:#b8c8e6" | 32.5
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Bread}} [[Bread]]
+| Full and Fed= 00:20:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 3
+| Menu= Craft > Food > Bread
+}}
+
+==About==
+
+Crafting {{i|Oatmeal Crackers}} at a {{i|Baking Table}} will make {{i|Unbaked Oatmeal Crackers}} which can then be baked in a {{i|Bread Oven}} to produce Oatmeal Crackers. Preparing Foods on a Baking Table removes a small amount of [[Insanity]] and has a chance of giving you an {{i|Eloped Gingerbread Man}}. When baking Foods in a Bread Oven there is a chance for them to become {{i|Animal Crackers}} instead.

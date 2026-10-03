@@ -1,0 +1,64 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Advanced Cooking}} [[Advanced Cooking]]
+}}
+
+{{Facts
+| Title=Bake
+| Needs= {{icon|Any Corn}} [[Any Corn]] ×100, {{icon|Golden Cornmeal}} [[Golden Cornmeal]] 0.45 L, [[Golden-corn Oil]] 0.2 L, {{icon|Golden Egg}} [[Golden Egg]]
+| Second Stage= {{icon|Bread Oven}} [[Bread Oven]], {{icon|Unbaked Goldtilla}} [[Unbaked Goldtilla]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 0 || 0 || 45 || 0
+|-
+! White Corn min
+| style="background:#e6b8b8" | 79.2 || 33 || 33 || 33
+|-
+! White Corn max
+| style="background:#e6b8b8" | 106.8 || 44.5 || 44.5 || 44.5
+|-
+! Blue Corn min
+| 33 || style="background:#6fa0ff" | 79.2 || 33 || 33
+|-
+! Blue Corn max
+| 44.5 || style="background:#6fa0ff" | 106.8 || 44.5 || 44.5
+|-
+! Golden Corn min
+| 33 || 33 || style="background:#f0d860" | 85.8 || 33
+|-
+! Golden Corn max
+| 44.5 || 44.5 || style="background:#f0d860" | 115.7 || 44.5
+|-
+! Yellow Corn min
+| 33 || 33 || 33 || style="background:#b8c8e6" | 72.6
+|-
+! Yellow Corn max
+| 44.5 || 44.5 || 44.5 || style="background:#b8c8e6" | 97.9
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Corn}} [[Maize]]
+| Full and Fed= 01:00:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Corn
+}}
+
+==About==
+
+Crafting a {{i|Goldtilla}} will make an {{i|Unbaked Goldtilla}} which can then be baked in a {{i|Bread Oven}} to produce a Goldtilla. When baking Foods in a Bread Oven there is a chance for them to become {{i|Animal Crackers}} instead.

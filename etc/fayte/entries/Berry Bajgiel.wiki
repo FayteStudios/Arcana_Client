@@ -1,0 +1,61 @@
+{{Facts
+| Title=Basics
+| Type= Baked Good
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Advanced Cooking}} [[Advanced Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Place = 4x {{icon|Any Berries}} [[Any Berries|Berries]] onto a {{icon|Bajgiel}} [[Bajgiel]].
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 22 || 78 || 25 || 31
+|-
+! Cranberry min
+| style="background:#e6b8b8" | 46 || 20 || 20 || 20
+|-
+! Cranberry max
+| style="background:#e6b8b8" | 126.5 || 55 || 55 || 55
+|-
+! Crowberry min
+| 20 || style="background:#6fa0ff" | 54 || 20 || 20
+|-
+! Crowberry max
+| 55 || style="background:#6fa0ff" | 148.5 || 55 || 55
+|-
+! Huckleberries min
+| 20 || 20 || style="background:#f0d860" | 52 || 20
+|-
+! Huckleberries max
+| 55 || 55 || style="background:#f0d860" | 143 || 55
+|-
+! Blackberries min
+| 20 || 20 || 20 || style="background:#b8c8e6" | 46
+|-
+! Blackberries max
+| 55 || 55 || 55 || style="background:#b8c8e6" | 126.5
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Berries}} [[Berries]]
+| Full and Fed= 01:05:00
+}}
+
+Does NOT need to be cooked
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Berries
+}}

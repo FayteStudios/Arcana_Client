@@ -1,0 +1,51 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.17
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Simple Cooking}} [[Simple Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Wild Stuffed Turkey}} [[Wild Stuffed Turkey]]
+| Or= {{icon|Raw Turkey Breast}} [[Raw Turkey Breast]], [[Any Stove]]
+}}
+
+{{Facts
+| Title=Used By
+| Counts as= {{icon|Any Poultry Breast}} [[Any Poultry Breast]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 17.5 || 17.5 || 17.5 || 17.5
+|-
+! Gluttony min
+| 7 || 0 || 0 || 0
+|-
+! Gluttony max
+| 9 || 0 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Poultry}} [[Poultry]]
+| Full and Fed= 00:06:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Poultry= 40% (40% chance)
+}}
+
+==About==
+
+2x {{i|Wild Turkey Breast}}s are received when Cutting Up a {{i|Stuffed Wild Turkey}}. Additionally a Wild Turkey Breast can be obtained by baking a {{i|Raw Turkey Breast}} in {{i|Any Stove}}.

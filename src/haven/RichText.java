@@ -665,7 +665,14 @@ public class RichText extends Text {
 		Utils.AA(g);
 	    for(Part p = fp; p != null; p = p.next)
 		p.render(g);
-	    return(new RichText(text, img, fp));
+	    RichText ret = new RichText(text, img, fp);
+	    final Part ffp = fp;
+	    final Coord fsz = sz;
+	    ret.hires = s -> Text.paintscaled(fsz, s, g2 -> {
+		    for(Part p = ffp; p != null; p = p.next)
+			p.render(g2);
+		});
+	    return(ret);
 	}
 	
 	public RichText render(String text) {

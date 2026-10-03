@@ -1,0 +1,54 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Fungiculture}} [[Fungiculture]]
+}}
+
+{{Facts
+| Title=Forage
+| Found= [[Autumnal]], [[Coniferous]], [[Crag]], [[Pine Forest]], [[Woodland]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= [[Boiled Yellow Morel]]
+| b)= {{icon|Pest-Filled Morel}} [[Pest-Filled Morel]]
+| Counts as= [[Any Mushroom]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 7 || 7 || 7 || 7
+|-
+! Gluttony min
+| 8 || 8 || 8 || 8
+|-
+! Gluttony max
+| 8 || 8 || 8 || 8
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Mushrooms}} [[Mushrooms]]
+| Full and Fed= 00:08:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Variable food multiplier= Blood 0.5 / Phlegm 0.5 / Yellow 1.35 / Black 0.5
+}}
+
+==About==
+
+A Yellow Morel is a Poisonous Mushroom which can be found in the wild or, with the [[Fungiculture]] Skill learned, grown by planting another {{i|Yellow Morel}} in a {{i|Gardening Pot}}. When planting a Yellow Morel there is a chance for it to grow into a {{i|Spooky Redcap}} instead. Planting Mushrooms in Gardening Pots lowers [[Insanity]]. A Yellow Morel can be stored in a {{i|MushiSack}}.
+
+When boiled a Yellow Morel will become a {{i|Boiled Yellow Morel}}. Both a Boiled Yellow Morel and a Yellow Morel count as a Yellow Morel when planting and in Food recipes.

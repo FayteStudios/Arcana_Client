@@ -1,0 +1,50 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.05
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Steam Distillation}} [[Steam Distillation]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Alchemy Table}} [[Alchemy Table]], {{icon|Cranberry}} [[Cranberry]], {{icon|Steam Distiller}} [[Steam Distiller]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Adventurer's Trailmix}} [[Adventurer's Trailmix]]
+| b)= {{icon|Fyne Salad}} [[Fyne Salad]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 0 || 0 || 0 || 0
+|-
+! Gluttony min
+| 1 || 0 || 0 || 0
+|-
+! Gluttony max
+| 28 || 0 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Berries}} [[Berries]]
+| Full and Fed= 00:13:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+}}
+
+==About==
+
+A {{i|Dehydrated Cranberry}} is received when Dehydrating a {{i|Cranberry}} for 1 hour in a {{i|Steam Distiller}}. A Dehydrated Cranberry will disappear if not removed from your Steam Distiller within 30 minutes. A Dehydrated Cranberry can be stored a {{i|Berry Sack}}.

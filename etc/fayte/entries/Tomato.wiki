@@ -1,0 +1,62 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Vegetable Potting}} [[Vegetable Potting]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Gardening Pot}} [[Gardening Pot]], {{icon|Humus}} [[Humus]], [[Potable Water]] 0.2 L, {{icon|Tomato}} [[Tomato]]
+| Or= {{icon|Silver Pieces}} [[Silver Pieces]] ×110
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Aztec Abattoir}} [[Aztec Abattoir]]
+| b)= [[Big Red]]
+| c)= {{icon|Cabbage Crush Salad}} [[Cabbage Crush Salad]]
+| d)= {{icon|Meatballs on Noodles}} [[Meatballs on Noodles]]
+| e)= {{icon|Meatloaf}} [[Meatloaf]]
+| f)= {{icon|Popham Patty}} [[Popham Patty]]
+| g)= {{icon|Red October}} [[Red October]]
+| h)= {{icon|Red Seafood Salad}} [[Red Seafood Salad]]
+| i)= {{icon|Reindeer Mask}} [[Reindeer Mask]]
+| j)= {{icon|Sauce Chasseur}} [[Sauce Chasseur]]
+| k)= {{icon|Tasty Taco}} [[Tasty Taco]]
+| l)= {{icon|Turkish Delight}} [[Turkish Delight]]
+| Counts as= {{icon|Any Vegetable}} [[Any Vegetable]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 15 || 5 || 5 || 5
+|-
+! Gluttony min
+| 8 || 0 || 0 || 0
+|-
+! Gluttony max
+| 12 || 0 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Vegetables & Greens}} [[Vegetables and Greens]]
+| Full and Fed= 00:10:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+}}
+
+==About==
+
+{{i|Tomato}}es can be purchased from [[Stalls#Jordan Gramsey - Cooking Needs|Jordan Gramsey]] in [[Providence]] for 110x {{i|Silver Pieces}}, or, with the [[Vegetable Potting]] Skill learned, grown by planting another {{i|Tomato}} in a {{i|Gardening Pot}}. When Picking your Tomatoes there is a chance to get {{i|Big Red}}s instead. Planting Vegetables in Gardening Pots lowers [[Insanity]]. A Tomato can be stored in a {{i|Veggie Sack}}.

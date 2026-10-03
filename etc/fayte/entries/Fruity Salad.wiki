@@ -1,0 +1,321 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.30
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Fruit Orchards}} [[Fruit Orchards]]
+| Skill 2= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Berries}} [[Any Berries]] ×2, {{icon|Any Fruit}} [[Any Fruit]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= [[Spoiled Food]]
+}}
+
+{|
+|+ Heal and Gluttony values — With Apple (Blood)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 18 || 11 || 18 || 14
+|-
+! Apple min
+| style="background:#e6b8b8" | 44 || 12.5 || 12.5 || 12.5
+|-
+! Apple max
+| style="background:#e6b8b8" | 61.25 || 17.5 || 17.5 || 17.5
+|-
+! Cranberry min
+| style="background:#e6b8b8" | 50.25 || 6.25 || 6.25 || 6.25
+|-
+! Cranberry max
+| style="background:#e6b8b8" | 70.35 || 8.75 || 8.75 || 8.75
+|-
+! Crowberry min
+| style="background:#e6b8b8" | 21.88 || style="background:#6fa0ff" | 16.88 || 6.25 || 6.25
+|-
+! Crowberry max
+| style="background:#e6b8b8" | 30.62 || style="background:#6fa0ff" | 23.62 || 8.75 || 8.75
+|-
+! Huckleberries min
+| style="background:#e6b8b8" | 21.88 || 6.25 || style="background:#f0d860" | 16.25 || 6.25
+|-
+! Huckleberries max
+| style="background:#e6b8b8" | 30.62 || 8.75 || style="background:#f0d860" | 22.75 || 8.75
+|-
+! Blackberries min
+| style="background:#e6b8b8" | 21.88 || 6.25 || 6.25 || style="background:#b8c8e6" | 14.37
+|-
+! Blackberries max
+| style="background:#e6b8b8" | 30.62 || 8.75 || 8.75 || style="background:#b8c8e6" | 20.12
+|}
+
+{|
+|+ With Cherry (Blood)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Cherry min
+| style="background:#e6b8b8" | 36.25 || 12.5 || 12.5 || 12.5
+|-
+! Cherry max
+| style="background:#e6b8b8" | 50.75 || 17.5 || 17.5 || 17.5
+|-
+! Cranberry min
+| style="background:#e6b8b8" | 41.62 || 6.25 || 6.25 || 6.25
+|-
+! Cranberry max
+| style="background:#e6b8b8" | 58.27 || 8.75 || 8.75 || 8.75
+|-
+! Crowberry min
+| style="background:#e6b8b8" | 18.12 || style="background:#6fa0ff" | 16.88 || 6.25 || 6.25
+|-
+! Crowberry max
+| style="background:#e6b8b8" | 25.38 || style="background:#6fa0ff" | 23.62 || 8.75 || 8.75
+|-
+! Huckleberries min
+| style="background:#e6b8b8" | 18.12 || 6.25 || style="background:#f0d860" | 16.25 || 6.25
+|-
+! Huckleberries max
+| style="background:#e6b8b8" | 25.38 || 8.75 || style="background:#f0d860" | 22.75 || 8.75
+|-
+! Blackberries min
+| style="background:#e6b8b8" | 18.12 || 6.25 || 6.25 || style="background:#b8c8e6" | 14.37
+|-
+! Blackberries max
+| style="background:#e6b8b8" | 25.38 || 8.75 || 8.75 || style="background:#b8c8e6" | 20.12
+|}
+
+{|
+|+ With Mulberry (Phlegm)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Mulberry min
+| 12.5 || style="background:#6fa0ff" | 36.25 || 12.5 || 12.5
+|-
+! Mulberry max
+| 17.5 || style="background:#6fa0ff" | 50.75 || 17.5 || 17.5
+|-
+! Cranberry min
+| style="background:#e6b8b8" | 14.37 || style="background:#6fa0ff" | 18.12 || 6.25 || 6.25
+|-
+! Cranberry max
+| style="background:#e6b8b8" | 20.12 || style="background:#6fa0ff" | 25.38 || 8.75 || 8.75
+|-
+! Crowberry min
+| 6.25 || style="background:#6fa0ff" | 41.62 || 6.25 || 6.25
+|-
+! Crowberry max
+| 8.75 || style="background:#6fa0ff" | 58.27 || 8.75 || 8.75
+|-
+! Huckleberries min
+| 6.25 || style="background:#6fa0ff" | 18.12 || style="background:#f0d860" | 16.25 || 6.25
+|-
+! Huckleberries max
+| 8.75 || style="background:#6fa0ff" | 25.38 || style="background:#f0d860" | 22.75 || 8.75
+|-
+! Blackberries min
+| 6.25 || style="background:#6fa0ff" | 18.12 || 6.25 || style="background:#b8c8e6" | 14.37
+|-
+! Blackberries max
+| 8.75 || style="background:#6fa0ff" | 25.38 || 8.75 || style="background:#b8c8e6" | 20.12
+|}
+
+{|
+|+ With Pear (Phlegm)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Pear min
+| 12.5 || style="background:#6fa0ff" | 43.75 || 12.5 || 12.5
+|-
+! Pear max
+| 17.5 || style="background:#6fa0ff" | 61.25 || 17.5 || 17.5
+|-
+! Cranberry min
+| style="background:#e6b8b8" | 14.37 || style="background:#6fa0ff" | 21.88 || 6.25 || 6.25
+|-
+! Cranberry max
+| style="background:#e6b8b8" | 20.12 || style="background:#6fa0ff" | 30.62 || 8.75 || 8.75
+|-
+! Crowberry min
+| 6.25 || style="background:#6fa0ff" | 50.25 || 6.25 || 6.25
+|-
+! Crowberry max
+| 8.75 || style="background:#6fa0ff" | 70.35 || 8.75 || 8.75
+|-
+! Huckleberries min
+| 6.25 || style="background:#6fa0ff" | 21.88 || style="background:#f0d860" | 16.25 || 6.25
+|-
+! Huckleberries max
+| 8.75 || style="background:#6fa0ff" | 30.62 || style="background:#f0d860" | 22.75 || 8.75
+|-
+! Blackberries min
+| 6.25 || style="background:#6fa0ff" | 21.88 || 6.25 || style="background:#b8c8e6" | 14.37
+|-
+! Blackberries max
+| 8.75 || style="background:#6fa0ff" | 30.62 || 8.75 || style="background:#b8c8e6" | 20.12
+|}
+
+{|
+|+ With Peach (Yellow Bile)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Peach min
+| 12.5 || 12.5 || style="background:#f0d860" | 43.75 || 12.5
+|-
+! Peach max
+| 17.5 || 17.5 || style="background:#f0d860" | 61.25 || 17.5
+|-
+! Cranberry min
+| style="background:#e6b8b8" | 14.37 || 6.25 || style="background:#f0d860" | 21.88 || 6.25
+|-
+! Cranberry max
+| style="background:#e6b8b8" | 20.12 || 8.75 || style="background:#f0d860" | 30.62 || 8.75
+|-
+! Crowberry min
+| 6.25 || style="background:#6fa0ff" | 16.88 || style="background:#f0d860" | 21.88 || 6.25
+|-
+! Crowberry max
+| 8.75 || style="background:#6fa0ff" | 23.62 || style="background:#f0d860" | 30.62 || 8.75
+|-
+! Huckleberries min
+| 6.25 || 6.25 || style="background:#f0d860" | 50.25 || 6.25
+|-
+! Huckleberries max
+| 8.75 || 8.75 || style="background:#f0d860" | 70.35 || 8.75
+|-
+! Blackberries min
+| 6.25 || 6.25 || style="background:#f0d860" | 21.88 || style="background:#b8c8e6" | 14.37
+|-
+! Blackberries max
+| 8.75 || 8.75 || style="background:#f0d860" | 30.62 || style="background:#b8c8e6" | 20.12
+|}
+
+{|
+|+ With Persimmon (Yellow Bile)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Persimmon min
+| 12.5 || 12.5 || style="background:#f0d860" | 36.25 || 12.5
+|-
+! Persimmon max
+| 17.5 || 17.5 || style="background:#f0d860" | 50.75 || 17.5
+|-
+! Cranberry min
+| style="background:#e6b8b8" | 14.37 || 6.25 || style="background:#f0d860" | 18.12 || 6.25
+|-
+! Cranberry max
+| style="background:#e6b8b8" | 20.12 || 8.75 || style="background:#f0d860" | 25.38 || 8.75
+|-
+! Crowberry min
+| 6.25 || style="background:#6fa0ff" | 16.88 || style="background:#f0d860" | 18.12 || 6.25
+|-
+! Crowberry max
+| 8.75 || style="background:#6fa0ff" | 23.62 || style="background:#f0d860" | 25.38 || 8.75
+|-
+! Huckleberries min
+| 6.25 || 6.25 || style="background:#f0d860" | 41.62 || 6.25
+|-
+! Huckleberries max
+| 8.75 || 8.75 || style="background:#f0d860" | 58.27 || 8.75
+|-
+! Blackberries min
+| 6.25 || 6.25 || style="background:#f0d860" | 18.12 || style="background:#b8c8e6" | 14.37
+|-
+! Blackberries max
+| 8.75 || 8.75 || style="background:#f0d860" | 25.38 || style="background:#b8c8e6" | 20.12
+|}
+
+{|
+|+ With Plum (Black Bile)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Plum min
+| 12.5 || 12.5 || 12.5 || style="background:#b8c8e6" | 36.25
+|-
+! Plum max
+| 17.5 || 17.5 || 17.5 || style="background:#b8c8e6" | 50.75
+|-
+! Cranberry min
+| style="background:#e6b8b8" | 14.37 || 6.25 || 6.25 || style="background:#b8c8e6" | 18.12
+|-
+! Cranberry max
+| style="background:#e6b8b8" | 20.12 || 8.75 || 8.75 || style="background:#b8c8e6" | 25.38
+|-
+! Crowberry min
+| 6.25 || style="background:#6fa0ff" | 16.88 || 6.25 || style="background:#b8c8e6" | 18.12
+|-
+! Crowberry max
+| 8.75 || style="background:#6fa0ff" | 23.62 || 8.75 || style="background:#b8c8e6" | 25.38
+|-
+! Huckleberries min
+| 6.25 || 6.25 || style="background:#f0d860" | 16.25 || style="background:#b8c8e6" | 18.12
+|-
+! Huckleberries max
+| 8.75 || 8.75 || style="background:#f0d860" | 22.75 || style="background:#b8c8e6" | 25.38
+|-
+! Blackberries min
+| 6.25 || 6.25 || 6.25 || style="background:#b8c8e6" | 41.62
+|-
+! Blackberries max
+| 8.75 || 8.75 || 8.75 || style="background:#b8c8e6" | 58.27
+|}
+
+{|
+|+ With Snozberry (Black Bile)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Snozberry min
+| 12.5 || 12.5 || 12.5 || style="background:#b8c8e6" | 43.75
+|-
+! Snozberry max
+| 17.5 || 17.5 || 17.5 || style="background:#b8c8e6" | 61.25
+|-
+! Cranberry min
+| style="background:#e6b8b8" | 14.37 || 6.25 || 6.25 || style="background:#b8c8e6" | 21.88
+|-
+! Cranberry max
+| style="background:#e6b8b8" | 20.12 || 8.75 || 8.75 || style="background:#b8c8e6" | 30.62
+|-
+! Crowberry min
+| 6.25 || style="background:#6fa0ff" | 16.88 || 6.25 || style="background:#b8c8e6" | 21.88
+|-
+! Crowberry max
+| 8.75 || style="background:#6fa0ff" | 23.62 || 8.75 || style="background:#b8c8e6" | 30.62
+|-
+! Huckleberries min
+| 6.25 || 6.25 || style="background:#f0d860" | 16.25 || style="background:#b8c8e6" | 21.88
+|-
+! Huckleberries max
+| 8.75 || 8.75 || style="background:#f0d860" | 22.75 || style="background:#b8c8e6" | 30.62
+|-
+! Blackberries min
+| 6.25 || 6.25 || 6.25 || style="background:#b8c8e6" | 50.25
+|-
+! Blackberries max
+| 8.75 || 8.75 || 8.75 || style="background:#b8c8e6" | 70.35
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Fruit Food}} [[Fruits]]
+| Full and Fed= 00:10:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Fruits= 10% (40% chance)
+| Menu= Craft > Food > Fruits
+}}
+
+==About==
+
+{{i|Fruity Salad}} does '''NOT''' need to be cooked. Fruity Salad will become {{i|Spoiled Food}} if not eaten within 3 days. Fruity Salad is [[Gluttony#Double Variable Recipe|Double Variable Recipe]].

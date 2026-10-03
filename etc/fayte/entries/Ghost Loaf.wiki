@@ -1,0 +1,65 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Maize Planting}} [[Maize Planting]]
+| Skill 2= {{icon|Pumpkin Planting}} [[Pumpkin Planting]]
+}}
+
+{{Facts
+| Title=Bake
+| Needs= {{icon|Corn Oil}} [[Corn Oil]] 0.15 L, [[Potable Water]] 0.25 L, {{icon|Spooktacular}} [[Spooktacular]], {{icon|White Cornmeal}} [[White Cornmeal]] 0.5 L
+| Second Stage= {{icon|Bread Oven}} [[Bread Oven]], {{icon|Unbaked Ghost Loaf}} [[Unbaked Ghost Loaf]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 13 || 20 || 13 || 20
+|-
+! White Corn min
+| style="background:#e6b8b8" | 46.8 || 19.5 || 19.5 || 19.5
+|-
+! White Corn max
+| style="background:#e6b8b8" | 62.4 || 26 || 26 || 26
+|-
+! Blue Corn min
+| 19.5 || style="background:#6fa0ff" | 46.8 || 19.5 || 19.5
+|-
+! Blue Corn max
+| 26 || style="background:#6fa0ff" | 62.4 || 26 || 26
+|-
+! Golden Corn min
+| 19.5 || 19.5 || style="background:#f0d860" | 50.7 || 19.5
+|-
+! Golden Corn max
+| 26 || 26 || style="background:#f0d860" | 67.6 || 26
+|-
+! Yellow Corn min
+| 19.5 || 19.5 || 19.5 || style="background:#b8c8e6" | 42.9
+|-
+! Yellow Corn max
+| 26 || 26 || 26 || style="background:#b8c8e6" | 57.2
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Corn}} [[Maize]]
+| Full and Fed= 00:40:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Corn
+}}
+
+==About==
+
+Crafting a {{i|Ghost Loaf}} will make an {{i|Unbaked Ghost Loaf}} which can then be baked in a {{i|Bread Oven}} to produce a Ghost Loaf. When baking Foods in a Bread Oven there is a chance for them to become {{i|Animal Crackers}} instead.

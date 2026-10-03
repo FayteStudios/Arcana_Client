@@ -1,0 +1,17 @@
+#ABUTTON LAYER FOR RES src//\paginae\add\lockui.res
+#String pr
+paginae/act/add
+#uint16 pver
+2
+#String name
+Lock UI (on/off)
+#String preq
+
+#uint16 hk
+117
+#uint16 ad length
+2
+#String ad[0]
+@
+#String ad[1]
+lockui

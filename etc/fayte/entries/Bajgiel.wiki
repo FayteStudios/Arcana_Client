@@ -1,0 +1,53 @@
+{{Facts
+| Title=Basics
+| Type= Baked Good
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Baking}} [[Baking]]
+}}
+
+{{Facts
+| Title=Bake
+| Bake = {{icon|Boiled Bajgiel Dough}} [[Boiled Bajgiel Dough]] by in an  {{icon|Bread Oven}} [[Bread Oven|Oven]] for 10 minutes.
+}}
+
+{{Facts
+| Title= Used By:
+|a) = {{icon|Berry Bajgiel}} [[Berry Bajgiel|Berry Bajgiel ]]
+|b) = {{icon|Bottomfeeder Bajgiel}} [[Bottomfeeder Bajgiel]]
+|c) = {{icon|Buggy Bajgiel}} [[Buggy Bajgiel]]
+|d) = {{icon|Nutty Bajgiel}}[[Nutty Bajgiel| Nutty Bajgiel]]
+|e) = {{icon|Spore Bajgiel}} [[Spore Bajgiel]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 22 || 28 || 25 || 31
+|-
+! Gluttony min
+| 13 || 13 || 13 || 13
+|-
+! Gluttony max
+| 52 || 52 || 52 || 52
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Bread}} [[Bread]]
+| Full and Fed= 00:25:00
+}}
+
+==About==
+A typical bagel. Gets along with all kinds of ingredients.
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Bread
+}}

@@ -1,0 +1,70 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+| Skill 2= {{icon|Small Game Hunting}} [[Small Game Hunting]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Any Bugs]] ×2, [[Fire]], {{icon|Frog Legs}} [[Frog Legs]], {{icon|Yellow Cornmeal}} [[Yellow Cornmeal]] 0.15 L
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 12.5 || 12.5 || 10 || 10
+|-
+! Caterpillar min
+| style="background:#e6b8b8" | 47.25 || 17.5 || 17.5 || 17.5
+|-
+! Caterpillar max
+| style="background:#e6b8b8" | 55.35 || 20.5 || 20.5 || 20.5
+|-
+! Ladybug min
+| style="background:#e6b8b8" | 52.5 || 17.5 || 17.5 || 17.5
+|-
+! Ladybug max
+| style="background:#e6b8b8" | 61.5 || 20.5 || 20.5 || 20.5
+|-
+! Snail min
+| 17.5 || style="background:#6fa0ff" | 47.25 || 17.5 || 17.5
+|-
+! Snail max
+| 20.5 || style="background:#6fa0ff" | 55.35 || 20.5 || 20.5
+|-
+! Grub min
+| 17.5 || 17.5 || style="background:#f0d860" | 40.25 || 17.5
+|-
+! Grub max
+| 20.5 || 20.5 || style="background:#f0d860" | 47.15 || 20.5
+|-
+! Beetle min
+| 17.5 || 17.5 || 17.5 || style="background:#b8c8e6" | 43.75
+|-
+! Beetle max
+| 20.5 || 20.5 || 20.5 || style="background:#b8c8e6" | 51.25
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Slugs N' Bugs}} [[Slugs Bugs and Kritters]]
+| Full and Fed= 03:00:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 3
+| Menu= Craft > Food > Slugs, Bugs & Kritters
+}}
+
+==About==
+
+{{i|Frog Chowder}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

@@ -1,0 +1,50 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.17
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Simple Cooking}} [[Simple Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Stuffed Turkey}} [[Stuffed Turkey]]
+}}
+
+{{Facts
+| Title=Used By
+| Counts as= {{icon|Any Poultry Breast}} [[Any Poultry Breast]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 17.5 || 17.5 || 17.5 || 17.5
+|-
+! Gluttony min
+| 10 || 0 || 0 || 0
+|-
+! Gluttony max
+| 15 || 0 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Poultry}} [[Poultry]]
+| Full and Fed= 00:06:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Poultry= 20% (20% chance)
+}}
+
+==About==
+
+2x {{i|Domesticated Turkey Breast}}s are received when Cutting Up a {{i|Stuffed Turkey}}.

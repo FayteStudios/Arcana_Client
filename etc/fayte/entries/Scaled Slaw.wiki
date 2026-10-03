@@ -1,0 +1,142 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= None
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+| Skill 2= {{icon|Seamanship}} [[Seamanship]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Any Fish]], [[Fire]], {{icon|Leaf of White Cabbage}} [[Leaf of White Cabbage]] ×3, {{icon|Vinegar}} [[Vinegar]] 0.1 L
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 0 || 0 || 0 || 0
+|-
+! Angel-Winged Seabass min
+| style="background:#e6b8b8" | ? || ? || 0 || 0
+|-
+! Angel-Winged Seabass max
+| style="background:#e6b8b8" | ? || ? || 0 || 0
+|-
+! Ghostly Whitefish min
+| style="background:#e6b8b8" | ? || ? || 0 || 0
+|-
+! Ghostly Whitefish max
+| style="background:#e6b8b8" | ? || ? || 0 || 0
+|-
+! Tiger Trout min
+| style="background:#e6b8b8" | ? || ? || 0 || 0
+|-
+! Tiger Trout max
+| style="background:#e6b8b8" | ? || ? || 0 || 0
+|-
+! Blueback Tuna min
+| ? || style="background:#6fa0ff" | ? || 0 || style="background:#b8c8e6" | 0
+|-
+! Blueback Tuna max
+| ? || style="background:#6fa0ff" | ? || 0 || style="background:#b8c8e6" | 0
+|-
+! Darkwater Bluegill min
+| ? || style="background:#6fa0ff" | ? || 0 || 0
+|-
+! Darkwater Bluegill max
+| ? || style="background:#6fa0ff" | ? || 0 || 0
+|-
+! Red-Finned Mullet min
+| ? || style="background:#6fa0ff" | ? || 0 || 0
+|-
+! Red-Finned Mullet max
+| ? || style="background:#6fa0ff" | ? || 0 || 0
+|-
+! Silt-Dwelling Mudsnapper min
+| ? || style="background:#6fa0ff" | ? || 0 || 0
+|-
+! Silt-Dwelling Mudsnapper max
+| ? || style="background:#6fa0ff" | ? || 0 || 0
+|-
+! Cape Codfish min
+| ? || ? || style="background:#f0d860" | 0 || 0
+|-
+! Cape Codfish max
+| ? || ? || style="background:#f0d860" | 0 || 0
+|-
+! Gold Pickerel min
+| ? || ? || style="background:#f0d860" | 0 || 0
+|-
+! Gold Pickerel max
+| ? || ? || style="background:#f0d860" | 0 || 0
+|-
+! Shin Spinner min
+| ? || ? || style="background:#f0d860" | 0 || 0
+|-
+! Shin Spinner max
+| ? || ? || style="background:#f0d860" | 0 || 0
+|-
+! Raging Bullhead min
+| ? || ? || 0 || style="background:#b8c8e6" | 0
+|-
+! Raging Bullhead max
+| ? || ? || 0 || style="background:#b8c8e6" | 0
+|-
+! Sargasso Eel min
+| ? || ? || 0 || style="background:#b8c8e6" | 0
+|-
+! Sargasso Eel max
+| ? || ? || 0 || style="background:#b8c8e6" | 0
+|-
+! Trunk-Nosed Lake Perch min
+| ? || ? || 0 || style="background:#b8c8e6" | 0
+|-
+! Trunk-Nosed Lake Perch max
+| ? || ? || 0 || style="background:#b8c8e6" | 0
+|-
+! Crimson Carp min
+| style="background:#e6b8b8" | ? || style="background:#6fa0ff" | ? || style="background:#f0d860" | 0 || style="background:#b8c8e6" | 0
+|-
+! Crimson Carp max
+| style="background:#e6b8b8" | ? || style="background:#6fa0ff" | ? || style="background:#f0d860" | 0 || style="background:#b8c8e6" | 0
+|-
+! Hellish Halibut min
+| style="background:#e6b8b8" | ? || style="background:#6fa0ff" | ? || style="background:#f0d860" | 0 || style="background:#b8c8e6" | 0
+|-
+! Hellish Halibut max
+| style="background:#e6b8b8" | ? || style="background:#6fa0ff" | ? || style="background:#f0d860" | 0 || style="background:#b8c8e6" | 0
+|-
+! Long-Whiskered Catfish min
+| style="background:#e6b8b8" | ? || style="background:#6fa0ff" | ? || style="background:#f0d860" | 0 || style="background:#b8c8e6" | 0
+|-
+! Long-Whiskered Catfish max
+| style="background:#e6b8b8" | ? || style="background:#6fa0ff" | ? || style="background:#f0d860" | 0 || style="background:#b8c8e6" | 0
+|-
+! Red Herring min
+| style="background:#e6b8b8" | ? || style="background:#6fa0ff" | ? || style="background:#f0d860" | 0 || style="background:#b8c8e6" | 0
+|-
+! Red Herring max
+| style="background:#e6b8b8" | ? || style="background:#6fa0ff" | ? || style="background:#f0d860" | 0 || style="background:#b8c8e6" | 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Fish}} [[Fishes]]
+| Full and Fed= None
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Fish & Seafood
+}}
+
+==About==
+
+{{i|Scaled Slaw}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

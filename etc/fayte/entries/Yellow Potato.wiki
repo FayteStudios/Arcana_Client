@@ -1,0 +1,51 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Potato Growing}} [[Potato Growing]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Potato Chunk}} [[Potato Chunk]], [[Tilled Field]]
+| Or= [[Tilled Field]], {{icon|Wild Tuber}} [[Wild Tuber]]
+}}
+
+{{Facts
+| Title=Used By
+| Counts as= {{icon|Any Potato}} [[Any Potato]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 10 || 10 || 10 || 10
+|-
+! Gluttony min
+| 0 || 0 || 13 || 0
+|-
+! Gluttony max
+| 0 || 0 || 19 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Potato Food}} [[Potato Food]]
+| Full and Fed= 00:45:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Potato Food= 70% (70% chance)
+}}
+
+==About==
+
+A {{i|Yellow Potato}} is the product of a second tier {{i|Any Potato}} Harvest. Right-clicking a Yellow Potato and selecting "Split' will divide your Yellow Potato into 6x {{i|Potato Chunk}}s. A Yellow Potato can be baked in a {{i|Bread Oven}} to produce a {{i|Baked Potato}} or boiled in a {{i|Clay Pot}}, {{i|Copper Pot}}, or {{i|Cauldron}} to produce a {{i|Boiled Potato}}.

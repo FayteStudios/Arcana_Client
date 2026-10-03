@@ -313,7 +313,7 @@ public class Audio {
 	    if(--s < 0)
 		break;
 	}
-	return(play(clip.pcmstream(), 1.0, 1.0));
+	return(play(clip.pcmstream(), FayteSound.gain(FayteSound.cat(res.name)), 1.0));
     }
 
     public static void play(final Resource clip) {

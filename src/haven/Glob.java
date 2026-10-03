@@ -36,7 +36,6 @@ import java.util.Set;
 import java.util.TreeMap;
 import java.util.WeakHashMap;
 
-import org.ender.timer.Timer;
 
 public class Glob {
     public static final int GMSG_TIME = 0;
@@ -281,8 +280,6 @@ public class Glob {
 		epoch = System.currentTimeMillis();
 		if(!inc)
 		    lastrep = 0;
-		Timer.server = 1000*time;
-		Timer.local = System.currentTimeMillis();
 		break;
 	    case GMSG_LIGHT:
 		synchronized(this) {

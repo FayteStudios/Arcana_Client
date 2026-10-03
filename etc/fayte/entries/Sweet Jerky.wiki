@@ -1,0 +1,94 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.07
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Fruit Orchards}} [[Fruit Orchards]]
+| Skill 2= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Fruit}} [[Any Fruit]], {{icon|Honey}} [[Honey]] 0.05 L
+}}
+
+{{Facts
+| Title=Used By
+| a)= [[Spoiled Food]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 18 || 11 || 18 || 14
+|-
+! Apple min
+| style="background:#e6b8b8" | 66.5 || 19 || 19 || 19
+|-
+! Apple max
+| style="background:#e6b8b8" | 73.5 || 21 || 21 || 21
+|-
+! Cherry min
+| style="background:#e6b8b8" | 55.1 || 19 || 19 || 19
+|-
+! Cherry max
+| style="background:#e6b8b8" | 60.9 || 21 || 21 || 21
+|-
+! Mulberry min
+| 19 || style="background:#6fa0ff" | 55.1 || 19 || 19
+|-
+! Mulberry max
+| 21 || style="background:#6fa0ff" | 60.9 || 21 || 21
+|-
+! Pear min
+| 19 || style="background:#6fa0ff" | 66.5 || 19 || 19
+|-
+! Pear max
+| 21 || style="background:#6fa0ff" | 73.5 || 21 || 21
+|-
+! Peach min
+| 19 || 19 || style="background:#f0d860" | 66.5 || 19
+|-
+! Peach max
+| 21 || 21 || style="background:#f0d860" | 73.5 || 21
+|-
+! Persimmon min
+| 19 || 19 || style="background:#f0d860" | 55.1 || 19
+|-
+! Persimmon max
+| 21 || 21 || style="background:#f0d860" | 60.9 || 21
+|-
+! Plum min
+| 19 || 19 || 19 || style="background:#b8c8e6" | 55.1
+|-
+! Plum max
+| 21 || 21 || 21 || style="background:#b8c8e6" | 60.9
+|-
+! Snozberry min
+| 19 || 19 || 19 || style="background:#b8c8e6" | 66.5
+|-
+! Snozberry max
+| 21 || 21 || 21 || style="background:#b8c8e6" | 73.5
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Fruit Food}} [[Fruits]]
+| Full and Fed= 00:10:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Fruits= 10% (40% chance)
+| Menu= Craft > Food > Fruits
+}}
+
+==About==
+
+{{i|Sweet Jerky}} does '''NOT''' need to be cooked. Sweet Jerky will become {{i|Spoiled Food}} if not eaten within 3 days.

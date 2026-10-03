@@ -79,6 +79,10 @@ public class IBox {
     }
 
     public void draw(GOut g, Coord tl, Coord sz) {
+	if(FayteSkin.on()) {
+	    FayteSkin.frame(g, tl, sz, "frame");
+	    return;
+	}
 	g.image(bt, tl.add(new Coord(ctl.sz().x, 0)), new Coord(sz.x - ctr.sz().x - ctl.sz().x, bt.sz().y));
 	g.image(bb, tl.add(new Coord(cbl.sz().x, sz.y - bb.sz().y)), new Coord(sz.x - cbr.sz().x - cbl.sz().x, bb.sz().y));
 	g.image(bl, tl.add(new Coord(0, ctl.sz().y)), new Coord(bl.sz().x, sz.y - cbl.sz().y - ctl.sz().y));

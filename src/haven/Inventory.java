@@ -91,6 +91,7 @@ public class Inventory extends Widget implements DTarget {
     };
 
     Coord isz,isz_client;
+    public String fkey = null;
     Map<GItem, WItem> wmap = new HashMap<GItem, WItem>();
     public int newseq = 0;
 
@@ -102,10 +103,35 @@ public class Inventory extends Widget implements DTarget {
     }
 
     public void draw(GOut g) {
+	drawnative(g);
+	FayteBagSel.draw(this, g);
+    }
+
+    public boolean mousedown(Coord c, int button) {
+	if(FayteBagSel.mousedown(this, c, button))
+	    return(true);
+	return(super.mousedown(c, button));
+    }
+
+    public void mousemove(Coord c) {
+	if(FayteBagSel.mousemove(this, c))
+	    return;
+	super.mousemove(c);
+    }
+
+    public boolean mouseup(Coord c, int button) {
+	if(FayteBagSel.mouseup(this, c, button))
+	    return(true);
+	return(super.mouseup(c, button));
+    }
+
+    private void drawnative(GOut g) {
 	invsq(g, Coord.z, isz_client);
-	for(Coord cc = new Coord(0, 0); cc.y < isz_client.y; cc.y++) {
-	    for(cc.x = 0; cc.x < isz_client.x; cc.x++) {
-		invrefl(g, sqoff(cc), isqsz);
+	if(!FayteSkin.on()) {
+	    for(Coord cc = new Coord(0, 0); cc.y < isz_client.y; cc.y++) {
+		for(cc.x = 0; cc.x < isz_client.x; cc.x++) {
+		    invrefl(g, sqoff(cc), isqsz);
+		}
 	    }
 	}
 	super.draw(g);
@@ -124,13 +150,52 @@ public class Inventory extends Widget implements DTarget {
             window_parent = window_parent.parent;
         }
         
+        if(window_parent instanceof GameUI.InvWindow && ((GameUI.InvWindow)window_parent).main())
+            fkey = "inv";
+        else if(window_parent instanceof Window) {
+            fkey = FayteLabels.claim((((Window)window_parent).cap != null) ? ((Window)window_parent).cap.text : null);
+            if((fkey == null) && (((Window)window_parent).cap != null))
+                fkey = "win:" + ((Window)window_parent).cap.text.toLowerCase();
+        }
         if(sz.equals(new Coord(1,1)) || !(Window.class.isInstance(window_parent)))
         {
             return;
         }
         dictionaryClientServer = HashBiMap.create();
-        
-        
+        if(FayteXfer.on()) {
+            final Window win = (Window)window_parent;
+            FaytePlacer.enqueue(win);
+            String wt = (win.cap == null) ? "" : win.cap.text.toLowerCase().trim();
+            if(wt.equals("stump") || wt.endsWith(" stump") || wt.equals("log") || wt.endsWith(" log"))
+                return;
+            win.addtwdg(new FaytePin(win));
+            final String sortkey = "fayte_invsort_" + ((win.cap == null) ? "" : win.cap.text.toLowerCase());
+            try {
+                fsort = Math.max(0, Math.min(FayteSort.NAMES.length - 1, Integer.parseInt(Utils.getpref(sortkey, "0"))));
+            } catch(NumberFormatException e) {
+                fsort = 0;
+            }
+            final FayteTitleButton[] tb = new FayteTitleButton[1];
+            tb[0] = new FayteTitleButton(win, "\u2195", "Sort: " + FayteSort.NAMES[fsort], () -> {
+                new FaytePopup(tb[0].rootpos().add(0, tb[0].sz.y), ui.root, FayteSort.NAMES, fsort, i -> {
+                    fsort = i;
+                    Utils.setpref(sortkey, Integer.toString(i));
+                    tb[0].tooltip = "Sort: " + FayteSort.NAMES[i];
+                    win.placetwdgs();
+                    applysort();
+                });
+            });
+            win.addtwdg(tb[0]);
+            FayteBagSel.button(this, win);
+            win.addtwdg(new FayteTitleButton(win, "\u03a3", "Abacus: show or hide the count beside this window", () -> FayteAbacus.toggle(win, this)));
+            if(FayteAbacus.wanted(win))
+                FayteAbacus.attach(win, this);
+            if(!"inv".equals(fkey))
+                FayteOpenGlow.opened(win);
+            applysort();
+            return;
+        }
+
         IButton sbtn = new IButton(Coord.z, window_parent, Window.obtni[0], Window.obtni[1], Window.obtni[2]){
             {tooltip = Text.render("Sort the items in this inventory by name.");}
 
@@ -173,6 +238,23 @@ public class Inventory extends Widget implements DTarget {
         };
         nsbtn.visible = true;
         ((Window)window_parent).addtwdg(nsbtn);
+    }
+
+    int fsort = 0;
+    boolean fsorted = false;
+
+    private void applysort() {
+        Comparator<WItem> comp = FayteSort.get(fsort);
+        if(comp == null) {
+            fsorted = false;
+            sorter = null;
+            if(isTranslated)
+                removeDictionary();
+        } else {
+            fsorted = true;
+            sorter = comp;
+            sortItemsLocally(comp);
+        }
     }
 
     public void sortItemsLocally(Comparator<WItem> comp)
@@ -340,15 +422,48 @@ public class Inventory extends Widget implements DTarget {
         }
     }
     
+    public static boolean compact() {
+	return(FayteSkin.on());
+    }
+
+    public int usedslots() {
+	if(isz == null)
+	    return(0);
+	Coord q = compact() ? isqsz : sqsz;
+	int n = 0;
+	for(int y = 0; y < isz.y; y++) {
+	    for(int x = 0; x < isz.x; x++) {
+		Coord p = sqoff(new Coord(x, y)).add(q.div(2));
+		for(WItem w : wmap.values()) {
+		    if(p.isect(w.c, w.sz)) {
+			n++;
+			break;
+		    }
+		}
+	    }
+	}
+	return(n);
+    }
+
+    public int slots() {
+	return(isz == null ? 0 : isz.x * isz.y);
+    }
+
     public static Coord sqoff(Coord c) {
+	if(compact())
+	    return(c.mul(isqsz));
 	return(c.mul(sqsz).add(ctl.sz()));
     }
 
     public static Coord sqroff(Coord c) {
+	if(compact())
+	    return(c.div(isqsz));
 	return(c.sub(ctl.sz()).div(sqsz));
     }
 
     public static Coord invsz(Coord sz) {
+	if(compact())
+	    return(sz.mul(isqsz).add(1, 1));
 	return(sz.mul(sqsz).add(ctl.sz()).add(cbr.sz()).sub(4, 4));
     }
 
@@ -363,6 +478,18 @@ public class Inventory extends Widget implements DTarget {
     }
 
     public static void invsq(GOut g, Coord c, Coord sz) {
+	if(FayteSkin.on()) {
+	    Coord tot = invsz(sz);
+	    g.chcolor(FayteSkin.mix(FayteSkin.PANEL, FayteSkin.BORDER, 0.25));
+	    g.frect(c, tot);
+	    g.chcolor(FayteSkin.BORDER);
+	    for(int x = 0; x <= sz.x; x++)
+		g.frect(c.add(x * isqsz.x, 0), new Coord(1, tot.y));
+	    for(int y = 0; y <= sz.y; y++)
+		g.frect(c.add(0, y * isqsz.y), new Coord(tot.x, 1));
+	    g.chcolor();
+	    return;
+	}
 	for(Coord cc = new Coord(0, 0); cc.y < sz.y; cc.y++) {
 	    for(cc.x = 0; cc.x < sz.x; cc.x++) {
 		g.image(bsq, c.add(cc.mul(sqsz)).add(ctl.sz()));
@@ -387,6 +514,9 @@ public class Inventory extends Widget implements DTarget {
     }
 
     public boolean mousewheel(Coord c, int amount) {
+        if(ui.modctrl && !ui.modshift && FayteXfer.on()) {
+            return(FayteXfer.wheel(this, c, amount));
+        }
         if(ui.modshift) {
             wdgmsg("xfer", amount);
         }
@@ -395,7 +525,7 @@ public class Inventory extends Widget implements DTarget {
     
     public void resort() {
         if(sorter == null) return;
-        if(Config.alwayssort)
+        if(fsorted || Config.alwayssort)
         {
             sortItemsLocally(sorter);
         }
@@ -405,14 +535,32 @@ public class Inventory extends Widget implements DTarget {
         }
     }
     
+    private final long born = System.currentTimeMillis();
+    private static long lastdrop = 0;
+
+    private boolean flashes() {
+	if(!FayteSkin.on() || (ui == null) || (ui.gui == null))
+	    return(false);
+	if(this == ui.gui.maininv)
+	    return(true);
+	Window w = getparent(Window.class);
+	return((w != null) && (w.cap != null) && w.cap.text.toLowerCase().contains("pack"));
+    }
+
     public Widget makechild(String type, Object[] pargs, Object[] cargs) {
     	Coord server_c = (Coord)pargs[0];
         Coord c = translateCoordinatesServerClient(server_c);
 	Widget ret = gettype(type).create(c, this, cargs);
 	if(ret instanceof GItem) {
 	    GItem i = (GItem)ret;
-	    wmap.put(i, new WItem(sqoff(c), this, i, server_c));
+	    WItem nw = new WItem(sqoff(c), this, i, server_c);
+	    wmap.put(i, nw);
+	    if(FayteLabels.on())
+		FayteLabels.arrived(this, nw);
 	    newseq++;
+	    long now = System.currentTimeMillis();
+	    if((now - born > 3000) && (now - lastdrop > 1500) && flashes())
+		nw.flashat = now;
             
             if(isTranslated)
             {
@@ -430,6 +578,8 @@ public class Inventory extends Widget implements DTarget {
 	if(w instanceof GItem) {
 	    GItem i = (GItem)w;
             WItem wi = wmap.remove(i);
+	    if(FayteLabels.on())
+		FayteLabels.left(this, wi);
             
             Coord wc = sqroff(wi.c.add(isqsz.div(2)));
             
@@ -447,6 +597,8 @@ public class Inventory extends Widget implements DTarget {
     public boolean drop(Coord cc, Coord ul) {
         Coord clientcoords = sqroff(ul.add(isqsz.div(2)));
         Coord servercoords = translateCoordinatesClientServer(clientcoords);
+	lastdrop = System.currentTimeMillis();
+	FayteTools.feedcancel();
 	wdgmsg("drop", servercoords);
 	return(true);
     }

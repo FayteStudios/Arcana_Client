@@ -1,0 +1,70 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.75
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Any Vegetable}} [[Any Vegetable]] ×3, {{icon|Autumn Grass}} [[Autumn Grass]] ×2, [[Fire]], {{icon|Raw Bear Steak}} [[Raw Bear Steak]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 30 || 22 || 26 || 20
+|-
+! Big Red min
+| style="background:#e6b8b8" | 41.6 || 13 || 13 || 13
+|-
+! Big Red max
+| style="background:#e6b8b8" | 44.8 || 14 || 14 || 14
+|-
+! Tomato min
+| style="background:#e6b8b8" | 32.5 || 13 || 13 || 13
+|-
+! Tomato max
+| style="background:#e6b8b8" | 35 || 14 || 14 || 14
+|-
+! Carrot min
+| 13 || style="background:#6fa0ff" | 31.2 || 13 || 13
+|-
+! Carrot max
+| 14 || style="background:#6fa0ff" | 33.6 || 14 || 14
+|-
+! Radish min
+| 13 || 13 || style="background:#f0d860" | 31.2 || 13
+|-
+! Radish max
+| 14 || 14 || style="background:#f0d860" | 33.6 || 14
+|-
+! Onion min
+| 13 || 13 || 13 || style="background:#b8c8e6" | 35.1
+|-
+! Onion max
+| 14 || 14 || 14 || style="background:#b8c8e6" | 37.8
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Vegetables & Greens}} [[Vegetables and Greens]]
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 2
+| Reduces Vegetables and Greens= 20% (40% chance)
+| Menu= Craft > Food > Vegetables
+}}
+
+==About==
+
+A {{i|Tendergrass Rump}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

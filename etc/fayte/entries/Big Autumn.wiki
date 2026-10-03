@@ -1,0 +1,54 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 1.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Pumpkin Planting}} [[Pumpkin Planting]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= Seeds of Pumpkin;θ, [[Tilled Field]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= [[Big Autumn Masque]]
+| b)= {{icon|Big Autumn Pack}} [[Big Autumn Pack]]
+| c)= {{icon|Bigbell}} [[Bigbell]]
+| d)= [[Pumpkin]]
+| Counts as= [[Any Large Pumpkin]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 6 || 6 || 6.5 || 6
+|-
+! Gluttony min
+| 0 || 18 || 0 || 0
+|-
+! Gluttony max
+| 0 || 54 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Pumpkins & Gourds}} [[Pumpkins and Gourds]]
+| Full and Fed= 06:00:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Pumpkins and Gourds= 70% (70% chance)
+}}
+
+==About==
+
+A {{i|Big Autumn}} is the product of a third growth stage, second tier {{i|Pumpkin}} Harvest. Right-clicking a Big Autumn and selecting "Slice" will give you 6x {{i|Pumpkin Flesh}} and 15x {{i|Seeds of Pumpkin}}. A Big Autumn counts as {{i|Any Large Pumpkin}}. A Big Autumn can be stored in a {{i|Stockbin}}.

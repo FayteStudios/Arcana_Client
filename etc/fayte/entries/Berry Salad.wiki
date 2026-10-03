@@ -1,0 +1,63 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.13
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Simple Cooking}} [[Simple Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Berries}} [[Any Berries]] ×2, {{icon|Cranberry}} [[Cranberry]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 15 || 15 || 15 || 15
+|-
+! Cranberry min
+| style="background:#e6b8b8" | 6.9 || 3 || 3 || 3
+|-
+! Cranberry max
+| style="background:#e6b8b8" | 10.35 || 4.5 || 4.5 || 4.5
+|-
+! Crowberry min
+| 3 || style="background:#6fa0ff" | 8.1 || 3 || 3
+|-
+! Crowberry max
+| 4.5 || style="background:#6fa0ff" | 12.15 || 4.5 || 4.5
+|-
+! Huckleberries min
+| 3 || 3 || style="background:#f0d860" | 7.8 || 3
+|-
+! Huckleberries max
+| 4.5 || 4.5 || style="background:#f0d860" | 11.7 || 4.5
+|-
+! Blackberries min
+| 3 || 3 || 3 || style="background:#b8c8e6" | 6.9
+|-
+! Blackberries max
+| 4.5 || 4.5 || 4.5 || style="background:#b8c8e6" | 10.35
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Berries}} [[Berries]]
+| Full and Fed= 00:08:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Berries
+}}
+
+==About==
+
+{{i|Berry Salad}} does '''NOT''' need to be cooked.

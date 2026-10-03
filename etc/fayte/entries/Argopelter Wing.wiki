@@ -1,0 +1,50 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.18
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Simple Cooking}} [[Simple Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= [[Stuffed Argopelter]]
+}}
+
+{{Facts
+| Title=Used By
+| Counts as= {{icon|Any Poultry Wing}} [[Any Poultry Wing]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 7 || 17.5 || 7 || 7
+|-
+! Gluttony min
+| 0 || 10 || 0 || 0
+|-
+! Gluttony max
+| 0 || 15 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Poultry}} [[Poultry]]
+| Full and Fed= 00:06:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Poultry= 10% (10% chance)
+}}
+
+==About==
+
+2x {{i|Argopelter Wing}}s are received when Cutting Up a {{i|Stuffed Argopelter}}.

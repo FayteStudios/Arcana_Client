@@ -1,0 +1,56 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Vegetable Potting}} [[Vegetable Potting]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Gardening Pot}} [[Gardening Pot]], {{icon|Humus}} [[Humus]], [[Potable Water]] 0.2 L, {{icon|Red Bell Peppers}} [[Red Bell Peppers]]
+| Or= {{icon|Gardening Pot}} [[Gardening Pot]], {{icon|Humus}} [[Humus]], {{icon|New World Gourd}} [[New World Gourd]], [[Potable Water]] 0.2 L
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Bigbell}} [[Bigbell]]
+| b)= {{icon|Jalapeno}} [[Jalapeno]]
+| c)= {{icon|Papricharred Charcuterie}} [[Papricharred Charcuterie]]
+| d)= {{icon|Red Seafood Salad}} [[Red Seafood Salad]]
+| Counts as= {{icon|Any Bellpeppers}} [[Any Bellpeppers]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 2 || 2 || 3 || 3
+|-
+! Gluttony min
+| 0 || 11 || 11 || 0
+|-
+! Gluttony max
+| 0 || 14 || 14 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Vegetables & Greens}} [[Vegetables and Greens]]
+| Full and Fed= 00:13:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Variable food multiplier= Blood 0 / Phlegm 1.25 / Yellow 0 / Black 1.25
+}}
+
+[[Image:Potted_Red_Bell_Peppers.png|thumb|100px|Red Bell Peppers in a Gardening Pot.]]
+==About==
+
+With the [[Vegetable Potting]] Skill learned, Red Bell Peppers can be grown by planting other {{i|Red Bell Peppers}}, or a {{i|New World Gourd}} by chance, in a {{i|Gardening Pot}}. When planting Red Bell Peppers there is a chance for it to grow into a {{i|Jalapeno}} instead. Planting Bellpeppers in Gardening Pots lowers [[Insanity]]. Red Bell Peppers can be stored in a {{i|Bellpepper Sack}}.

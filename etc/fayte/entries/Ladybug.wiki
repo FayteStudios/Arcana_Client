@@ -1,0 +1,49 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.03
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= None
+}}
+
+{{Facts
+| Title=Forage
+| Found= {{icon|Bug in a Blanket}} [[Bug in a Blanket]], {{icon|Frog}} [[Frog]], {{icon|Toad}} [[Toad]]
+}}
+
+{{Facts
+| Title=Used By
+| Counts as= [[Any Bugs]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 25 || 10 || 10 || 15
+|-
+! Gluttony min
+| 13 || 13 || 13 || 13
+|-
+! Gluttony max
+| 17 || 17 || 17 || 17
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Slugs N' Bugs}} [[Slugs Bugs and Kritters]]
+| Full and Fed= 00:20:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+}}
+
+==About==
+
+A {{i|Ladybug}} is rarely received when Releasing a {{i|Bug in a Blanket}}, or when Dissecting {{i|Frog}}s and {{i|Toad}}s.

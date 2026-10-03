@@ -32,6 +32,13 @@ import java.awt.event.KeyEvent;
 public class TextEntry extends Widget {
     public static final Text.Foundry fnd = new Text.Foundry(new Font("SansSerif", Font.PLAIN, 12), Color.WHITE);
     public static final int defh = fnd.height() + 2;
+    public static final Text.Foundry ffnd = new Text.Foundry(new Font("SansSerif", Font.PLAIN, FayteSkin.s(12)), Color.WHITE);
+
+    private static Coord fsz(Coord sz) {
+	if(FayteSkin.on())
+	    return(new Coord(sz.x, Math.max(sz.y, ffnd.height() + 4)));
+	return(sz);
+    }
     public static final IBox box = Window.tbox;
     public static final int toffx = box.bl.sz().x + 1;
     public static final int wmarg = box.bl.sz().x + box.br.sz().x + 3;
@@ -81,17 +88,27 @@ public class TextEntry extends Widget {
     }
 
     protected void drawbg(GOut g) {
+	if(FayteSkin.on()) {
+	    FayteSkin.box(g, Coord.z, sz, FayteSkin.PANEL, null);
+	    return;
+	}
 	g.chcolor(0, 0, 0, 255);
 	g.frect(Coord.z, sz);
 	g.chcolor();
     }
 
     protected void drawbb(GOut g) {
+	if(FayteSkin.on())
+	    return;
 	g.image(box.bt, new Coord(box.ctl.sz().x, 0), new Coord(sz.x - box.ctr.sz().x - box.ctl.sz().x, box.bt.sz().y));
 	g.image(box.bb, new Coord(box.cbl.sz().x, sz.y - box.bb.sz().y), new Coord(sz.x - box.cbr.sz().x - box.cbl.sz().x, box.bb.sz().y));
     }
 
     protected void drawfb(GOut g) {
+	if(FayteSkin.on()) {
+	    FayteSkin.frame(g, Coord.z, sz, "entry");
+	    return;
+	}
 	g.image(box.bl, new Coord(0, box.ctl.sz().y), new Coord(box.bl.sz().x, sz.y - box.cbl.sz().y - box.ctl.sz().y));
 	g.image(box.br, new Coord(sz.x - box.br.sz().x, box.ctr.sz().y), new Coord(box.br.sz().x, sz.y - box.cbr.sz().y - box.ctr.sz().y));
 	g.image(box.ctl, Coord.z);
@@ -101,7 +118,7 @@ public class TextEntry extends Widget {
     }
 
     protected Text.Line render_text(String text){
-        return fnd.render(text);
+        return (FayteSkin.on() ? ffnd : fnd).render(text);
     }
     
     public void draw(GOut g) {
@@ -131,7 +148,7 @@ public class TextEntry extends Widget {
     }
             
     public TextEntry(Coord c, Coord sz, Widget parent, String deftext) {
-	super(c, sz, parent);
+	super(c, fsz(sz), parent);
 	rsettext(deftext);
 	setcanfocus(true);
     }
@@ -148,16 +165,29 @@ public class TextEntry extends Widget {
 	    wdgmsg("activate", text);
     }
 
+    public static TextEntry armed = null;
+    public boolean clicktotype = false;
+
+    public void arm() {
+	armed = this;
+	parent.setfocus(this);
+    }
+
     public boolean type(char c, KeyEvent ev) {
+	if(clicktotype && (armed != this))
+	    return(false);
 	return(buf.key(ev));
     }
 
     public boolean keydown(KeyEvent e) {
+	if(clicktotype && (armed != this))
+	    return(false);
 	buf.key(e);
 	return(true);
     }
 
     public boolean mousedown(Coord c, int button) {
+	armed = this;
 	parent.setfocus(this);
 	if(tcache != null) {
 	    buf.point = tcache.charat(c.x + sx);

@@ -1,0 +1,71 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.09
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Hiking}} [[Hiking]]
+| Skill 2= {{icon|Simple Cooking}} [[Simple Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Vegetable}} [[Any Vegetable]] ×2, {{icon|Milkweed Roots}} [[Milkweed Roots]], {{icon|Oakworth}} [[Oakworth]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 9 || 9.5 || 8 || 7.5
+|-
+! Big Red min
+| style="background:#e6b8b8" | 19.2 || 6 || 6 || 6
+|-
+! Big Red max
+| style="background:#e6b8b8" | 22.4 || 7 || 7 || 7
+|-
+! Tomato min
+| style="background:#e6b8b8" | 15 || 6 || 6 || 6
+|-
+! Tomato max
+| style="background:#e6b8b8" | 17.5 || 7 || 7 || 7
+|-
+! Carrot min
+| 6 || style="background:#6fa0ff" | 14.4 || 6 || 6
+|-
+! Carrot max
+| 7 || style="background:#6fa0ff" | 16.8 || 7 || 7
+|-
+! Radish min
+| 6 || 6 || style="background:#f0d860" | 14.4 || 6
+|-
+! Radish max
+| 7 || 7 || style="background:#f0d860" | 16.8 || 7
+|-
+! Onion min
+| 6 || 6 || 6 || style="background:#b8c8e6" | 16.2
+|-
+! Onion max
+| 7 || 7 || 7 || style="background:#b8c8e6" | 18.9
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Vegetables & Greens}} [[Vegetables and Greens]]
+| Full and Fed= 00:15:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Vegetables and Greens= 20% (20% chance)
+| Menu= Craft > Food > Vegetables
+}}
+
+==About==
+
+{{i|Wild Salad}} does '''NOT''' need to be cooked.

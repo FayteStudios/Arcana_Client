@@ -1,0 +1,64 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.08
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Seafood Chef}} [[Seafood Chef]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Shellfish}} [[Any Shellfish]], {{icon|Oakworth}} [[Oakworth]], {{icon|Ostrich Fiddlehead}} [[Ostrich Fiddlehead]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 8.5 || 12.5 || 10.5 || 1.5
+|-
+! Crawdad min
+| style="background:#e6b8b8" | 18.9 || 7 || 7 || 7
+|-
+! Crawdad max
+| style="background:#e6b8b8" | 28.35 || 10.5 || 10.5 || 10.5
+|-
+! Crab min
+| 7 || style="background:#6fa0ff" | 17.5 || 7 || 7
+|-
+! Crab max
+| 10.5 || style="background:#6fa0ff" | 26.25 || 10.5 || 10.5
+|-
+! Lobster min
+| 7 || 7 || style="background:#f0d860" | 23.8 || 7
+|-
+! Lobster max
+| 10.5 || 10.5 || style="background:#f0d860" | 35.7 || 10.5
+|-
+! Oyster min
+| 7 || 7 || 7 || style="background:#b8c8e6" | 17.5
+|-
+! Oyster max
+| 10.5 || 10.5 || 10.5 || style="background:#b8c8e6" | 26.25
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Shellfish}} [[Crustacea and Shellfish]]
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Crustacea and Shellfish= 20% (40% chance)
+| Menu= Craft > Food > Shellfish
+}}
+
+==About==
+
+{{i|Green Seafood Salad}} does '''NOT''' need to be cooked.

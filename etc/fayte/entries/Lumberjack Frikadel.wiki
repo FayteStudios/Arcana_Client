@@ -1,0 +1,81 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 1.00
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Small Game Hunting}} [[Small Game Hunting]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Fire]], {{icon|Meat Shreds}} [[Meat Shreds]] ×5, {{icon|Sharpened Stick}} [[Sharpened Stick]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 9.5 || 9.5 || 9.5 || 9.5
+|-
+! Bear min
+| style="background:#e6b8b8" | 15.5 || 5 || 5 || 5
+|-
+! Bear max
+| style="background:#e6b8b8" | 23.25 || 7.5 || 7.5 || 7.5
+|-
+! Timber Rattler min
+| style="background:#e6b8b8" | 12.5 || 5 || 5 || 5
+|-
+! Timber Rattler max
+| style="background:#e6b8b8" | 18.75 || 7.5 || 7.5 || 7.5
+|-
+! Cougar min
+| 5 || style="background:#6fa0ff" | 14.5 || 5 || 5
+|-
+! Cougar max
+| 7.5 || style="background:#6fa0ff" | 21.75 || 7.5 || 7.5
+|-
+! Rabbit min
+| 5 || style="background:#6fa0ff" | 12.5 || 5 || 5
+|-
+! Rabbit max
+| 7.5 || style="background:#6fa0ff" | 18.75 || 7.5 || 7.5
+|-
+! Deer min
+| 5 || 5 || style="background:#f0d860" | 14.5 || 5
+|-
+! Deer max
+| 7.5 || 7.5 || style="background:#f0d860" | 21.75 || 7.5
+|-
+! Varmint min
+| 5 || 5 || style="background:#f0d860" | 11.5 || 5
+|-
+! Varmint max
+| 7.5 || 7.5 || style="background:#f0d860" | 17.25 || 7.5
+|-
+! Beaver min
+| 5 || 5 || 5 || style="background:#b8c8e6" | 13.5
+|-
+! Beaver max
+| 7.5 || 7.5 || 7.5 || style="background:#b8c8e6" | 20.25
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Game}} [[Game Meat]]
+| Full and Fed= 00:16:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 5
+| Menu= Craft > Food > Game Meats
+}}
+
+==About==
+
+A {{i|Lumberjack Frikadel}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

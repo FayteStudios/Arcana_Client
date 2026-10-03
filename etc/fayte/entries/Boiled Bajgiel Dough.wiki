@@ -1,0 +1,21 @@
+The boiled dough of a {{icon|Bajgiel}}[[Bajgiel| Bajgiel]]. Ready to bake!
+
+{{Facts
+| Title=Basics
+| Type= Baking Ingredient
+| Weight= 0.10
+}}
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Baking}} [[Baking]]
+}}
+
+{{Facts
+| Title= Baking
+| Bake= {{icon|Bread Oven}} [[Bread Oven|Oven]] for 10 Minutes.
+}}
+
+{{Facts
+| Title=Remember
+| Chance=  There is a chance of receiving an {{icon|Animal Crackers}} [[Animal Crackers|Animal Crackers ]] when baking something in an {{icon|Bread Oven}} [[Bread Oven|Oven]] instead of what you intended to bake.
+}}

@@ -1,0 +1,45 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.05
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Survival Skills}} [[Survival Skills]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Testicles]], [[fire]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 2 || 2 || 12 || 2
+|-
+! Gluttony min
+| 0 || 0 || 10 || 0
+|-
+! Gluttony max
+| 0 || 0 || 25 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Nuts & Seeds}} [[Nuts and Seeds]]
+| Full and Fed= 00:10:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Nuts and Seeds= 50% (50% chance)
+}}
+
+==About==
+
+{{i|Roasted Testicles}} are obtained when crafting {{i|Roasted Nuts}} using {{i|Testicles}} over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

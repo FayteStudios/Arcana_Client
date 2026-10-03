@@ -1,0 +1,600 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Fishing}} [[Fishing]]
+| Skill 2= {{icon|Simple Cooking}} [[Simple Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Filet of Any Fish}} [[Filet of any Fish]] ×2, {{icon|Tortilla}} [[Tortilla]]
+}}
+
+{|
+|+ Heal and Gluttony values — With White Corn (Blood)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 12.5 || 12.5 || 12.5 || 12.5
+|-
+! White Corn min
+| style="background:#e6b8b8" | 22.8 || 9.5 || 9.5 || 9.5
+|-
+! White Corn max
+| style="background:#e6b8b8" | 31.2 || 13 || 13 || 13
+|-
+! Angel-Winged Seabass min
+| style="background:#e6b8b8" | 23.94 || 4.75 || 4.75 || 4.75
+|-
+! Angel-Winged Seabass max
+| style="background:#e6b8b8" | 32.76 || 6.5 || 6.5 || 6.5
+|-
+! Ghostly Whitefish min
+| style="background:#e6b8b8" | 26.22 || 4.75 || 4.75 || 4.75
+|-
+! Ghostly Whitefish max
+| style="background:#e6b8b8" | 35.88 || 6.5 || 6.5 || 6.5
+|-
+! Tiger Trout min
+| style="background:#e6b8b8" | 25.08 || 4.75 || 4.75 || 4.75
+|-
+! Tiger Trout max
+| style="background:#e6b8b8" | 34.32 || 6.5 || 6.5 || 6.5
+|-
+! Blueback Tuna min
+| 11.4 || 10.83 || 4.75 || 10.83
+|-
+! Blueback Tuna max
+| 15.6 || 14.82 || 6.5 || 14.82
+|-
+! Darkwater Bluegill min
+| 11.4 || 10.83 || 4.75 || 4.75
+|-
+! Darkwater Bluegill max
+| 15.6 || 14.82 || 6.5 || 6.5
+|-
+! Red-Finned Mullet min
+| 11.4 || 9.88 || 4.75 || 4.75
+|-
+! Red-Finned Mullet max
+| 15.6 || 13.52 || 6.5 || 6.5
+|-
+! Silt-Dwelling Mudsnapper min
+| 11.4 || 9.88 || 4.75 || 4.75
+|-
+! Silt-Dwelling Mudsnapper max
+| 15.6 || 13.52 || 6.5 || 6.5
+|-
+! Cape Codfish min
+| 11.4 || 4.75 || 9.88 || 4.75
+|-
+! Cape Codfish max
+| 15.6 || 6.5 || 13.52 || 6.5
+|-
+! Gold Pickerel min
+| 11.4 || 4.75 || 11.4 || 4.75
+|-
+! Gold Pickerel max
+| 15.6 || 6.5 || 15.6 || 6.5
+|-
+! Shin Spinner min
+| 11.4 || 4.75 || 10.45 || 4.75
+|-
+! Shin Spinner max
+| 15.6 || 6.5 || 14.3 || 6.5
+|-
+! Raging Bullhead min
+| 11.4 || 4.75 || 4.75 || 11.97
+|-
+! Raging Bullhead max
+| 15.6 || 6.5 || 6.5 || 16.38
+|-
+! Sargasso Eel min
+| 11.4 || 4.75 || 4.75 || 9.88
+|-
+! Sargasso Eel max
+| 15.6 || 6.5 || 6.5 || 13.52
+|-
+! Trunk-Nosed Lake Perch min
+| 11.4 || 4.75 || 4.75 || 9.88
+|-
+! Trunk-Nosed Lake Perch max
+| 15.6 || 6.5 || 6.5 || 13.52
+|-
+! Crimson Carp min
+| style="background:#e6b8b8" | 68.4 || style="background:#6fa0ff" | 28.5 || style="background:#f0d860" | 28.5 || style="background:#b8c8e6" | 28.5
+|-
+! Crimson Carp max
+| style="background:#e6b8b8" | 93.6 || style="background:#6fa0ff" | 39 || style="background:#f0d860" | 39 || style="background:#b8c8e6" | 39
+|-
+! Long-Whiskered Catfish min
+| style="background:#e6b8b8" | 27.36 || 11.4 || 11.4 || 11.4
+|-
+! Long-Whiskered Catfish max
+| style="background:#e6b8b8" | 37.44 || 15.6 || 15.6 || 15.6
+|-
+! Hellish Halibut min
+| style="background:#e6b8b8" | 27.36 || 11.4 || 11.4 || 11.4
+|-
+! Hellish Halibut max
+| style="background:#e6b8b8" | 37.44 || 15.6 || 15.6 || 15.6
+|-
+! Red Herring min
+| style="background:#e6b8b8" | 23.94 || 9.88 || 9.88 || 9.88
+|-
+! Red Herring max
+| style="background:#e6b8b8" | 32.76 || 13.52 || 13.52 || 13.52
+|}
+
+{|
+|+ With Blue Corn (Phlegm)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Blue Corn min
+| 9.5 || style="background:#6fa0ff" | 22.8 || 9.5 || 9.5
+|-
+! Blue Corn max
+| 13 || style="background:#6fa0ff" | 31.2 || 13 || 13
+|-
+! Angel-Winged Seabass min
+| 9.88 || 11.4 || 4.75 || 4.75
+|-
+! Angel-Winged Seabass max
+| 13.52 || 15.6 || 6.5 || 6.5
+|-
+! Ghostly Whitefish min
+| 11.4 || 11.4 || 4.75 || 4.75
+|-
+! Ghostly Whitefish max
+| 15.6 || 15.6 || 6.5 || 6.5
+|-
+! Tiger Trout min
+| 10.45 || 11.4 || 4.75 || 4.75
+|-
+! Tiger Trout max
+| 14.3 || 15.6 || 6.5 || 6.5
+|-
+! Blueback Tuna min
+| 4.75 || style="background:#6fa0ff" | 26.22 || 4.75 || 10.83
+|-
+! Blueback Tuna max
+| 6.5 || style="background:#6fa0ff" | 35.88 || 6.5 || 14.82
+|-
+! Darkwater Bluegill min
+| 4.75 || style="background:#6fa0ff" | 26.22 || 4.75 || 4.75
+|-
+! Darkwater Bluegill max
+| 6.5 || style="background:#6fa0ff" | 35.88 || 6.5 || 6.5
+|-
+! Red-Finned Mullet min
+| 4.75 || style="background:#6fa0ff" | 23.94 || 4.75 || 4.75
+|-
+! Red-Finned Mullet max
+| 6.5 || style="background:#6fa0ff" | 32.76 || 6.5 || 6.5
+|-
+! Silt-Dwelling Mudsnapper min
+| 4.75 || style="background:#6fa0ff" | 23.94 || 4.75 || 4.75
+|-
+! Silt-Dwelling Mudsnapper max
+| 6.5 || style="background:#6fa0ff" | 32.76 || 6.5 || 6.5
+|-
+! Cape Codfish min
+| 4.75 || 11.4 || 9.88 || 4.75
+|-
+! Cape Codfish max
+| 6.5 || 15.6 || 13.52 || 6.5
+|-
+! Gold Pickerel min
+| 4.75 || 11.4 || 11.4 || 4.75
+|-
+! Gold Pickerel max
+| 6.5 || 15.6 || 15.6 || 6.5
+|-
+! Shin Spinner min
+| 4.75 || 4.75 || 10.45 || 4.75
+|-
+! Shin Spinner max
+| 6.5 || 6.5 || 14.3 || 6.5
+|-
+! Raging Bullhead min
+| 4.75 || 11.4 || 4.75 || 11.97
+|-
+! Raging Bullhead max
+| 6.5 || 6.5 || 6.5 || 16.38
+|-
+! Sargasso Eel min
+| 4.75 || 11.4 || 4.75 || 9.88
+|-
+! Sargasso Eel max
+| 6.5 || 15.6 || 6.5 || 13.52
+|-
+! Trunk-Nosed Lake Perch min
+| 4.75 || 11.4 || 4.75 || 9.88
+|-
+! Trunk-Nosed Lake Perch max
+| 6.5 || 15.6 || 6.5 || 13.52
+|-
+! Crimson Carp min
+| style="background:#e6b8b8" | 28.5 || style="background:#6fa0ff" | 68.4 || style="background:#f0d860" | 28.5 || style="background:#b8c8e6" | 28.5
+|-
+! Crimson Carp max
+| style="background:#e6b8b8" | 39 || style="background:#6fa0ff" | 93.6 || style="background:#f0d860" | 39 || style="background:#b8c8e6" | 39
+|-
+! Long-Whiskered Catfish min
+| 11.4 || style="background:#6fa0ff" | 27.36 || 11.4 || 11.4
+|-
+! Long-Whiskered Catfish max
+| 15.6 || style="background:#6fa0ff" | 37.44 || 15.6 || 15.6
+|-
+! Hellish Halibut min
+| 11.4 || style="background:#6fa0ff" | 27.36 || 11.4 || 11.4
+|-
+! Hellish Halibut max
+| 15.6 || style="background:#6fa0ff" | 37.44 || 15.6 || 15.6
+|-
+! Red Herring min
+| 9.88 || style="background:#6fa0ff" | 23.94 || 9.88 || 9.88
+|-
+! Red Herring max
+| 13.52 || style="background:#6fa0ff" | 32.76 || 13.52 || 13.52
+|}
+
+{|
+|+ With Golden Corn (Yellow Bile)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Golden Corn min
+| 9.5 || 9.5 || style="background:#f0d860" | 24.7 || 9.5
+|-
+! Golden Corn max
+| 13 || 13 || style="background:#f0d860" | 33.8 || 13
+|-
+! Angel-Winged Seabass min
+| 9.88 || 4.75 || 12.35 || 4.75
+|-
+! Angel-Winged Seabass max
+| 13.52 || 6.5 || 16.9 || 6.5
+|-
+! Ghostly Whitefish min
+| 11.4 || 4.75 || 12.35 || 4.75
+|-
+! Ghostly Whitefish max
+| 15.6 || 6.5 || 16.9 || 6.5
+|-
+! Tiger Trout min
+| 10.45 || 4.75 || 12.35 || 4.75
+|-
+! Tiger Trout max
+| 14.3 || 6.5 || 16.9 || 6.5
+|-
+! Blueback Tuna min
+| 4.75 || 10.83 || 12.35 || 10.83
+|-
+! Blueback Tuna max
+| 6.5 || 14.82 || 16.9 || 14.82
+|-
+! Darkwater Bluegill min
+| 4.75 || 10.83 || 12.35 || 4.75
+|-
+! Darkwater Bluegill max
+| 6.5 || 14.82 || 16.9 || 6.5
+|-
+! Red-Finned Mullet min
+| 4.75 || 9.88 || 12.35 || 4.75
+|-
+! Red-Finned Mullet max
+| 6.5 || 13.52 || 16.9 || 6.5
+|-
+! Silt-Dwelling Mudsnapper min
+| 4.75 || 9.88 || 12.35 || 4.75
+|-
+! Silt-Dwelling Mudsnapper max
+| 6.5 || 13.52 || 16.9 || 6.5
+|-
+! Cape Codfish min
+| 4.75 || 4.75 || style="background:#f0d860" | 25.84 || 4.75
+|-
+! Cape Codfish max
+| 6.5 || 6.5 || style="background:#f0d860" | 35.36 || 6.5
+|-
+! Gold Pickerel min
+| 4.75 || 4.75 || style="background:#f0d860" | 28.5 || 4.75
+|-
+! Gold Pickerel max
+| 6.5 || 6.5 || style="background:#f0d860" | 39 || 6.5
+|-
+! Shin Spinner min
+| 4.75 || 4.75 || style="background:#f0d860" | 26.98 || 4.75
+|-
+! Shin Spinner max
+| 6.5 || 6.5 || style="background:#f0d860" | 36.92 || 6.5
+|-
+! Raging Bullhead min
+| 4.75 || 4.75 || 12.35 || 11.97
+|-
+! Raging Bullhead max
+| 6.5 || 6.5 || 16.9 || 16.38
+|-
+! Sargasso Eel min
+| 4.75 || 4.75 || 12.35 || 9.88
+|-
+! Sargasso Eel max
+| 6.5 || 6.5 || 16.9 || 13.52
+|-
+! Trunk-Nosed Lake Perch min
+| 4.75 || 4.75 || 12.35 || 9.88
+|-
+! Trunk-Nosed Lake Perch max
+| 6.5 || 6.5 || 16.9 || 13.52
+|-
+! Crimson Carp min
+| style="background:#e6b8b8" | 28.5 || style="background:#6fa0ff" | 28.5 || style="background:#f0d860" | 74.1 || style="background:#b8c8e6" | 28.5
+|-
+! Crimson Carp max
+| style="background:#e6b8b8" | 39 || style="background:#6fa0ff" | 39 || style="background:#f0d860" | 101.4 || style="background:#b8c8e6" | 39
+|-
+! Long-Whiskered Catfish min
+| 11.4 || 11.4 || style="background:#f0d860" | 29.64 || 11.4
+|-
+! Long-Whiskered Catfish max
+| 15.6 || 15.6 || style="background:#f0d860" | 40.56 || 15.6
+|-
+! Hellish Halibut min
+| 11.4 || 11.4 || style="background:#f0d860" | 29.64 || 11.4
+|-
+! Hellish Halibut max
+| 15.6 || 15.6 || style="background:#f0d860" | 40.56 || 15.6
+|-
+! Red Herring min
+| 9.88 || 9.88 || style="background:#f0d860" | 25.84 || 9.88
+|-
+! Red Herring max
+| 13.52 || 13.52 || style="background:#f0d860" | 35.36 || 13.52
+|}
+
+{|
+|+ With Yellow Corn (Black Bile)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Yellow Corn min
+| 9.5 || 9.5 || 9.5 || style="background:#b8c8e6" | 20.9
+|-
+! Yellow Corn max
+| 13 || 13 || 13 || style="background:#b8c8e6" | 28.6
+|-
+! Angel-Winged Seabass min
+| 9.88 || 4.75 || 4.75 || 10.45
+|-
+! Angel-Winged Seabass max
+| 13.52 || 6.5 || 6.5 || 14.3
+|-
+! Ghostly Whitefish min
+| 11.4 || 4.75 || 4.75 || 10.45
+|-
+! Ghostly Whitefish max
+| 15.6 || 6.5 || 6.5 || 14.3
+|-
+! Tiger Trout min
+| 10.45 || 4.75 || 4.75 || 10.45
+|-
+! Tiger Trout max
+| 14.3 || 6.5 || 6.5 || 14.3
+|-
+! Darkwater Bluegill min
+| 4.75 || 10.83 || 4.75 || 10.45
+|-
+! Darkwater Bluegill max
+| 6.5 || 14.82 || 6.5 || 14.3
+|-
+! Red-Finned Mullet min
+| 4.75 || 9.88 || 4.75 || 10.45
+|-
+! Red-Finned Mullet max
+| 6.5 || 13.52 || 6.5 || 14.3
+|-
+! Silt-Dwelling Mudsnapper min
+| 4.75 || 9.88 || 4.75 || 10.45
+|-
+! Silt-Dwelling Mudsnapper max
+| 6.5 || 13.52 || 6.5 || 14.3
+|-
+! Cape Codfish min
+| 4.75 || 4.75 || 9.88 || 10.45
+|-
+! Cape Codfish max
+| 6.5 || 6.5 || 13.52 || 14.3
+|-
+! Gold Pickerel min
+| 4.75 || 4.75 || 11.4 || 10.45
+|-
+! Gold Pickerel max
+| 6.5 || 6.5 || 15.6 || 14.3
+|-
+! Shin Spinner min
+| 4.75 || 4.75 || 10.45 || 10.45
+|-
+! Shin Spinner max
+| 6.5 || 6.5 || 14.3 || 14.3
+|-
+! Blueback Tuna min
+| 4.75 || 10.83 || 4.75 || style="background:#b8c8e6" | 23.94
+|-
+! Blueback Tuna max
+| 6.5 || 14.82 || 6.5 || style="background:#b8c8e6" | 32.76
+|-
+! Raging Bullhead min
+| 4.75 || 4.75 || 4.75 || style="background:#b8c8e6" | 26.22
+|-
+! Raging Bullhead max
+| 6.5 || 6.5 || 6.5 || style="background:#b8c8e6" | 35.88
+|-
+! Sargasso Eel min
+| 4.75 || 4.75 || 4.75 || style="background:#b8c8e6" | 21.85
+|-
+! Sargasso Eel max
+| 6.5 || 6.5 || 6.5 || style="background:#b8c8e6" | 29.9
+|-
+! Trunk-Nosed Lake Perch min
+| 4.75 || 4.75 || 4.75 || style="background:#b8c8e6" | 21.85
+|-
+! Trunk-Nosed Lake Perch max
+| 6.5 || 6.5 || 6.5 || style="background:#b8c8e6" | 29.9
+|-
+! Crimson Carp min
+| style="background:#e6b8b8" | 28.5 || style="background:#6fa0ff" | 28.5 || style="background:#f0d860" | 62.7 || style="background:#b8c8e6" | 28.5
+|-
+! Crimson Carp max
+| style="background:#e6b8b8" | 39 || style="background:#6fa0ff" | 39 || style="background:#f0d860" | 85.8 || style="background:#b8c8e6" | 39
+|-
+! Long-Whiskered Catfish min
+| 11.4 || 11.4 || 11.4 || style="background:#b8c8e6" | 25.08
+|-
+! Long-Whiskered Catfish max
+| 15.6 || 15.6 || 15.6 || style="background:#b8c8e6" | 34.32
+|-
+! Hellish Halibut min
+| 11.4 || 11.4 || 11.4 || style="background:#b8c8e6" | 25.08
+|-
+! Hellish Halibut max
+| 15.6 || 15.6 || 15.6 || style="background:#b8c8e6" | 34.32
+|-
+! Red Herring min
+| 9.88 || 9.88 || 9.88 || style="background:#b8c8e6" | 21.85
+|-
+! Red Herring max
+| 13.52 || 13.52 || 13.52 || style="background:#b8c8e6" | 29.9
+|}
+
+{|
+|+ With Fishes
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Angel-Winged Seabass min
+| style="background:#e6b8b8" | 19.95 || 9.5 || 9.5 || 9.5
+|-
+! Angel-Winged Seabass max
+| style="background:#e6b8b8" | 27.3 || 13 || 13 || 13
+|-
+! Ghostly Whitefish min
+| style="background:#e6b8b8" | 22.8 || 9.5 || 9.5 || 9.5
+|-
+! Ghostly Whitefish max
+| style="background:#e6b8b8" | 31.2 || 13 || 13 || 13
+|-
+! Tiger Trout min
+| style="background:#e6b8b8" | 20.9 || 9.5 || 9.5 || 9.5
+|-
+! Tiger Trout max
+| style="background:#e6b8b8" | 28.6 || 13 || 13 || 13
+|-
+! Blueback Tuna min
+| 9.5 || style="background:#6fa0ff" | 21.85 || 9.5 || style="background:#b8c8e6" | 21.85
+|-
+! Blueback Tuna max
+| 13 || style="background:#6fa0ff" | 29.9 || 13 || style="background:#b8c8e6" | 29.9
+|-
+! Darkwater Bluegill min
+| 9.5 || style="background:#6fa0ff" | 21.85 || 9.5 || 9.5
+|-
+! Darkwater Bluegill max
+| 13 || style="background:#6fa0ff" | 29.9 || 13 || 13
+|-
+! Red-Finned Mullet min
+| 9.5 || style="background:#6fa0ff" | 19.95 || 9.5 || 9.5
+|-
+! Red-Finned Mullet max
+| 13 || style="background:#6fa0ff" | 27.3 || 13 || 13
+|-
+! Silt-Dwelling Mudsnapper min
+| 9.5 || style="background:#6fa0ff" | 19.95 || 9.5 || 9.5
+|-
+! Silt-Dwelling Mudsnapper max
+| 13 || style="background:#6fa0ff" | 27.3 || 13 || 13
+|-
+! Cape Codfish min
+| 9.5 || 9.5 || style="background:#f0d860" | 19.95 || 9.5
+|-
+! Cape Codfish max
+| 13 || 13 || style="background:#f0d860" | 27.3 || 13
+|-
+! Gold Pickerel min
+| 9.5 || 9.5 || style="background:#f0d860" | 21.85 || 9.5
+|-
+! Gold Pickerel max
+| 13 || 13 || style="background:#f0d860" | 29.9 || 13
+|-
+! Shin Spinner min
+| 9.5 || 9.5 || style="background:#f0d860" | 20.9 || 9.5
+|-
+! Shin Spinner max
+| 13 || 13 || style="background:#f0d860" | 28.6 || 13
+|-
+! Raging Bullhead min
+| 9.5 || 9.5 || 9.5 || style="background:#b8c8e6" | 23.75
+|-
+! Raging Bullhead max
+| 13 || 13 || 13 || style="background:#b8c8e6" | 32.5
+|-
+! Sargasso Eel min
+| 9.5 || 9.5 || 9.5 || style="background:#b8c8e6" | 19.95
+|-
+! Sargasso Eel max
+| 13 || 13 || 13 || style="background:#b8c8e6" | 27.3
+|-
+! Trunk-Nosed Lake Perch min
+| 9.5 || 9.5 || 9.5 || style="background:#b8c8e6" | 19.95
+|-
+! Trunk-Nosed Lake Perch max
+| 13 || 13 || 13 || style="background:#b8c8e6" | 27.3
+|-
+! Crimson Carp min
+| style="background:#e6b8b8" | 57 || style="background:#6fa0ff" | 57 || style="background:#f0d860" | 57 || style="background:#b8c8e6" | 57
+|-
+! Crimson Carp max
+| style="background:#e6b8b8" | 78 || style="background:#6fa0ff" | 78 || style="background:#f0d860" | 78 || style="background:#b8c8e6" | 78
+|-
+! Hellish Halibut min
+| style="background:#e6b8b8" | 22.8 || style="background:#6fa0ff" | 22.8 || style="background:#f0d860" | 22.8 || style="background:#b8c8e6" | 22.8
+|-
+! Hellish Halibut max
+| style="background:#e6b8b8" | 31.2 || style="background:#6fa0ff" | 31.2 || style="background:#f0d860" | 31.2 || style="background:#b8c8e6" | 31.2
+|-
+! Long-Whiskered Catfish min
+| style="background:#e6b8b8" | 22.8 || style="background:#6fa0ff" | 22.8 || style="background:#f0d860" | 22.8 || style="background:#b8c8e6" | 22.8
+|-
+! Long-Whiskered Catfish max
+| style="background:#e6b8b8" | 31.2 || style="background:#6fa0ff" | 31.2 || style="background:#f0d860" | 31.2 || style="background:#b8c8e6" | 31.2
+|-
+! Red Herring min
+| style="background:#e6b8b8" | 19.95 || style="background:#6fa0ff" | 19.95 || style="background:#f0d860" | 19.95 || style="background:#b8c8e6" | 19.95
+|-
+! Red Herring max
+| style="background:#e6b8b8" | 27.3 || style="background:#6fa0ff" | 27.3 || style="background:#f0d860" | 27.3 || style="background:#b8c8e6" | 27.3
+|-
+! Red Herring min
+| style="background:#e6b8b8" | 19.95 || style="background:#6fa0ff" | 19.95 || style="background:#f0d860" | 19.95 || style="background:#b8c8e6" | 19.95
+|-
+! Red Herring max
+| style="background:#e6b8b8" | 27.3 || style="background:#6fa0ff" | 27.3 || style="background:#f0d860" | 27.3 || style="background:#b8c8e6" | 27.3
+|}
+
+{{Facts
+| Title=Food Group
+| Group= None
+| Full and Fed= 00:20:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Fish & Seafood
+}}
+
+==About==
+
+A {{i|Fish Taco}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}. Fish Taco is [[Gluttony#Double Variable Recipe|Double Variable Recipe]].

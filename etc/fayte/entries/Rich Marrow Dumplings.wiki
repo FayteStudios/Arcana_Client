@@ -1,0 +1,64 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.30
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Big Game Hunting}} [[Big Game Hunting]]
+| Skill 2= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Cracked Bone}} [[Cracked Bone]] ×3, {{icon|Flour}} [[Flour]] 0.2 L
+| Second Stage= [[Any Pot]], {{icon|Fireplace}} [[Fireplace]], [[Potable Water]] ×5, {{icon|Rich Marrow Dumplings}} [[Unboiled Rich Marrow Dumplings]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 48 || 48 || 48 || 60
+|-
+! Oatmeal min
+| style="background:#e6b8b8" | 41.8 || 34.2 || 34.2 || 34.2
+|-
+! Oatmeal max
+| style="background:#e6b8b8" | 57.2 || 46.8 || 46.8 || 46.8
+|-
+! Barley min
+| 34.2 || style="background:#6fa0ff" | 45.6 || 34.2 || 34.2
+|-
+! Barley max
+| 46.8 || style="background:#6fa0ff" | 62.4 || 46.8 || 46.8
+|-
+! Rye min
+| 34.2 || 34.2 || style="background:#f0d860" | 45.6 || 34.2
+|-
+! Rye max
+| 46.8 || 46.8 || style="background:#f0d860" | 62.4 || 46.8
+|-
+! Wheat min
+| 34.2 || 34.2 || 34.2 || style="background:#b8c8e6" | 49.4
+|-
+! Wheat max
+| 46.8 || 46.8 || 46.8 || style="background:#b8c8e6" | 67.6
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Bread}} [[Bread]]
+| Full and Fed= 00:35:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 3
+}}
+
+==About==
+
+Crafting {{i|Rich Marrow Dumplings}} will make an {{i|Unboiled Rich Marrow Dumplings}} which can then be boiled in a {{i|Clay Pot}}, {{i|Copper Pot}}, or {{i|Cauldron}} for 1 hour to produce Rich Marrow Dumplings. Rich Marrow Dumplings takes its [[Purity]] from both the {{i|Any Bones}} and {{i|Flour}} used in its construction.

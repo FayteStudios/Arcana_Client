@@ -1,0 +1,54 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Fungiculture}} [[Fungiculture]]
+}}
+
+{{Facts
+| Title=Forage
+| Found= [[Badlands]], [[Crag]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= [[Carapanilo Wine]]
+| b)= {{icon|Coastal Rolls in Lobster Sauce}} [[Coastal Rolls in Lobster Sauce]]
+| c)= {{icon|Fungus Amungus}} [[Fungus Amungus]]
+| d)= [[Wine Ingredients]]
+| Counts as= [[Any Mushroom]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 8 || 8 || 8 || 8
+|-
+! Gluttony min
+| 9 || 9 || 9 || 9
+|-
+! Gluttony max
+| 9 || 9 || 9 || 9
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Mushrooms}} [[Mushrooms]]
+| Full and Fed= 00:09:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Variable food multiplier= Blood 1.25 / Phlegm 0.5 / Yellow 1.25 / Black 0.5
+}}
+
+==About==
+
+A Lobster Mushroom can be found in the wild or, with the [[Fungiculture]] skill learned, grown by planting another {{i|Lobster Mushroom}} in a {{i|Gardening Pot}}. When planting a Lobster Mushroom there is a chance for it to grow into a {{i|Spooky Redcap}} instead. Planting Mushrooms in Gardening Pots lowers [[Insanity]]. A Lobster Mushroom can be stored in a {{i|MushiSack}}.

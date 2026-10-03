@@ -1,0 +1,49 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= None
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= None
+}}
+
+{{Facts
+| Title=Make
+| Needs= None
+}}
+
+{{Facts
+| Title=Used By
+| a)= [[Carelessly Burnt Cookie]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 25 || 25 || 25 || 25
+|-
+! Gluttony min
+| 100 || 100 || 100 || 100
+|-
+! Gluttony max
+| 100 || 100 || 100 || 100
+|}
+
+{{Facts
+| Title=Food Group
+| Group= None
+| Full and Fed= 48:00:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 100
+}}
+
+==About==
+
+An Absurdly Large Cookie can be baked in a {{i|Bread Oven}} to make a {{i|Carelessly Burnt Cookie}}. When baking Foods in a Bread Oven there is a chance for them to become {{i|Animal Crackers}} instead.

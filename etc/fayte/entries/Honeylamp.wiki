@@ -1,0 +1,53 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= None
+}}
+
+{{Facts
+| Title=Forage
+| Found= [[Pine Forest]]
+| Or= [[Mossy Log]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Mossterpiece}} [[Mossterpiece]]
+| b)= {{icon|Mossy Log Cape}} [[Mossy Log Cape]]
+| Counts as= [[Any Mushroom]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 9 || 9 || 9 || 9
+|-
+! Gluttony min
+| 10 || 10 || 10 || 10
+|-
+! Gluttony max
+| 10 || 10 || 10 || 10
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Mushrooms}} [[Mushrooms]]
+| Full and Fed= 00:10:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Variable food multiplier= Blood 0 / Phlegm 0 / Yellow 0 / Black 0
+}}
+
+==About==
+
+A Honeylamp can be found in the wild or, with the [[Fungiculture]] skill learned, grown by planting another {{i|Honeylamp}} in a {{i|Gardening Pot}}. When planting a Honeylamp there is a chance for it to grow into a {{i|Spooky Redcap}} instead. Planting Mushrooms in Gardening Pots lowers [[Insanity]]. A Honeylamp can be stored in a {{i|MushiSack}}.

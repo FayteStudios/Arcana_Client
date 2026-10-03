@@ -1,0 +1,46 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.09
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Blackberries}} [[Blackberries]] ×2, [[Fire]], {{icon|Sizzled Grub}} [[Sizzled Grub]], {{icon|Sugar}} [[Sugar]] 0.4 L, {{icon|Wild Garlic}} [[Wild Garlic]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 100 || 100 || 100 || 100
+|-
+! Gluttony min
+| 10 || 10 || 10 || 10
+|-
+! Gluttony max
+| 10 || 10 || 10 || 10
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Slugs N' Bugs}} [[Slugs Bugs and Kritters]]
+| Full and Fed= 02:00:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Restores Slugs Bugs and Kritters= 100% (100% chance)
+| Menu= Craft > Food > Slugs, Bugs & Kritters
+}}
+
+==About==
+
+A {{i|Grub De La Grub}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}. Grub De La Grub is a major [[Restore Food]] for the {{i2|Slugs Bugs and Kritters}} Food Group.

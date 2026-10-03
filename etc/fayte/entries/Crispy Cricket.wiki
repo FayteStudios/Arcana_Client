@@ -1,0 +1,46 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.03
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Bug Hunting}} [[Bug Hunting]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Dead Wartbite Cricket}} [[Dead Wartbite Cricket]], [[Fire]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 7.5 || 10 || 7.5 || 5
+|-
+! Gluttony min
+| 8 || 0 || 0 || 0
+|-
+! Gluttony max
+| 11 || 0 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Slugs N' Bugs}} [[Slugs Bugs and Kritters]]
+| Full and Fed= 00:05:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Slugs Bugs and Kritters= 10% (50% chance)
+| Menu= Craft > Food > Slugs, Bugs & Kritters
+}}
+
+==About==
+
+A {{i|Crispy Cricket}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

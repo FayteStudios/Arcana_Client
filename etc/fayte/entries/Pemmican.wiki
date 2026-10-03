@@ -1,0 +1,64 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Fried Foods}} [[Fried Foods]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Any Berries}} [[Any Berries]] ×4, [[Fire]], {{icon|Frying Pan}} [[Frying Pan]], {{icon|Gelatinous Lard}} [[Gelatinous Lard]], {{icon|Raw Rabbit Cut}} [[Raw Rabbit Cut]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 22 || 8 || 20 || 7
+|-
+! Cranberry min
+| style="background:#e6b8b8" | 21.85 || 9.5 || 9.5 || 9.5
+|-
+! Cranberry max
+| style="background:#e6b8b8" | 29.9 || 13 || 13 || 13
+|-
+! Crowberry min
+| 9.5 || style="background:#6fa0ff" | 25.65 || 9.5 || 9.5
+|-
+! Crowberry max
+| 13 || style="background:#6fa0ff" | 35.1 || 13 || 13
+|-
+! Huckleberries min
+| 9.5 || 9.5 || style="background:#f0d860" | 24.7 || 9.5
+|-
+! Huckleberries max
+| 13 || 13 || style="background:#f0d860" | 33.8 || 13
+|-
+! Blackberries min
+| 9.5 || 9.5 || 9.5 || style="background:#b8c8e6" | 21.85
+|-
+! Blackberries max
+| 13 || 13 || 13 || style="background:#b8c8e6" | 29.9
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Berries}} [[Berries]]
+| Full and Fed= 00:20:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Berries= 20% (40% chance)
+| Menu= Craft > Food > Berries
+}}
+
+==About==
+
+{{i|Pemmican}} must be cooked with a {{i|Frying Pan}} equipped and over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

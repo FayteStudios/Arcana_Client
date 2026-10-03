@@ -1,0 +1,119 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.07
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Pumpkin Planting}} [[Pumpkin Planting]]
+| Skill 2= {{icon|Theology}} [[Theology]]
+}}
+
+{{Facts
+| Title=Bake
+| Needs= {{icon|Baking Table}} [[Baking Table]], {{icon|Cranberry}} [[Cranberry]] ×2, {{icon|Oatmeal}} [[Oatmeal]] 0.8 L, {{icon|Pumpkin Flesh}} [[Pumpkin Flesh]] ×4, {{icon|Royal Jelly}} [[Royal Jelly]]
+| Second Stage= {{icon|Bread Oven}} [[Bread Oven]], {{icon|Soulcake Dough}} [[Soulcake Dough]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= [[Bones Bag]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 50 || 50 || 50 || 50
+|-
+! Ghost Rider min
+| style="background:#e6b8b8" | 33.75 || 12.5 || 12.5 || 12.5
+|-
+! Ghost Rider max
+| style="background:#e6b8b8" | 47.25 || 17.5 || 17.5 || 17.5
+|-
+! Jack-o-Lantern min
+| style="background:#e6b8b8" | 35 || 12.5 || 12.5 || 12.5
+|-
+! Jack-o-Lantern max
+| style="background:#e6b8b8" | 49 || 17.5 || 17.5 || 17.5
+|-
+! Spooktacular min
+| style="background:#e6b8b8" | 32.5 || 12.5 || 12.5 || 12.5
+|-
+! Spooktacular max
+| style="background:#e6b8b8" | 45.5 || 17.5 || 17.5 || 17.5
+|-
+! Big Autumn min
+| 12.5 || style="background:#6fa0ff" | 30 || 12.5 || 12.5
+|-
+! Big Autumn max
+| 17.5 || style="background:#6fa0ff" | 42 || 17.5 || 17.5
+|-
+! Bushkin min
+| 12.5 || style="background:#6fa0ff" | 31.25 || 12.5 || 12.5
+|-
+! Bushkin max
+| 17.5 || style="background:#6fa0ff" | 43.75 || 17.5 || 17.5
+|-
+! Small Sugar min
+| 12.5 || style="background:#6fa0ff" | 28.75 || 12.5 || 12.5
+|-
+! Small Sugar max
+| 17.5 || style="background:#6fa0ff" | 40.25 || 17.5 || 17.5
+|-
+! Connecticut Field min
+| 12.5 || 12.5 || style="background:#f0d860" | 30 || 12.5
+|-
+! Connecticut Field max
+| 17.5 || 17.5 || style="background:#f0d860" | 42 || 17.5
+|-
+! Harvest Moon min
+| 12.5 || 12.5 || style="background:#f0d860" | 31.25 || 12.5
+|-
+! Harvest Moon max
+| 17.5 || 17.5 || style="background:#f0d860" | 43.75 || 17.5
+|-
+! Sugar Treat min
+| 12.5 || 12.5 || style="background:#f0d860" | 28.75 || 12.5
+|-
+! Sugar Treat max
+| 17.5 || 17.5 || style="background:#f0d860" | 40.25 || 17.5
+|-
+! Aspen min
+| 12.5 || 12.5 || 12.5 || style="background:#b8c8e6" | 27.5
+|-
+! Aspen max
+| 17.5 || 17.5 || 17.5 || style="background:#b8c8e6" | 38.5
+|-
+! Autumn Gold min
+| 12.5 || 12.5 || 12.5 || style="background:#b8c8e6" | 28.75
+|-
+! Autumn Gold max
+| 17.5 || 17.5 || 17.5 || style="background:#b8c8e6" | 40.25
+|-
+! Baby Bear min
+| 12.5 || 12.5 || 12.5 || style="background:#b8c8e6" | 26.25
+|-
+! Baby Bear max
+| 17.5 || 17.5 || 17.5 || style="background:#b8c8e6" | 36.75
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Pumpkins & Gourds}} [[Pumpkins and Gourds]]
+| Full and Fed= 00:45:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Pumpkins and Gourds= 15% (35% chance)
+| Menu= Craft > Food > Pumpkins
+}}
+
+==About==
+
+Crafting {{i|Soulcake}} at a {{i|Baking Table}} will make {{i|Soulcake Dough}} which can then be baked in a {{i|Bread Oven}} to produce a Soulcake. When baking Foods in a Bread Oven there is a chance for them to become {{i|Animal Crackers}} instead.

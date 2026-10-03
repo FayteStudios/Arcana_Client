@@ -112,13 +112,19 @@ public abstract class PView extends Widget {
     public static abstract class RenderState extends GLState {
 	public void apply(GOut g) {
 	    GL2 gl = g.gl;
-	    gl.glScissor(g.ul.x, g.root().sz.y - g.ul.y - g.sz.y, g.sz.x, g.sz.y);
 	    /* For the viewport, use the renderstate's indicated size
 	     * and offset explicitly, so as to not fail on partially
 	     * clipped GOuts. */
 	    Coord ul = ul();
 	    Coord sz = sz();
-	    gl.glViewport(ul.x, g.root().sz.y - ul.y - sz.y, sz.x, sz.y);
+	    if(onscreen()) {
+		int ph = g.physz().y;
+		gl.glScissor(g.px(g.ul.x), ph - g.px(g.ul.y + g.sz.y), g.px(g.sz.x), g.px(g.sz.y));
+		gl.glViewport(g.px(ul.x), ph - g.px(ul.y + sz.y), g.px(sz.x), g.px(sz.y));
+	    } else {
+		gl.glScissor(g.ul.x, g.root().sz.y - g.ul.y - g.sz.y, g.sz.x, g.sz.y);
+		gl.glViewport(ul.x, g.root().sz.y - ul.y - sz.y, sz.x, sz.y);
+	    }
 
 	    gl.glAlphaFunc(gl.GL_GREATER, 0.5f);
 	    gl.glEnable(gl.GL_DEPTH_TEST);
@@ -135,8 +141,12 @@ public abstract class PView extends Widget {
 	    gl.glDisable(gl.GL_CULL_FACE);
 	    gl.glDisable(gl.GL_SCISSOR_TEST);
 
-	    gl.glViewport(g.root().ul.x, g.root().ul.y, g.root().sz.x, g.root().sz.y);
-	    gl.glScissor(g.root().ul.x, g.root().ul.y, g.root().sz.x, g.root().sz.y);
+	    gl.glViewport(g.root().ul.x, g.root().ul.y, g.physz().x, g.physz().y);
+	    gl.glScissor(g.root().ul.x, g.root().ul.y, g.physz().x, g.physz().y);
+	}
+
+	protected boolean onscreen() {
+	    return(false);
 	}
 	
 	public void prep(Buffer b) {
@@ -154,6 +164,10 @@ public abstract class PView extends Widget {
 	
 	public Coord sz() {
 	    return(PView.this.sz);
+	}
+
+	protected boolean onscreen() {
+	    return(true);
 	}
     }
     

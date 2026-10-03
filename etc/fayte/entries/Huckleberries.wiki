@@ -1,0 +1,71 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= None
+}}
+
+{{Facts
+| Title=Forage
+| Found= [[Autumnal]], [[Badlands]], [[Coniferous]], [[Crag]], [[Grassland]], [[Greenwood]], [[Marshland]], [[Shrub]], [[Woodland]], [[Pine Forest]]
+| Or= [[Huckleberry Bush]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Berrymash Purgative}} [[Berrymash Purgative]]
+| b)= {{icon|Dehydrated Huckleberry}} [[Dehydrated Huckleberry]]
+| c)= {{icon|Huckleberry Pectin}} [[Huckleberry Pectin]]
+| d)= {{icon|Twig N' Berries}} [[Twig N' Berries]]
+| Counts as= {{icon|Any Berries}} [[Any Berries]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 2.5 || 2.5 || 2.5 || 2.5
+|-
+! Gluttony min
+| 0 || 0 || 5 || 0
+|-
+! Gluttony max
+| 0 || 0 || 6 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Berries}} [[Berries]]
+| Full and Fed= 00:06:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Variable food multiplier= Blood 0.5 / Phlegm 0.5 / Yellow 1.3 / Black 0.5
+}}
+
+==About==
+
+{{i|Huckleberries}} can be found in the wild or Picked from a {{i|Huckleberry Bush}}. Learning the [[Flowers & Berries]] Skill will allow you to Pick more Huckleberries from each [[Bush]]. Huckleberries can be stored a {{i|Berry Sack}}.
+
+==Berry Uses==
+{{{!}} class=wikitable
+{{!}}-
+{{!}} '''Berry'''
+{{!}} '''When [[Shrub Orchards|Planted]]'''
+{{!}} '''When [[Fireplace#Boiling|Boiled]]'''
+{{!}} '''When [[Steam Distillation|Dehydrated]]'''
+{{!}}-
+{{!}} {{i|Huckleberries}}
+{{!}} {{i|Huckleberry Bush}}
+{{!}} {{i|Huckleberry Pectin}}
+{{!}}
+* {{i|Dehydrated Huckleberry}}
+* .01 L {{i|Berry Juice}}
+{{!}}}

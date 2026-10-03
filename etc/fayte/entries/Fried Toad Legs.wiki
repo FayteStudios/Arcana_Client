@@ -1,0 +1,41 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.18
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Fried Foods}} [[Fried Foods]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Fire]], {{icon|Frying Pan}} [[Frying Pan]], {{icon|Toad Legs}} [[Toad Legs]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 3 || 2 || 1 || 5
+|-
+! Gluttony min
+| 17 || 17 || 17 || 17
+|-
+! Gluttony max
+| 23 || 23 || 23 || 23
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Slugs N' Bugs}} [[Slugs Bugs and Kritters]]
+| Full and Fed= 00:15:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 2
+| Menu= Craft > Food > Slugs, Bugs & Kritters
+}}

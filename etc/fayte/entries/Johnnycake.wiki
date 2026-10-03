@@ -1,0 +1,63 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Fried Foods}} [[Fried Foods]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Any Cornmeal}} [[Any Cornmeal]] 0.4 L, {{icon|Butter}} [[Butter]], {{icon|Coarse Salt}} [[Coarse Salt]], [[Fire]], {{icon|Frying Pan}} [[Frying Pan]], [[Potable Water]] 0.3 L
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 13 || 13 || 5 || 5
+|-
+! White Corn min
+| style="background:#e6b8b8" | 40.8 || 17 || 17 || 17
+|-
+! White Corn max
+| style="background:#e6b8b8" | 63.6 || 26.5 || 26.5 || 26.5
+|-
+! Blue Corn min
+| 17 || style="background:#6fa0ff" | 40.8 || 17 || 17
+|-
+! Blue Corn max
+| 26.5 || style="background:#6fa0ff" | 63.6 || 26.5 || 26.5
+|-
+! Golden Corn min
+| 17 || 17 || style="background:#f0d860" | 44.2 || 17
+|-
+! Golden Corn max
+| 26.5 || 26.5 || style="background:#f0d860" | 68.9 || 26.5
+|-
+! Yellow Corn min
+| 17 || 17 || 17 || style="background:#b8c8e6" | 37.4
+|-
+! Yellow Corn max
+| 26.5 || 26.5 || 26.5 || style="background:#b8c8e6" | 58.3
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Corn}} [[Maize]]
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Corn
+}}
+
+==About==
+
+A {{i|Johnnycake}} must be cooked with a {{i|Frying Pan}} equipped and over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

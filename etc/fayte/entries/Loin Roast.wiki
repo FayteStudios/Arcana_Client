@@ -1,0 +1,69 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 1.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Any Raw Domesticated Steak]], {{icon|Coarse Salt}} [[Coarse Salt]], [[Fire]], [[Myrtle Oak Acorn]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 11 || 11 || 31 || 11
+|-
+! Pork min
+| style="background:#e6b8b8" | 39 || 15 || 15 || 15
+|-
+! Pork max
+| style="background:#e6b8b8" | 52 || 20 || 20 || 20
+|-
+! Mutton min
+| 15 || style="background:#6fa0ff" | 39 || 15 || 15
+|-
+! Mutton max
+| 20 || style="background:#6fa0ff" | 52 || 20 || 20
+|-
+! Beef min
+| 15 || 15 || style="background:#f0d860" | 39 || 15
+|-
+! Beef max
+| 20 || 20 || style="background:#f0d860" | 52 || 20
+|-
+! Horse min
+| 15 || 15 || style="background:#f0d860" | 54 || 15
+|-
+! Horse max
+| 20 || 20 || style="background:#f0d860" | 72 || 20
+|-
+! Chevon min
+| 15 || 15 || 15 || style="background:#b8c8e6" | 39
+|-
+! Chevon max
+| 20 || 20 || 20 || style="background:#b8c8e6" | 52
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Domesticated Meats}} [[Domesticated Meat]]
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Domesticated Meats
+}}
+
+==About==
+
+A {{i|Loin Roast}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

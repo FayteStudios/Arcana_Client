@@ -1,0 +1,81 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.30
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Big Game Hunting}} [[Big Game Hunting]]
+| Skill 2= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Any Bones]] ×3, {{icon|Flour}} [[Flour]] 0.2 L
+| Second Stage= [[Any Pot]], {{icon|Fireplace}} [[Fireplace]], [[Potable Water]] ×5, {{icon|Unboiled Marrow Dumplings}} [[Unboiled Marrow Dumplings]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 12 || 12 || 12 || 16
+|-
+! Oatmeal min
+| style="background:#e6b8b8" | 23.1 || 18.9 || 18.9 || 18.9
+|-
+! Oatmeal max
+| style="background:#e6b8b8" | 31.9 || 26.1 || 26.1 || 26.1
+|-
+! Barley min
+| 18.9 || style="background:#6fa0ff" | 25.2 || 18.9 || 18.9
+|-
+! Barley max
+| 26.1 || style="background:#6fa0ff" | 34.8 || 26.1 || 26.1
+|-
+! Rye min
+| 18.9 || 18.9 || style="background:#f0d860" | 25.2 || 18.9
+|-
+! Rye max
+| 26.1 || 26.1 || style="background:#f0d860" | 34.8 || 26.1
+|-
+! Wheat min
+| 18.9 || 18.9 || 18.9 || style="background:#b8c8e6" | 27.3
+|-
+! Wheat max
+| 26.1 || 26.1 || 26.1 || style="background:#b8c8e6" | 37.7
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Bread}} [[Bread]]
+| Full and Fed= 00:20:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 3
+| Menu= Craft > Food > Bread
+}}
+
+==About==
+
+Crafting {{i|Marrow Dumplings}} will make an {{i|Unboiled Marrow Dumplings}} which can then be boiled in a {{i|Clay Pot}}, {{i|Copper Pot}}, or {{i|Cauldron}} for 1 hour to produce Marrow Dumplings. Marrow Dumplings takes its [[Purity]] from both the {{i|Any Bones}} and {{i|Flour}} used in its construction.
+
+marrow|
+==Marrow Dumplings==
+
+Using the {{i|Marrow Dumplings}} recipe and the appropriate {{i|Any Bones}} will make different Foods.
+{{{!}} class=wikitable
+{{!}}-
+{{!}} '''Bones'''
+{{!}} '''Marrow Dumplings'''
+{{!}}-
+{{!}} {{i|Any Bones}}
+{{!}} {{i|Marrow Dumplings}}
+{{!}}-
+{{!}} {{i|Cracked Bone}}
+{{!}} {{i|Rich Marrow Dumplings}}
+{{!}}}

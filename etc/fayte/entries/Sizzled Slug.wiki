@@ -1,0 +1,50 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.03
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Survival Skills}} [[Survival Skills]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Fire]], {{icon|Virginia Snail}} [[Virginia Snail]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Virginian Shellroast}} [[Virginian Shellroast]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 2 || 5 || 1 || 3
+|-
+! Gluttony min
+| 0 || 10 || 0 || 0
+|-
+! Gluttony max
+| 0 || 15 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Slugs N' Bugs}} [[Slugs Bugs and Kritters]]
+| Full and Fed= 00:15:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 3
+| Menu= Craft > Food > Slugs, Bugs & Kritters
+}}
+
+==About==
+
+A {{i|Sizzled Slug}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

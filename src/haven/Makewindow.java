@@ -63,8 +63,11 @@ public class Makewindow extends Widget {
 	}
     }
 
+    public final String recipe;
+
     public Makewindow(Coord c, Widget parent, String rcpnm) {
 	super(c, Coord.z, parent);
+	this.recipe = rcpnm;
 	Label nm = new Label(new Coord(0, 0), this, rcpnm, nmf);
 	nm.c = new Coord(sz.x - nm.sz.x, 0);
 	new Label(new Coord(0, 20), this, "Input:");
@@ -251,6 +254,13 @@ public class Makewindow extends Widget {
 	    return;
 	}
 	super.wdgmsg(sender, msg, args);
+    }
+
+    public void wdgmsg(String msg, Object... args) {
+	if("make".equals(msg))
+	    if(FayteModules.ALMANAC.on())
+		FayteAchieve.startact("craft:" + recipe);
+	super.wdgmsg(msg, args);
     }
 
     public boolean globtype(char ch, java.awt.event.KeyEvent ev) {

@@ -54,6 +54,8 @@ public class Alchemy extends ItemInfo.Tip {
     }
     
     public BufferedImage longtip() {
+	if(FayteTip.on())
+	    return(RichText.render(String.format("%s: $col[%s]{%.2f}", names[0], tcolors[0], a[0] * 100.0), 0).img);
 	Object[] p = new String[4];
 	for(int i = 0; i < 4; i++)
 	    p[i] = String.format("%s: $col[%s]{%.2f}", names[i], tcolors[i], a[i] * 100.0);

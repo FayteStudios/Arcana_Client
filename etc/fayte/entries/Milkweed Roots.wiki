@@ -1,0 +1,54 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.06
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Gardening}} [[Gardening]]
+}}
+
+{{Facts
+| Title=Forage
+| Found= [[Autumnal]], [[Badlands]], [[Coniferous]], [[Crag]], [[Grassland]], [[Greenwood]], [[Marshland]], [[Pine Forest]], [[Shrub]], [[Woodland]], [[Abandoned Bird's Nest]], {{icon|Rotten Log}} [[Rotten Log]]
+| Or= {{icon|Gardening Pot}} [[Gardening Pot]], {{icon|Humus}} [[Humus]], {{icon|Milkweed Roots}} [[Milkweed Roots]], [[Potable Water]] 0.2 L
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Charred Milkweed Fibre}} [[Charred Milkweed Fibre]]
+| b)= {{icon|Flowers & Herbs}} [[Flowers & Herbs]]
+| c)= {{icon|Wild Salad}} [[Wild Salad]]
+| d)= [[Wine Ingredients]]
+| Counts as= [[Any Flower]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 1 || 4 || 1 || 2.5
+|-
+! Gluttony min
+| 0 || 6 || 0 || 0
+|-
+! Gluttony max
+| 0 || 7 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Vegetables & Greens}} [[Vegetables and Greens]]
+| Full and Fed= 00:06:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+}}
+
+==About==
+
+{{i|Milkweed Roots}} can be found commonly in the wild, when Rummaging an {{i|Abandoned Bird's Nest}}, or when Splitting a {{i|Rotten Log}} with {{i|Any Axe}} if you heard ''squishing'' when Shaking it. Additionally, with the [[Gardening]] Skill learned, grown by Planting another Milkweed Root in a {{i|Gardening Pot}}. Milkweed Roots count as {{i|Any Flower}} and therefore can be stored in a {{i|Flower Sack}}. Picking {{i|Any Flower}}s from the wild or Planting them in Gardening Pots lowers [[Insanity]]. You may receive a {{i|Drone Bee}} or {{i|Queen Bee}} when Picking Milkweed Roots from the wild or spawn a {{i|Monarch Butterfly}}.

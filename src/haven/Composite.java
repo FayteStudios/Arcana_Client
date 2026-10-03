@@ -155,6 +155,7 @@ public class Composite extends Drawable {
 	if(tposes != null)
 	    tposes = null;
 	nposes = poses;
+	FayteDeath.poses(gob, poses);
     }
     
     @Deprecated

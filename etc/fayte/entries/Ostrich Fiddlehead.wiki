@@ -1,0 +1,54 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.04
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Gardening}} [[Gardening]]
+}}
+
+{{Facts
+| Title=Forage
+| Found= [[Autumnal]], {{icon|Fern}} [[Fern]], [[Grassland]], [[Shrub]]
+| Or= {{icon|Gardening Pot}} [[Gardening Pot]], {{icon|Humus}} [[Humus]], {{icon|Ostrich Fiddlehead}} [[Ostrich Fiddlehead]], [[Potable Water]] 0.2 L
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Fyne Salad}} [[Fyne Salad]]
+| b)= {{icon|Garden Veg}} [[Garden Veg]]
+| c)= {{icon|Green Seafood Salad}} [[Green Seafood Salad]]
+| d)= {{icon|Serpent Serum}} [[Serpent Serum]]
+| Counts as= {{icon|Any Plant}} [[Any Plant]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 1 || 4 || 1 || 2.5
+|-
+! Gluttony min
+| 0 || 0 || 6 || 0
+|-
+! Gluttony max
+| 0 || 0 || 7 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Vegetables & Greens}} [[Vegetables and Greens]]
+| Full and Fed= 00:06:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+}}
+
+==About==
+
+An Ostrich Fiddlehead can be found in the wild, beneath Picked {{i|Fern}}s, or, with the [[Gardening]] skill learned, grown by planting another {{i|Ostrich Fiddlehead}} in a {{i|Gardening Pot}}. Ostrich Fiddlehead takes approximately 2 hours to grow. Planting in Gardening Pots lowers [[Insanity]].

@@ -1,0 +1,70 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Baking}} [[Baking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Cornmeal}} [[Any Cornmeal]] 0.15 L, {{icon|Baking Table}} [[Baking Table]], [[Potable Water]] 0.35 L
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Fish Taco}} [[Fish Taco]]
+| b)= {{icon|Tamale}} [[Tamale]]
+| c)= {{icon|Tasty Taco}} [[Tasty Taco]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 18 || 14 || 26 || 14
+|-
+! White Corn min
+| style="background:#e6b8b8" | 15.6 || 6.5 || 6.5 || 6.5
+|-
+! White Corn max
+| style="background:#e6b8b8" | 20.4 || 8.5 || 8.5 || 8.5
+|-
+! Blue Corn min
+| 6.5 || style="background:#6fa0ff" | 15.6 || 6.5 || 6.5
+|-
+! Blue Corn max
+| 8.5 || style="background:#6fa0ff" | 20.4 || 8.5 || 8.5
+|-
+! Golden Corn min
+| 6.5 || 6.5 || style="background:#f0d860" | 16.9 || 6.5
+|-
+! Golden Corn max
+| 8.5 || 8.5 || style="background:#f0d860" | 22.1 || 8.5
+|-
+! Yellow Corn min
+| 6.5 || 6.5 || 6.5 || style="background:#b8c8e6" | 14.3
+|-
+! Yellow Corn max
+| 8.5 || 8.5 || 8.5 || style="background:#b8c8e6" | 18.7
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Corn}} [[Maize]]
+| Full and Fed= 00:15:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Corn
+}}
+
+==About==
+
+When preparing {{i|Tortilla}}s at a Baking Table there is a chance to receive a {{i|Eloped Gingerbread Man}}. Rolling Dough on a {{i|Baking Table}} removes a small amount of [[Insanity]].

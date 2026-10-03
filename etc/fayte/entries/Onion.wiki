@@ -1,0 +1,59 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Vegetable Potting}} [[Vegetable Potting]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Gardening Pot}} [[Gardening Pot]], {{icon|Humus}} [[Humus]], {{icon|Onion}} [[Onion]], [[Potable Water]] 0.2 L
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Crab Cakes}} [[Crab Cakes]]
+| b)= {{icon|Frontier Stew}} [[Frontier Stew]]
+| c)= {{icon|New England Dinner}} [[New England Dinner]]
+| d)= {{icon|Popham Patty}} [[Popham Patty]]
+| e)= {{icon|Roost Roasted Roots}} [[Roost Roasted Roots]]
+| f)= {{icon|Sizzling Stirfry}} [[Sizzling Stirfry]]
+| g)= {{icon|Surf & Turf}} [[Surf & Turf]]
+| h)= {{icon|Tamale}} [[Tamale]]
+| i)= {{icon|Tenderboiled Terrine}} [[Tenderboiled Terrine]]
+| Counts as= {{icon|Any Vegetable}} [[Any Vegetable]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 5 || 5 || 5 || 15
+|-
+! Gluttony min
+| 0 || 0 || 0 || 8
+|-
+! Gluttony max
+| 0 || 0 || 0 || 12
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Vegetables & Greens}} [[Vegetables and Greens]]
+| Full and Fed= 00:10:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Vegetables and Greens= 50% (30% chance)
+}}
+
+==About==
+
+With the [[Vegetable Potting]] Skill learned, a Onion can be grown by planting another {{i|Onion}} in a {{i|Gardening Pot}}. Planting Vegetables in Gardening Pots lowers [[Insanity]]. A Onion can be stored in a {{i|Veggie Sack}}.

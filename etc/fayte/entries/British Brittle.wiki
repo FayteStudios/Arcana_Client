@@ -1,0 +1,50 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.04
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= [[Inherent Rights]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Blindfold}} [[Blindfold]], {{icon|Loot Pignatta}} [[Loot Pignatta]], {{icon|Pignatta Pole}} [[Pignatta Pole]], {{icon|Wooden Handle}} [[Wooden Handle]]
+| Or= [[Gingerbread House]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= [[Candies]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 7 || 7 || 7 || 7
+|-
+! Gluttony min
+| 5 || 5 || 5 || 5
+|-
+! Gluttony max
+| 50 || 50 || 50 || 50
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Nuts & Seeds}} [[Nuts and Seeds]]
+| Full and Fed= 00:50:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+}}
+
+==About==
+
+{{i|British Brittle}} is obtained by chance when breaking open a {{i|Loot Pignatta}} or by gathering them from a {{i|Gingerbread House}}. British Brittle be stored a {{i|Candy Basket}}.

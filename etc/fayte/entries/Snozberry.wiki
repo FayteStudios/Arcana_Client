@@ -1,0 +1,51 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 1.00
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Fruit Orchards}} [[Fruit Orchards]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= [[Bee Skep]], [[Snozberry Tree]]
+| Or= {{icon|Butterfly Conservatory}} [[Butterfly Conservatory]], [[Snozberry Tree]]
+}}
+
+{{Facts
+| Title=Used By
+| Counts as= {{icon|Any Fruit}} [[Any Fruit]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 12 || 12 || 12 || 12
+|-
+! Gluttony min
+| 20 || 20 || 20 || 50
+|-
+! Gluttony max
+| 30 || 30 || 30 || 82
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Fruit Food}} [[Fruits]]
+| Full and Fed= 01:00:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Fruits= 70% (80% chance)
+}}
+
+==About==
+
+2x {{i|Snozberry}}s may be Picked from a ripe {{i|Snozberry Tree}} during an {{i|Everbloom}}. A Snozberry will become a {{i|Rotten Snozberry}} if not used within a few days of being Picked. With the [[Fruit Orchards]] Skill learned, a Snozberry can be used to grow a Snozberry Tree when planted in a {{i|Gardening Pot}}. Planting in Gardening Pots lowers [[Insanity]]. NOTE: Fruit trees were originally seeded into the Newhaven map and found very rarely. The seeds for the corresponding trees were mostly either cut down or hoarded. It is unknown if there are still randomly spawned fruit trees in the wilderness or not. The fastest and easiest way to obtain fruit to plant as seeds is through trade with other players.

@@ -1,0 +1,20 @@
+<!--
+Files starting with _ are ignored. Copy this file, rename it to the exact
+entry title (for example "Cheap Scarecrow.wiki"), and write it in wiki markup,
+the same way pages are written on https://nh.salemthegame.wiki.
+Text inside these comment marks is never shown.
+-->
+{{Structure
+| Size=1x1
+| Objects required=Board;2, Straw;4
+| Liftable?=Yes
+}}
+[[File:Cheap_Scarecrow.png]]
+
+==About==
+A short, at-a-glance description. Link other things like {{i|Board}} or
+[[Straw]], and they become clickable in the Almanac.
+
+==Tips==
+* Bullet points work.
+* So do '''bold''' and ''italic'' words (shown as plain text).

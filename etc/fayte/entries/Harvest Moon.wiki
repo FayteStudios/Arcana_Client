@@ -1,0 +1,52 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 1.00
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Pumpkin Planting}} [[Pumpkin Planting]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= Seeds of Pumpkin;θ, [[Tilled Field]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Argomoon}} [[Argomoon]]
+| b)= {{icon|Funky Pumpkins}} [[Funky Pumpkins]]
+| c)= [[Pumpkin]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 5 || 5 || 5 || 5.5
+|-
+! Gluttony min
+| 0 || 0 || 12 || 0
+|-
+! Gluttony max
+| 0 || 0 || 18 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Pumpkins & Gourds}} [[Pumpkins and Gourds]]
+| Full and Fed= 03:00:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Pumpkins and Gourds= 70% (70% chance)
+}}
+
+==About==
+
+A {{i|Harvest Moon}} is the product of a second growth stage, second tier {{i|Pumpkin}} Harvest. Right-clicking a Harvest Moon and selecting "Slice" will give you 4x {{i|Pumpkin Flesh}} and 10x {{i|Seeds of Pumpkin}}. A Harvest Moon can be stored in a {{i|Stockbin}}.

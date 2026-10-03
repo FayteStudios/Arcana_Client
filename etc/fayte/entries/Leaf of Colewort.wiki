@@ -1,0 +1,50 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.03
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Cabbage Growing}} [[Cabbage Growing]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Colewort}} [[Colewort]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Shroom Rolls}} [[Shroom Rolls]]
+| Counts as= {{icon|Any Cabbage Leaf}} [[Any Cabbage Leaf]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 1.5 || 1.5 || 1.5 || 1.5
+|-
+! Gluttony min
+| 0 || 0 || 0 || 1
+|-
+! Gluttony max
+| 0 || 0 || 0 || 2
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Cabbage & Kale}} [[Cabbage and Kale]]
+| Full and Fed= 00:01:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+}}
+
+==About==
+
+Generally 6x {{i|Leaf of Colewort}} are received when Splitting {{i|Colewort}} although some Colewort contain less.

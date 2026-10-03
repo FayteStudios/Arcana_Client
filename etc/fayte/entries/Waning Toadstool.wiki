@@ -1,0 +1,57 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Fungiculture}} [[Fungiculture]]
+}}
+
+{{Facts
+| Title=Forage
+| Found= [[Autumnal]], [[Coniferous]], [[Greenwood]], [[Swamp]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Boiled Waning Toadstool}} [[Boiled Waning Toadstool]]
+| Counts as= [[Any Mushroom]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 5 || 5 || 5 || 5
+|-
+! Gluttony min
+| 6 || 6 || 6 || 6
+|-
+! Gluttony max
+| 6 || 6 || 6 || 6
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Mushrooms}} [[Mushrooms]]
+| Full and Fed= 00:06:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Mushrooms= 50% (50% chance)
+}}
+
+==Flavor Text==
+
+''Your skill in 'Herbs & Sprouts' has allowed you to determine that this particular Mushroom is a Waning rather than a Waxing Toadstool. The Waning Toadstool is significantly more poisonous than its more common cousin.''
+
+==About==
+
+All wild {{i|Waxing Toadstool}}s may actually be be a significantly more poisonous {{i|Waning Toadstool}} in disguise. When picking a Waxing Toadstool, if your {{i|Herbs & Sprouts}} proficiency is high enough, you may be able detect this. Additionally, with the [[Fungiculture]] Skill learned, grown by planting another Waning Toadstool in a {{i|Gardening Pot}}. When planting a Waning Toadstool there is a chance for it to grow into a {{i|Spooky Redcap}} instead. Planting Mushrooms in Gardening Pots lowers [[Insanity]]. A Waning Toadstool can be stored in a {{i|MushiSack}}.
+
+When boiled a Waning Toadstool will become a {{i|Boiled Waning Toadstool}}. '''CAUTION''' There is a high chance that even after boiling, a Waning Toadstool will still be poisonous. A Boiled Waning Toadstool, {{i|Boiled Waxing Toadstool}}, Waning Toadstool, and a Waxing Toadstool all count as a Waxing Toadstool when planting and in Food recipes.

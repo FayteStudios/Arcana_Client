@@ -1,0 +1,46 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.03
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Cabbage Growing}} [[Cabbage Growing]]
+| Skill 2= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Any Cabbage Leaf}} [[Any Cabbage Leaf]] ×4, [[Fire]], {{icon|Wheat Flour}} [[Wheat Flour]] 0.3 L, [[Yellow-corn Oil]] 0.25 L
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 40 || 75 || 40 || 40
+|-
+! Gluttony min
+| 56 || 56 || 56 || 56
+|-
+! Gluttony max
+| 71 || 71 || 71 || 71
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Cabbage & Kale}} [[Cabbage and Kale]]
+| Full and Fed= 00:50:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 4
+| Menu= Craft > Food > Cabbage
+}}
+
+==About==
+
+{{i|Cabbage Crumbs}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

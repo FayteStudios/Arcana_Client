@@ -1,0 +1,60 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.35
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+| Skill 2= {{icon|Turkey Farming}} [[Turkey Farming]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Plant}} [[Any Plant]] ×2, {{icon|Any Poultry Breast}} [[Any Poultry Breast]], {{icon|Rye Bread}} [[Rye Bread]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 17.5 || 17.5 || 20 || 15
+|-
+! Argopelter min
+| style="background:#e6b8b8" | 46.4 || 16 || style="background:#f0d860" | 46.4 || 16
+|-
+! Argopelter max
+| style="background:#e6b8b8" | 60.9 || 21 || style="background:#f0d860" | 60.9 || 21
+|-
+! Domesticated Turkey min
+| 16 || style="background:#6fa0ff" | 38.4 || 16 || style="background:#b8c8e6" | 38.4
+|-
+! Domesticated Turkey max
+| 21 || style="background:#6fa0ff" | 50.4 || 21 || style="background:#b8c8e6" | 50.4
+|-
+! Wild Turkey min
+| 16 || style="background:#6fa0ff" | 33.6 || 16 || style="background:#b8c8e6" | 33.6
+|-
+! Wild Turkey max
+| 21 || style="background:#6fa0ff" | 44.1 || 21 || style="background:#b8c8e6" | 44.1
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Poultry}} [[Poultry]]
+| Full and Fed= 00:45:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 3
+| Reduces Poultry= 20% (40% chance)
+| Restores Bread= 15% (85% chance)
+| Menu= Craft > Food > Poultry & Fowl
+}}
+
+==About==
+
+A {{i|Turkey Sandwich}} does '''NOT''' need to be cooked.

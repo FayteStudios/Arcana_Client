@@ -1,0 +1,51 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 1.00
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Pumpkin Planting}} [[Pumpkin Planting]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= Seeds of Pumpkin;θ, [[Tilled Field]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Funky Pumpkins}} [[Funky Pumpkins]]
+| b)= [[Pumpkin]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 4 || 4 || 4.5 || 4
+|-
+! Gluttony min
+| 0 || 0 || 0 || 12
+|-
+! Gluttony max
+| 0 || 0 || 0 || 18
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Pumpkins & Gourds}} [[Pumpkins and Gourds]]
+| Full and Fed= 03:00:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Pumpkins and Gourds= 70% (70% chance)
+}}
+
+==About==
+
+An {{i|Autumn Gold}} is the product of a second growth stage, first tier {{i|Pumpkin}} Harvest. Right-clicking an Autumn Gold and selecting "Slice" will give you 4x {{i|Pumpkin Flesh}} and 10x {{i|Seeds of Pumpkin}}. An Autumn Gold can be stored in a {{i|Stockbin}}.

@@ -1,0 +1,114 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 1.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Advanced Cooking}} [[Advanced Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Baby Corn}} [[Baby Corn]] ×2, {{icon|Bushkin}} [[Bushkin]], {{icon|Butter}} [[Butter]], {{icon|Pumpkin Flesh}} [[Pumpkin Flesh]] ×4, {{icon|Turkey Poult}} [[Turkey Poult]]
+| Second Stage= [[Any Stove]], {{icon|Unbaked Bushbaby}} [[Unbaked Bushbaby]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 30 || 42 || 41 || 30
+|-
+! Ghost Rider min
+| style="background:#e6b8b8" | 75.6 || 28 || 28 || 28
+|-
+! Ghost Rider max
+| style="background:#e6b8b8" | 81 || 30 || 30 || 30
+|-
+! Jack-o-Lantern min
+| style="background:#e6b8b8" | 78.4 || 28 || 28 || 28
+|-
+! Jack-o-Lantern max
+| style="background:#e6b8b8" | 84 || 30 || 30 || 30
+|-
+! Spooktacular min
+| style="background:#e6b8b8" | 72.8 || 28 || 28 || 28
+|-
+! Spooktacular max
+| style="background:#e6b8b8" | 78 || 30 || 30 || 30
+|-
+! Big Autumn min
+| 28 || style="background:#6fa0ff" | 67.2 || 28 || 28
+|-
+! Big Autumn max
+| 30 || style="background:#6fa0ff" | 72 || 30 || 30
+|-
+! Bushkin min
+| 28 || style="background:#6fa0ff" | 70 || 28 || 28
+|-
+! Bushkin max
+| 30 || style="background:#6fa0ff" | 75 || 30 || 30
+|-
+! Small Sugar min
+| 28 || style="background:#6fa0ff" | 64.4 || 28 || 28
+|-
+! Small Sugar max
+| 30 || style="background:#6fa0ff" | 69 || 30 || 30
+|-
+! Connecticut Field min
+| 28 || 28 || style="background:#f0d860" | 67.2 || 28
+|-
+! Connecticut Field max
+| 30 || 30 || style="background:#f0d860" | 72 || 30
+|-
+! Harvest Moon min
+| 28 || 28 || style="background:#f0d860" | 70 || 28
+|-
+! Harvest Moon max
+| 30 || 30 || style="background:#f0d860" | 75 || 30
+|-
+! Sugar Treat min
+| 28 || 28 || style="background:#f0d860" | 64.4 || 28
+|-
+! Sugar Treat max
+| 30 || 30 || style="background:#f0d860" | 69 || 30
+|-
+! Aspen min
+| 28 || 28 || 28 || style="background:#b8c8e6" | 61.6
+|-
+! Aspen max
+| 30 || 30 || 30 || style="background:#b8c8e6" | 66
+|-
+! Autumn Gold min
+| 28 || 28 || 28 || style="background:#b8c8e6" | 64.4
+|-
+! Autumn Gold max
+| 30 || 30 || 30 || style="background:#b8c8e6" | 69
+|-
+! Baby Bear min
+| 28 || 28 || 28 || style="background:#b8c8e6" | 58.8
+|-
+! Baby Bear max
+| 30 || 30 || 30 || style="background:#b8c8e6" | 63
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Pumpkins & Gourds}} [[Pumpkins and Gourds]]
+| Full and Fed= 00:45:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Pumpkins and Gourds= 15% (35% chance)
+| Restores Dairy Food= 15% (80% chance)
+| Menu= Craft > Food > Pumpkins
+}}
+
+==About==
+
+Crafting a {{i|Bushbaby}} will make an {{i|Unbaked Bushbaby}} which can then be baked in {{i|Any Stove}} to produce a Bushbaby.

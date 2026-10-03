@@ -1,0 +1,83 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Colonial Tradesmanship}} [[Colonial Tradesmanship]]
+| Skill 2= {{icon|Nuts & Seeds}} [[Nuts & Seeds]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Any Nuts]] ×2, {{icon|Autumn Grass}} [[Autumn Grass]] ×2, {{icon|Lavender Blewit}} [[Lavender Blewit]]
+| Second Stage= {{icon|Fireplace}} [[Fireplace]], {{icon|Unbaked Autumn Delight}} [[Unbaked Autumn Delight]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 18.5 || 18.5 || 18.5 || 18.5
+|-
+! Stray Chestnut min
+| style="background:#e6b8b8" | 25.2 || 10.5 || 10.5 || 10.5
+|-
+! Stray Chestnut max
+| style="background:#e6b8b8" | 34.8 || 14.5 || 14.5 || 14.5
+|-
+! Acorn min
+| 10.5 || style="background:#6fa0ff" | 24.15 || 10.5 || 10.5
+|-
+! Acorn max
+| 14.5 || style="background:#6fa0ff" | 33.35 || 14.5 || 14.5
+|-
+! Majestic Acorn min
+| 10.5 || style="background:#6fa0ff" | 33.6 || 10.5 || style="background:#b8c8e6" | 24.15
+|-
+! Majestic Acorn max
+| 14.5 || style="background:#6fa0ff" | 46.4 || 14.5 || style="background:#b8c8e6" | 34.8
+|-
+! Pine Nuts min
+| 10.5 || 10.5 || style="background:#f0d860" | 27.3 || 10.5
+|-
+! Pine Nuts max
+| 14.5 || 14.5 || style="background:#f0d860" | 37.7 || 14.5
+|-
+! Testicles min
+| style="background:#e6b8b8" | 25.2 || 17.85 || style="background:#f0d860" | 33.6 || 17.85
+|-
+! Testicles max
+| style="background:#e6b8b8" | 34.8 || 24.65 || style="background:#f0d860" | 46.4 || 24.65
+|-
+! Hickory min
+| 10.5 || 10.5 || 10.5 || style="background:#b8c8e6" | 24.15
+|-
+! Hickory max
+| 14.5 || 14.5 || 14.5 || style="background:#b8c8e6" | 33.35
+|-
+! Walnut min
+| style="background:#e6b8b8" | 25.2 || style="background:#6fa0ff" | 24.15 || style="background:#f0d860" | 27.3 || style="background:#b8c8e6" | 33.6
+|-
+! Walnut max
+| style="background:#e6b8b8" | 34.8 || style="background:#6fa0ff" | 33.35 || style="background:#f0d860" | 37.7 || style="background:#b8c8e6" | 46.4
+|}
+
+{{Facts
+| Title=Food Group
+| Group= None
+| Full and Fed= 00:22:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Nuts
+}}
+
+==About==
+
+Crafting {{i|Autumn Delight}} will make an {{i|Unbaked Autumn Delight}} which can then be placed into lit a {{i|Fireplace}} produce Autumn Delight.

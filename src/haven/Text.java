@@ -30,12 +30,16 @@ import java.awt.*;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 import java.util.*;
+import java.util.function.Consumer;
+import java.util.function.DoubleFunction;
 
 public class Text {
     public static final Foundry std;
     public final BufferedImage img;
     public final String text;
     private Tex tex;
+    private double texscale = 1.0;
+    protected DoubleFunction<BufferedImage> hires = null;
     public static final Color black = Color.BLACK;
     public static final Color white = Color.WHITE;
 	
@@ -46,7 +50,7 @@ public class Text {
     public static class Line extends Text {
 	private final FontMetrics m;
 	
-	private Line(String text, BufferedImage img, FontMetrics m) {
+	Line(String text, BufferedImage img, FontMetrics m) {
 	    super(text, img);
 	    this.m = m;
 	}
@@ -153,8 +157,24 @@ public class Text {
 	    return(renderwrap(text, null, width));
 	}
                 
+	private Foundry fallback = null;
+	private boolean isfallback = false;
+
+	private Foundry fallback() {
+	    if(fallback == null) {
+		java.util.Map<java.awt.font.TextAttribute, Object> attrs = new java.util.HashMap<java.awt.font.TextAttribute, Object>(font.getAttributes());
+		attrs.put(java.awt.font.TextAttribute.FAMILY, "Dialog");
+		fallback = new Foundry(new Font(attrs), defcol);
+		fallback.aa = aa;
+		fallback.isfallback = true;
+	    }
+	    return(fallback);
+	}
+
 	public Line render(String text, Color c) {
 	    text = Translate.get(text);
+	    if(!isfallback && (text != null) && (font.canDisplayUpTo(text) >= 0))
+		return(fallback().render(text, c));
 	    Coord sz = strsize(text);
 	    if(sz.x < 1)
 		sz = sz.add(1, 0);
@@ -167,7 +187,17 @@ public class Text {
 	    FontMetrics m = g.getFontMetrics();
 	    g.drawString(text, 0, m.getAscent());
 	    g.dispose();
-	    return(new Line(text, img, m));
+	    Line line = new Line(text, img, m);
+	    final String ftext = text;
+	    final Font ffont = font;
+	    final int asc = m.getAscent();
+	    final Coord fsz = sz;
+	    line.hires = s -> paintscaled(fsz, s, g2 -> {
+		    g2.setFont(ffont);
+		    g2.setColor(c);
+		    g2.drawString(ftext, 0, asc);
+		});
+	    return(line);
 	}
 		
 	public Line render(String text) {
@@ -185,7 +215,11 @@ public class Text {
 	protected abstract BufferedImage proc(Text text);
 
 	public Text render(String text) {
-	    return(new Text(text, proc(back.render(text))));
+	    Text base = back.render(text);
+	    Text ret = new Text(text, proc(base));
+	    if(base.hires != null)
+		ret.hires = s -> proc(new Text(text, base.hiresimg(s)));
+	    return(ret);
 	}
     }
 
@@ -259,9 +293,28 @@ public class Text {
     }
 	
     public Tex tex() {
-	if(tex == null)
-	    tex = new TexI(img);
+	double s = (hires == null) ? 1.0 : Math.max(1.0, HavenPanel.uiscale);
+	if((tex == null) || (texscale != s)) {
+	    if(tex != null)
+		tex.dispose();
+	    tex = (s == 1.0) ? new TexI(img) : new TexHiRes(hiresimg(s), sz());
+	    texscale = s;
+	}
 	return(tex);
+    }
+
+    public BufferedImage hiresimg(double s) {
+	return((hires == null) ? img : hires.apply(s));
+    }
+
+    static BufferedImage paintscaled(Coord lsz, double s, Consumer<Graphics2D> painter) {
+	BufferedImage buf = TexI.mkbuf(new Coord((int)Math.ceil(lsz.x * s), (int)Math.ceil(lsz.y * s)));
+	Graphics2D g = buf.createGraphics();
+	Utils.AA(g);
+	g.scale(s, s);
+	painter.accept(g);
+	g.dispose();
+	return(buf);
     }
     
     public static void main(String[] args) throws Exception {

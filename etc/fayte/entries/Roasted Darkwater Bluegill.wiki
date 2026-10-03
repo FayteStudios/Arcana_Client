@@ -1,0 +1,45 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.17
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Fishing}} [[Fishing]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Fire]], [[Filet of Darkwater Bluegill]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 7.5 || 9 || 13 || 17.5
+|-
+! Gluttony min
+| 0 || 5 || 0 || 0
+|-
+! Gluttony max
+| 0 || 15 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Fish}} [[Fishes]]
+| Full and Fed= 00:03:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Fishes= 50% (50% chance)
+}}
+
+==About==
+
+A {{i|Roasted Darkwater Bluegill}} is obtained when crafting {{i|Roasted Fish}} using a {{i|Filet of Darkwater Bluegill}} over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

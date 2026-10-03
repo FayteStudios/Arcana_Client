@@ -1,0 +1,46 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Turkey Farming}} [[Turkey Farming]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= [[Any Stove]], {{icon|Company Bacon}} [[Company Bacon]], {{icon|Turkey Egg}} [[Turkey Egg]] ×3
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 40 || 40 || 40 || 40
+|-
+! Gluttony min
+| 10 || 10 || 10 || 10
+|-
+! Gluttony max
+| 10 || 10 || 10 || 10
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Poultry}} [[Poultry]]
+| Full and Fed= 02:00:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Restores Poultry= 100% (100% chance)
+| Menu= Craft > Food > Poultry & Fowl
+}}
+
+==About==
+
+A {{i|Farmer's Omelette}} must be cooked over a lit {{i|Any Stove}}. A Farmer's Omelette is a major [[Restore Food]] for the {{i2|Poultry}} Food Group.

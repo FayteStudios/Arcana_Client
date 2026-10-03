@@ -1,0 +1,57 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.12
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Dairymaid}} [[Dairymaid]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Butter Churn}} [[Butter Churn]], {{icon|Milk}} [[Milk]] 0.4 L
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Berry Cobbler}} [[Berry Cobbler]]
+| b)= {{icon|Bushbaby}} [[Bushbaby]]
+| c)= {{icon|Candied Yams}} [[Candied Yams]]
+| d)= {{icon|Johnnycake}} [[Johnnycake]]
+| e)= [[Saint Caseus Wine]]
+| f)= {{icon|Sauteed Shellshrooms}} [[Sauteed Shellshrooms]]
+| g)= [[Wine Ingredients]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 5 || 5 || 5 || 5
+|-
+! Gluttony min
+| 15 || 15 || 15 || 15
+|-
+! Gluttony max
+| 15 || 15 || 15 || 15
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Dairy Foods}} [[Dairy Foods]]
+| Full and Fed= 02:00:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Restores Dairy Foods= 10% (90% chance)
+| Menu= Craft > Food > Dairy
+}}
+
+==About==
+
+{{i|Butter}} is a minor [[Restore Food]] for the {{i2|Dairy Foods}} Food Group.

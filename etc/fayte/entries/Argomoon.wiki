@@ -1,0 +1,113 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 1.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Advanced Cooking}} [[Advanced Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Argopelter Heart}} [[Argopelter Heart]], {{icon|Beetle}} [[Beetle]] ×2, {{icon|Harvest Moon}} [[Harvest Moon]], {{icon|Pumpkin Flesh}} [[Pumpkin Flesh]] ×4
+| Second Stage= [[Any Stove]], {{icon|Unbaked Argomoon}} [[Unbaked Argomoon]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 40 || 32 || 41 || 37
+|-
+! Ghost Rider min
+| style="background:#e6b8b8" | 78.3 || 29 || 29 || 29
+|-
+! Ghost Rider max
+| style="background:#e6b8b8" | 81 || 30 || 30 || 30
+|-
+! Jack-o-Lantern min
+| style="background:#e6b8b8" | 81.2 || 29 || 29 || 29
+|-
+! Jack-o-Lantern max
+| style="background:#e6b8b8" | 84 || 30 || 30 || 30
+|-
+! Spooktacular min
+| style="background:#e6b8b8" | 75.4 || 29 || 29 || 29
+|-
+! Spooktacular max
+| style="background:#e6b8b8" | 78 || 30 || 30 || 30
+|-
+! Big Autumn min
+| 29 || style="background:#6fa0ff" | 69.6 || 29 || 29
+|-
+! Big Autumn max
+| 30 || style="background:#6fa0ff" | 72 || 30 || 30
+|-
+! Bushkin min
+| 29 || style="background:#6fa0ff" | 72.5 || 29 || 29
+|-
+! Bushkin max
+| 30 || style="background:#6fa0ff" | 75 || 30 || 30
+|-
+! Small Sugar min
+| 29 || style="background:#6fa0ff" | 66.7 || 29 || 29
+|-
+! Small Sugar max
+| 30 || style="background:#6fa0ff" | 69 || 30 || 30
+|-
+! Connecticut Field min
+| 29 || 29 || style="background:#f0d860" | 69.6 || 29
+|-
+! Connecticut Field max
+| 30 || 30 || style="background:#f0d860" | 72 || 30
+|-
+! Harvest Moon min
+| 29 || 29 || style="background:#f0d860" | 72.5 || 29
+|-
+! Harvest Moon max
+| 30 || 30 || style="background:#f0d860" | 75 || 30
+|-
+! Sugar Treat min
+| 29 || 29 || style="background:#f0d860" | 66.7 || 29
+|-
+! Sugar Treat max
+| 30 || 30 || style="background:#f0d860" | 69 || 30
+|-
+! Aspen min
+| 29 || 29 || 29 || style="background:#b8c8e6" | 63.8
+|-
+! Aspen max
+| 30 || 30 || 30 || style="background:#b8c8e6" | 66
+|-
+! Autumn Gold min
+| 29 || 29 || 29 || style="background:#b8c8e6" | 66.7
+|-
+! Autumn Gold max
+| 30 || 30 || 30 || style="background:#b8c8e6" | 69
+|-
+! Baby Bear min
+| 29 || 29 || 29 || style="background:#b8c8e6" | 60.9
+|-
+! Baby Bear max
+| 30 || 30 || 30 || style="background:#b8c8e6" | 63
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Pumpkins & Gourds}} [[Pumpkins and Gourds]]
+| Full and Fed= 01:00:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Pumpkins and Gourds= 30% (80% chance)
+| Menu= Craft > Food > Pumpkins
+}}
+
+==About==
+
+Crafting an {{i|Argomoon}} will make an {{i|Unbaked Argomoon}} which can then be baked in {{i|Any Stove}} to produce an Argomoon.

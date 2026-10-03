@@ -45,6 +45,7 @@ public class WItem extends Widget implements DTarget {
     private Resource cmask = null;
     private long ts = 0;
     public Coord server_c;
+    public long flashat = 0;
     private long gobbleUpdateTime = 0;
 
     public WItem(Coord c, Widget parent, GItem item) {
@@ -102,6 +103,19 @@ public class WItem extends Widget implements DTarget {
     }
     
     public static BufferedImage longtip(GItem item, List<ItemInfo> info) {
+	return(longtip(item, info, null));
+    }
+
+    public static BufferedImage longtip(GItem item, List<ItemInfo> info, String label) {
+	if(FayteTip.on()) {
+	    BufferedImage fimg = FayteTip.longtip(info, label);
+	    if((ItemInfo.find(GobbleInfo.class, info) == null) && (ItemInfo.find(FoodInfo.class, info) == null)) {
+		Resource.Pagina fpg = item.res.get().layer(Resource.pagina);
+		if((fpg != null) && (fimg != null))
+		    fimg = ItemInfo.catimgs(5, fimg, RichText.render(fpg.text, 200).img);
+	    }
+	    return(fimg);
+	}
 	BufferedImage img = ItemInfo.longtip(info);
 	Resource.Pagina pg = item.res.get().layer(Resource.pagina);
 	if(pg != null)
@@ -110,7 +124,18 @@ public class WItem extends Widget implements DTarget {
     }
     
     public BufferedImage longtip(List<ItemInfo> info) {
-	return(longtip(item, info));
+	return(longtip(item, info, namelabel()));
+    }
+
+    private String namelabel() {
+	return(FayteLabels.on() ? FayteLabels.get(FayteLabels.itemkey(this)) : null);
+    }
+
+    private BufferedImage withlabel(BufferedImage img) {
+	String l = namelabel();
+	if((img == null) || (l == null))
+	    return(img);
+	return(ItemInfo.catimgs(0, img, FayteTip.label(l)));
     }
 
     public class ItemTip implements Indir<Tex> {
@@ -132,16 +157,17 @@ public class WItem extends Widget implements DTarget {
     }
     
     public class ShortTip extends ItemTip {
-	public ShortTip(List<ItemInfo> info) {super(shorttip(info));}
+	public ShortTip(List<ItemInfo> info) {super(FayteFoodNote.tip(WItem.this, withlabel(shorttip(info))));}
     }
     
     public class LongTip extends ItemTip {
-	public LongTip(List<ItemInfo> info) {super(longtip(info));}
+	public LongTip(List<ItemInfo> info) {super(FayteFoodNote.tip(WItem.this, longtip(info)));}
     }
     
     private long hoverstart;
     private ItemTip shorttip = null, longtip = null;
     private List<ItemInfo> ttinfo = null;
+    private int labelver = -1;
     public Object tooltip(Coord c, Widget prev) {
 	long now = System.currentTimeMillis();
 	if (prev != this) {
@@ -160,9 +186,10 @@ public class WItem extends Widget implements DTarget {
 	    List<ItemInfo> info = item.info();
 	    if(info.size() < 1)
 		return(null);
-	    if(info != ttinfo) {
+	    if((info != ttinfo) || (labelver != FayteLabels.version)) {
 		shorttip = longtip = null;
 		ttinfo = info;
+		labelver = FayteLabels.version;
 	    }
 	    if(now - hoverstart < 1000) {
 		if(shorttip == null)
@@ -243,6 +270,12 @@ public class WItem extends Widget implements DTarget {
 	}
     };
 
+    public final AttrCache<String> vesselName = new AttrCache<String>() {
+	protected String find(List<ItemInfo> info) {
+	    return FayteContents.vessel(info);
+	}
+    };
+
     public final AttrCache<Float> carats = new AttrCache<Float>() {
 	protected Float find(List<ItemInfo> info) {
 	    return ItemInfo.getCarats(info);
@@ -266,6 +299,14 @@ public class WItem extends Widget implements DTarget {
                         throw new Loading("Somehow the resource is null!");
 	    Tex tex = res.layer(Resource.imgc).tex();
 	    drawmain(g, tex);
+	    if(FayteContents.on()) {
+		String vn = vesselName.get();
+		if(vn != null) {
+		    Tex tt = FayteContents.tint(res, vn);
+		    if(tt != null)
+			g.image(tt, Coord.z);
+		}
+	    }
 	    draw_highlight(g, res, tex);
 	    if(item.num >= 0) {
 		g.atext(Integer.toString(item.num), tex.sz(), 1, 1);
@@ -285,10 +326,33 @@ public class WItem extends Widget implements DTarget {
 		Coord bsz = new Coord(4, (int) (a*s2.y));
 		g.frect(s2.sub(bsz).sub(4,0), bsz);
 		g.chcolor();
+		FayteProgress.draw(g, this);
+	    }
+	    FayteFeastWnd.drawitem(g, this);
+	    FayteAbacus.drawitem(g, this);
+	    if(FayteStationPanel.hl == this) {
+		g.chcolor(0xF0, 0xD0, 0x48, 255);
+		g.rect(Coord.z, sz.sub(1, 1));
+		g.rect(new Coord(1, 1), sz.sub(3, 3));
+		g.chcolor();
 	    }
 	    checkContents(g);
 	    heurmeters(g);
 	    drawpurity(g);
+	    if(flashat > 0) {
+		long el = System.currentTimeMillis() - flashat;
+		if(el > 3000) {
+		    flashat = 0;
+		} else {
+		    int a = (int)(90 + 110 * (0.5 + 0.5 * Math.cos(el / 1000.0 * Math.PI * 4)));
+		    g.chcolor(0xF0, 0xD0, 0x48, a / 3);
+		    g.frect(Coord.z, sz);
+		    g.chcolor(0xF0, 0xD0, 0x48, a);
+		    g.rect(Coord.z, sz.sub(1, 1));
+		    g.rect(new Coord(1, 1), sz.sub(3, 3));
+		    g.chcolor();
+		}
+	    }
 	    item.testMatch();
 	} catch(Loading e) {
 	    missing.loadwait();
@@ -404,6 +468,8 @@ public class WItem extends Widget implements DTarget {
     }
 
     private void checkContents(GOut g) {
+	if(FayteContents.on())
+	    return;
 	if(!Config.show_contents_icons){return;}
 	String contents = contentName.get();
 	if(contents == null){ return; }
@@ -489,12 +555,24 @@ public class WItem extends Widget implements DTarget {
     }
 
     public boolean mousedown(Coord c, int btn) {
-	if(checkXfer(btn)) {
+	if((btn == 2) && !ui.modmeta && !ui.modshift && !ui.modctrl) {
+	    if(FayteModules.ALMANAC.on())
+		FayteInspect.middleclick(this);
+	    return true;
+	} else if((btn == 3) && ui.modctrl && !ui.modshift && !ui.modmeta && FayteXfer.on() && FayteXfer.openall(this)) {
+	    return true;
+	} else if(checkXfer(btn)) {
 	    return true;
 	} else if(btn == 1) {
 	    item.wdgmsg("take", c);
 	    return true;
 	} else if(btn == 3) {
+	    FayteTools.itemrc(this);
+	    FayteCraving.rc(this, c);
+	    if(FayteLabels.on())
+		FayteLabels.opened(this);
+	    if(FayteModules.ALMANAC.on())
+		FayteAlmanac.itemrc(this);
 	    item.wdgmsg("iact", c);
 	    return true;
 	}
@@ -503,6 +581,10 @@ public class WItem extends Widget implements DTarget {
 
     private boolean checkXfer(int button) {
 	boolean inv = parent instanceof Inventory;
+	if(inv && ui.modmeta && !ui.modshift && !ui.modctrl && (button == 1) && FayteXfer.on())
+	    return(FayteXfer.samepurity(this));
+	if(inv && (ui.modshift || ui.modctrl) && FayteXfer.on())
+	    FayteXfer.touch((Inventory)parent);
 	if(ui.modshift) {
 	    if(ui.modmeta) {
 		if(inv) {

@@ -40,6 +40,8 @@ public class GOut {
     private final GOut root;
     public final GLState.Applier st;
     private final GLState.Buffer def2d;
+    private double scale = 1.0;
+    private Coord physz;
 	
     protected GOut(GOut o) {
 	this.gl = o.gl;
@@ -64,6 +66,24 @@ public class GOut {
 	this.st = st;
 	this.root = this;
 	this.def2d = def2d;
+	this.physz = sz;
+    }
+
+    public void setscale(double scale, Coord physz) {
+	root.scale = scale;
+	root.physz = physz;
+    }
+
+    public double scale() {
+	return(root.scale);
+    }
+
+    public Coord physz() {
+	return(root.physz);
+    }
+
+    public int px(int v) {
+	return((int)Math.round(v * root.scale));
     }
     
     public static class GLException extends RuntimeException {
@@ -471,14 +491,15 @@ public class GOut {
     
     public Color getpixel(Coord c) {
 	byte[] buf = new byte[4];
-	gl.glReadPixels(c.x + tx.x, root.sz.y - c.y - tx.y, 1, 1, GL.GL_RGBA, GL2.GL_UNSIGNED_BYTE, ByteBuffer.wrap(buf));
+	gl.glReadPixels(px(c.x + tx.x), physz().y - px(c.y + tx.y), 1, 1, GL.GL_RGBA, GL2.GL_UNSIGNED_BYTE, ByteBuffer.wrap(buf));
 	checkerr();
 	return(new Color(((int)buf[0]) & 0xff, ((int)buf[1]) & 0xff, ((int)buf[2]) & 0xff));
     }
     
-    public BufferedImage getimage(Coord ul, Coord sz) {
+    public BufferedImage getimage(Coord ul, Coord lsz) {
+	Coord sz = new Coord(px(lsz.x), px(lsz.y));
 	byte[] buf = new byte[sz.x * sz.y * 4];
-	gl.glReadPixels(ul.x + tx.x, root.sz.y - ul.y - sz.y - tx.y, sz.x, sz.y, GL.GL_RGBA, GL2.GL_UNSIGNED_BYTE, ByteBuffer.wrap(buf));
+	gl.glReadPixels(px(ul.x + tx.x), physz().y - px(ul.y + tx.y) - sz.y, sz.x, sz.y, GL.GL_RGBA, GL2.GL_UNSIGNED_BYTE, ByteBuffer.wrap(buf));
 	checkerr();
 	for(int y = 0; y < sz.y / 2; y++) {
 	    int to = y * sz.x * 4, bo = (sz.y - y - 1) * sz.x * 4;

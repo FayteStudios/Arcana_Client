@@ -1,0 +1,48 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Tasty Pastries}} [[Tasty Pastries]]
+}}
+
+{{Facts
+| Title=Bake
+| Needs= {{icon|Any Vegetable}} [[Any Vegetable]] ×2, {{icon|Baking Table}} [[Baking Table]], {{icon|Sourdough Starter}} [[Sourdough Starter]], {{icon|Oakworth}} [[Oakworth]] ×2, {{icon|Rye Flour}} [[Rye Flour]] 0.35 L, {{icon|Sugar}} [[Sugar]] 0.5 L, [[Potable Water]] 0.75 L
+| Second Stage= {{icon|Baking Table}} [[Baking Table]], {{icon|Unleavened Oakworth Tart Dough}} [[Unleavened Oakworth Tart Dough]]
+| Third Stage= {{icon|Bread Oven}} [[Bread Oven]], {{icon|Leavened Oakworth Tart Dough}} [[Leavened Oakworth Tart Dough]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 58 || 79 || 57 || 56
+|-
+! Gluttony min
+| 10 || 10 || 10 || 10
+|-
+! Gluttony max
+| 10 || 10 || 10 || 10
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Vegetables & Greens}} [[Vegetables and Greens]]
+| Full and Fed= 02:00:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Restores Vegetables and Greens= 100% (100% chance)
+| Menu= Craft > Food > Vegetables
+}}
+
+==About==
+
+Crafting {{i|Candied Oakworth Tart}} at a {{i|Baking Table}} will make {{i|Unleavened Oakworth Tart Dough}} which can then be left to rest inside the Baking Table until it becomes {{i|Leavened Oakworth Tart Dough}}. Leavened Oakworth Tart Dough, when baked in a {{i|Bread Oven}}, will produce Candied Oakworth Tart. Preparing Foods on a Baking Table removes a small amount of [[Insanity]] and has a chance of giving you an {{i|Eloped Gingerbread Man}}. When baking Foods in a Bread Oven there is a chance for them to become {{i|Animal Crackers}} instead. Candied Oakworth Tart is a major [[Restore Food]] for the {{i2|Vegetables and Greens}} Food Group.

@@ -179,7 +179,11 @@ public class UI {
 	    bind(wdg, id);
             
             if(type.equals("gameui")){
-                if(Config.alwaystrack){
+                if(Config.alwaystrack && FayteModules.STYLE.on()){
+                    FayteActs.setstart("pag:paginae/act/tracking", true);
+                    Config.alwaystrack = false;
+                    Utils.setprefb("alwaystrack", false);
+                } else if(Config.alwaystrack){
                     String[] as = {"tracking"};
                     wdgmsg(wdg, "act", (Object[])as);
                 }
@@ -265,8 +269,19 @@ public class UI {
 	*/
     }
     private int kcode = 0;
+
+    public Widget grabbed() {
+	return(mousegrab);
+    }
+
+    public boolean keygrabbed() {
+	return(keygrab != null);
+    }
+
     public void type(KeyEvent ev) {
         be_active();
+	if(FayteModules.type(this, ev))
+	    return;
 	setmods(ev);
 	ev.setKeyCode(kcode);
 	if(keygrab == null) {
@@ -278,6 +293,8 @@ public class UI {
     }
 	
     public void keydown(KeyEvent ev) {
+	if(FayteModules.keydown(this, ev))
+	    return;
 	setmods(ev);
 	kcode = ev.getKeyCode();
 	if(keygrab == null) {
@@ -289,6 +306,8 @@ public class UI {
     }
 	
     public void keyup(KeyEvent ev) {
+	if(FayteModules.keyup(this, ev))
+	    return;
 	setmods(ev);
 	kcode = 0;
 	if(keygrab == null)
@@ -329,6 +348,8 @@ public class UI {
         
 	setmods(ev);
 	lcc = mc = c;
+	TextEntry.armed = null;
+	FayteAlmanacWnd.clicked();
 	if(mousegrab == null)
 	    root.mousedown(c, button);
 	else

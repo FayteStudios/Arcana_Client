@@ -43,6 +43,10 @@ public class SSWidget extends Widget {
 	g.image(surf, Coord.z);
     }
 	
+    public void resurf() {
+	surf = new TexIM(sz);
+    }
+
     public Graphics graphics() {
 	Graphics g = surf.graphics();
 	return(g);

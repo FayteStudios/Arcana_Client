@@ -1,0 +1,70 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Baking}} [[Baking]]
+}}
+
+{{Facts
+| Title=Bake
+| Needs= {{icon|Baking Table}} [[Baking Table]], {{icon|Clover}} [[Clover]] ×2, {{icon|Flour}} [[Flour]] 0.4 L, [[Potable Water]] 0.75 L, {{icon|Sourdough Starter}} [[Sourdough Starter]]
+| Second Stage= {{icon|Baking Table}} [[Baking Table]], {{icon|Unleavened Clover Roll Dough}} [[Unleavened Clover Roll Dough]]
+| Third Stage= {{icon|Bread Oven}} [[Bread Oven]], {{icon|Clover Rolls}} [[Leavened Clover Roll Dough]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Popham Patty}} [[Popham Patty]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 21 || 11 || 7 || 11
+|-
+! Oatmeal min
+| style="background:#e6b8b8" | 20.9 || 17.1 || 17.1 || 17.1
+|-
+! Oatmeal max
+| style="background:#e6b8b8" | 28.6 || 23.4 || 23.4 || 23.4
+|-
+! Barley min
+| 17.1 || style="background:#6fa0ff" | 22.8 || 17.1 || 17.1
+|-
+! Barley max
+| 23.4 || style="background:#6fa0ff" | 31.2 || 23.4 || 23.4
+|-
+! Rye min
+| 17.1 || 17.1 || style="background:#f0d860" | 22.8 || 17.1
+|-
+! Rye max
+| 23.4 || 23.4 || style="background:#f0d860" | 31.2 || 23.4
+|-
+! Wheat min
+| 17.1 || 17.1 || 17.1 || style="background:#b8c8e6" | 24.7
+|-
+! Wheat max
+| 23.4 || 23.4 || 23.4 || style="background:#b8c8e6" | 33.8
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Bread}} [[Bread]]
+| Full and Fed= 00:20:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Bread
+}}
+
+==About==
+
+Crafting {{i|Clover Rolls}} at a {{i|Baking Table}} will make {{i|Unleavened Clover Roll Dough}} which can then be left to rest inside the Baking Table until it becomes {{i|Leavened Clover Roll Dough}}. Leavened Clover Roll Dough, when baked in a {{i|Bread Oven}}, will produce Clover Rolls. Preparing Foods on a Baking Table removes a small amount of [[Insanity]] and has a chance of giving you an {{i|Eloped Gingerbread Man}}. When baking Foods in a Bread Oven there is a chance for them to become {{i|Animal Crackers}} instead.

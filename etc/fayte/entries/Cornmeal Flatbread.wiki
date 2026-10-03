@@ -1,0 +1,64 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Maize Planting}} [[Maize Planting]]
+}}
+
+{{Facts
+| Title=Bake
+| Needs= {{icon|Any Cornmeal}} [[Any Cornmeal]] 0.45 L, {{icon|Oatmeal}} [[Oatmeal]] 0.1 L, [[Potable Water]] 0.65 L, [[White-corn Oil]] 0.15 L
+| Second Stage= {{icon|Bread Oven}} [[Bread Oven]], Unbaked {{PAGENAME}}
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 12 || 12 || 12 || 12
+|-
+! White Corn min
+| style="background:#e6b8b8" | 48 || 20 || 20 || 20
+|-
+! White Corn max
+| style="background:#e6b8b8" | 74.4 || 31 || 31 || 31
+|-
+! Blue Corn min
+| 20 || style="background:#6fa0ff" | 48 || 20 || 20
+|-
+! Blue Corn max
+| 31 || style="background:#6fa0ff" | 74.4 || 31 || 31
+|-
+! Golden Corn min
+| 20 || 20 || style="background:#f0d860" | 52 || 20
+|-
+! Golden Corn max
+| 31 || 31 || style="background:#f0d860" | 80.6 || 31
+|-
+! Yellow Corn min
+| 20 || 20 || 20 || style="background:#b8c8e6" | 44
+|-
+! Yellow Corn max
+| 31 || 31 || 31 || style="background:#b8c8e6" | 68.2
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Corn}} [[Maize]]
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Corn
+}}
+
+==About==
+
+Crafting {{i|Cornmeal Flatbread}} will make an {{i|Unbaked Cornmeal Flatbread}} which can then be baked in a {{i|Bread Oven}} to produce a Cornmeal Flatbread. When baking Foods in a Bread Oven there is a chance for them to become {{i|Animal Crackers}} instead.

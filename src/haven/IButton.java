@@ -53,6 +53,29 @@ public class IButton extends SSWidget {
 	this(c, parent, up, down, up);
     }
 	
+    private static BufferedImage scaleimg(BufferedImage in, double f) {
+	if(in == null)
+	    return(null);
+	int w = Math.max(1, (int)Math.round(in.getWidth() * f)), h = Math.max(1, (int)Math.round(in.getHeight() * f));
+	BufferedImage out = TexI.mkbuf(new Coord(w, h));
+	java.awt.Graphics2D g = out.createGraphics();
+	g.setRenderingHint(java.awt.RenderingHints.KEY_INTERPOLATION, java.awt.RenderingHints.VALUE_INTERPOLATION_BICUBIC);
+	g.drawImage(in, 0, 0, w, h, null);
+	g.dispose();
+	return(out);
+    }
+
+    public void scale(double f) {
+	if(Math.abs(f - 1.0) < 0.01)
+	    return;
+	up = scaleimg(up, f);
+	down = scaleimg(down, f);
+	hover = scaleimg(hover, f);
+	sz = Utils.imgsz(up);
+	resurf();
+	render();
+    }
+
     public void render() {
 	clear();
 	Graphics g = graphics();

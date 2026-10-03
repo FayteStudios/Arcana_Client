@@ -1,0 +1,55 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.05
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Nut Orchards}} [[Nut Orchards]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= [[Any Stone]], {{icon|Walnut Shell}} [[Walnut Shell]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Adventurer's Trailmix}} [[Adventurer's Trailmix]]
+| b)= {{icon|Fyne Salad}} [[Fyne Salad]]
+| c)= {{icon|Roasted Walnut}} [[Roasted Walnut]]
+| d)= [[Sweet Walnut Crusted Fish]]
+| Counts as= [[Any Nuts]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 8 || 8 || 8 || 13
+|-
+! Gluttony min
+| 4 || 4 || 4 || 10
+|-
+! Gluttony max
+| 8 || 8 || 8 || 15
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Nuts & Seeds}} [[Nuts and Seeds]]
+| Full and Fed= 00:05:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Nuts and Seeds= 20% (20% chance)
+| Variable food multiplier= Blood 1.2 / Phlegm 1.15 / Yellow 1.3 / Black 1.6
+}}
+
+==About==
+
+A {{i|Walnut}} is recieved when Cracking the Shell of a {{i|Walnut Shell}} with {{i|Any Stone}}. A {{i|Roasted Walnut}} is obtained when using a Walnut with the {{i|Roasted Nuts}} recipe, additionally, with the [[Nut Orchards]] skill learned, a Walnut can be planted in a {{i|Gardening Pot}} to grow a Walnut Tree. Planting in Gardening Pots lowers [[Insanity]]. Feeding a Walnut to a {{i|Pig}} will lower its [[Domesticated Animals#Temperament|Temperament]]. A Walnut can be stored in a {{i|NutSack}}.

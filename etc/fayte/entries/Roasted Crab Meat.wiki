@@ -1,0 +1,45 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Survival Skills}} [[Survival Skills]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Crab Meat}} [[Crab Meat]], [[Fire]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 7.5 || 7.5 || 7.5 || 7.5
+|-
+! Gluttony min
+| 0 || 8 || 0 || 0
+|-
+! Gluttony max
+| 0 || 10 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Shellfish}} [[Crustacea and Shellfish]]
+| Full and Fed= 00:03:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Shellfish
+}}
+
+==About==
+
+{{i|Roasted Crab Meat}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

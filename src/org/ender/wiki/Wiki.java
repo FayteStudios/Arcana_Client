@@ -219,7 +219,7 @@ public class Wiki {
     private static String do_search(String name) {
 	String content = null;
 	try {
-	    URI uri = new URI("http", null, "salemthegame.wiki", -1, "/api.php", String.format(SEARCH_URL, name), null);
+	    URI uri = new URI("https", null, "nh.salemthegame.wiki", -1, "/api.php", String.format(SEARCH_URL, name), null);
 
 	    URL url = uri.toURL();
 	    String data = Utils.stream2str(url.openStream());
@@ -238,7 +238,7 @@ public class Wiki {
 		String title = page.getString("title");
 		String snip = page.getString("snippet");
 		if(snip.length() >0){snip+="<BR/>";}
-		content += String.format("<B><a href=\"/index.php/%s\">%s</a></B><BR/>%s<BR/>", title, title, snip);
+		content += String.format("<B><a href=\"/page/%s\">%s</a></B><BR/>%s<BR/>", title, title, snip);
 	    }
 	    return content;
 	} catch (JSONException e) {
@@ -408,7 +408,7 @@ public class Wiki {
 	String content;
 	String data = null;
 	try {
-	    URI uri = new URI("http", null, "salemthegame.wiki", -1, "/api.php", null, null);
+	    URI uri = new URI("https", null, "nh.salemthegame.wiki", -1, "/api.php", null, null);
 
 	    URL link = uri.toURL();
 	    HttpURLConnection conn = (HttpURLConnection) link.openConnection();
@@ -443,7 +443,7 @@ public class Wiki {
     private static String parse_wiki(Item item){
 	String content;
 	try {
-	    URI uri = new URI("http", null, "salemthegame.wiki", -1, "/api.php", null, null);
+	    URI uri = new URI("https", null, "nh.salemthegame.wiki", -1, "/api.php", null, null);
 
 	    URL link = uri.toURL();
 	    HttpURLConnection conn = (HttpURLConnection) link.openConnection();
@@ -673,7 +673,7 @@ public class Wiki {
 	try {
 	    if(date < update_date){return true;}//ignore old cache
 	    //String p = String.format("%s%s", WIKI_URL, name);
-	    URI uri = new URI("http","salemthegame.wiki","/index.php/"+name, null);
+	    URI uri = new URI("https","nh.salemthegame.wiki","/page/"+name, null);
 	    URL  url = uri.toURL();
 	    HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 	    conn.setRequestMethod("HEAD");

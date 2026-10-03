@@ -51,7 +51,7 @@ public class Config {
     public static URL mapurl = geturl("haven.mapurl", "");
     public static URI cachebase = geturi("haven.cachebase", "");
     public static URL screenurl = geturl("haven.screenurl", "");
-    public static URL manualurl = geturl("haven.manualurl", "https://salemthegame.wiki");
+    public static URL manualurl = geturl("haven.manualurl", "https://nh.salemthegame.wiki");
     public static URL storeurl = geturl("haven.storeurl", "");
     public static URI storebase = geturi("haven.storebase", "https://game.salemthegame.com/store/client/");
     public static URL regurl = geturl("haven.regurl", "");
@@ -70,10 +70,10 @@ public class Config {
     public static String authmech = getprop("haven.authmech", "native");
     public static boolean softres = getprop("haven.softres", "on").equals("on");
     public static byte[] authck = null;
-    public static String prefspec = "salem";
+    public static String prefspec = System.getProperty("fayte.prefs", "salem");
     public static final String confid = "";
-    public static String userhome = System.getProperty("user.home")+"/Salem";
-    public static String pluginfolder = System.getProperty("user.home")+"/Salem/plugins";
+    public static String userhome = System.getProperty("fayte.home", System.getProperty("user.home")+"/Salem");
+    public static String pluginfolder = userhome+"/plugins";
     public static String version;
     public static boolean show_tempers = Utils.getprefb("show_tempers", false);
     public static boolean store_map = Utils.getprefb("store_map", true);
@@ -200,6 +200,7 @@ public class Config {
 	loadContentsIcons();
 	loadOptions();
 	window_props = loadProps("windows.conf");
+	FayteConfig.load();
 
 	loadItemRadius();
 	loadAutochoose();
@@ -367,7 +368,8 @@ public class Config {
 
     public static void setCharName(String name){
 	currentCharName = name;
-	MainFrame.instance.setTitle(name);
+	if(MainFrame.instance != null)
+	    MainFrame.instance.setTitle(name);
     }
     
     private static void loadOptions() {
@@ -465,21 +467,29 @@ public class Config {
     }
     
     private static void saveProps(Properties props, String name, String comments){
-	try {
-		props.store(new FileOutputStream(getFile(name)), comments);
+	try(FileOutputStream out = new FileOutputStream(getFile(name))) {
+		props.store(out, comments);
 	    } catch (IOException e) {
 		System.out.println(e);
 	    }
     }
+
+    private static final java.util.concurrent.ExecutorService propsaver = java.util.concurrent.Executors.newSingleThreadExecutor(r -> {
+	    Thread t = new Thread(r, "Window options saver");
+	    t.setDaemon(true);
+	    return(t);
+	});
     
     public static synchronized void setWindowOpt(String key, Boolean value) {
 	setWindowOpt(key, value?"true":"false");
     }
     
     public static void saveWindowOpt() {
+	final Properties copy;
 	synchronized (window_props) {
-	    saveProps(window_props, "windows.conf", "Window config options");
+	    copy = (Properties)window_props.clone();
 	}
+	propsaver.execute(() -> saveProps(copy, "windows.conf", "Window config options"));
     }
     
 

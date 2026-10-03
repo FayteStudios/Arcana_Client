@@ -1,0 +1,58 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.35
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Bellpeppers}} [[Any Bellpeppers]], {{icon|Any Poultry Wing}} [[Any Poultry Wing]], {{icon|Pepper}} [[Pepper]] 0.01 L
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 9.5 || 9.5 || 9 || 9
+|-
+! Argopelter min
+| style="background:#e6b8b8" | 36.54 || 12.6 || style="background:#f0d860" | 36.54 || 12.6
+|-
+! Argopelter max
+| style="background:#e6b8b8" | 54.81 || 18.9 || style="background:#f0d860" | 54.81 || 18.9
+|-
+! Domesticated Turkey min
+| 12.6 || style="background:#6fa0ff" | 30.24 || 12.6 || style="background:#b8c8e6" | 30.24
+|-
+! Domesticated Turkey max
+| 18.9 || style="background:#6fa0ff" | 45.36 || 18.9 || style="background:#b8c8e6" | 45.36
+|-
+! Wild Turkey min
+| 12.6 || style="background:#6fa0ff" | 26.46 || 12.6 || style="background:#b8c8e6" | 26.46
+|-
+! Wild Turkey max
+| 18.9 || style="background:#6fa0ff" | 39.69 || 18.9 || style="background:#b8c8e6" | 39.69
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Poultry}} [[Poultry]]
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Poultry= 20% (40% chance)
+| Menu= Craft > Food > Poultry & Fowl
+}}
+
+==About==
+
+{{i|Wild Wings}} do '''NOT''' need to be cooked.

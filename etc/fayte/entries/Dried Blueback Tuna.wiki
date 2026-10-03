@@ -1,0 +1,44 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= [[Legacy]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= [[Blueback Tuna]], {{icon|Drying Frame}} [[Drying Frame]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 16.5 || 10.5 || 7.5 || 12.5
+|-
+! Gluttony min
+| 0 || 0 || 0 || 0
+|-
+! Gluttony max
+| 0 || 1 || 0 || 1
+|}
+
+{{Facts
+| Title=Food Group
+| Group= None
+| Full and Fed= 00:03:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+}}
+
+==About==
+
+A {{i|Blueback Tuna}} can be dried on a {{i|Drying Frame}} for 72 hours to make a {{i|Dried Blueback Tuna}}. Due to the current nature of the most recent Fish rework there is no reason to ever make a Dried Blueback Tuna.

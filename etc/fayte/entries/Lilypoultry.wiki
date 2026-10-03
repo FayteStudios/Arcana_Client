@@ -1,0 +1,56 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.35
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= [[Legacy]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Poultry Breast}} [[Any Poultry Breast]] ×2, {{icon|Clover}} [[Clover]], {{icon|Frog}} [[Frog]] ×2, {{icon|Lilypad Bulb}} [[Lilypad Bulb]], {{icon|Radish}} [[Radish]] ×3
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 39.5 || 39.5 || 39 || 39
+|-
+! Argopelter min
+| style="background:#e6b8b8" | 65.25 || 22.5 || style="background:#f0d860" | 65.25 || 22.5
+|-
+! Argopelter max
+| style="background:#e6b8b8" | 79.75 || 27.5 || style="background:#f0d860" | 79.75 || 27.5
+|-
+! Domesticated Turkey min
+| 22.5 || style="background:#6fa0ff" | 54 || 22.5 || style="background:#b8c8e6" | 54
+|-
+! Domesticated Turkey max
+| 27.5 || style="background:#6fa0ff" | 66 || 27.5 || style="background:#b8c8e6" | 66
+|-
+! Wild Turkey min
+| 22.5 || style="background:#6fa0ff" | 47.25 || 22.5 || style="background:#b8c8e6" | 47.25
+|-
+! Wild Turkey max
+| 27.5 || style="background:#6fa0ff" | 57.75 || 27.5 || style="background:#b8c8e6" | 57.75
+|}
+
+{{Facts
+| Title=Food Group
+| Group= None
+| Full and Fed= 00:25:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+}}
+
+==About==
+
+{{i|Lilypoultry}} does '''NOT''' need to be cooked.

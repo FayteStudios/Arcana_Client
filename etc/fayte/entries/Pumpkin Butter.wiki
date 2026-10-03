@@ -1,0 +1,113 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Simple Cooking}} [[Simple Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Butterfly}} [[Any Butterfly]], {{icon|Copper Grinder}} [[Copper Grinder]], {{icon|Pumpkin Flesh}} [[Pumpkin Flesh]] ×2
+| Or= {{icon|Any Butterfly}} [[Any Butterfly]], {{icon|Grindstone}} [[Grindstone]], {{icon|Pumpkin Flesh}} [[Pumpkin Flesh]] ×2
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 13 || 13 || 13 || 13
+|-
+! Ghost Rider min
+| style="background:#e6b8b8" | 29.7 || 14 || 14 || 14
+|-
+! Ghost Rider max
+| style="background:#e6b8b8" | 37.8 || 14 || 14 || 14
+|-
+! Jack-o-Lantern min
+| style="background:#e6b8b8" | 30.8 || 14 || 14 || 14
+|-
+! Jack-o-Lantern max
+| style="background:#e6b8b8" | 39.2 || 14 || 14 || 14
+|-
+! Spooktacular min
+| style="background:#e6b8b8" | 28.6 || 14 || 14 || 14
+|-
+! Spooktacular max
+| style="background:#e6b8b8" | 36.4 || 14 || 14 || 14
+|-
+! Big Autumn min
+| 11 || style="background:#6fa0ff" | 33.6 || 14 || 14
+|-
+! Big Autumn max
+| 14 || style="background:#6fa0ff" | 33.6 || 14 || 14
+|-
+! Bushkin min
+| 11 || style="background:#6fa0ff" | 35 || 14 || 14
+|-
+! Bushkin max
+| 14 || style="background:#6fa0ff" | 35 || 14 || 14
+|-
+! Small Sugar min
+| 11 || style="background:#6fa0ff" | 32.2 || 14 || 14
+|-
+! Small Sugar max
+| 14 || style="background:#6fa0ff" | 32.2 || 14 || 14
+|-
+! Connecticut Field min
+| 11 || 14 || style="background:#f0d860" | 33.6 || 14
+|-
+! Connecticut Field max
+| 14 || 14 || style="background:#f0d860" | 33.6 || 14
+|-
+! Harvest Moon min
+| 11 || 14 || style="background:#f0d860" | 35 || 14
+|-
+! Harvest Moon max
+| 14 || 14 || style="background:#f0d860" | 35 || 14
+|-
+! Sugar Treat min
+| 11 || 14 || style="background:#f0d860" | 32.2 || 14
+|-
+! Sugar Treat max
+| 14 || 14 || style="background:#f0d860" | 32.2 || 14
+|-
+! Aspen min
+| 11 || 14 || 14 || style="background:#b8c8e6" | 30.8
+|-
+! Aspen max
+| 14 || 14 || 14 || style="background:#b8c8e6" | 30.8
+|-
+! Autumn Gold min
+| 11 || 14 || 14 || style="background:#b8c8e6" | 32.2
+|-
+! Autumn Gold max
+| 14 || 14 || 14 || style="background:#b8c8e6" | 32.2
+|-
+! Baby Bear min
+| 11 || 14 || 14 || style="background:#b8c8e6" | 29.4
+|-
+! Baby Bear max
+| 14 || 14 || 14 || style="background:#b8c8e6" | 29.4
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Pumpkins & Gourds}} [[Pumpkins and Gourds]]
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Pumpkins and Gourds= 20% (40% chance)
+| Menu= Craft > Food > Pumpkins
+}}
+
+==About==
+
+{{i|Pumpkin Butter}} does '''NOT''' need to be cooked.

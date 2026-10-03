@@ -38,23 +38,40 @@ public class Button extends SIWidget {
     static final Color defcol = new Color(248, 240, 193);
     static final Text.Foundry tf = new Text.Foundry(new Font("Sans", Font.PLAIN, 11), defcol);
     public static final int h = ut.getHeight();
+
+    public static int bh() {
+	return(FayteSkin.on() ? Math.max(h, FayteSkin.labelf.height() + 12) : h);
+    }
     public static final int pad = bl.getWidth() + br.getWidth();
     public Text text;
     public BufferedImage cont;
     boolean a = false;
+    boolean hov = false;
+    private Text flabel;
+    private int flabelw = -1;
+    private Tex fcont;
+    private BufferedImage fcontsrc;
     public Object Info;
 	
     @RName("btn")
     public static class $Btn implements Factory {
 	public Widget create(Coord c, Widget parent, Object[] args) {
-	    return(new Button(c, (Integer)args[0], parent, (String)args[1]));
+	    return(gamesized(new Button(c, (Integer)args[0], parent, (String)args[1])));
 	}
     }
     @RName("ltbtn")
     public static class $LTBtn implements Factory {
 	public Widget create(Coord c, Widget parent, Object[] args) {
-	    return(wrapped(c, (Integer)args[0], parent, (String)args[1]));
+	    return(gamesized(wrapped(c, (Integer)args[0], parent, (String)args[1])));
 	}
+    }
+
+    private static Button gamesized(Button b) {
+	if(b.sz.y > h) {
+	    b.sz = new Coord(b.sz.x, Math.max(h, Utils.imgsz(b.cont).y + 4));
+	    b.redraw();
+	}
+	return(b);
     }
 	
     public static Button wrapped(Coord c, int w, Widget parent, String text) {
@@ -63,19 +80,19 @@ public class Button extends SIWidget {
     }
         
     public Button(Coord c, Integer w, Widget parent, String text) {
-	super(c, new Coord(w, h), parent);
+	super(c, new Coord(w, bh()), parent);
 	this.text = tf.render(text);
 	this.cont = this.text.img;
     }
         
     public Button(Coord c, Integer w, Widget parent, Text text) {
-	super(c, new Coord(w, h), parent);
+	super(c, new Coord(w, bh()), parent);
 	this.text = text;
 	this.cont = text.img;
     }
 	
     public Button(Coord c, Integer w, Widget parent, BufferedImage cont) {
-	super(c, new Coord(w, h), parent);
+	super(c, new Coord(w, bh()), parent);
 	this.cont = cont;
     }
 	
@@ -93,10 +110,42 @@ public class Button extends SIWidget {
 	    tc = tc.add(1, 1);
 	g.drawImage(cont, tc.x, tc.y, null);
     }
-    
+
+    public void draw(GOut g) {
+	if(!FayteSkin.on()) {
+	    super.draw(g);
+	    return;
+	}
+	FayteSkin.button(g, sz, hov, a);
+	if(text != null) {
+	    if((flabel == null) || !flabel.text.equals(text.text) || (flabelw != sz.x)) {
+		flabelw = sz.x;
+		flabel = FayteSkin.labelf.render(text.text);
+		for(int pt = FayteSkin.s(10); ((flabel.sz().x > sz.x - 8) || (flabel.sz().y > sz.y)) && (pt >= 8); pt--)
+		    flabel = new Text.Foundry(FayteFont.font(java.awt.Font.PLAIN, pt), FayteSkin.TEXT).aa(true).render(text.text);
+	    }
+	    Coord tc = sz.sub(flabel.sz()).div(2);
+	    g.image(flabel.tex(), a ? tc.add(1, 1) : tc);
+	} else if(cont != null) {
+	    if(fcontsrc != cont) {
+		if(fcont != null)
+		    fcont.dispose();
+		fcont = new TexI(cont);
+		fcontsrc = cont;
+	    }
+	    Coord tc = sz.sub(Utils.imgsz(cont)).div(2);
+	    g.image(fcont, a ? tc.add(1, 1) : tc);
+	}
+    }
+
+    public void mousemove(Coord c) {
+	hov = c.isect(Coord.z, sz);
+	super.mousemove(c);
+    }
+
     @Override
     public Coord contentsz() {
-	return new Coord(text.sz().x + pad, h);
+	return new Coord(text.sz().x + pad, bh());
     }
 
     public void change(String text, Color col) {

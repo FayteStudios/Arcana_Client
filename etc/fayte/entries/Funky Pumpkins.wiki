@@ -1,0 +1,112 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 4.00
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Advanced Cooking}} [[Advanced Cooking]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Autumn Gold}} [[Autumn Gold]], {{icon|Bushkin}} [[Bushkin]], {{icon|Connecticut Field}} [[Connecticut Field]], [[Fire]], {{icon|Harvest Moon}} [[Harvest Moon]], {{icon|Jack-o-Lantern}} [[Jack-o-Lantern]], {{icon|Pumpkin Flesh}} [[Pumpkin Flesh]], {{icon|Small Sugar}} [[Small Sugar]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 70 || 40 || 40 || 40
+|-
+! Ghost Rider min
+| style="background:#e6b8b8" | 108 || 40 || 40 || 40
+|-
+! Ghost Rider max
+| style="background:#e6b8b8" | 135 || 50 || 50 || 50
+|-
+! Jack-o-Lantern min
+| style="background:#e6b8b8" | 112 || 40 || 40 || 40
+|-
+! Jack-o-Lantern max
+| style="background:#e6b8b8" | 140 || 50 || 50 || 50
+|-
+! Spooktacular min
+| style="background:#e6b8b8" | 104 || 40 || 40 || 40
+|-
+! Spooktacular max
+| style="background:#e6b8b8" | 130 || 50 || 50 || 50
+|-
+! Big Autumn min
+| 40 || style="background:#6fa0ff" | 96 || 40 || 40
+|-
+! Big Autumn max
+| 50 || style="background:#6fa0ff" | 120 || 50 || 50
+|-
+! Bushkin min
+| 40 || style="background:#6fa0ff" | 100 || 40 || 40
+|-
+! Bushkin max
+| 50 || style="background:#6fa0ff" | 125 || 50 || 50
+|-
+! Small Sugar min
+| 40 || style="background:#6fa0ff" | 92 || 40 || 40
+|-
+! Small Sugar max
+| 50 || style="background:#6fa0ff" | 115 || 50 || 50
+|-
+! Connecticut Field min
+| 40 || 40 || style="background:#f0d860" | 96 || 40
+|-
+! Connecticut Field max
+| 50 || 50 || style="background:#f0d860" | 120 || 50
+|-
+! Harvest Moon min
+| 40 || 40 || style="background:#f0d860" | 100 || 40
+|-
+! Harvest Moon max
+| 50 || 50 || style="background:#f0d860" | 125 || 50
+|-
+! Sugar Treat min
+| 40 || 40 || style="background:#f0d860" | 92 || 40
+|-
+! Sugar Treat max
+| 50 || 50 || style="background:#f0d860" | 115 || 50
+|-
+! Aspen min
+| 40 || 40 || 40 || style="background:#b8c8e6" | 88
+|-
+! Aspen max
+| 50 || 50 || 50 || style="background:#b8c8e6" | 110
+|-
+! Autumn Gold min
+| 40 || 40 || 40 || style="background:#b8c8e6" | 92
+|-
+! Autumn Gold max
+| 50 || 50 || 50 || style="background:#b8c8e6" | 115
+|-
+! Baby Bear min
+| 40 || 40 || 40 || style="background:#b8c8e6" | 84
+|-
+! Baby Bear max
+| 50 || 50 || 50 || style="background:#b8c8e6" | 105
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Pumpkins & Gourds}} [[Pumpkins and Gourds]]
+| Full and Fed= 04:00:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 8
+| Reduces Pumpkins and Gourds= 95% (95% chance)
+| Menu= Craft > Food > Pumpkins
+}}
+
+==About==
+
+{{i|Funky Pumpkins}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

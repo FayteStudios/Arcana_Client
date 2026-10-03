@@ -1,0 +1,63 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.01
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Fried Foods}} [[Fried Foods]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Any Corn}} [[Any Corn]] ×30, {{icon|Coarse Salt}} [[Coarse Salt]], [[Fire]], {{icon|Frying Pan}} [[Frying Pan]], {{icon|Pumpkinseed Oil}} [[Pumpkinseed Oil]] 0.1 L
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 6 || 6 || 6 || 6
+|-
+! White Corn min
+| style="background:#e6b8b8" | 1.2 || 0.5 || 0.5 || 0.5
+|-
+! White Corn max
+| style="background:#e6b8b8" | 25.2 || 10.5 || 10.5 || 10.5
+|-
+! Blue Corn min
+| 0.5 || style="background:#6fa0ff" | 1.2 || 0.5 || 0.5
+|-
+! Blue Corn max
+| 10.5 || style="background:#6fa0ff" | 25.2 || 10.5 || 10.5
+|-
+! Golden Corn min
+| 0.5 || 0.5 || style="background:#f0d860" | 1.3 || 0.5
+|-
+! Golden Corn max
+| 10.5 || 10.5 || style="background:#f0d860" | 27.3 || 10.5
+|-
+! Yellow Corn min
+| 0.5 || 0.5 || 0.5 || style="background:#b8c8e6" | 1.1
+|-
+! Yellow Corn max
+| 10.5 || 10.5 || 10.5 || style="background:#b8c8e6" | 23.1
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Corn}} [[Maize]]
+| Full and Fed= 00:20:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Corn
+}}
+
+==About==
+
+{{i|Popcorn}} must be cooked with a {{i|Frying Pan}} equipped and over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}. This recipe will make 1x Popcorn which will go into your Inventory, but will additionally scatter a random amount of Popcorn on the ground around you which can then be picked up.

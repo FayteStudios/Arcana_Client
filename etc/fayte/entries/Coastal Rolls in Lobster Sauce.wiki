@@ -1,0 +1,141 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= None
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Any Fish]], [[Fire]], {{icon|Lobster Mushroom}} [[Lobster Mushroom]], {{icon|Milk}} [[Milk]] 0.1 L, {{icon|White Cornmeal}} [[White Cornmeal]] 0.15 L
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 15 || 15 || 15 || 15
+|-
+! Angel-Winged Seabass min
+| style="background:#e6b8b8" | 26.25 || 12.5 || 12.5 || 12.5
+|-
+! Angel-Winged Seabass max
+| style="background:#e6b8b8" | 44.1 || 21 || 21 || 21
+|-
+! Ghostly Whitefish min
+| style="background:#e6b8b8" | 30 || 12.5 || 12.5 || 12.5
+|-
+! Ghostly Whitefish max
+| style="background:#e6b8b8" | 50.4 || 21 || 21 || 21
+|-
+! Tiger Trout min
+| style="background:#e6b8b8" | 27.5 || 12.5 || 12.5 || 12.5
+|-
+! Tiger Trout max
+| style="background:#e6b8b8" | 46.2 || 21 || 21 || 21
+|-
+! Blueback Tuna min
+| 12.5 || style="background:#6fa0ff" | 28.75 || 12.5 || style="background:#b8c8e6" | 28.75
+|-
+! Blueback Tuna max
+| 21 || style="background:#6fa0ff" | 48.3 || 21 || style="background:#b8c8e6" | 48.3
+|-
+! Darkwater Bluegill min
+| 12.5 || style="background:#6fa0ff" | 28.75 || 12.5 || 12.5
+|-
+! Darkwater Bluegill max
+| 21 || style="background:#6fa0ff" | 48.3 || 21 || 21
+|-
+! Red-Finned Mullet min
+| 12.5 || style="background:#6fa0ff" | 26.25 || 12.5 || 12.5
+|-
+! Red-Finned Mullet max
+| 21 || style="background:#6fa0ff" | 44.1 || 21 || 21
+|-
+! Silt-Dwelling Mudsnapper min
+| 12.5 || style="background:#6fa0ff" | 26.25 || 12.5 || 12.5
+|-
+! Silt-Dwelling Mudsnapper max
+| 21 || style="background:#6fa0ff" | 44.1 || 21 || 21
+|-
+! Cape Codfish min
+| 12.5 || 12.5 || style="background:#f0d860" | 26.25 || 12.5
+|-
+! Cape Codfish max
+| 21 || 21 || style="background:#f0d860" | 44.1 || 21
+|-
+! Gold Pickerel min
+| 12.5 || 12.5 || style="background:#f0d860" | 28.75 || 12.5
+|-
+! Gold Pickerel max
+| 21 || 21 || style="background:#f0d860" | 48.3 || 21
+|-
+! Shin Spinner min
+| 12.5 || 12.5 || style="background:#f0d860" | 27.5 || 12.5
+|-
+! Shin Spinner max
+| 21 || 21 || style="background:#f0d860" | 46.2 || 21
+|-
+! Raging Bullhead min
+| 12.5 || 12.5 || 12.5 || style="background:#b8c8e6" | 31.25
+|-
+! Raging Bullhead max
+| 21 || 21 || 21 || style="background:#b8c8e6" | 52.5
+|-
+! Sargasso Eel min
+| 12.5 || 12.5 || 12.5 || style="background:#b8c8e6" | 26.25
+|-
+! Sargasso Eel max
+| 21 || 21 || 21 || style="background:#b8c8e6" | 44.1
+|-
+! Trunk-Nosed Lake Perch min
+| 12.5 || 12.5 || 12.5 || style="background:#b8c8e6" | 26.25
+|-
+! Trunk-Nosed Lake Perch max
+| 21 || 21 || 21 || style="background:#b8c8e6" | 44.1
+|-
+! Crimson Carp min
+| style="background:#e6b8b8" | 75 || style="background:#6fa0ff" | 75 || style="background:#f0d860" | 75 || style="background:#b8c8e6" | 75
+|-
+! Crimson Carp max
+| style="background:#e6b8b8" | 126 || style="background:#6fa0ff" | 126 || style="background:#f0d860" | 126 || style="background:#b8c8e6" | 126
+|-
+! Hellish Halibut min
+| style="background:#e6b8b8" | 30 || style="background:#6fa0ff" | 30 || style="background:#f0d860" | 30 || style="background:#b8c8e6" | 30
+|-
+! Hellish Halibut max
+| style="background:#e6b8b8" | 50.4 || style="background:#6fa0ff" | 50.4 || style="background:#f0d860" | 50.4 || style="background:#b8c8e6" | 50.4
+|-
+! Long-Whiskered Catfish min
+| style="background:#e6b8b8" | 30 || style="background:#6fa0ff" | 30 || style="background:#f0d860" | 30 || style="background:#b8c8e6" | 30
+|-
+! Long-Whiskered Catfish max
+| style="background:#e6b8b8" | 50.4 || style="background:#6fa0ff" | 50.4 || style="background:#f0d860" | 50.4 || style="background:#b8c8e6" | 50.4
+|-
+! Red Herring min
+| style="background:#e6b8b8" | 26.25 || style="background:#6fa0ff" | 26.25 || style="background:#f0d860" | 26.25 || style="background:#b8c8e6" | 26.25
+|-
+! Red Herring max
+| style="background:#e6b8b8" | 44.1 || style="background:#6fa0ff" | 44.1 || style="background:#f0d860" | 44.1 || style="background:#b8c8e6" | 44.1
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Fish}} [[Fishes]]
+| Full and Fed= 00:25:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Fish & Seafood
+}}
+
+==About==
+
+{{i|Coastal Rolls in Lobster Sauce}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

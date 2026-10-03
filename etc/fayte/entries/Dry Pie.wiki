@@ -1,0 +1,49 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Baking}} [[Baking]]
+}}
+
+{{Facts
+| Title=Bake
+| Needs= {{icon|Bread Oven}} [[Bread Oven]], {{icon|Rested Pie Dough}} [[Rested Pie Dough]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Toad in the Hole}} [[Toad in the Hole]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 7 || 7 || 7 || 7
+|-
+! Gluttony min
+| 19 || 19 || 19 || 19
+|-
+! Gluttony max
+| 26 || 26 || 26 || 26
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Bread}} [[Bread]]
+| Full and Fed= 01:00:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+}}
+
+==About==
+
+When baking Foods in a {{i|Bread Oven}} there is a chance for them to become {{i|Animal Crackers}} instead.

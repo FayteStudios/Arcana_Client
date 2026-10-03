@@ -1,0 +1,52 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Vegetable Potting}} [[Vegetable Potting]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Gardening Pot}} [[Gardening Pot]], {{icon|Green Bell Peppers}} [[Green Bell Peppers]], {{icon|Humus}} [[Humus]], [[Potable Water]] 0.2 L
+| Or= {{icon|Gardening Pot}} [[Gardening Pot]], {{icon|Humus}} [[Humus]], [[Potable Water]] 0.2 L, {{icon|Red Bell Peppers}} [[Red Bell Peppers]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Dragon's Breath Salad}} [[Dragon's Breath Salad]]
+| Counts as= {{icon|Any Bellpeppers}} [[Any Bellpeppers]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 2 || 2 || 3 || 3
+|-
+! Gluttony min
+| 0 || 11 || 11 || 0
+|-
+! Gluttony max
+| 0 || 14 || 14 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Vegetables & Greens}} [[Vegetables and Greens]]
+| Full and Fed= 00:13:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Variable food multiplier= Blood 1.3 / Phlegm 1.3 / Yellow 1.3 / Black 1.3
+}}
+
+==About==
+
+When growing {{i|Green Bell Peppers}} or {{i|Red Bell Peppers}} in a {{i|Gardening Pot}} there is a small chance that they will instead grow into a {{i|Jalapeno}}. A Jalapeno can '''NOT''' be replanted. A Jalapeno can be stored in a {{i|Bellpepper Sack}}.

@@ -1,0 +1,95 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Advanced Cooking}} [[Advanced Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= [[Any Mushroom]] ×3, [[Potable Water]] 0.35 L, {{icon|Raw Rabbit Cut}} [[Raw Rabbit Cut]] ×2, {{icon|Raw Venison Cut}} [[Raw Venison Cut]], {{icon|Tomato}} [[Tomato]]
+| Second Stage= [[Any Stove]], {{icon|Sauce Chasseur}} [[Unbaked Sauce Chasseur]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 43 || 31 || 44 || 57
+|-
+! Spooky Redcap min
+| 96 || 96 || 96 || 96
+|-
+! Spooky Redcap max
+| 104 || 104 || 104 || 104
+|-
+! Monk's Pan min
+| style="background:#e6b8b8" | 75 || 30 || 30 || 30
+|-
+! Monk's Pan max
+| style="background:#e6b8b8" | 81.25 || 32.5 || 32.5 || 32.5
+|-
+! Toadstool min
+| style="background:#e6b8b8" | 81 || 30 || 30 || 30
+|-
+! Toadstool max
+| style="background:#e6b8b8" | 87.75 || 32.5 || 32.5 || 32.5
+|-
+! Lavender Blewit min
+| 30 || style="background:#6fa0ff" | 75 || 30 || 30
+|-
+! Lavender Blewit max
+| 32.5 || style="background:#6fa0ff" | 81.25 || 32.5 || 32.5
+|-
+! Honeylamp min
+| 30 || style="background:#6fa0ff" | 75 || 30 || 30
+|-
+! Honeylamp max
+| 32.5 || style="background:#6fa0ff" | 81.25 || 32.5 || 32.5
+|-
+! Lobster Mushroom min
+| 30 || 30 || style="background:#f0d860" | 75 || 30
+|-
+! Lobster Mushroom max
+| 32.5 || 32.5 || style="background:#f0d860" | 81.25 || 32.5
+|-
+! Yellow Morel min
+| 30 || 30 || style="background:#f0d860" | 81 || 30
+|-
+! Yellow Morel max
+| 32.5 || 32.5 || style="background:#f0d860" | 87.75 || 32.5
+|-
+! Sugar Caps min
+| 30 || 30 || 30 || style="background:#b8c8e6" | 75
+|-
+! Sugar Caps max
+| 32.5 || 32.5 || 32.5 || style="background:#b8c8e6" | 81.25
+|-
+! Witch's Hat min
+| 30 || 30 || 30 || style="background:#b8c8e6" | 81
+|-
+! Witch's Hat max
+| 32.5 || 32.5 || 32.5 || style="background:#b8c8e6" | 87.75
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Mushrooms}} [[Mushrooms]]
+| Full and Fed= 00:25:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Mushrooms= 15% (35% chance)
+| Menu= Craft > Food > Fungus
+}}
+
+==About==
+
+Crafting a {{i|Sauce Chasseur}} will make an {{i|Unbaked Sauce Chasseur}} which can then be baked in {{i|Any Stove}} for 1 hour to produce a Sauce Chasseur. '''NOTE:''' Remember to boil your Mushrooms to reduce {{i|'Shroom Poisoning}}.

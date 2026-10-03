@@ -1,0 +1,49 @@
+{{Facts
+| Title=Basics
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Forage
+| Found= [[Blackberry Bush]] and on Ground
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Berrymash Purgative}} [[Berrymash Purgative]]
+| b)= {{icon|Blackberry Pectin}} [[Blackberry Pectin]]
+| c)= {{icon|Dehydrated Blackberry}} [[Dehydrated Blackberry]]
+| d)= {{icon|Grub De La Grub}} [[Grub De La Grub]]
+| e)= {{icon|Twig N' Berries}} [[Twig N' Berries]]
+| Counts as= {{icon|Any Berries}} [[Any Berries]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 2.5 || 2.5 || 2.5 || 2.5
+|-
+! Gluttony min
+| 0 || 0 || 0 || 5
+|-
+! Gluttony max
+| 0 || 0 || 0 || 6
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Berries}} [[Berries]]
+| Full and Fed= 00:06:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+}}
+
+==About==
+
+{{i|Blackberries}} can be Picked from a {{i|Blackberry Bush}}. Learning the [[Flowers & Berries]] Skill will allow you to Pick more Blackberries from each [[Bush]]. Blackberries can be stored a {{i|Berry Sack}}.
+

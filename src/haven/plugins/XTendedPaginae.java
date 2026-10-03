@@ -1,11 +1,13 @@
 package haven.plugins;
 
 import haven.Config;
+import haven.FayteMsg;
+import haven.GameUI;
 import haven.Glob;
 import haven.HotkeyListWindow;
+import haven.FayteModules;
 import haven.Resource;
 import haven.Resource.JarSource;
-import haven.TimerPanel;
 import haven.UI;
 import haven.WikiBrowser;
 import java.io.File;
@@ -56,14 +58,8 @@ public class XTendedPaginae {
 
     static void loadBaseXTendedPaginae(UI ui) {
         Glob glob = ui.sess.glob;
-        Collection<Glob.Pagina> p = glob.paginae;
+        Collection<Glob.Pagina> p = FayteModules.STYLE.on() ? new java.util.ArrayList<Glob.Pagina>() : glob.paginae;
         p.add(glob.paginafor(Resource.load("paginae/act/add")));
-        p.add(glob.paginafor(Resource.load("paginae/add/timer")));
-        dictionary.put("timers", new Plugin() {
-            public void execute(UI ui) {
-                TimerPanel.toggle();
-            }
-        });
         p.add(glob.paginafor(Resource.load("paginae/add/wiki")));
         dictionary.put("wiki", new Plugin() {
             public void execute(UI ui) {
@@ -86,6 +82,24 @@ public class XTendedPaginae {
         dictionary.put("hotkey", new Plugin() {
             public void execute(UI ui) {
                 HotkeyListWindow.instance(ui).toggle();
+            }
+        });
+        addcmd(p, glob, "fayte");
+        addcmd(p, glob, "gatherwindows");
+        addcmd(p, glob, "modules");
+        for(String cmd : FayteModules.xtended())
+            addcmd(p, glob, cmd);
+    }
+
+    static void addcmd(Collection<Glob.Pagina> p, Glob glob, final String cmd) {
+        p.add(glob.paginafor(Resource.load("paginae/add/" + cmd)));
+        dictionary.put(cmd, new Plugin() {
+            public void execute(UI ui) {
+                try {
+                    ui.cons.run(new String[]{cmd});
+                } catch (Exception e) {
+                    FayteMsg.say(e.getMessage(), GameUI.MsgType.BAD);
+                }
             }
         });
     }

@@ -42,18 +42,27 @@ public class FlowerMenu extends Widget {
     static Text.Foundry ptf = new Text.Foundry(new Font("SansSerif", Font.PLAIN, 12));
     static int ph = pbgm.sz().y, ppl = 8;
     FlowerMenu.Petal[] opts;
+    final boolean flat = FayteSkin.on();
+    static final int FROWH = FayteSkin.s(28);
+    static final Text.Foundry fptf = new Text.Foundry(FayteFont.font(Font.BOLD, FayteSkin.s(13)), FayteSkin.TEXT).aa(true);
     private double fast_menu1, fast_menu2;
     private Petal autochoose = null;
+    private static boolean serverbuild = false;
 
     @Widget.RName("sm")
     public static class $_ implements Widget.Factory {
 	public Widget create(Coord c, Widget parent, Object[] args) {
-	    if((c.x == -1) && (c.y == -1))
+	    if(((c.x == -1) && (c.y == -1)) || FayteTools.ourmenu())
 		c = parent.ui.lcc;
 	    String[] opts = new String[args.length];
 	    for(int i = 0; i < args.length; i++)
 		opts[i] = (String)args[i];
-	    return(new FlowerMenu(c, parent, opts));
+	    serverbuild = true;
+	    try {
+		return(new FlowerMenu(c, parent, opts));
+	    } finally {
+		serverbuild = false;
+	    }
 	}
     }
 
@@ -63,12 +72,18 @@ public class FlowerMenu extends Widget {
 	public int num;
 	Tex text;
 	double a = 1;
+	boolean hov = false;
 		
 	public Petal(String name) {
 	    super(Coord.z, Coord.z, FlowerMenu.this);
 	    this.name = name;
-	    text = new TexI(Utils.outline2(ptf.render(name, ptc).img, Utils.contrast(ptc)));
-	    sz = new Coord(text.sz().x + 25, ph);
+	    if(flat) {
+		text = new TexI(Utils.outline2(fptf.render(name).img, Color.BLACK));
+		sz = new Coord(text.sz().x + 24, FROWH);
+	    } else {
+		text = new TexI(Utils.outline2(ptf.render(name, ptc).img, Utils.contrast(ptc)));
+		sz = new Coord(text.sz().x + 25, ph);
+	    }
             if (Config.fast_menu)
             {
               FlowerMenu.this.fast_menu1 = 0.0D;
@@ -86,10 +101,28 @@ public class FlowerMenu extends Widget {
 	}
 		
 	public void move(double a, double r) {
+	    if(flat)
+		return;
 	    move(Coord.sc(a, r));
 	}
 		
+	public void mousemove(Coord c) {
+	    hov = c.isect(Coord.z, sz);
+	}
+
 	public void draw(GOut g) {
+	    if(flat) {
+		int al = (int)(255 * a);
+		java.awt.Color bg = hov ? FayteSkin.HOVER : FayteSkin.PANEL;
+		g.chcolor(bg.getRed(), bg.getGreen(), bg.getBlue(), al * 235 / 255);
+		g.frect(Coord.z, sz);
+		g.chcolor(FayteSkin.BORDER.getRed(), FayteSkin.BORDER.getGreen(), FayteSkin.BORDER.getBlue(), al);
+		FayteSkin.border(g, Coord.z, sz, 1);
+		g.chcolor(255, 255, 255, al);
+		g.aimage(text, new Coord(12, sz.y / 2), 0.0, 0.5);
+		g.chcolor();
+		return;
+	    }
 	    g.chcolor(255, 255, 255, (int)(255 * a));
 	    g.image(pbgl, Coord.z);
 	    g.image(pbgm, new Coord(pbgl.sz().x, 0), new Coord(sz.x - pbgl.sz().x - pbgr.sz().x, sz.y));
@@ -109,7 +142,7 @@ public class FlowerMenu extends Widget {
 	public void ntick(double s) {
 	    for(FlowerMenu.Petal p : opts) {
 		p.move(p.ta, p.tr * (2 - s));
-		p.a = s;
+		p.a = flat ? Math.min(1.0, s * 2) : s;
 	    }
 	}
     }
@@ -156,6 +189,17 @@ public class FlowerMenu extends Widget {
 	    if(s == 1.0)
 	    ui.destroy(FlowerMenu.this);
 	}
+    }
+
+    private static Rectangle organizeflat(Petal[] opts) {
+	int w = 0;
+	for(Petal p : opts)
+	    w = Math.max(w, p.sz.x);
+	for(int i = 0; i < opts.length; i++) {
+	    opts[i].sz = new Coord(w, FROWH);
+	    opts[i].c = new Coord(0, i * (FROWH - 1));
+	}
+	return new Rectangle(0, 0, w, (opts.length * (FROWH - 1)) + 1);
     }
 
     private static Rectangle organize(Petal[] opts) {
@@ -210,10 +254,25 @@ public class FlowerMenu extends Widget {
 		}
 		opts[i] = p;
 	    }
+	    if(serverbuild) {
+		opts = FayteMenus.arrange(this, opts, ui.modshift);
+		FlowerMenu.Petal rp = FayteCraving.repick(opts);
+		if(rp != null)
+		    autopick(rp);
+	    }
 	} else {
 	    opts = new FlowerMenu.Petal[]{study};
 	}
-	fitscreen(organize(opts));
+	FayteTools.menuopened();
+	if(FayteTools.fillable()) {
+	    FlowerMenu.Petal fill = new FlowerMenu.Petal("Fill\u2026");
+	    fill.num = -2;
+	    FlowerMenu.Petal[] no = new FlowerMenu.Petal[opts.length + 1];
+	    System.arraycopy(opts, 0, no, 0, opts.length);
+	    no[opts.length] = fill;
+	    opts = no;
+	}
+	fitscreen(flat ? organizeflat(opts) : organize(opts));
 	ui.grabmouse(this);
 	ui.grabkeys(this);
 	new FlowerMenu.Opening();
@@ -248,6 +307,9 @@ public class FlowerMenu extends Widget {
 	    ui.grabmouse(null);
 	    ui.grabkeys(null);
 	} else if(msg == "act") {
+	    if(FayteModules.ALMANAC.on())
+		FayteAlmanac.flowerchosen(opts[get((Integer)args[0])].name);
+	    FayteAuto.flower(ui.gui, opts[get((Integer)args[0])].name);
 	    new FlowerMenu.Chosen(opts[get((Integer)args[0])]);
 	    ui.grabmouse(null);
 	    ui.grabkeys(null);
@@ -293,7 +355,18 @@ public class FlowerMenu extends Widget {
 	return(false);
     }
 
+    public void autopick(Petal p) {
+	autochoose = p;
+    }
+
     public void choose(FlowerMenu.Petal option) {
+	if(FayteCraving.intercept(this, option) || FayteCraving.interceptstudy(this, option))
+	    return;
+	if((option != null) && (option.num == -2)) {
+	    wdgmsg("cl", -1);
+	    FayteTools.startfill();
+	    return;
+	}
 	if(option == null) {
 	    wdgmsg("cl", -1);
 	} else {

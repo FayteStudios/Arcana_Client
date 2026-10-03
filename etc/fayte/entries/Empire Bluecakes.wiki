@@ -1,0 +1,64 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Maize Planting}} [[Maize Planting]]
+}}
+
+{{Facts
+| Title=Bake
+| Needs= {{icon|Blue Cornmeal}} [[Blue Cornmeal]] 0.35 L, {{icon|Corn Oil}} [[Corn Oil]] 0.1 L, {{icon|Lavender Blewit}} [[Lavender Blewit]], {{icon|Milk}} [[Milk]] 0.1 L
+| Second Stage= {{icon|Bread Oven}} [[Bread Oven]], {{icon|Unbaked Empire Bluecakes}} [[Unbaked Empire Bluecakes]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 15 || 15 || 15.5 || 15.5
+|-
+! White Corn min
+| style="background:#e6b8b8" | 63.6 || 26.5 || 26.5 || 26.5
+|-
+! White Corn max
+| style="background:#e6b8b8" | 86.4 || 36 || 36 || 36
+|-
+! Blue Corn min
+| 26.5 || style="background:#6fa0ff" | 63.6 || 26.5 || 26.5
+|-
+! Blue Corn max
+| 36 || style="background:#6fa0ff" | 86.4 || 36 || 36
+|-
+! Golden Corn min
+| 26.5 || 26.5 || style="background:#f0d860" | 68.9 || 26.5
+|-
+! Golden Corn max
+| 36 || 36 || style="background:#f0d860" | 93.6 || 36
+|-
+! Yellow Corn min
+| 26.5 || 26.5 || 26.5 || style="background:#b8c8e6" | 58.3
+|-
+! Yellow Corn max
+| 36 || 36 || 36 || style="background:#b8c8e6" | 79.2
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Corn}} [[Maize]]
+| Full and Fed= 01:00:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 4
+| Menu= Craft > Food > Corn
+}}
+
+==About==
+
+Crafting a {{i|Empire Bluecakes}} will make an {{i|Unbaked Empire Bluecakes}} which can then be baked in a {{i|Bread Oven}} to produce a Empire Bluecakes. When baking Foods in a Bread Oven there is a chance for them to become {{i|Animal Crackers}} instead.

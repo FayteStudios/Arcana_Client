@@ -1,0 +1,47 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Big Game Hunting}} [[Big Game Hunting]]
+| Skill 2= {{icon|Simple Cooking}} [[Simple Cooking]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Fire]], {{icon|Raw Bear Cut}} [[Raw Bear Cut]] ×2, {{icon|Raw Beaver Cut}} [[Raw Beaver Cut]] ×2, {{icon|Raw Rabbit Cut}} [[Raw Rabbit Cut]] ×2, {{icon|Raw Snake Cut}} [[Raw Snake Cut]] ×2, {{icon|Raw Venison Cut}} [[Raw Venison Cut]] ×2
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 20 || 6 || 12 || 8
+|-
+! Gluttony min
+| 1 || 1 || 1 || 1
+|-
+! Gluttony max
+| 35 || 35 || 35 || 35
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Game}} [[Game Meat]]
+| Full and Fed= 00:35:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 15
+| Reduces Game Meat= 35% (85% chance)
+| Menu= Craft > Food > Game Meats
+}}
+
+==About==
+
+A {{i|A Walk on the Wild Side}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

@@ -1,0 +1,46 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.16
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Fried Foods}} [[Fried Foods]]
+| Skill 2= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Any Stove]], [[Fire]], {{icon|Frying Pan}} [[Frying Pan]], {{icon|Rye Bread}} [[Rye Bread]], {{icon|Sugar}} [[Sugar]] 0.5 L, {{icon|Turkey Egg}} [[Turkey Egg]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 10 || 10 || 10 || 10
+|-
+! Gluttony min
+| 48 || 48 || 48 || 48
+|-
+! Gluttony max
+| 72 || 72 || 72 || 72
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Bread}} [[Bread]]
+| Full and Fed= 00:50:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Bread
+}}
+
+==About==
+
+{{i|French Toast}} must be cooked with a {{i|Frying Pan}} equipped and over a lit {{i|Any Stove}}. French Toast is a major [[Restore Food]] for the {{i2|Bread}} Food Group.

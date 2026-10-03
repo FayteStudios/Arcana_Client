@@ -1,0 +1,68 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Baking}} [[Baking]]
+}}
+
+{{Facts
+| Title=Bake
+| Needs= {{icon|Any Potato}} [[Any Potato]], {{icon|Bread Oven}} [[Bread Oven]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 11 || 11 || 11 || 11
+|-
+! Red Potato min
+| style="background:#e6b8b8" | 11.2 || 4 || 4 || 4
+|-
+! Red Potato max
+| style="background:#e6b8b8" | 15.4 || 5.5 || 5.5 || 5.5
+|-
+! Blue Potato min
+| 4 || style="background:#6fa0ff" | 10.4 || 4 || 4
+|-
+! Blue Potato max
+| 5.5 || style="background:#6fa0ff" | 14.3 || 5.5 || 5.5
+|-
+! Yellow Potato min
+| 4 || 4 || style="background:#f0d860" | 10.4 || 4
+|-
+! Yellow Potato max
+| 5.5 || 5.5 || style="background:#f0d860" | 14.3 || 5.5
+|-
+! Brown Potato min
+| 4 || 4 || 4 || style="background:#b8c8e6" | 9.6
+|-
+! Brown Potato max
+| 5.5 || 5.5 || 5.5 || style="background:#b8c8e6" | 13.2
+|-
+! Curious Potato min
+| 8 || 8 || 8 || 8
+|-
+! Curious Potato max
+| 11 || 11 || 11 || 11
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Potato Food}} [[Potato Food]]
+| Full and Fed= 00:10:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+}}
+
+==About==
+
+{{i|Any Potato}} can be baked in a {{i|Bread Oven}} to make {{i|Baked Potato}}. When baking Foods in a Bread Oven there is a chance for them to become {{i|Animal Crackers}} instead.

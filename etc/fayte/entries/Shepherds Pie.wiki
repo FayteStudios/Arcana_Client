@@ -1,0 +1,70 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 1.00
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Potato Growing}} [[Potato Growing]]
+}}
+
+{{Facts
+| Title=Bake
+| Needs= {{icon|Any Potato}} [[Any Potato]] ×2, {{icon|Baking Table}} [[Baking Table]], {{icon|Carrot}} [[Carrot]], {{icon|Raw Mutton Cut}} [[Raw Mutton Cut]] ×2, {{icon|Yellow Corn}} [[Yellow Corn]] ×10
+| Second Stage= {{icon|Bread Oven}} [[Bread Oven]], {{icon|Uncooked Shepherds Pie}} [[Uncooked Shepherds Pie]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 18 || 2 || 4 || 22
+|-
+! Red Potato min
+| style="background:#e6b8b8" | 47.6 || 17 || 17 || 17
+|-
+! Red Potato max
+| style="background:#e6b8b8" | 64.4 || 23 || 23 || 23
+|-
+! Blue Potato min
+| 17 || style="background:#6fa0ff" | 44.2 || 17 || 17
+|-
+! Blue Potato max
+| 23 || style="background:#6fa0ff" | 59.8 || 23 || 23
+|-
+! Yellow Potato min
+| 17 || 17 || style="background:#f0d860" | 44.2 || 17
+|-
+! Yellow Potato max
+| 23 || 23 || style="background:#f0d860" | 59.8 || 23
+|-
+! Brown Potato min
+| 17 || 17 || 17 || style="background:#b8c8e6" | 40.8
+|-
+! Brown Potato max
+| 23 || 23 || 23 || style="background:#b8c8e6" | 55.2
+|-
+! Curious Potato min
+| 34 || 34 || 34 || 34
+|-
+! Curious Potato max
+| 46 || 46 || 46 || 46
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Potato Food}} [[Potato Food]]
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Potatoes
+}}
+
+==About==
+
+Crafting {{i|Shepherds Pie}} at a {{i|Baking Table}} will make an {{i|Uncooked Shepherds Pie}} which can then be baked in a {{i|Bread Oven}} to produce a Shepherds Pie. Preparing Foods on a Baking Table removes a small amount of [[Insanity]] and has a chance of giving you an {{i|Eloped Gingerbread Man}}. When baking Foods in a Bread Oven there is a chance for them to become {{i|Animal Crackers}} instead.

@@ -84,7 +84,7 @@ public class AudioSprite {
 			super.eof();
 			done = true;
 		    }
-		});
+		}, FayteSound.cat(res.name));
 	}
 
 	public boolean setup(RenderList r) {
@@ -115,7 +115,7 @@ public class AudioSprite {
 			return(clip.pcmstream());
 		    }
 		};
-	    this.clip = new ActAudio.PosClip(new Audio.DataClip(new RepeatStream(rep)));
+	    this.clip = new ActAudio.PosClip(new Audio.DataClip(new RepeatStream(rep)), FayteSound.cat(res.name));
 	}
 
 	public boolean setup(RenderList r) {

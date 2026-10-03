@@ -1,0 +1,63 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Any Cabbage Leaf}} [[Any Cabbage Leaf]] ×3, {{icon|Cooked Carrot}} [[Cooked Carrot]], [[Fire]], {{icon|Raw Rabbit Cut}} [[Raw Rabbit Cut]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 10 || 30 || 15 || 22
+|-
+! White Cabbage min
+| style="background:#e6b8b8" | 27.6 || 11.5 || 11.5 || 11.5
+|-
+! White Cabbage max
+| style="background:#e6b8b8" | 38.4 || 16 || 16 || 16
+|-
+! Red Cabbage min
+| 11.5 || style="background:#6fa0ff" | 29.9 || 11.5 || 11.5
+|-
+! Red Cabbage max
+| 16 || style="background:#6fa0ff" | 41.6 || 16 || 16
+|-
+! Green Cabbage min
+| 11.5 || 11.5 || style="background:#f0d860" | 27.6 || 11.5
+|-
+! Green Cabbage max
+| 16 || 16 || style="background:#f0d860" | 38.4 || 16
+|-
+! Colewort min
+| 11.5 || 11.5 || 11.5 || style="background:#b8c8e6" | 25.3
+|-
+! Colewort max
+| 16 || 16 || 16 || style="background:#b8c8e6" | 35.2
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Cabbage & Kale}} [[Cabbage and Kale]]
+| Full and Fed= 00:24:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Cabbage
+}}
+
+==About==
+
+A {{i|A Rabbit in the Cabbage}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

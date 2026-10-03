@@ -291,6 +291,7 @@ public class GItem extends AWidget implements ItemInfo.ResOwner, Comparable<GIte
             }
 	} else if(name == "meter") {
 	    meter = (Integer)args[0];
+	    FayteProgress.sample(this, meter);
 	}
     }
 }

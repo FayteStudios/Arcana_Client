@@ -1,0 +1,53 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Potato Growing}} [[Potato Growing]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Potato}} [[Any Potato]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Blue Potato}} [[Blue Potato]]
+| b)= {{icon|Brown Potato}} [[Brown Potato]]
+| c)= {{icon|Curious Potato}} [[Curious Potato]]
+| d)= {{icon|Red Potato}} [[Red Potato]]
+| e)= {{icon|Yellow Potato}} [[Yellow Potato]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 0 || 0 || 0 || 0
+|-
+! Gluttony min
+| 0 || 0 || 0 || 0
+|-
+! Gluttony max
+| 0 || 0 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= None
+| Full and Fed= 00:00:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+}}
+
+==About==
+
+Right-clicking {{i|Any Potato}} and selecting "Split" will divide your Potato into 6x {{i|Potato Chunk}}s which can be used for re-planting. It only takes a single Potato Chunk to Plant a {{i|Tilled Field}} at '''ANY''' % [[Tilled Field#Upkeep|Upkeep]], which makes Potato Chunks useful for resetting a Tilled Field which has been damaged by a {{i|Crow}}. A Potato Chunk '''CANNOT''' be used for Gluttony.

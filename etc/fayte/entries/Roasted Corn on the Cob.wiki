@@ -1,0 +1,68 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Simple Cooking}} [[Simple Cooking]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Any Corn}} [[Any Corn]] ×10, [[Fire]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Cob Pipe}} [[Cob Pipe]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 15 || 15 || 15 || 15
+|-
+! White Corn min
+| style="background:#e6b8b8" | 10.8 || 4.5 || 4.5 || 4.5
+|-
+! White Corn max
+| style="background:#e6b8b8" | 14.4 || 6 || 6 || 6
+|-
+! Blue Corn min
+| 4.5 || style="background:#6fa0ff" | 10.8 || 4.5 || 4.5
+|-
+! Blue Corn max
+| 6 || style="background:#6fa0ff" | 14.4 || 6 || 6
+|-
+! Golden Corn min
+| 4.5 || 4.5 || style="background:#f0d860" | 11.7 || 4.5
+|-
+! Golden Corn max
+| 6 || 6 || style="background:#f0d860" | 15.6 || 6
+|-
+! Yellow Corn min
+| 4.5 || 4.5 || 4.5 || style="background:#b8c8e6" | 9.9
+|-
+! Yellow Corn max
+| 6 || 6 || 6 || style="background:#b8c8e6" | 13.2
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Corn}} [[Maize]]
+| Full and Fed= 00:10:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 4
+| Menu= Craft > Food > Corn
+}}
+
+==About==
+
+{{i|Roasted Corn on the Cob}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

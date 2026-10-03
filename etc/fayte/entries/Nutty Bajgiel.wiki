@@ -1,0 +1,79 @@
+{{Facts
+| Title=Basics
+| Type= Baked Good
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Advanced Cooking}} [[Advanced Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Place = 3 {{icon|Nuts & Seeds}} [[Any Nuts|Nuts]] onto a {{icon|Bajgiel}} [[Bajgiel]].
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 22 || 78 || 25 || 31
+|-
+! Stray Chestnut min
+| style="background:#e6b8b8" | 48 || 20 || 20 || 20
+|-
+! Stray Chestnut max
+| style="background:#e6b8b8" | 132 || 55 || 55 || 55
+|-
+! Acorn min
+| 20 || style="background:#6fa0ff" | 46 || 20 || 20
+|-
+! Acorn max
+| 55 || style="background:#6fa0ff" | 126.5 || 55 || 55
+|-
+! Majestic Acorn min
+| 20 || style="background:#6fa0ff" | 64 || 20 || style="background:#b8c8e6" | 46
+|-
+! Majestic Acorn max
+| 55 || style="background:#6fa0ff" | 176 || 55 || style="background:#b8c8e6" | 132
+|-
+! Pine Nuts min
+| 20 || 20 || style="background:#f0d860" | 52 || 20
+|-
+! Pine Nuts max
+| 55 || 55 || style="background:#f0d860" | 143 || 55
+|-
+! Testicles min
+| style="background:#e6b8b8" | 48 || 34 || style="background:#f0d860" | 64 || 34
+|-
+! Testicles max
+| style="background:#e6b8b8" | 132 || 93.5 || style="background:#f0d860" | 176 || 93.5
+|-
+! Hickory min
+| 20 || 20 || 20 || style="background:#b8c8e6" | 46
+|-
+! Hickory max
+| 55 || 55 || 55 || style="background:#b8c8e6" | 126.5
+|-
+! Walnut min
+| style="background:#e6b8b8" | 48 || style="background:#6fa0ff" | 46 || style="background:#f0d860" | 52 || style="background:#b8c8e6" | 64
+|-
+! Walnut max
+| style="background:#e6b8b8" | 132 || style="background:#6fa0ff" | 126.5 || style="background:#f0d860" | 143 || style="background:#b8c8e6" | 176
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Nuts & Seeds}} [[Nuts and Seeds]]
+| Full and Fed= 01:05:00
+}}
+
+Does NOT need to be cooked
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Nuts
+}}

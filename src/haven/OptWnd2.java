@@ -367,6 +367,28 @@ public class OptWnd2 extends Window {
 		{tooltip = Text.render("Remove all animations. This should ease up on processing slightly, and save a fair bit of memory.");}
 		
 	    }.a = Config.remove_animations;
+	    
+	    new CheckBox(new Coord(x, y += 25), tab, "Show store button"){
+		@Override
+		public void changed(boolean val) {
+		    super.changed(val);
+		    FayteConfig.storeButton.set(val);
+		}
+
+		{tooltip = Text.render("The big Salem Store button above the menu buttons");}
+		
+	    }.a = FayteConfig.storeButton.get();
+	    
+	    new CheckBox(new Coord(x, y += 25), tab, "Show wiki button"){
+		@Override
+		public void changed(boolean val) {
+		    super.changed(val);
+		    FayteConfig.wikiButton.set(val);
+		}
+
+		{tooltip = Text.render("The big wiki button above the menu buttons");}
+		
+	    }.a = FayteConfig.wikiButton.get();
 	}
 	
 	{ //-* CAMERA & GRAPHICS TAB *-
@@ -998,6 +1020,34 @@ public class OptWnd2 extends Window {
 	    if(t.btn.text.text.equals(last))
 		body.showtab(t);
 	}
+	if(FayteSkin.on()) {
+	    for(Widget ch = child; ch != null; ch = ch.next) {
+		if(ch != cbtn)
+		    fgrow(ch, GROW);
+	    }
+	    resize(new Coord((int)Math.round(610 * GROWX), (int)Math.round(360 * GROW)));
+	}
+    }
+
+    private static final double GROW = 1.2;
+    private static final double GROWX = 1.32;
+
+    private static int fg(int v, double f) {
+	return((int)Math.round(v * f));
+    }
+
+    private static void fgrow(Widget w, double f) {
+	double fx = GROWX;
+	w.c = new Coord(fg(w.c.x, fx), fg(w.c.y, f));
+	if((w instanceof CheckBox) || (w instanceof Label) || (w instanceof IButton) || (w instanceof TextEntry))
+	    return;
+	if(w instanceof Button) {
+	    w.sz = new Coord(fg(w.sz.x, fx), w.sz.y);
+	    return;
+	}
+	w.sz = new Coord(fg(w.sz.x, fx), fg(w.sz.y, f));
+	for(Widget ch = w.child; ch != null; ch = ch.next)
+	    fgrow(ch, f);
     }
     
     public static void setRadarInfo(RadarConfig rcf, MarkerFactory mf){

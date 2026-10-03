@@ -1,0 +1,68 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Colonial Tradesmanship}} [[Colonial Tradesmanship]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Any Pot]], {{icon|Any Potato}} [[Any Potato]], {{icon|Fireplace}} [[Fireplace]], [[Potable Water]] ×5
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 9 || 18 || 9 || 9
+|-
+! Red Potato min
+| style="background:#e6b8b8" | 15.4 || 5.5 || 5.5 || 5.5
+|-
+! Red Potato max
+| style="background:#e6b8b8" | 19.6 || 7 || 7 || 7
+|-
+! Blue Potato min
+| 5.5 || style="background:#6fa0ff" | 14.3 || 5.5 || 5.5
+|-
+! Blue Potato max
+| 7 || style="background:#6fa0ff" | 18.2 || 7 || 7
+|-
+! Yellow Potato min
+| 5.5 || 5.5 || style="background:#f0d860" | 14.3 || 5.5
+|-
+! Yellow Potato max
+| 7 || 7 || style="background:#f0d860" | 18.2 || 7
+|-
+! Brown Potato min
+| 5.5 || 5.5 || 5.5 || style="background:#b8c8e6" | 13.2
+|-
+! Brown Potato max
+| 7 || 7 || 7 || style="background:#b8c8e6" | 16.8
+|-
+! Curious Potato min
+| 11 || 11 || 11 || 11
+|-
+! Curious Potato max
+| 14 || 14 || 14 || 14
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Potato Food}} [[Potato Food]]
+| Full and Fed= 00:12:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+}}
+
+==About==
+
+A {{i|Boiled Potato}} is made by boiling {{i|Any Potato}} in a {{i|Clay Pot}}, {{i|Copper Pot}}, or {{i|Cauldron}}.

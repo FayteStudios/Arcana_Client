@@ -1,0 +1,47 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.08
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+| Skill 2= {{icon|Seafood Chef}} [[Seafood Chef]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Shellfish}} [[Any Shellfish]], {{icon|Crab Meat}} [[Crab Meat]], {{icon|Crawdad}} [[Crawdad]], {{icon|Pepper}} [[Pepper]] 0.05 L, {{icon|Raw Oyster Meat}} [[Raw Oyster Meat]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 55 || 25 || 85 || 25
+|-
+! Gluttony min
+| 10 || 10 || 10 || 10
+|-
+! Gluttony max
+| 10 || 10 || 10 || 10
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Shellfish}} [[Crustacea and Shellfish]]
+| Full and Fed= 02:00:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Restores Crustacea and Shellfish= 100% (100% chance)
+| Menu= Craft > Food > Shellfish
+}}
+
+==About==
+
+{{i|Peppered Seafood Medley}} does '''NOT''' need to be cooked. Peppered Seafood Medley is a major [[Restore Food]] for the {{i2|Crustacea and Shellfish}} Food Group.

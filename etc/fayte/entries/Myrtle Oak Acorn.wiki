@@ -1,0 +1,53 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= None
+}}
+
+{{Facts
+| Title=Forage
+| Found= [[Myrtle Oak Tree]], {{icon|Squirrel}} [[Squirrel]], {{icon|Squirrel Stash}} [[Squirrel Stash]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Acorn Indian}} [[Acorn Indian]]
+| b)= {{icon|Loin Roast}} [[Loin Roast]]
+| c)= {{icon|Trailmix}} [[Trailmix]]
+| Counts as= [[Any Nuts]], {{icon|Any Plant}} [[Any Plant]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 1 || 2.5 || 1 || 4
+|-
+! Gluttony min
+| 0 || 5 || 0 || 0
+|-
+! Gluttony max
+| 0 || 7 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Nuts & Seeds}} [[Nuts and Seeds]]
+| Full and Fed= 00:12:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Variable food multiplier= Blood 0.5 / Phlegm 1.15 / Yellow 0.5 / Black 0.5
+}}
+
+==About==
+
+A {{i|Myrtle Oak Acorn}} can be Picked from a {{i|Myrtle Oak Tree}}, or found by chance when Rummaging though a {{i|Squirrel Stash}}. {{i|Roasted Myrtle Acorns}} are obtained when using a Myrtle Oak Acorn with the {{i|Roasted Nuts}} recipe, additionally, with the [[Nut Orchards]] Skill learned, a Myrtle Oak Acorn can be planted in a {{i|Gardening Pot}} to grow a Myrtle Oak Tree. Planting in Gardening Pots lowers [[Insanity]]. A Myrtle Oak Acorn can be stored in a {{i|NutSack}}.

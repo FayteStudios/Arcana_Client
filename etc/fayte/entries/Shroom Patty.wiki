@@ -1,0 +1,95 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Small Game Hunting}} [[Small Game Hunting]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Any Mushroom]] ×2, [[Fire]], {{icon|Raw Rabbit Cut}} [[Raw Rabbit Cut]] ×2, {{icon|Sharpened Stick}} [[Sharpened Stick]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 9.5 || 9.5 || 9.5 || 9.5
+|-
+! Spooky Redcap min
+| 36.8 || 36.8 || 36.8 || 36.8
+|-
+! Spooky Redcap max
+| 51.2 || 51.2 || 51.2 || 51.2
+|-
+! Monk's Pan min
+| style="background:#e6b8b8" | 28.75 || 11.5 || 11.5 || 11.5
+|-
+! Monk's Pan max
+| style="background:#e6b8b8" | 40 || 16 || 16 || 16
+|-
+! Toadstool min
+| style="background:#e6b8b8" | 31.05 || 11.5 || 11.5 || 11.5
+|-
+! Toadstool max
+| style="background:#e6b8b8" | 43.2 || 16 || 16 || 16
+|-
+! Lavender Blewit min
+| 11.5 || style="background:#6fa0ff" | 28.75 || 11.5 || 11.5
+|-
+! Lavender Blewit max
+| 16 || style="background:#6fa0ff" | 40 || 16 || 16
+|-
+! Honeylamp min
+| 11.5 || style="background:#6fa0ff" | 28.75 || 11.5 || 11.5
+|-
+! Honeylamp max
+| 16 || style="background:#6fa0ff" | 40 || 16 || 16
+|-
+! Lobster Mushroom min
+| 11.5 || 11.5 || style="background:#f0d860" | 28.75 || 11.5
+|-
+! Lobster Mushroom max
+| 16 || 16 || style="background:#f0d860" | 40 || 16
+|-
+! Yellow Morel min
+| 11.5 || 11.5 || style="background:#f0d860" | 31.05 || 11.5
+|-
+! Yellow Morel max
+| 16 || 16 || style="background:#f0d860" | 43.2 || 16
+|-
+! Sugar Caps min
+| 11.5 || 11.5 || 11.5 || style="background:#b8c8e6" | 28.75
+|-
+! Sugar Caps max
+| 16 || 16 || 16 || style="background:#b8c8e6" | 40
+|-
+! Witch's Hat min
+| 11.5 || 11.5 || 11.5 || style="background:#b8c8e6" | 31.05
+|-
+! Witch's Hat max
+| 16 || 16 || 16 || style="background:#b8c8e6" | 43.2
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Mushrooms}} [[Mushrooms]]
+| Full and Fed= 00:20:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 7
+| Reduces Mushrooms= 20% (80% chance)
+| Reduces Game Meat= 20% (80% chance)
+| Menu= Craft > Food > Fungus
+}}
+
+==About==
+
+A {{i|Shroom Patty}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}. Shroom Patty gains different [[Gluttony]] values depending on whether you use matching {{i|Any Mushroom}}s. '''NOTE:''' Remember to Boil your Mushrooms to reduce {{i|'Shroom Poisoning}}.

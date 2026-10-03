@@ -1,0 +1,83 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Advanced Cooking}} [[Advanced Cooking]]
+| Skill 2= {{icon|Big Game Hunting}} [[Big Game Hunting]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Any Garlic}} [[Any Garlic]], {{icon|Any Raw Steak}} [[Any Raw Steak]] ×2, {{icon|Onion}} [[Onion]] ×2
+| Second Stage= [[Any Pot]], {{icon|Fireplace}} [[Fireplace]], [[Potable Water]] ×5, {{icon|Unboiled Tenderboiled Terrine}} [[Unboiled Tenderboiled Terrine]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 64.5 || 44.5 || 42 || 40
+|-
+! Bear min
+| style="background:#e6b8b8" | 62 || 20 || 20 || 20
+|-
+! Bear max
+| style="background:#e6b8b8" | 77.5 || 25 || 25 || 25
+|-
+! Timber Rattler min
+| style="background:#e6b8b8" | 50 || 20 || 20 || 20
+|-
+! Timber Rattler max
+| style="background:#e6b8b8" | 62.5 || 25 || 25 || 25
+|-
+! Cougar min
+| 20 || style="background:#6fa0ff" | 58 || 20 || 20
+|-
+! Cougar max
+| 25 || style="background:#6fa0ff" | 72.5 || 25 || 25
+|-
+! Rabbit min
+| 20 || style="background:#6fa0ff" | 50 || 20 || 20
+|-
+! Rabbit max
+| 25 || style="background:#6fa0ff" | 62.5 || 25 || 25
+|-
+! Deer min
+| 20 || 20 || style="background:#f0d860" | 58 || 20
+|-
+! Deer max
+| 25 || 25 || style="background:#f0d860" | 72.5 || 25
+|-
+! Varmint min
+| 20 || 20 || style="background:#f0d860" | 46 || 20
+|-
+! Varmint max
+| 25 || 25 || style="background:#f0d860" | 57.5 || 25
+|-
+! Beaver min
+| 20 || 20 || 20 || style="background:#b8c8e6" | 54
+|-
+! Beaver max
+| 25 || 25 || 25 || style="background:#b8c8e6" | 67.5
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Game}} [[Game Meat]]
+| Full and Fed= 00:48:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Game Meats
+}}
+
+==About==
+
+Crafting a {{i|Tenderboiled Terrine}} will make an {{i|Unboiled Tenderboiled Terrine}} which can then be boiled in a {{i|Clay Pot}} or {{i|Copper Pot}} for 6 hours to produce a Tenderboiled Terrine.

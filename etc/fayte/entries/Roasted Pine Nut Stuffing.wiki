@@ -1,0 +1,53 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.20
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Baking}} [[Baking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Baking Table}} [[Baking Table]], {{icon|Oatmeal}} [[Oatmeal]] 0.15 L, {{icon|Roasted Pine Nuts}} [[Roasted Pine Nuts]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Stuffed Crow}} [[Stuffed Crow]]
+| b)= {{icon|Stuffed Poultry}} [[Stuffed Poultry]]
+| c)= {{icon|Stuffed Turkey}} [[Stuffed Turkey]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 9 || 11 || 8 || 23
+|-
+! Gluttony min
+| 20 || 20 || 20 || 20
+|-
+! Gluttony max
+| 40 || 40 || 40 || 40
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Nuts & Seeds}} [[Nuts and Seeds]]
+| Full and Fed= 00:25:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Nuts and Seeds= 20% (40% chance)
+| Menu= Craft > Food > Nuts
+}}
+
+==About==
+
+When preparing {{i|Roasted Pine Nut Stuffing}} at a {{i|Baking Table}} there is a chance to receive a {{i|Eloped Gingerbread Man}}. Using a Baking Table removes a small amount of [[Insanity]].

@@ -1,0 +1,13 @@
+{
+  "title": "Thing Name",
+  "subtitle": "Category",
+  "icon": "paginae/act/fish",
+  "rows": [
+    ["Found in", "Sample value"],
+    ["Season", "Sample value"],
+    ["Humours", "Sample value"]
+  ],
+  "notes": [
+    "Optional notes go here. They wrap at a readable width."
+  ]
+}

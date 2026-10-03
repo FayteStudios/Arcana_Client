@@ -35,7 +35,24 @@ public class AccountList extends Widget {
 	    add(entry.getKey(), entry.getValue());
 	}
 	Collections.sort(accounts, accountComparator);
+	relabel();
+    }
 
+    public static boolean hidden() {
+	return(Utils.getprefb("fayte_hide_accounts", true));
+    }
+
+    public static void sethidden(boolean h) {
+	Utils.setprefb("fayte_hide_accounts", h);
+    }
+
+    public void relabel() {
+	synchronized(accounts) {
+	    for(int i = 0; i < accounts.size(); i++) {
+		Account a = accounts.get(i);
+		a.plb.change(hidden() ? ("Account " + (i + 1)) : a.name);
+	    }
+	}
     }
 
     public void scroll(int amount) {
@@ -49,7 +66,7 @@ public class AccountList extends Widget {
     }
 
     public void draw(GOut g) {
-	Coord cc = new Coord(5, 5);
+	Coord cc = FayteSkin.on() ? Coord.z : new Coord(5, 5);
 	synchronized (accounts) {
 	    for (Account account : accounts) {
 		account.plb.hide();

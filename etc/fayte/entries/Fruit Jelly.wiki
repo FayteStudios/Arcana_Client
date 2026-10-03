@@ -1,0 +1,70 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.19
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Tasty Pastries}} [[Tasty Pastries]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Berries}} [[Any Berries]] ×5, {{icon|Baking Table}} [[Baking Table]], {{icon|Isinglass}} [[Isinglass]], {{icon|Sugar}} [[Sugar]] 0.05 L
+}}
+
+{{Facts
+| Title=Used By
+| a)= [[Fruiticus Maximus Wine]]
+| b)= {{icon|Jelly Roll}} [[Jelly Roll]]
+| c)= [[Wine Ingredients]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 10 || 15 || 8 || 2
+|-
+! Cranberry min
+| style="background:#e6b8b8" | 24.15 || 10.5 || 10.5 || 10.5
+|-
+! Cranberry max
+| style="background:#e6b8b8" | 33.35 || 14.5 || 14.5 || 14.5
+|-
+! Crowberry min
+| 10.5 || style="background:#6fa0ff" | 28.35 || 10.5 || 10.5
+|-
+! Crowberry max
+| 14.5 || style="background:#6fa0ff" | 39.15 || 14.5 || 14.5
+|-
+! Huckleberries min
+| 10.5 || 10.5 || style="background:#f0d860" | 27.3 || 10.5
+|-
+! Huckleberries max
+| 14.5 || 14.5 || style="background:#f0d860" | 37.7 || 14.5
+|-
+! Blackberries min
+| 10.5 || 10.5 || 10.5 || style="background:#b8c8e6" | 24.15
+|-
+! Blackberries max
+| 14.5 || 14.5 || 14.5 || style="background:#b8c8e6" | 33.35
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Berries}} [[Berries]]
+| Full and Fed= 00:18:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Berries
+}}
+
+==About==
+
+When preparing {{i|Fruit Jelly}} at a {{i|Baking Table}} there is a chance to receive a {{i|Eloped Gingerbread Man}}. Using a Baking Table removes a small amount of [[Insanity]].

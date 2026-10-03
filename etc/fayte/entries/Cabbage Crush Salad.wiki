@@ -1,0 +1,63 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.11
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Bellpeppers}} [[Any Bellpeppers]], {{icon|Any Cabbage Leaf}} [[Any Cabbage Leaf]] ×6, {{icon|Any Garlic}} [[Any Garlic]], {{icon|Tomato}} [[Tomato]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 22.5 || 22.5 || 20 || 22.5
+|-
+! White Cabbage min
+| style="background:#e6b8b8" | 24 || 10 || 10 || 10
+|-
+! White Cabbage max
+| style="background:#e6b8b8" | 25.2 || 10.5 || 10.5 || 10.5
+|-
+! Red Cabbage min
+| 10 || style="background:#6fa0ff" | 26 || 10 || 10
+|-
+! Red Cabbage max
+| 10.5 || style="background:#6fa0ff" | 27.3 || 10.5 || 10.5
+|-
+! Green Cabbage min
+| 10 || 10 || style="background:#f0d860" | 24 || 10
+|-
+! Green Cabbage max
+| 10.5 || 10.5 || style="background:#f0d860" | 25.2 || 10.5
+|-
+! Colewort min
+| 10 || 10 || 10 || style="background:#b8c8e6" | 22
+|-
+! Colewort max
+| 10.5 || 10.5 || 10.5 || style="background:#b8c8e6" | 23.1
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Cabbage & Kale}} [[Cabbage and Kale]]
+| Full and Fed= 00:15:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Cabbage
+}}
+
+==About==
+
+{{i|Cabbage Crush Salad}} does '''NOT''' need to be cooked.

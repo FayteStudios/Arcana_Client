@@ -1,0 +1,103 @@
+@ cement | Cementation Furnace
+Refines [[Wrought Iron Bar]]s into [[Blistersteel Bar]]s inside [[Blister Coffin]]s (room for 2). Charcoal only.
+## Steps
+- Craft up to 2 [[Blister Coffin]]s and place them in the lit furnace.
+- It must stay lit for 168 hours in total (7 days). Running out of fuel does not ruin the firing, but the clock stops until you relight it.
+- 30 [[Charcoal]] fills the fuel bar and burns about 60 hours. Check it at least once a day.
+- When the bar fills, the coffin becomes a [[Fired Blister Coffin]]. Take it out within 4 hours or the firing fails.
+- Set it on the ground to cool (red turns blue; slower in Everbloom, faster in Coldsnap), then "Collect Bars": 4 [[Blistersteel Bar]]s, or 4 [[Dross]] if it failed.
+## Timers
+- Lighting it while you stand by starts three timers: fuel check at 55 h, done at 168 h, last hour at 171 h. If it runs out of fuel, the done timers will be early.
+
+@ oresmelter | Ore Smelter
+Holds 9 items. Charcoal only. Must be built outside.
+## Best load
+- 4 [[Any Ore]] of one type and 5 [[Lime]]. A [[Little Limestone]] in place of one Lime can add bars.
+- About 40 minutes once lit. Lighting it while you stand by starts a timer.
+## What comes out
+- At least one metal bar; the rest of the ore becomes [[Dross]] (sometimes [[A Face in the Dross]]).
+- More bars come from your Alloying artifact bonus, the smelter's previous run, and luck.
+
+@ wildsmelter, wildernesssmelter, bogsmelter | Wilderness Smelter
+An early smelter for [[Bog Iron]]. It breaks when you are done.
+## Steps
+- Fuel it with 10 [[Charcoal]] and put in 4 [[Bog Iron]].
+- Light it and wait 1 hour (a timer starts when you light it here).
+- Use Destroy to break it open, then "scrounge for iron": 1 or 2 [[Bar of Slag Iron]].
+
+@ kiln | Kiln
+Holds 25 items. Items show their time left while you watch.
+## Firing times
+- [[Brick]] and [[Misshapen Lump of Clay]]: 10 minutes.
+- [[Unburnt Clay Pot]], [[Unburnt Gardener's Pot]], [[Unburnt Large Urn]]: 20 minutes.
+- [[Unfired Remains]]: 1 hour. [[Unfired Jar of Tar]]: 5 hours. [[Golden Egg]]: 8 hours.
+## Rare results
+- Bricks can come out as a Brick of Fallen Babel, Jericho, Gomorrah or Sodom.
+- A Misshapen Lump of Clay can become [[The Golem of Prague]].
+- Unfired Remains can give [[Ashes of Maudney]] or a [[Pottery Shard]].
+
+@ cask | Cask
+Makes wine: up to 10 L of grape juice and 8 [[Wine Ingredients]].
+## Steps
+- Pour in [[Red Grape Juice]] or [[White Grape Juice]], up to 10 L.
+- Open it and add [[Wine Ingredients]]. Up to 8; don't overload it.
+- Right-click it and Seal. About 2 hours later, Pop Seal and take the wine out with a vessel. Sealing it while you stand by starts a timer.
+- 10 L fills about 14 [[Wine Bottle]]s (0.75 L each). Bring a [[Cork]] for each.
+- Wine left in the cask or an open vessel turns to [[Vinegar]] after about a week. [[Corked Wine Bottle]]s keep.
+## Wine for each food group
+- Sipping the matching wine doubles the humours from a craving of that group.
+- Berries: [[Two Silver Steve Wine]]. Bread: [[Panemlot Wine]]. Cabbage and Kale: [[Cabbarnet Saurvignon Wine]].
+- Crustacea and Shellfish: [[Carapanilo Wine]]. Dairy: [[Saint Caseus Wine]]. Domesticated Meat: [[Albarnio Wine]].
+- Fishes: [[Scaley Noir Wine]]. Fruits: [[Fruiticus Maximus Wine]]. Game Meat: [[Zweildelt Wine]]. Maize: [[Maizescato Wine]].
+- Mushrooms: [[Zinfungal Wine]]. Nuts and Seeds: [[Vinonucci Wine]]. Potato: [[Malspudia Wine]]. Poultry: [[Chardobble Wine]].
+- Pumpkins and Gourds: [[Sweet Harvest Wine]]. Slugs, Bugs and Kritters: [[Pest Port Wine]]. Vegetables and Greens: [[Viridehortus Wine]].
+
+@ clamp | Coal Clamp
+Turns 20 [[Woodblock]]s into [[Charcoal]].
+- Light it and wait 56 hours (a timer starts when you light it here). It turns from smoking to black when done.
+- Gather Charcoal: the amount depends on woodblock purity, luck and your Sparks & Embers.
+- With high Madness, gathering can release a Ravenous Flame that burns items and does blood damage.
+
+@ smoker | Meatsmoker
+Holds 8 items. Smokes raw game cuts and [[Oyster]]s in about 8 hours (a timer starts when you light it here).
+- Bear, beaver, cougar, venison, rabbit, timber rattler and squirrel cuts.
+
+@ dframe, dryingrack, hunterrack | Drying Rack
+Items show their time left while you watch.
+## Base drying times
+- [[Raw Rabbit Skin]] 2 h. [[Raw Beaver Pelt]] 4 h. [[Raw Deer Hide]] 9 h. [[Raw Bear Skin]] 15 h.
+- [[Raw Argopelt]] and [[Raw March Hare Hide]] 24 h. [[Raw Timber Rattler Skin]] and [[Raw Wishpoosh Hide]] 1 h.
+- [[Swim Bladder]] 15 min. [[Soaked Bark]] 2 h. [[Argopelter Neck]] 18 h. Any fish 72 h.
+- A [[Hunter's Drying Rack]] dries faster.
+
+@ ttub | Tanning Tub
+Turns limed hides into leather.
+## Before tanning
+- Tanning fluid: a [[Brain]] on a vessel of water. A bucket makes 10 L at 5%. Boiled [[Birch Bark]] also works.
+- Hides must be limed: [[Lime]] on water makes [[Milk of Lime]]; dip a dried hide in it for a [[Limed Hide]]. A full bucket does 4 hides.
+
+@ oiling, oiltrough | Oiling Trough
+Turns [[Planed Board]]s into [[Oiled Board]]s.
+- Pour in [[Vegetable Oil]]: each board uses 2 L. Holds up to 8 boards.
+- About 2 days later each board is an Oiled Board or a [[Warped Board]] (about 50/50). Warped boards can be planed again.
+
+@ compost | Compost Bin
+Makes [[Humus]] from organic material.
+- 1 Humus every 2 hours while it has material, sometimes a [[Common Earthworm]], rarely an [[Earthworm Python]].
+- Worm Efficiency: +4% per Common Earthworm, +16% per Earthworm Python. Efficiency and worm purity set the humus purity.
+- It holds 50 points of material. The bar shows how full it is.
+
+@ fireplace | Fireplace
+A full fuel bar lasts about 4 hours (owner's measurement). Fuel time left is estimated from the bar.
+## Fuel
+- Branch: 2 units, 5 minutes.
+- Rotten Log: 2 units, 5 minutes.
+- Woodblock: 4 units, 10 minutes.
+- Fresh Board: 10 units, 25 minutes.
+- Each fuel unit is about 2.5 minutes here.
+
+@ brickstove, stove | Stove
+A full fuel bar lasts about 24 hours (owner's measurement), so stoves are great for long cooking. Fuel time left is estimated from the bar.
+## Fuel
+- Branch, Rotten Log: 2 units. Woodblock: 4 units. Fresh Board: 10 units.
+- The stove burns the same units much more slowly than a fireplace.

@@ -1,0 +1,70 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= None
+}}
+
+{{Facts
+| Title=Forage
+| Found= [[Grassland]], [[Greenwood]], [[Swamp]], [[Woodland]]
+| Or= [[Crowberry Bush]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Berrymash Purgative}} [[Berrymash Purgative]]
+| b)= {{icon|Crowberry Pectin}} [[Crowberry Pectin]]
+| c)= [[Dehydrated Crowberry]]
+| Counts as= {{icon|Any Berries}} [[Any Berries]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 2.5 || 2.5 || 2.5 || 2.5
+|-
+! Gluttony min
+| 0 || 5 || 0 || 0
+|-
+! Gluttony max
+| 0 || 6 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Berries}} [[Berries]]
+| Full and Fed= 00:06:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Variable food multiplier= Blood 0.5 / Phlegm 1.35 / Yellow 0.5 / Black 0.5
+}}
+
+==About==
+
+{{i|Crowberry Stalk}} can be found in the wild or Picked from a {{i|Crowberry Bush}}. Learning the [[Flowers & Berries]] Skill will allow you to Pick more Crowberry Stalk from each [[Bush]]. A Crowberry Stalk can be stored a {{i|Berry Sack}}.
+
+==Berry Uses==
+{{{!}} class=wikitable
+{{!}}-
+{{!}} '''Berry'''
+{{!}} '''When [[Shrub Orchards|Planted]]'''
+{{!}} '''When [[Fireplace#Boiling|Boiled]]'''
+{{!}} '''When [[Steam Distillation|Dehydrated]]'''
+{{!}}-
+{{!}} {{i|Crowberry Stalk}}
+{{!}} {{i|Crowberry Bush}}
+{{!}} {{i|Crowberry Pectin}}
+{{!}}
+* {{i|Dehydrated Crowberry}}
+* .01 L {{i|Berry Juice}}
+{{!}}}

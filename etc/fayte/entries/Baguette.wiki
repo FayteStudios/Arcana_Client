@@ -1,0 +1,44 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.12
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Baking}} [[Baking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Baguettes}} [[Baguettes]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 11 || 8 || 8 || 22
+|-
+! Gluttony min
+| 3 || 3 || 3 || 3
+|-
+! Gluttony max
+| 32 || 32 || 32 || 32
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Bread}} [[Bread]]
+| Full and Fed= 00:15:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 4
+}}
+
+==About==
+
+Right-clicking on {{i|Baguettes}} and selecting "Split" will separate the Baguettes into 3x individual {{i|Baguette}}s. Baguettes cannot be eaten until they have been Split.

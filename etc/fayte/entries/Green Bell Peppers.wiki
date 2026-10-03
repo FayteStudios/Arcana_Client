@@ -1,0 +1,55 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Vegetable Potting}} [[Vegetable Potting]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Gardening Pot}} [[Gardening Pot]], {{icon|Green Bell Peppers}} [[Green Bell Peppers]], {{icon|Humus}} [[Humus]], [[Potable Water]] 0.2 L
+| Or= {{icon|Gardening Pot}} [[Gardening Pot]], {{icon|Humus}} [[Humus]], {{icon|New World Gourd}} [[New World Gourd]], [[Potable Water]] 0.2 L
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Bigbell}} [[Bigbell]]
+| b)= {{icon|Jalapeno}} [[Jalapeno]]
+| c)= {{icon|Papricharred Charcuterie}} [[Papricharred Charcuterie]]
+| d)= {{icon|Potato Salad}} [[Potato Salad]]
+| Counts as= {{icon|Any Bellpeppers}} [[Any Bellpeppers]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 2 || 2 || 3 || 3
+|-
+! Gluttony min
+| 0 || 11 || 11 || 0
+|-
+! Gluttony max
+| 0 || 14 || 14 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Vegetables & Greens}} [[Vegetables and Greens]]
+| Full and Fed= 00:13:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Variable food multiplier= Blood 1.25 / Phlegm 0 / Yellow 1.25 / Black 0
+}}
+
+==About==
+
+With the [[Vegetable Potting]] Skill learned, Green Bell Peppers can be grown by planting other {{i|Green Bell Peppers}}, or a {{i|New World Gourd}} by chance, in a {{i|Gardening Pot}}. When planting Green Bell Peppers there is a chance for it to grow into a {{i|Jalapeno}} instead. Planting Bellpeppers in Gardening Pots lowers [[Insanity]]. Green Bell Peppers can be stored in a {{i|Bellpepper Sack}}.

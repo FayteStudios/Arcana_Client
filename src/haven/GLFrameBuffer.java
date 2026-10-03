@@ -233,7 +233,7 @@ public class GLFrameBuffer extends GLState {
     public void unapply(GOut g) {
 	GL2 gl = g.gl;
 	gl.glBindFramebuffer(GL.GL_FRAMEBUFFER, 0);
-	gl.glViewport(g.root().ul.x, g.root().ul.y, g.root().sz.x, g.root().sz.y);
+	gl.glViewport(g.root().ul.x, g.root().ul.y, g.physz().x, g.physz().y);
     }
 
     public void prep(Buffer buf) {

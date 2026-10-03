@@ -59,6 +59,11 @@ public class SeasonImg extends Widget {
     
     public void draw(GOut g) {
 	Tex t = seasons[ui.sess.glob.season];
+	if(FayteSkin.on()) {
+	    g.image(t, new Coord(FayteSkin.BW, FayteSkin.BW), sz.sub(FayteSkin.BW * 2, FayteSkin.BW * 2));
+	    FayteSkin.frame(g, Coord.z, sz, "season");
+	    return;
+	}
 	g.image(t, ic, isz);
 	g.chcolor(color);
 	box.draw(g, Coord.z, sz);

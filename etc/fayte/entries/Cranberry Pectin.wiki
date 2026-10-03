@@ -1,0 +1,51 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Colonial Tradesmanship}} [[Colonial Tradesmanship]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Any Pot]], {{icon|Cranberry}} [[Cranberry]], {{icon|Fireplace}} [[Fireplace]], [[Potable Water]] ×5
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Pectin Prison}} [[Pectin Prison]]
+| b)= {{icon|Swine Flu Suppository}} [[Swine Flu Suppository]]
+| Counts as= {{icon|Any Pectin}} [[Any Pectin]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 1 || 0 || 0 || 0
+|-
+! Gluttony min
+| 0 || 0 || 0 || 0
+|-
+! Gluttony max
+| 0 || 0 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= None
+| Full and Fed= 00:00:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+}}
+
+==About==
+
+A {{i|Cranberry}} can be boiled in a {{i|Clay Pot}} or {{i|Copper Pot}} for 3 hours to make {{i|Cranberry Pectin}}. Cranberry Pectin '''CANNOT''' be used for Gluttony.

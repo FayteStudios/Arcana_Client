@@ -1,0 +1,65 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Game Meats}} [[Game Meats]]
+| Skill 2= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Berries}} [[Any Berries]] ×3, {{icon|Raw Bear Cut}} [[Raw Bear Cut]] ×3
+| Second Stage= [[Any Stove]], {{icon|Bluebeary}} [[Unbaked Bluebeary]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 32 || 17 || 20 || 25
+|-
+! Cranberry min
+| style="background:#e6b8b8" | 32.2 || 14 || 14 || 14
+|-
+! Cranberry max
+| style="background:#e6b8b8" | 42.55 || 18.5 || 18.5 || 18.5
+|-
+! Crowberry min
+| 14 || style="background:#6fa0ff" | 37.8 || 14 || 14
+|-
+! Crowberry max
+| 18.5 || style="background:#6fa0ff" | 49.95 || 18.5 || 18.5
+|-
+! Huckleberries min
+| 14 || 14 || style="background:#f0d860" | 36.4 || 14
+|-
+! Huckleberries max
+| 18.5 || 18.5 || style="background:#f0d860" | 48.1 || 18.5
+|-
+! Blackberries min
+| 14 || 14 || 14 || style="background:#b8c8e6" | 32.2
+|-
+! Blackberries max
+| 18.5 || 18.5 || 18.5 || style="background:#b8c8e6" | 42.55
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Berries}} [[Berries]]
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Berries
+}}
+
+==About==
+
+Crafting a {{i|Bluebeary}} will make an {{i|Unbaked Bluebeary}} which can then be baked in {{i|Any Stove}} to produce a Bluebeary.

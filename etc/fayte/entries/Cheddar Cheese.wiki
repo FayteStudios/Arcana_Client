@@ -1,0 +1,50 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.20
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Cheese Making}} [[Cheese Making]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Wheel of Cheddar}} [[Wheel of Cheddar]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Popham Patty}} [[Popham Patty]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 12 || 12 || 12 || 12
+|-
+! Gluttony min
+| 5 || 5 || 20 || 5
+|-
+! Gluttony max
+| 10 || 10 || 40 || 10
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Dairy Foods}} [[Dairy Foods]]
+| Full and Fed= 00:25:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Dairy Foods= 50% (50% chance)
+}}
+
+==About==
+
+Right-clicking a {{i|Wheel of Cheddar}} with the [[Cheese Making]] Skill learned and selecting "Slice" will divide your wheel into 5x {{i|Cheddar Cheese}}s.

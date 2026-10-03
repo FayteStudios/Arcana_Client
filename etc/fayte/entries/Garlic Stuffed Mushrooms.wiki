@@ -1,0 +1,94 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.20
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Simple Cooking}} [[Simple Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Garlic}} [[Any Garlic]] ×2, [[Any Mushroom]] ×2
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 23 || 21 || 24 || 17
+|-
+! Spooky Redcap min
+| 30.4 || 30.4 || 30.4 || 30.4
+|-
+! Spooky Redcap max
+| 41.6 || 41.6 || 41.6 || 41.6
+|-
+! Monk's Pan min
+| style="background:#e6b8b8" | 23.75 || 9.5 || 9.5 || 9.5
+|-
+! Monk's Pan max
+| style="background:#e6b8b8" | 32.5 || 13 || 13 || 13
+|-
+! Toadstool min
+| style="background:#e6b8b8" | 25.65 || 9.5 || 9.5 || 9.5
+|-
+! Toadstool max
+| style="background:#e6b8b8" | 35.1 || 13 || 13 || 13
+|-
+! Lavender Blewit min
+| 9.5 || style="background:#6fa0ff" | 23.75 || 9.5 || 9.5
+|-
+! Lavender Blewit max
+| 13 || style="background:#6fa0ff" | 32.5 || 13 || 13
+|-
+! Honeylamp min
+| 9.5 || style="background:#6fa0ff" | 23.75 || 9.5 || 9.5
+|-
+! Honeylamp max
+| 13 || style="background:#6fa0ff" | 32.5 || 13 || 13
+|-
+! Lobster Mushroom min
+| 9.5 || 9.5 || style="background:#f0d860" | 23.75 || 9.5
+|-
+! Lobster Mushroom max
+| 13 || 13 || style="background:#f0d860" | 32.5 || 13
+|-
+! Yellow Morel min
+| 9.5 || 9.5 || style="background:#f0d860" | 25.65 || 9.5
+|-
+! Yellow Morel max
+| 13 || 13 || style="background:#f0d860" | 35.1 || 13
+|-
+! Sugar Caps min
+| 9.5 || 9.5 || 9.5 || style="background:#b8c8e6" | 23.75
+|-
+! Sugar Caps max
+| 13 || 13 || 13 || style="background:#b8c8e6" | 32.5
+|-
+! Witch's Hat min
+| 9.5 || 9.5 || 9.5 || style="background:#b8c8e6" | 25.65
+|-
+! Witch's Hat max
+| 13 || 13 || 13 || style="background:#b8c8e6" | 35.1
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Mushrooms}} [[Mushrooms]]
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Mushrooms= 90% (90% chance)
+| Menu= Craft > Food > Fungus
+}}
+
+==About==
+
+{{i|Garlic Stuffed Mushrooms}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}. '''NOTE:''' Remember to boil your Mushrooms to reduce {{i|'Shroom Poisoning}}.

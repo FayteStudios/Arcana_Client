@@ -1,0 +1,56 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.03
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Cabbage Growing}} [[Cabbage Growing]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Head of Green Cabbage}} [[Head of Green Cabbage]]
+| Or= {{icon|Curious Cabbage}} [[Curious Cabbage]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Cabbage Cakes}} [[Cabbage Cakes]]
+| b)= {{icon|New England Dinner}} [[New England Dinner]]
+| c)= {{icon|Popham Patty}} [[Popham Patty]]
+| d)= [[Shroom-Legume Salad]]
+| e)= {{icon|Tasty Taco}} [[Tasty Taco]]
+| Counts as= {{icon|Any Cabbage Leaf}} [[Any Cabbage Leaf]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 2.5 || 2.5 || 2.5 || 2.5
+|-
+! Gluttony min
+| 0 || 0 || 1 || 0
+|-
+! Gluttony max
+| 0 || 0 || 3 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Cabbage & Kale}} [[Cabbage and Kale]]
+| Full and Fed= 00:01:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Cabbage and Kale= 10% (5% chance)
+}}
+
+==About==
+
+Generally 6x {{i|Leaf of Green Cabbage}} are received when Splitting a {{i|Head of Green Cabbage}} although some Heads of Green Cabbage contain less.

@@ -31,13 +31,20 @@ public class WeightWdg extends Window {
 
     @Override
     public void tick(double dt) {
-	if(Config.weight_wdg != visible){
-	    show(Config.weight_wdg);
+	boolean want = Config.weight_wdg && !FayteSkin.on();
+	if(want != visible){
+	    show(want);
 	}
     }
 
     @Override
     public void draw(GOut g) {
+	if(FayteSkin.on()) {
+	    FayteSkin.panel(g, Coord.z, sz, "weight");
+	    if(label != null)
+		g.aimage(label, sz.div(2), 0.5, 0.5);
+	    return;
+	}
 	Coord s = bg.sz();
 	for(int y = 0; (y * s.y) < sz.y; y++) {
 	    for(int x = 0; (x * s.x) < sz.x; x++) {

@@ -1,0 +1,52 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 1.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Pumpkin Planting}} [[Pumpkin Planting]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= Seeds of Pumpkin;θ, [[Tilled Field]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Aspen Masque}} [[Aspen Masque]]
+| b)= {{icon|Aspen Pack}} [[Aspen Pack]]
+| c)= [[Pumpkin]]
+| Counts as= [[Any Large Pumpkin]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 5 || 5 || 5.5 || 5
+|-
+! Gluttony min
+| 0 || 0 || 0 || 18
+|-
+! Gluttony max
+| 0 || 0 || 0 || 54
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Pumpkins & Gourds}} [[Pumpkins and Gourds]]
+| Full and Fed= 06:00:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+}}
+
+==About==
+
+An {{i|Aspen}} is the product of a third growth stage, first tier {{i|Pumpkin}} Harvest. Right-clicking an Aspen and selecting "Slice" will give you 6x {{i|Pumpkin Flesh}} and 15x {{i|Seeds of Pumpkin}}. An Aspen counts as {{i|Any Large Pumpkin}}. An Aspen can be stored in a {{i|Stockbin}}.

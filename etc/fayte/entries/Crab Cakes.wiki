@@ -1,0 +1,48 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Baking}} [[Baking]]
+| Skill 2= {{icon|Seafood Chef}} [[Seafood Chef]]
+}}
+
+{{Facts
+| Title=Bake
+| Needs= {{icon|Baking Table}} [[Baking Table]], {{icon|Any Shellfish}} [[Any Shellfish]] ×2, {{icon|Onion}} [[Onion]] ×2, {{icon|Yellow Cornmeal}} [[Yellow Cornmeal]] 0.35 L
+| Second Stage= {{icon|Bread Oven}} [[Bread Oven]], {{icon|Crab Cakes}} [[Unbaked Crab Cakes]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 25 || 6 || 30 || 10
+|-
+! Gluttony min
+| 10 || 1 || 15 || 1
+|-
+! Gluttony max
+| 15 || 2 || 20 || 2
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Shellfish}} [[Crustacea and Shellfish]]
+| Full and Fed= 03:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 10
+| Reduces Crustacea and Shellfish= 50% (50% chance)
+| Menu= Craft > Food > Shellfish
+}}
+
+==About==
+
+Crafting {{i|Crab Cakes}} at a {{i|Baking Table}} will make {{i|Unbaked Crab Cakes}} which can then be baked in a {{i|Bread Oven}} to produce Crab Cakes. Preparing Foods on a Baking Table removes a small amount of [[Insanity]] and has a chance of giving you an {{i|Eloped Gingerbread Man}}. When baking Foods in a Bread Oven there is a chance for them to become {{i|Animal Crackers}} instead.

@@ -34,6 +34,9 @@ public class VMeter extends Widget {
     static Tex fg = Resource.loadtex("gfx/hud/vm-tex");
     Color cl;
     int amount;
+    public String stat = null;
+    public String tipt = null;
+    public int val = -1;
     private Tex amt = null;
 	
     @RName("vm")
@@ -87,6 +90,21 @@ public class VMeter extends Widget {
 		cl = (Color)args[1];
 	} else if(msg == "col") {
 	    cl = (Color)args[0];
+	} else if(msg == "tip" && (args.length > 0) && (args[0] instanceof String)) {
+	    String t = (String)args[0];
+	    tipt = t;
+	    FayteField.meter(this, t);
+	    int ci = t.lastIndexOf(':');
+	    if(ci > 0) {
+		stat = t.substring(0, ci).trim();
+		try {
+		    val = Integer.parseInt(t.substring(ci + 1).trim());
+		} catch(NumberFormatException e) {
+		    val = -1;
+		}
+		FayteAnimal.meter(this);
+	    }
+	    super.uimsg(msg, args);
 	} else {
 	    super.uimsg(msg, args);
 	}

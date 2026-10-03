@@ -1,0 +1,51 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Fungiculture}} [[Fungiculture]]
+}}
+
+{{Facts
+| Title=Forage
+| Found= [[Badlands]], [[Crag]], [[Greenwood]], [[Pine Forest]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Sweet Bambi}} [[Sweet Bambi]]
+| Counts as= [[Any Mushroom]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 4 || 4 || 4 || 4
+|-
+! Gluttony min
+| 5 || 5 || 5 || 5
+|-
+! Gluttony max
+| 5 || 5 || 5 || 5
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Mushrooms}} [[Mushrooms]]
+| Full and Fed= 00:05:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Variable food multiplier= Blood 0.5 / Phlegm 0.5 / Yellow 0.5 / Black 1.25
+}}
+
+==About==
+
+Sugar Caps can be found in the wild or, with the [[Fungiculture]] Skill learned, grown by planting another {{i|Sugar Caps}} in a {{i|Gardening Pot}}. When planting Sugar Caps there is a chance for it to grow into a {{i|Spooky Redcap}} instead. Planting Mushrooms in Gardening Pots lowers [[Insanity]]. Sugar Caps can be stored in a {{i|MushiSack}}.

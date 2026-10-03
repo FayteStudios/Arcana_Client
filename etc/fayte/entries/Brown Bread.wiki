@@ -1,0 +1,64 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Advanced Cooking}} [[Advanced Cooking]]
+}}
+
+{{Facts
+| Title=Bake
+| Needs= {{icon|Baking Table}} [[Baking Table]], {{icon|Flour}} [[Flour]] 0.8 L, {{icon|Molasses}} [[Molasses]], [[Potable Water]], {{icon|Wild Oats}} [[Wild Oats]]
+| Second Stage= {{icon|Bread Oven}} [[Bread Oven]], {{icon|Brown Bread Dough}} [[Brown Bread Dough]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 32 || 38 || 35 || 91
+|-
+! Oatmeal min
+| style="background:#e6b8b8" | 49.5 || 40.5 || 40.5 || 40.5
+|-
+! Oatmeal max
+| style="background:#e6b8b8" | 66 || 54 || 54 || 54
+|-
+! Barley min
+| 40.5 || style="background:#6fa0ff" | 54 || 40.5 || 40.5
+|-
+! Barley max
+| 54 || style="background:#6fa0ff" | 72 || 54 || 54
+|-
+! Rye min
+| 40.5 || 40.5 || style="background:#f0d860" | 54 || 40.5
+|-
+! Rye max
+| 54 || 54 || style="background:#f0d860" | 72 || 54
+|-
+! Wheat min
+| 40.5 || 40.5 || 40.5 || style="background:#b8c8e6" | 58.5
+|-
+! Wheat max
+| 54 || 54 || 54 || style="background:#b8c8e6" | 78
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Bread}} [[Bread]]
+| Full and Fed= 00:40:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Bread
+}}
+
+==About==
+
+Crafting {{i|Brown Bread}} at a {{i|Baking Table}} will make a {{i|Brown Bread Dough}} which can then be baked in a {{i|Bread Oven}} to produce a Brown Bread. Preparing Foods on a Baking Table removes a small amount of [[Insanity]] and has a chance of giving you an {{i|Eloped Gingerbread Man}}. When baking Foods in a Bread Oven there is a chance for them to become {{i|Animal Crackers}} instead.

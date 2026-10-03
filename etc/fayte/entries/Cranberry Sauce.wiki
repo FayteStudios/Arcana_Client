@@ -1,0 +1,50 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Tasty Pastries}} [[Tasty Pastries]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Cranberry}} [[Cranberry]] ×4, {{icon|Glass Jar}} [[Glass Jar]], {{icon|Sugar}} [[Sugar]] 0.5 L
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Berrysauce Boat}} [[Berrysauce Boat]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 55 || 85 || 25 || 25
+|-
+! Gluttony min
+| 31 || 31 || 31 || 31
+|-
+! Gluttony max
+| 69 || 69 || 69 || 69
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Berries}} [[Berries]]
+| Full and Fed= 00:50:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Berries
+}}
+
+==About==
+
+{{i|Cranberry Sauce}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}. Eating Cranberry Sauce will return the {{i|Glass Jar}}. Cranberry Sauce is a major [[Restore Food]] for the {{i2|Berries}} Food Group. Eating Cranberry Sauce will return the {{i|Glass Jar}}.

@@ -1,0 +1,66 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.20
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Fried Foods}} [[Fried Foods]]
+| Skill 2= {{icon|Seafood Chef}} [[Seafood Chef]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Any Shellfish}} [[Any Shellfish]], {{icon|Butter}} [[Butter]], [[Fire]], {{icon|Frying Pan}} [[Frying Pan]], {{icon|Lavender Blewit}} [[Lavender Blewit]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 14 || 18 || 16 || 18
+|-
+! Crawdad min
+| style="background:#e6b8b8" | 60.75 || 22.5 || 22.5 || 22.5
+|-
+! Crawdad max
+| style="background:#e6b8b8" | 67.5 || 25 || 25 || 25
+|-
+! Crab min
+| 22.5 || style="background:#6fa0ff" | 56.25 || 22.5 || 22.5
+|-
+! Crab max
+| 25 || style="background:#6fa0ff" | 62.5 || 25 || 25
+|-
+! Lobster min
+| 22.5 || 22.5 || style="background:#f0d860" | 76.5 || 22.5
+|-
+! Lobster max
+| 25 || 25 || style="background:#f0d860" | 85 || 25
+|-
+! Oyster min
+| 22.5 || 22.5 || 22.5 || style="background:#b8c8e6" | 56.25
+|-
+! Oyster max
+| 25 || 25 || 25 || style="background:#b8c8e6" | 62.5
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Shellfish}} [[Crustacea and Shellfish]]
+| Full and Fed= 03:00:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Crustacea and Shellfish= 25% (15% chance)
+| Restores Dairy Food= 15% (80% chance)
+| Menu= Craft > Food > Shellfish
+}}
+
+==About==
+
+A {{i|Sauteed Shellshrooms}} must be cooked with a {{i|Frying Pan}} equipped and over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

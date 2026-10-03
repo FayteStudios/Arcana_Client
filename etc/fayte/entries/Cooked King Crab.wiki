@@ -1,0 +1,44 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Survival Skills}} [[Survival Skills]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Crab}} [[Crab]], {{icon|Fireplace}} [[Fireplace]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 15 || 15 || 15 || 15
+|-
+! Gluttony min
+| 0 || 15 || 0 || 0
+|-
+! Gluttony max
+| 0 || 20 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Shellfish}} [[Crustacea and Shellfish]]
+| Full and Fed= 00:20:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+}}
+
+==About==
+
+A {{i|Crab}} can be baked in a lit {{i|Fireplace}} to make {{i|Cooked King Crab}}.

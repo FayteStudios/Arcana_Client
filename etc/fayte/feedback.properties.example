@@ -1,0 +1,9 @@
+# Where in-client feedback goes. Copy this file to feedback.properties (which git ignores) and fill it in.
+# webhook: a Discord webhook URL for your feedback channel. Leave empty to fall back to copy-to-clipboard.
+# discord: your Discord name, shown to players when there is no webhook.
+# invite: a Discord invite link shown to players.
+# email: an address shown to players for reports.
+webhook=
+discord=
+invite=
+email=

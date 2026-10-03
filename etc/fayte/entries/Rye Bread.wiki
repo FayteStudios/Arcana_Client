@@ -1,0 +1,54 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.35
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Baking}} [[Baking]]
+}}
+
+{{Facts
+| Title=Bake
+| Needs= {{icon|Baking Table}} [[Baking Table]], [[Potable Water]], {{icon|Sourdough Starter}} [[Sourdough Starter]], {{icon|Rye Flour}} [[Rye Flour]] 0.5 L
+| Second Stage= {{icon|Baking Table}} [[Baking Table]], {{icon|Unleavened Ryebread Dough}} [[Unleavened Ryebread Dough]]
+| Third Stage= {{icon|Bread Oven}} [[Bread Oven]], {{icon|Leavened Ryebread Dough}} [[Leavened Ryebread Dough]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|French Toast}} [[French Toast]]
+| b)= {{icon|Garlic Bread}} [[Garlic Bread]]
+| c)= {{icon|Turkey Sandwich}} [[Turkey Sandwich]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 21 || 11 || 7 || 11
+|-
+! Gluttony min
+| 20 || 20 || 20 || 20
+|-
+! Gluttony max
+| 50 || 50 || 50 || 50
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Bread}} [[Bread]]
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Bread
+}}
+
+==About==
+
+Crafting {{i|Rye Bread}} at a {{i|Baking Table}} will make {{i|Unleavened Ryebread Dough}} which can then be left to rest inside the Baking Table until it becomes {{i|Leavened Ryebread Dough}}. Leavened Ryebread Dough, when baked in a {{i|Bread Oven}}, will produce Rye Bread. Preparing Foods on a Baking Table removes a small amount of [[Insanity]] and has a chance of giving you an {{i|Eloped Gingerbread Man}}. When baking Foods in a Bread Oven there is a chance for them to become {{i|Animal Crackers}} instead.

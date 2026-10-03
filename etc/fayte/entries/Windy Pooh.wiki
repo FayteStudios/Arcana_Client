@@ -1,0 +1,83 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Advanced Cooking}} [[Advanced Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Raw Meat Cut}} [[Any Raw Meat Cut]], {{icon|Enlarged Bear Heart}} [[Enlarged Bear Heart]], {{icon|Garlic}} [[Garlic]] ×2, {{icon|Leaf of Red Cabbage}} [[Leaf of Red Cabbage]] ×5, {{icon|Raw Bear Steak}} [[Raw Bear Steak]]
+| Second Stage= [[Any Stove]], {{icon|Windy Pooh}} [[Unbaked Windy Pooh]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 30 || 30 || 30 || 30
+|-
+! Bear min
+| style="background:#e6b8b8" | 155 || 50 || 50 || 50
+|-
+! Bear max
+| style="background:#e6b8b8" | 186 || 60 || 60 || 60
+|-
+! Timber Rattler min
+| style="background:#e6b8b8" | 125 || 50 || 50 || 50
+|-
+! Timber Rattler max
+| style="background:#e6b8b8" | 150 || 60 || 60 || 60
+|-
+! Cougar min
+| 50 || style="background:#6fa0ff" | 145 || 50 || 50
+|-
+! Cougar max
+| 60 || style="background:#6fa0ff" | 174 || 60 || 60
+|-
+! Rabbit min
+| 50 || style="background:#6fa0ff" | 125 || 50 || 50
+|-
+! Rabbit max
+| 60 || style="background:#6fa0ff" | 150 || 60 || 60
+|-
+! Deer min
+| 50 || 50 || style="background:#f0d860" | 145 || 50
+|-
+! Deer max
+| 60 || 60 || style="background:#f0d860" | 174 || 60
+|-
+! Varmint min
+| 50 || 50 || style="background:#f0d860" | 115 || 50
+|-
+! Varmint max
+| 60 || 60 || style="background:#f0d860" | 138 || 60
+|-
+! Beaver min
+| 50 || 50 || 50 || style="background:#b8c8e6" | 135
+|-
+! Beaver max
+| 60 || 60 || 60 || style="background:#b8c8e6" | 162
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Game}} [[Game Meat]]
+| Full and Fed= 00:25:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Game Meat= 15% (35% chance)
+| Menu= Craft > Food > Game Meats
+}}
+
+==About==
+
+Crafting a {{i|Windy Pooh}} will make an {{i|Unbaked Windy Pooh}} which can then be baked in {{i|Any Stove}} to produce a Windy Pooh.

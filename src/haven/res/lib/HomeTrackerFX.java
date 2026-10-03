@@ -65,6 +65,10 @@ public class HomeTrackerFX extends Sprite {
 	    this.ptr = ptr;
 	}
 
+	public Coord home() {
+	    return this.hc;
+	}
+
 	@Override
 	public void uimsg(String msg, Object... args) {
 	    if(msg.equals("upd")){

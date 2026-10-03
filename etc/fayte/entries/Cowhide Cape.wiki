@@ -1,0 +1,33 @@
+A cape made from the dried skin of a [[Cow]].
+
+{{Facts
+| Title=Basics
+| Type= Clothing
+| Weight= 1.5
+}}
+
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Cattle Ranching}} Cattle Ranching
+}}
+
+{{Facts
+| Title=Tailored
+| Materials= {{icon|Dried Cow Hide}} [[Dried Cow Hide]] x 4
+}}
+
+{{Facts
+| Title=Equipment
+| Slot= Cloak
+| Artificer Slots= 4
+| Thermal= 18
+}}
+
+{{Facts
+| Title=Not a Set
+| Clarify= While not a full "Cow Set", there are some Cow related items.
+| 1)= Cow Hat
+| 2)= {{icon|Moo Chaps}} Moo Chaps
+| 3)= {{icon|Moo Trapper Jacket}} Moo Trappers Jacket
+}}

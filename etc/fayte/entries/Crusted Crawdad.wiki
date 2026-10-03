@@ -1,0 +1,45 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.13
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Fried Foods}} [[Fried Foods]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Crawdad}} [[Crawdad]], [[Fire]], {{icon|Frying Pan}} [[Frying Pan]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 14 || 12 || 12 || 14
+|-
+! Gluttony min
+| 9 || 0 || 0 || 0
+|-
+! Gluttony max
+| 13 || 0 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Shellfish}} [[Crustacea and Shellfish]]
+| Full and Fed= 00:10:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Crustacea and Shellfish= 10% (10% chance)
+}}
+
+==About==
+
+A {{i|Crusted Crawdad}} must be cooked with a {{i|Frying Pan}} equipped and over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

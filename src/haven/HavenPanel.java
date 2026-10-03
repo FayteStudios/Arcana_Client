@@ -46,6 +46,22 @@ public class HavenPanel extends GLCanvas implements Runnable, Console.Directory 
     private String cursmode = "tex";
     private Resource lastcursor = null;
     public Coord mousepos = new Coord(0, 0);
+    private Object tipkey = null;
+    private long tipsince = 0;
+    private Object lastreal = null;
+    private static final int TIPW = 240;
+    private static final java.util.Map<String, Text> wrapped = new java.util.HashMap<String, Text>();
+
+    private static Text wraptip(String s) {
+	Text t = wrapped.get(s);
+	if(t == null) {
+	    if(wrapped.size() > 200)
+		wrapped.clear();
+	    t = RichText.render(RichText.Parser.quote(s), (int)Math.round(TIPW * FayteSkin.SCALE));
+	    wrapped.put(s, t);
+	}
+	return(t);
+    }
     public Profile prof = new Profile(300);
     private Profile.Frame curf = null;
     public static final GLState.Slot<GLState> global = new GLState.Slot<GLState>(GLState.Slot.Type.SYS, GLState.class);
@@ -53,6 +69,15 @@ public class HavenPanel extends GLCanvas implements Runnable, Console.Directory 
     private GLState gstate, rtstate, ostate;
     private GLState.Applier state = null;
     private GLConfig glconf = null;
+    public static volatile double uiscale = 1.0;
+
+    public Coord uisz() {
+	return(new Coord(Math.max(1, (int)(w / uiscale)), Math.max(1, (int)(h / uiscale))));
+    }
+
+    private static Coord uic(MouseEvent me) {
+	return(new Coord((int)(me.getX() / uiscale), (int)(me.getY() / uiscale)));
+    }
     
     private static GLCapabilities stdcaps() {
         GLProfile prof = GLProfile.getDefault();
@@ -251,7 +276,7 @@ public class HavenPanel extends GLCanvas implements Runnable, Console.Directory 
     UI newui(Session sess) {
 	if(ui != null)
 	    ui.destroy();
-	ui = new UI(new Coord(w, h), sess);
+	ui = new UI(uisz(), sess);
 	ui.root.gprof = prof;
 	if(getParent() instanceof Console.Directory)
 	    ui.cons.add((Console.Directory)getParent());
@@ -286,7 +311,15 @@ public class HavenPanel extends GLCanvas implements Runnable, Console.Directory 
 	if(curf != null)
 	    curf.tick("texrt");
 
-	g.state(ostate);
+	Coord usz = uisz();
+	GLState uostate = OrthoState.fixed(usz);
+	GLState.Buffer ubuf = new GLState.Buffer(glconf);
+	gstate.prep(ubuf);
+	uostate.prep(ubuf);
+	g = new GOut(gl, getContext(), glconf, state, ubuf, usz);
+	g.setscale(uiscale, new Coord(w, h));
+	state.set(ubuf);
+	g.state(uostate);
 	g.apply();
 	gl.glClearColor(0, 0, 0, 1);
 	gl.glClear(GL.GL_COLOR_BUFFER_BIT);
@@ -299,7 +332,7 @@ public class HavenPanel extends GLCanvas implements Runnable, Console.Directory 
 	    curf.tick("draw");
 
 	if(Config.dbtext) {
-	    int y = h - 20;
+	    int y = usz.y - 20;
 	    FastText.aprintf(g, new Coord(10, y -= 15), 0, 1, "FPS: %d (%d%% idle)", fps, (int)(idle * 100.0));
 	    Runtime rt = Runtime.getRuntime();
 	    long free = rt.freeMemory(), total = rt.totalMemory();
@@ -324,7 +357,24 @@ public class HavenPanel extends GLCanvas implements Runnable, Console.Directory 
 	} catch(Loading e) {
 	    tooltip = "...";
 	}
+	lastreal = tooltip;
 	Tex tt = null;
+	boolean fstyle = FayteSkin.on();
+	if(fstyle) {
+	    Object key = (tooltip instanceof String) ? tooltip : ((tooltip instanceof Text) ? ((Text)tooltip).text : tooltip);
+	    long nowt = System.currentTimeMillis();
+	    if((key == null) ? (tipkey != null) : !key.equals(tipkey)) {
+		tipkey = key;
+		tipsince = nowt;
+	    }
+	    if((tooltip != null) && (nowt - tipsince < (long)(FayteConfig.tooltipDelay.get() * 1000)))
+		tooltip = null;
+	}
+	if(fstyle && (tooltip instanceof String) && (((String)tooltip).length() > 40)) {
+	    tooltip = wraptip((String)tooltip);
+	} else if(fstyle && (tooltip instanceof Text) && (((Text)tooltip).text != null) && (((Text)tooltip).sz().x > TIPW + 40)) {
+	    tooltip = wraptip(((Text)tooltip).text);
+	}
 	if(tooltip != null) {
 	    if(tooltip instanceof Text) {
 		tt = ((Text)tooltip).tex();
@@ -341,23 +391,38 @@ public class HavenPanel extends GLCanvas implements Runnable, Console.Directory 
 	    }
 	}
 	if(tt != null) {
-	    Coord sz = tt.sz();
+	    double tsc = FayteModules.STYLE.on() ? FayteConfig.tooltipScale.get() : 1.0;
+	    Coord sz = new Coord((int)(tt.sz().x * tsc), (int)(tt.sz().y * tsc));
 	    Coord pos = mousepos.add(sz.inv());
 	    if(pos.x < 5)
 		pos.x = 5;
 	    if(pos.y < 5)
 		pos.y = 5;
-	    g.chcolor(35, 35, 35, 192);
-	    g.frect(pos.add(-2, -2), sz.add(4, 4));
-	    g.chcolor(244, 247, 21, 192);
-	    g.rect(pos.add(-3, -3), sz.add(6, 6));
-	    g.chcolor();
-	    g.image(tt, pos);
+	    if(FayteSkin.on()) {
+		Coord scr = this.ui.root.sz;
+		pos = mousepos.add(18, 18);
+		if(pos.x + sz.x > scr.x - 8)
+		    pos.x = mousepos.x - 12 - sz.x;
+		if(pos.y + sz.y > scr.y - 8)
+		    pos.y = mousepos.y - 12 - sz.y;
+		if(pos.x < 5)
+		    pos.x = 5;
+		if(pos.y < 5)
+		    pos.y = 5;
+		FayteSkin.panel(g, pos.sub(5, 5), sz.add(10, 10), "tooltip");
+	    } else {
+		g.chcolor(35, 35, 35, 192);
+		g.frect(pos.add(-2, -2), sz.add(4, 4));
+		g.chcolor(244, 247, 21, 192);
+		g.rect(pos.add(-3, -3), sz.add(6, 6));
+		g.chcolor();
+	    }
+	    g.image(tt, pos, sz);
 	}
 	synchronized(ui) {
 	    ui.lastdraw(g);
 	}
-	ui.lasttip = tooltip;
+	ui.lasttip = fstyle ? lastreal : tooltip;
 	Resource curs = ui.root.getcurs(mousepos);
 	if(!curs.loading) {
 	    if(cursmode == "awt") {
@@ -388,14 +453,14 @@ public class HavenPanel extends GLCanvas implements Runnable, Console.Directory 
 		if(e instanceof MouseEvent) {
 		    MouseEvent me = (MouseEvent)e;
 		    if(me.getID() == MouseEvent.MOUSE_PRESSED) {
-			ui.mousedown(me, new Coord(me.getX(), me.getY()), me.getButton());
+			ui.mousedown(me, uic(me), me.getButton());
 		    } else if(me.getID() == MouseEvent.MOUSE_RELEASED) {
-			ui.mouseup(me, new Coord(me.getX(), me.getY()), me.getButton());
+			ui.mouseup(me, uic(me), me.getButton());
 		    } else if(me.getID() == MouseEvent.MOUSE_MOVED || me.getID() == MouseEvent.MOUSE_DRAGGED) {
-			mousepos = new Coord(me.getX(), me.getY());
+			mousepos = uic(me);
 			ui.mousemove(me, mousepos);
 		    } else if(me instanceof MouseWheelEvent) {
-			ui.mousewheel(me, new Coord(me.getX(), me.getY()), ((MouseWheelEvent)me).getWheelRotation());
+			ui.mousewheel(me, uic(me), ((MouseWheelEvent)me).getWheelRotation());
 		    }
 		} else if(e instanceof KeyEvent) {
 		    KeyEvent ke = (KeyEvent)e;
@@ -441,10 +506,12 @@ public class HavenPanel extends GLCanvas implements Runnable, Console.Directory 
 		synchronized(ui) {
 		    if(ui.sess != null)
 			ui.sess.glob.ctick();
+		    uiscale = FayteConfig.uiScale.get();
 		    dispatch();
 		    ui.tick();
-		    if((ui.root.sz.x != w) || (ui.root.sz.y != h))
-			ui.root.resize(new Coord(w, h));
+		    Coord usz = uisz();
+		    if((ui.root.sz.x != usz.x) || (ui.root.sz.y != usz.y))
+			ui.root.resize(usz);
 		}
 		if(curf != null)
 		    curf.tick("dsp");
@@ -456,7 +523,8 @@ public class HavenPanel extends GLCanvas implements Runnable, Console.Directory 
 		    curf.tick("aux");
 		frames++;
 		now = System.currentTimeMillis();
-                fd = Config.slowmin && !MainFrame.instance.isActive()?100:20;
+                long ffd = FayteView.framems(MainFrame.instance.isActive());
+                fd = (ffd > 0) ? ffd : (Config.slowmin && !MainFrame.instance.isActive()?100:20);
 		if(now - then < fd) {
 		    synchronized(events) {
 			events.wait(fd - (now - then));

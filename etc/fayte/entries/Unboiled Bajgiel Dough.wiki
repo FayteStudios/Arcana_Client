@@ -1,0 +1,23 @@
+The unboiled dough of a [[Bajgiel]]. Ready to be boiled.
+
+{{Facts
+| Title=Basics
+| Type= Baking Material
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Baking}} [[Baking]]
+}}
+
+{{Facts
+| Title= Cooking
+| Work= {{icon|Barley Flour}} [[Barley Flour]] 0.15 L, {{icon|Rye Flour}} [[Rye Flour]] 0.15L, {{icon|Wheat Flour}} [[Wheat Flour]] 0.15L, {{icon|Oatmeal}} [[Oatmeal]] 0.15L, and {{icon|Water}} [[Potable Water|Water]] 0.1 L at a {{icon|Baking Table}} [[Baking Table]].
+| Boil= {{icon|Unboiled Bajgiel Dough}} [[Unboiled Bajgiel Dough]] in a {{icon|Clay Pot}} [[Clay Pot|Clay]] or {{icon|Copper Pot}} [[Copper Pot]] over a {{icon|Fireplace}} [[Fireplace]].
+}}
+
+{{Facts
+| Title=Remember
+| Chance=  Preparing Foods on a {{icon|Baking Table}} [[Baking Table]] removes a small amount of {{icon|insanity}} [[Psychotic Episodes|Insanity]] and has a chance of giving you an {{icon|Eloped Gingerbread Man}} [[Eloped Gingerbread Man]].
+}}

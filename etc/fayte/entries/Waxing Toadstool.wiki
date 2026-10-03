@@ -1,0 +1,55 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Fungiculture}} [[Fungiculture]]
+}}
+
+{{Facts
+| Title=Forage
+| Found= [[Autumnal]], [[Coniferous]], [[Greenwood]], [[Swamp]], [[Deep Swamp]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|A Taste of Autumn}} [[A Taste of Autumn]]
+| b)= {{icon|Boiled Waxing Toadstool}} [[Boiled Waxing Toadstool]]
+| c)= {{icon|Fungus Amungus}} [[Fungus Amungus]]
+| Counts as= [[Any Mushroom]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 5 || 5 || 5 || 5
+|-
+! Gluttony min
+| 6 || 6 || 6 || 6
+|-
+! Gluttony max
+| 6 || 6 || 6 || 6
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Mushrooms}} [[Mushrooms]]
+| Full and Fed= 00:06:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Variable food multiplier= Blood 1.35 / Phlegm 0.5 / Yellow 0.5 / Black 0.5
+}}
+
+==About==
+
+A Waxing Toadstool is a Poisonous Mushroom which can be found in the wild or, with the [[Fungiculture]] skill learned, grown by planting another {{i|Waxing Toadstool}} in a {{i|Gardening Pot}}. When planting a Waxing Toadstool there is a chance for it to grow into a {{i|Spooky Redcap}} instead. When picking a Waxing Toadstool from the wild, if your {{i|Herbs & Sprouts}} Proficiency is high enough, you may detect that the Waxing Mushroom you just picked is actually the significantly more poisonous {{i|Waning Toadstool}}. Planting Mushrooms in Gardening Pots lowers [[Insanity]]. A Waxing Toadstool can be stored in a {{i|MushiSack}}.
+
+When boiled a Waxing Toadstool will become a {{i|Boiled Waxing Toadstool}}. A {{i|Boiled Waning Toadstool}}, Boiled Waxing Toadstool, Waning Toadstool, and a Waxing Toadstool all count as a Waxing Toadstool when planting and in Food recipes.

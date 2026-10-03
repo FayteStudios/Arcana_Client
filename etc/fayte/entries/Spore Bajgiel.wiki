@@ -1,0 +1,91 @@
+{{Facts
+| Title=Basics
+| Type= Baked Good
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Advanced Cooking}} [[Advanced Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Place = 3 {{icon|Mushrooms}} [[Mushrooms]] onto a {{icon|Bajgiel}} [[Bajgiel]].
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 22 || 78 || 25 || 31
+|-
+! Spooky Redcap min
+| 64 || 64 || 64 || 64
+|-
+! Spooky Redcap max
+| 176 || 176 || 176 || 176
+|-
+! Monk's Pan min
+| style="background:#e6b8b8" | 50 || 20 || 20 || 20
+|-
+! Monk's Pan max
+| style="background:#e6b8b8" | 137.5 || 55 || 55 || 55
+|-
+! Toadstool min
+| style="background:#e6b8b8" | 54 || 20 || 20 || 20
+|-
+! Toadstool max
+| style="background:#e6b8b8" | 148.5 || 55 || 55 || 55
+|-
+! Lavender Blewit min
+| 20 || style="background:#6fa0ff" | 50 || 20 || 20
+|-
+! Lavender Blewit max
+| 55 || style="background:#6fa0ff" | 137.5 || 55 || 55
+|-
+! Honeylamp min
+| 20 || style="background:#6fa0ff" | 50 || 20 || 20
+|-
+! Honeylamp max
+| 55 || style="background:#6fa0ff" | 137.5 || 55 || 55
+|-
+! Lobster Mushroom min
+| 20 || 20 || style="background:#f0d860" | 50 || 20
+|-
+! Lobster Mushroom max
+| 55 || 55 || style="background:#f0d860" | 137.5 || 55
+|-
+! Yellow Morel min
+| 20 || 20 || style="background:#f0d860" | 54 || 20
+|-
+! Yellow Morel max
+| 55 || 55 || style="background:#f0d860" | 148.5 || 55
+|-
+! Sugar Caps min
+| 20 || 20 || 20 || style="background:#b8c8e6" | 50
+|-
+! Sugar Caps max
+| 55 || 55 || 55 || style="background:#b8c8e6" | 137.5
+|-
+! Witch's Hat min
+| 20 || 20 || 20 || style="background:#b8c8e6" | 54
+|-
+! Witch's Hat max
+| 55 || 55 || 55 || style="background:#b8c8e6" | 148.5
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Mushrooms}} [[Mushrooms]]
+| Full and Fed= 01:05:00
+}}
+
+Does NOT need to be cooked. BOIL YOUR MUSHROOMS!!!{{icon|Waxing Toadstool}} {{icon|Yellow Morel}} {{icon|Witch's Hat}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Fungus
+}}

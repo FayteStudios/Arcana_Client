@@ -1,0 +1,94 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.12
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= [[Any Mushroom]] ×2, {{icon|Leaf of Green Cabbage}} [[Leaf of Green Cabbage]] ×2, {{icon|Radish}} [[Radish]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 7.5 || 7.5 || 7.5 || 7.5
+|-
+! Spooky Redcap min
+| 57.6 || 57.6 || 57.6 || 57.6
+|-
+! Spooky Redcap max
+| 73.6 || 73.6 || 73.6 || 73.6
+|-
+! Monk's Pan min
+| style="background:#e6b8b8" | 45 || 18 || 18 || 18
+|-
+! Monk's Pan max
+| style="background:#e6b8b8" | 57.5 || 23 || 23 || 23
+|-
+! Toadstool min
+| style="background:#e6b8b8" | 48.6 || 18 || 18 || 18
+|-
+! Toadstool max
+| style="background:#e6b8b8" | 62.1 || 23 || 23 || 23
+|-
+! Lavender Blewit min
+| 18 || style="background:#6fa0ff" | 45 || 18 || 18
+|-
+! Lavender Blewit max
+| 23 || style="background:#6fa0ff" | 57.5 || 23 || 23
+|-
+! Honeylamp min
+| 18 || style="background:#6fa0ff" | 45 || 18 || 18
+|-
+! Honeylamp max
+| 23 || style="background:#6fa0ff" | 57.5 || 23 || 23
+|-
+! Lobster Mushroom min
+| 18 || 18 || style="background:#f0d860" | 45 || 18
+|-
+! Lobster Mushroom max
+| 23 || 23 || style="background:#f0d860" | 57.5 || 23
+|-
+! Yellow Morel min
+| 18 || 18 || style="background:#f0d860" | 48.6 || 18
+|-
+! Yellow Morel max
+| 23 || 23 || style="background:#f0d860" | 62.1 || 23
+|-
+! Sugar Caps min
+| 18 || 18 || 18 || style="background:#b8c8e6" | 45
+|-
+! Sugar Caps max
+| 23 || 23 || 23 || style="background:#b8c8e6" | 57.5
+|-
+! Witch's Hat min
+| 18 || 18 || 18 || style="background:#b8c8e6" | 48.6
+|-
+! Witch's Hat max
+| 23 || 23 || 23 || style="background:#b8c8e6" | 62.1
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Mushrooms}} [[Mushrooms]]
+| Full and Fed= 03:00:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 3
+| Reduces Mushrooms= 25% (15% chance)
+| Menu= Craft > Food > Fungus
+}}
+
+==About==
+
+'''NOTE:''' Remember to boil your Mushrooms to reduce {{i|'Shroom Poisoning}}.

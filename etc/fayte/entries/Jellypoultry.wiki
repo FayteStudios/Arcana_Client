@@ -1,0 +1,56 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.35
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= [[Legacy]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Pectin}} [[Any Pectin]] ×2, {{icon|Any Poultry Thigh}} [[Any Poultry Thigh]] ×2, [[Medusa Head Jellyfish]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 49.5 || 49.5 || 49 || 49
+|-
+! Argopelter min
+| style="background:#e6b8b8" | 79.75 || 27.5 || style="background:#f0d860" | 79.75 || 27.5
+|-
+! Argopelter max
+| style="background:#e6b8b8" | 94.25 || 32.5 || style="background:#f0d860" | 94.25 || 32.5
+|-
+! Domesticated Turkey min
+| 27.5 || style="background:#6fa0ff" | 66 || 27.5 || style="background:#b8c8e6" | 66
+|-
+! Domesticated Turkey max
+| 32.5 || style="background:#6fa0ff" | 78 || 32.5 || style="background:#b8c8e6" | 78
+|-
+! Wild Turkey min
+| 27.5 || style="background:#6fa0ff" | 57.75 || 27.5 || style="background:#b8c8e6" | 57.75
+|-
+! Wild Turkey max
+| 32.5 || style="background:#6fa0ff" | 68.25 || 32.5 || style="background:#b8c8e6" | 68.25
+|}
+
+{{Facts
+| Title=Food Group
+| Group= None
+| Full and Fed= 01:00:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+}}
+
+==About==
+
+Jellypoultry is [[Gluttony#Double Variable Recipe|Double Variable Recipe]]. Due to the rarity of some of the item the Gluttony Values for this item are incomplete at this time.

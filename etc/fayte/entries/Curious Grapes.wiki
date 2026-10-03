@@ -1,0 +1,56 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 3.00
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Vineyards}} [[Vineyards]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= [[Vitis]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= [[Red Grape Juice]]
+| b)= [[White Grape Juice]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 18 || 18 || 18 || 18
+|-
+! Gluttony min
+| 10 || 10 || 10 || 10
+|-
+! Gluttony max
+| 15 || 15 || 15 || 15
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Fruit Food}} [[Fruits]]
+| Full and Fed= 00:01:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Restores Fruits= 5% (90% chance)
+| Inspiration= Herbs & Sprouts 850, Law & Lore 1250, Stocks & Cultivars 1000, Natural Philosophy 650
+}}
+
+==Flavor Text==
+
+''Filled to bursting with tales yet untold, songs yet unsung, and inspiration of the cleverest tavern jokes too soon to be forgotten.''
+
+==About==
+
+{{i|Curious Grapes}} are received by chance when harvesting from a mature {{i|Vitis}}. When Pressed in a {{i|Basket Press}} Curious Grapes will randomly give either {{i|Red Grape Juice}} or {{i|White Grape Juice}}. If the Grape Juice already in the Basket Press does not match, the Grape Juice from the Curious Grapes will be '''LOST'''. For this reason it is best to Press Curious Grapes separately.

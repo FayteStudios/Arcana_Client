@@ -1,0 +1,59 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= None
+}}
+
+{{Facts
+| Title=Forage
+| Found= [[Autumnal]], [[Chestnut Tree]], [[Coniferous]], {{icon|Squirrel}} [[Squirrel]], {{icon|Squirrel Stash}} [[Squirrel Stash]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|A Taste of Autumn}} [[A Taste of Autumn]]
+| b)= {{icon|Roasted Chestnut}} [[Roasted Chestnut]]
+| c)= {{icon|Trailmix}} [[Trailmix]]
+| Counts as= [[Any Nuts]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 1 || 2.5 || 1 || 4
+|-
+! Gluttony min
+| 5 || 0 || 0 || 0
+|-
+! Gluttony max
+| 7 || 0 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Nuts & Seeds}} [[Nuts and Seeds]]
+| Full and Fed= 00:05:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Nuts and Seeds= 50% (50% chance)
+| Variable food multiplier= Blood 1.2 / Phlegm 0.5 / Yellow 0.5 / Black 0.5
+| Inspiration= Flora & Fauna 350, Herbs & Sprouts 250, Hunting & Hideworking 450, Law & Lore 200, Sparks & Embers 320, Sugar & Spice 150
+}}
+
+==Flavor Text==
+
+''All alone in the hardest shell. Where, little nut, is father tree and mother leaf?''
+
+==About==
+
+A {{i|Stray Chestnut}} can be found in the wild, or Picked from a {{i|Chestnut Tree}}, or found by chance when Rummaging though a {{i|Squirrel Stash}}. A {{i|Roasted Chestnut}} is obtained when using a Stray Chestnut with the {{i|Roasted Nuts}} recipe, additionally, with the [[Nut Orchards]] skill learned, a Stray Chestnut can be planted in a {{i|Gardening Pot}} to grow a Chestnut Tree. Planting in Gardening Pots lowers [[Insanity]]. A Stray Chestnut can be stored in a {{i|NutSack}}.

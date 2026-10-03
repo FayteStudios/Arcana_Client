@@ -1,0 +1,65 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Tasty Pastries}} [[Tasty Pastries]]
+}}
+
+{{Facts
+| Title=Bake
+| Needs= {{icon|Baking Table}} [[Baking Table]], {{icon|Flour}} [[Flour]] 0.2 L, [[Potable Water]] 0.5 L, {{icon|Sugar}} [[Sugar]] 0.1 L, {{icon|Sourdough Starter}} [[Sourdough Starter]]
+| Second Stage= {{icon|Baking Table}} [[Baking Table]], {{icon|Unleavened Crescent Croissant Dough}} [[Unleavened Crescent Croissant Dough]]
+| Third Stage= {{icon|Bread Oven}} [[Bread Oven]], {{icon|Crescent Croissant}} [[Leavened Croissant Dough]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 15 || 14 || 12 || 10
+|-
+! Oatmeal min
+| style="background:#e6b8b8" | 25.3 || 20.7 || 20.7 || 20.7
+|-
+! Oatmeal max
+| style="background:#e6b8b8" | 35.2 || 28.8 || 28.8 || 28.8
+|-
+! Barley min
+| 20.7 || style="background:#6fa0ff" | 27.6 || 20.7 || 20.7
+|-
+! Barley max
+| 28.8 || style="background:#6fa0ff" | 38.4 || 28.8 || 28.8
+|-
+! Rye min
+| 20.7 || 20.7 || style="background:#f0d860" | 27.6 || 20.7
+|-
+! Rye max
+| 28.8 || 28.8 || style="background:#f0d860" | 38.4 || 28.8
+|-
+! Wheat min
+| 20.7 || 20.7 || 20.7 || style="background:#b8c8e6" | 29.9
+|-
+! Wheat max
+| 28.8 || 28.8 || 28.8 || style="background:#b8c8e6" | 41.6
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Bread}} [[Bread]]
+| Full and Fed= 00:33:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Bread
+}}
+
+==About==
+
+Crafting {{i|Crescent Croissant}} at a {{i|Baking Table}} will make {{i|Unleavened Crescent Croissant Dough}} which can then be left to rest inside the Baking Table until it becomes {{i|Leavened Croissant Dough}}. Leavened Croissant Dough, when baked in a {{i|Bread Oven}}, will produce Crescent Croissant. Preparing Foods on a Baking Table removes a small amount of [[Insanity]] and has a chance of giving you an {{i|Eloped Gingerbread Man}}. When baking Foods in a Bread Oven there is a chance for them to become {{i|Animal Crackers}} instead.

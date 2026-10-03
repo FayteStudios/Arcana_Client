@@ -1,0 +1,56 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.17
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Simple Cooking}} [[Simple Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Raw Wild Turkey Thigh}} [[Raw Wild Turkey Thigh]], [[Any Stove]]
+| Or= {{icon|Wild Stuffed Turkey}} [[Wild Stuffed Turkey]]
+| Or 2= {{icon|Raw Turkey Thigh}} [[Raw Turkey Thigh]], [[Any Stove]]
+}}
+
+{{Facts
+| Title=Used By
+| Counts as= {{icon|Any Poultry Thigh}} [[Any Poultry Thigh]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 7 || 17.5 || 7 || 7
+|-
+! Gluttony min
+| 0 || 0 || 0 || 7
+|-
+! Gluttony max
+| 0 || 0 || 0 || 9
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Poultry}} [[Poultry]]
+| Full and Fed= 00:06:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Poultry= 40% (40% chance)
+}}
+
+==New Haven==
+
+Can be obtained by baking a {{i|Raw Wild Turkey Thigh}} in {{i|Any Stove}}.
+
+==Providence==
+
+2x {{i|Wild Turkey Thigh}}s are received when Cutting Up a {{i|Stuffed Wild Turkey}}. Additionally a Wild Turkey Thigh can be obtained by baking a {{i|Raw Turkey Thigh}} in {{i|Any Stove}}.

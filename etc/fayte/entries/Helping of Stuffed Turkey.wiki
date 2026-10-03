@@ -1,0 +1,45 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.18
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= None
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Stuffed Wild Turkey}} [[Stuffed Wild Turkey]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 12 || 16 || 12 || 12
+|-
+! Gluttony min
+| 1 || 1 || 1 || 1
+|-
+! Gluttony max
+| 1 || 1 || 1 || 1
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Poultry}} [[Poultry]]
+| Full and Fed= 01:51:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Poultry= 99% (99% chance)
+}}
+
+==About==
+
+8x {{i|Helping of Stuffed Turkey}}s are received when Cutting Up a {{i|Stuffed Wild Turkey|NewHaven:Stuffed Wild Turkey}}.

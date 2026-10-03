@@ -1,0 +1,210 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Baking}} [[Baking]]
+}}
+
+{{Facts
+| Title=Bake
+| Needs= [[Any Poultry Egg]], {{icon|Baking Table}} [[Baking Table]], {{icon|Flour}} [[Flour]] 0.3 L, [[Potable Water]] 0.75 L, {{icon|Sugar}} [[Sugar]] 0.05 L
+| Second Stage= {{icon|Bread Oven}} [[Bread Oven]], {{icon|Tasty Cakes Dough}} [[Tasty Cakes Dough]]
+}}
+
+{|
+|+ Heal and Gluttony values — With Argopelter Egg (Blood)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 12 || 12 || 12 || 12
+|-
+! Argopelter Egg min
+| style="background:#e6b8b8" | 32.3 || 19 || 19 || 19
+|-
+! Argopelter Egg max
+| style="background:#e6b8b8" | 44.2 || 26 || 26 || 26
+|-
+! Oatmeal min
+| style="background:#e6b8b8" | 20.9 || 17.1 || 17.1 || 17.1
+|-
+! Oatmeal max
+| style="background:#e6b8b8" | 28.6 || 23.4 || 23.4 || 23.4
+|-
+! Barley min
+| style="background:#e6b8b8" | 29.26 || style="background:#6fa0ff" | 22.8 || 17.1 || 17.1
+|-
+! Barley max
+| style="background:#e6b8b8" | 40.04 || style="background:#6fa0ff" | 31.2 || 23.4 || 23.4
+|-
+! Rye min
+| style="background:#e6b8b8" | 29.26 || 17.1 || style="background:#f0d860" | 22.8 || 17.1
+|-
+! Rye max
+| style="background:#e6b8b8" | 40.04 || 23.4 || style="background:#f0d860" | 31.2 || 23.4
+|-
+! Wheat min
+| style="background:#e6b8b8" | 29.26 || 17.1 || 17.1 || style="background:#b8c8e6" | 24.7
+|-
+! Wheat max
+| style="background:#e6b8b8" | 40.04 || 23.4 || 23.4 || style="background:#b8c8e6" | 33.8
+|}
+
+{|
+|+ With Sparrow Eggs (Phlegm)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Sparrow Eggs min
+| 19 || style="background:#6fa0ff" | 25.84 || 19 || 19
+|-
+! Sparrow Eggs max
+| 26 || style="background:#6fa0ff" | 35.36 || 26 || 26
+|-
+! Oatmeal min
+| style="background:#e6b8b8" | 20.9 || style="background:#6fa0ff" | 25.84 || 17.1 || 17.1
+|-
+! Oatmeal max
+| style="background:#e6b8b8" | 28.6 || style="background:#6fa0ff" | 35.36 || 23.4 || 23.4
+|-
+! Barley min
+| 17.1 || style="background:#6fa0ff" | 30.97 || 17.1 || 17.1
+|-
+! Barley max
+| 23.4 || style="background:#6fa0ff" | 42.38 || 23.4 || 23.4
+|-
+! Rye min
+| 17.1 || style="background:#6fa0ff" | 25.84 || style="background:#f0d860" | 22.8 || 17.1
+|-
+! Rye max
+| 23.4 || style="background:#6fa0ff" | 35.36 || style="background:#f0d860" | 31.2 || 23.4
+|-
+! Wheat min
+| 17.1 || style="background:#6fa0ff" | 25.84 || 17.1 || style="background:#b8c8e6" | 24.7
+|-
+! Wheat max
+| 23.4 || style="background:#6fa0ff" | 35.36 || 23.4 || style="background:#b8c8e6" | 33.8
+|}
+
+{|
+|+ With Eagle Egg (Yellow Bile)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Eagle Egg min
+| 19 || 19 || style="background:#f0d860" | 27.55 || 19
+|-
+! Eagle Egg max
+| 26 || 26 || style="background:#f0d860" | 37.7 || 26
+|-
+! Oatmeal min
+| style="background:#e6b8b8" | 29.07 || 17.1 || style="background:#f0d860" | 27.55 || 17.1
+|-
+! Oatmeal max
+| style="background:#e6b8b8" | 39.78 || 23.4 || style="background:#f0d860" | 37.7 || 23.4
+|-
+! Barley min
+| 17.1 || style="background:#6fa0ff" | 22.8 || style="background:#f0d860" | 27.55 || 17.1
+|-
+! Barley max
+| 23.4 || style="background:#6fa0ff" | 31.2 || style="background:#f0d860" | 37.7 || 23.4
+|-
+! Rye min
+| 17.1 || 17.1 || style="background:#f0d860" | 33.06 || 17.1
+|-
+! Rye max
+| 23.4 || 23.4 || style="background:#f0d860" | 45.24 || 23.4
+|-
+! Wheat min
+| 17.1 || 17.1 || style="background:#f0d860" | 27.55 || style="background:#b8c8e6" | 24.7
+|-
+! Wheat max
+| 23.4 || 23.4 || style="background:#f0d860" | 37.7 || style="background:#b8c8e6" | 33.8
+|}
+
+{|
+|+ With Turkey Egg (Black Bile)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Turkey Egg min
+| 19 || 19 || 19 || style="background:#b8c8e6" | 23.18
+|-
+! Turkey Egg max
+| 26 || 26 || 26 || style="background:#b8c8e6" | 31.72
+|-
+! Oatmeal min
+| style="background:#e6b8b8" | 20.9 || 17.1 || 17.1 || style="background:#b8c8e6" | 23.18
+|-
+! Oatmeal max
+| style="background:#e6b8b8" | 28.6 || 23.4 || 23.4 || style="background:#b8c8e6" | 31.72
+|-
+! Barley min
+| 17.1 || style="background:#6fa0ff" | 22.8 || 17.1 || style="background:#b8c8e6" | 23.18
+|-
+! Barley max
+| 23.4 || style="background:#6fa0ff" | 31.2 || 23.4 || style="background:#b8c8e6" | 31.72
+|-
+! Rye min
+| 17.1 || 17.1 || style="background:#f0d860" | 22.8 || style="background:#b8c8e6" | 23.18
+|-
+! Rye max
+| 23.4 || 23.4 || style="background:#f0d860" | 31.2 || style="background:#b8c8e6" | 31.72
+|-
+! Wheat min
+| 17.1 || 17.1 || 17.1 || style="background:#b8c8e6" | 30.21
+|-
+! Wheat max
+| 23.4 || 23.4 || 23.4 || style="background:#b8c8e6" | 41.34
+|}
+
+{|
+|+ With Green Easter Egg (Bonus)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Green Easter Egg min
+| style="background:#e6b8b8" | 31.16 || style="background:#6fa0ff" | 31.16 || style="background:#f0d860" | 31.16 || style="background:#b8c8e6" | 31.16
+|-
+! Green Easter Egg max
+| style="background:#e6b8b8" | 42.64 || style="background:#6fa0ff" | 42.64 || style="background:#f0d860" | 42.64 || style="background:#b8c8e6" | 42.64
+|-
+! Oatmeal min
+| style="background:#e6b8b8" | 34.2 || style="background:#6fa0ff" | 27.93 || style="background:#f0d860" | 27.93 || style="background:#b8c8e6" | 27.93
+|-
+! Oatmeal max
+| style="background:#e6b8b8" | 46.8 || style="background:#6fa0ff" | 38.22 || style="background:#f0d860" | 38.22 || style="background:#b8c8e6" | 38.22
+|-
+! Barley min
+| style="background:#e6b8b8" | 27.93 || style="background:#6fa0ff" | 37.24 || style="background:#f0d860" | 27.93 || style="background:#b8c8e6" | 27.93
+|-
+! Barley max
+| style="background:#e6b8b8" | 38.22 || style="background:#6fa0ff" | 50.96 || style="background:#f0d860" | 38.22 || style="background:#b8c8e6" | 38.22
+|-
+! Rye min
+| style="background:#e6b8b8" | 27.93 || style="background:#6fa0ff" | 27.93 || style="background:#f0d860" | 37.24 || style="background:#b8c8e6" | 27.93
+|-
+! Rye max
+| style="background:#e6b8b8" | 38.22 || style="background:#6fa0ff" | 38.22 || style="background:#f0d860" | 50.96 || style="background:#b8c8e6" | 38.22
+|-
+! Wheat min
+| style="background:#e6b8b8" | 27.93 || style="background:#6fa0ff" | 27.93 || style="background:#f0d860" | 27.93 || style="background:#b8c8e6" | 40.47
+|-
+! Wheat max
+| style="background:#e6b8b8" | 38.22 || style="background:#6fa0ff" | 38.22 || style="background:#f0d860" | 38.22 || style="background:#b8c8e6" | 55.38
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Bread}} [[Bread]]
+| Full and Fed= 00:20:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Bread
+}}
+
+==About==
+
+Crafting {{i|Tasty Cakes}} at a {{i|Baking Table}} will make a {{i|Tasty Cakes Dough}} which can then be baked in a {{i|Bread Oven}} to produce a Tasty Cakes. Preparing Foods on a Baking Table removes a small amount of [[Insanity]] and has a chance of giving you an {{i|Eloped Gingerbread Man}}. When baking Foods in a Bread Oven there is a chance for them to become {{i|Animal Crackers}} instead. Tasty Cakes is [[Gluttony#Double Variable Recipe|Double Variable Recipe]].

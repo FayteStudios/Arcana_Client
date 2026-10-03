@@ -1,0 +1,62 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.08
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= [[Legacy]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Any Shellfish}} [[Any Shellfish]], [[Boiled Lobster]], [[Fire]], {{icon|Frog Legs}} [[Frog Legs]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 22.5 || 15.5 || 13.5 || 22.5
+|-
+! Crawdad min
+| style="background:#e6b8b8" | 47.25 || 17.5 || 17.5 || 17.5
+|-
+! Crawdad max
+| style="background:#e6b8b8" | 54 || 20 || 20 || 20
+|-
+! Crab min
+| 17.5 || style="background:#6fa0ff" | 43.75 || 17.5 || 17.5
+|-
+! Crab max
+| 20 || style="background:#6fa0ff" | 50 || 20 || 20
+|-
+! Lobster min
+| 17.5 || 17.5 || style="background:#f0d860" | 59.5 || 17.5
+|-
+! Lobster max
+| 20 || 20 || style="background:#f0d860" | 68 || 20
+|-
+! Oyster min
+| 17.5 || 17.5 || 17.5 || style="background:#b8c8e6" | 43.75
+|-
+! Oyster max
+| 20 || 20 || 20 || style="background:#b8c8e6" | 50
+|}
+
+{{Facts
+| Title=Food Group
+| Group= None
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+}}
+
+==About==
+
+{{i|Lobster Legs}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

@@ -1,0 +1,209 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Potato Growing}} [[Potato Growing]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Potato}} [[Any Potato]], [[Any Poultry Egg]], {{icon|Green Bell Peppers}} [[Green Bell Peppers]], [[Potable Water]] 0.1 L
+}}
+
+{|
+|+ Heal and Gluttony values — With Argopelter Egg (Blood)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 8 || 25 || 8 || 12
+|-
+! Curious Potato min
+| style="background:#e6b8b8" | 26.35 || 17 || 17 || 17
+|-
+! Curious Potato max
+| style="background:#e6b8b8" | 35.65 || 23 || 23 || 23
+|-
+! Red Potato min
+| style="background:#e6b8b8" | 36.72 || 8.5 || 8.5 || 8.5
+|-
+! Red Potato max
+| style="background:#e6b8b8" | 49.68 || 11.5 || 11.5 || 11.5
+|-
+! Blue Potato min
+| 13.09 || style="background:#6fa0ff" | 22.1 || 8.5 || 8.5
+|-
+! Blue Potato max
+| 17.71 || style="background:#6fa0ff" | 29.9 || 11.5 || 11.5
+|-
+! Yellow Potato min
+| 13.09 || 8.5 || style="background:#f0d860" | 22.1 || 8.5
+|-
+! Yellow Potato max
+| 17.71 || 11.5 || style="background:#f0d860" | 29.9 || 11.5
+|-
+! Brown Potato min
+| 13.09 || 8.5 || 8.5 || style="background:#b8c8e6" | 20.4
+|-
+! Brown Potato max
+| 17.71 || 11.5 || 11.5 || style="background:#b8c8e6" | 27.6
+|}
+
+{|
+|+ With Sparrow Eggs (Phlegm)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Red Potato min
+| style="background:#e6b8b8" | 23.8 || 11.56 || 8.5 || 8.5
+|-
+! Red Potato max
+| style="background:#e6b8b8" | 32.2 || 15.64 || 11.5 || 11.5
+|-
+! Curious Potato min
+| 17 || style="background:#6fa0ff" | 23.12 || 17 || 17
+|-
+! Curious Potato max
+| 23 || style="background:#6fa0ff" | 31.28 || 23 || 23
+|-
+! Blue Potato min
+| 8.5 || style="background:#6fa0ff" | 30.09 || 8.5 || 8.5
+|-
+! Blue Potato max
+| 11.5 || style="background:#6fa0ff" | 40.71 || 11.5 || 11.5
+|-
+! Yellow Potato min
+| 8.5 || 11.56 || style="background:#f0d860" | 22.1 || 8.5
+|-
+! Yellow Potato max
+| 11.5 || 15.64 || style="background:#f0d860" | 29.9 || 11.5
+|-
+! Brown Potato min
+| 8.5 || 11.56 || 8.5 || style="background:#b8c8e6" | 20.4
+|-
+! Brown Potato max
+| 11.5 || 15.64 || 11.5 || style="background:#b8c8e6" | 27.6
+|}
+
+{|
+|+ With Eagle Egg (Yellow Bile)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Red Potato min
+| style="background:#e6b8b8" | 23.8 || 8.5 || 12.41 || 8.5
+|-
+! Red Potato max
+| style="background:#e6b8b8" | 32.2 || 11.5 || 16.79 || 11.5
+|-
+! Blue Potato min
+| 8.5 || style="background:#6fa0ff" | 22.1 || 12.41 || 8.5
+|-
+! Blue Potato max
+| 11.5 || style="background:#6fa0ff" | 29.9 || 16.79 || 11.5
+|-
+! Curious Potato min
+| 17 || 17 || style="background:#f0d860" | 24.65 || 17
+|-
+! Curious Potato max
+| 23 || 23 || style="background:#f0d860" | 33.35 || 23
+|-
+! Yellow Potato min
+| 8.5 || 8.5 || style="background:#f0d860" | 32.13 || 8.5
+|-
+! Yellow Potato max
+| 11.5 || 11.5 || style="background:#f0d860" | 43.47 || 11.5
+|-
+! Brown Potato min
+| 8.5 || 8.5 || 12.41 || style="background:#b8c8e6" | 20.4
+|-
+! Brown Potato max
+| 11.5 || 11.5 || 16.79 || style="background:#b8c8e6" | 27.6
+|}
+
+{|
+|+ With Turkey Egg (Black Bile)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Red Potato min
+| style="background:#e6b8b8" | 23.8 || 8.5 || 8.5 || 10.37
+|-
+! Red Potato max
+| style="background:#e6b8b8" | 32.2 || 11.5 || 11.5 || 14.03
+|-
+! Blue Potato min
+| 8.5 || style="background:#6fa0ff" | 22.1 || 8.5 || 10.37
+|-
+! Blue Potato max
+| 11.5 || style="background:#6fa0ff" | 29.9 || 11.5 || 14.03
+|-
+! Yellow Potato min
+| 8.5 || 8.5 || style="background:#f0d860" | 22.1 || 8.5
+|-
+! Yellow Potato max
+| 11.5 || 14.03 || style="background:#f0d860" | 29.9 || 14.03
+|-
+! Curious Potato min
+| 17 || 17 || 17 || style="background:#b8c8e6" | 22.27
+|-
+! Curious Potato max
+| 23 || 23 || 23 || style="background:#b8c8e6" | 30.13
+|-
+! Brown Potato min
+| 8.5 || 8.5 || 8.5 || style="background:#b8c8e6" | 24.99
+|-
+! Brown Potato max
+| 11.5 || 11.5 || 11.5 || style="background:#b8c8e6" | 33.81
+|}
+
+{|
+|+ With Green Easter Egg (Bonus)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Curious Potato min
+| style="background:#e6b8b8" | 29.75 || style="background:#6fa0ff" | 29.75 || style="background:#f0d860" | 29.75 || style="background:#b8c8e6" | 29.75
+|-
+! Curious Potato max
+| style="background:#e6b8b8" | 40.25 || style="background:#6fa0ff" | 40.25 || style="background:#f0d860" | 40.25 || style="background:#b8c8e6" | 40.25
+|-
+! Red Potato min
+| style="background:#e6b8b8" | 31.96 || 15.98 || 15.98 || 15.98
+|-
+! Red Potato max
+| style="background:#e6b8b8" | 43.24 || 21.62 || 21.62 || 21.62
+|-
+! Blue Potato min
+| 15.98 || style="background:#6fa0ff" | 37.57 || 15.98 || 15.98
+|-
+! Blue Potato max
+| 21.62 || style="background:#6fa0ff" | 50.83 || 21.62 || 21.62
+|-
+! Yellow Potato min
+| 15.98 || 15.98 || style="background:#f0d860" | 36.04 || 15.98
+|-
+! Yellow Potato max
+| 21.62 || 21.62 || style="background:#f0d860" | 48.76 || 21.62
+|-
+! Brown Potato min
+| 15.98 || 15.98 || 15.98 || style="background:#b8c8e6" | 31.96
+|-
+! Brown Potato max
+| 21.62 || 21.62 || 21.62 || style="background:#b8c8e6" | 43.24
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Potato Food}} [[Potato Food]]
+| Full and Fed= 00:20:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Potatoes
+}}
+
+==About==
+
+{{i|Potato Salad}} does '''NOT''' need to be cooked. Potato Salad is [[Gluttony#Double Variable Recipe|Double Variable Recipe]].

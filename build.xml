@@ -46,6 +46,113 @@
 		<copy todir="build/classes/haven" file="etc/icon.gif" />
 	</target>
 
+	<property name="tools" location="../tools" />
+	<property name="jre21" location="${tools}/jdk-21.0.12.1+1/bin/java" />
+	<property name="reports" location="build/reports" />
+	<patternset id="ours">
+		<include name="haven/Fayte*.java" />
+		<include name="fayte/editor/*.java" />
+		<include name="haven/WorldMapData.java" />
+		<include name="haven/WorldMapIndex.java" />
+		<include name="haven/WorldMapMarkers.java" />
+		<include name="haven/WorldMapWnd.java" />
+		<include name="haven/WindowSnap.java" />
+		<include name="haven/MarkerPointerFX.java" />
+		<include name="haven/TexHiRes.java" />
+	</patternset>
+	<path id="libs">
+		<fileset dir="lib" includes="jogl-all.jar gluegen-rt.jar jnlp.jar jorbis.jar jogg.jar jglob.jar gson-2.3.jar guava-18.0.jar" />
+	</path>
+
+	<target name="lint" depends="salem-client">
+		<mkdir dir="build/lint-classes" />
+		<mkdir dir="${reports}" />
+		<record name="${reports}/lint.txt" action="start" emacsmode="true" />
+		<javac srcdir="src" destdir="build/lint-classes" source="1.8" target="1.8" includeantruntime="no" encoding="iso-8859-1" nowarn="no" fork="true">
+			<patternset refid="ours" />
+			<classpath>
+				<pathelement location="build/classes" />
+				<path refid="libs" />
+			</classpath>
+			<compilerarg value="-Xlint:all,-serial,-options" />
+			<compilerarg value="-Xmaxwarns" />
+			<compilerarg value="10000" />
+			<compilerarg value="-implicit:none" />
+		</javac>
+		<record name="${reports}/lint.txt" action="stop" />
+		<delete dir="build/lint-classes" />
+	</target>
+
+	<target name="pmd" depends="build-env">
+		<mkdir dir="${reports}" />
+		<fileset id="ours-src" dir="src"><patternset refid="ours" /></fileset>
+		<pathconvert property="ours-list" refid="ours-src" pathsep="," />
+		<java classname="net.sourceforge.pmd.cli.PmdCli" fork="true" jvm="${jre21}" failonerror="false">
+			<classpath><fileset dir="${tools}/pmd-bin-7.28.0/lib" includes="*.jar" /></classpath>
+			<arg line="check --no-cache --no-progress -R etc/checks/pmd-rules.xml -f text --use-version java-1.8 --encoding ISO-8859-1" />
+			<arg value="-r" />
+			<arg value="${reports}/pmd.txt" />
+			<arg value="-d" />
+			<arg value="${ours-list}" />
+		</java>
+		<java classname="net.sourceforge.pmd.cli.PmdCli" fork="true" jvm="${jre21}" failonerror="false" output="${reports}/cpd.txt">
+			<classpath><fileset dir="${tools}/pmd-bin-7.28.0/lib" includes="*.jar" /></classpath>
+			<arg line="cpd --minimum-tokens 100 --language java --encoding ISO-8859-1 --no-fail-on-violation" />
+			<arg value="-d" />
+			<arg value="${ours-list}" />
+		</java>
+	</target>
+
+	<target name="spotbugs" depends="salem-client">
+		<mkdir dir="${reports}" />
+		<delete dir="build/ours-classes" />
+		<copy todir="build/ours-classes">
+			<fileset dir="build/classes">
+				<include name="haven/Fayte*.class" />
+				<include name="fayte/editor/*.class" />
+				<include name="haven/WorldMapData*.class" />
+				<include name="haven/WorldMapIndex*.class" />
+				<include name="haven/WorldMapMarkers*.class" />
+				<include name="haven/WorldMapWnd*.class" />
+				<include name="haven/WindowSnap*.class" />
+				<include name="haven/MarkerPointerFX*.class" />
+				<include name="haven/TexHiRes*.class" />
+			</fileset>
+		</copy>
+		<pathconvert property="aux" pathsep=";">
+			<path><pathelement location="build/classes" /><path refid="libs" /></path>
+		</pathconvert>
+		<java jar="${tools}/spotbugs-4.10.4/lib/spotbugs.jar" fork="true" jvm="${jre21}" failonerror="false" maxmemory="2g">
+			<arg line="-textui -effort:max -low -xml:withMessages -exclude etc/checks/spotbugs-exclude.xml" />
+			<arg value="-output" />
+			<arg value="${reports}/spotbugs.xml" />
+			<arg value="-auxclasspath" />
+			<arg value="${aux}" />
+			<arg value="build/ours-classes" />
+		</java>
+		<delete dir="build/ours-classes" />
+	</target>
+
+	<target name="checks" depends="lint,pmd,spotbugs" />
+
+	<target name="format">
+		<apply executable="${jre21}" parallel="true" failonerror="true">
+			<arg value="--add-exports=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED" />
+			<arg value="--add-exports=jdk.compiler/com.sun.tools.javac.code=ALL-UNNAMED" />
+			<arg value="--add-exports=jdk.compiler/com.sun.tools.javac.file=ALL-UNNAMED" />
+			<arg value="--add-exports=jdk.compiler/com.sun.tools.javac.parser=ALL-UNNAMED" />
+			<arg value="--add-exports=jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED" />
+			<arg value="--add-exports=jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED" />
+			<arg value="-cp" />
+			<arg value="${tools}/palantir/lib/*" />
+			<arg value="com.palantir.javaformat.java.Main" />
+			<arg value="--palantir" />
+			<arg value="--replace" />
+			<srcfile />
+			<fileset dir="src"><patternset refid="ours" /></fileset>
+		</apply>
+	</target>
+
 	<target name="copy-certificates">
 		<copy todir="out/production/salem/haven" file="etc/ressrv.crt" />
 		<copy todir="out/production/salem/haven" file="etc/authsrv.crt" />
@@ -88,8 +195,9 @@
 	</target>
 
 	<target name="jar" depends="salem-client,buildinfo,lib-classes,resources">
-		<jar destfile="build/lsalem.jar" update="true">
-			<fileset dir="build/classes"/>
+		<jar destfile="build/fayte.jar" update="true">
+			<fileset dir="build/classes" excludes="fayte/editor/**"/>
+			<fileset dir="resources/compiled" includes="res/paginae/add/fayte.res res/paginae/add/gatherwindows.res res/paginae/add/worldmap.res res/paginae/add/chatwindow.res res/paginae/add/classicchat.res res/paginae/add/almanac.res res/paginae/add/lockui.res res/paginae/add/keybinds.res res/paginae/add/modules.res res/paginae/add/view.res res/paginae/add/tools.res res/paginae/add/ftimers.res res/paginae/add/selections.res" />
 			<fileset dir="build/classes-lib" />
 			<fileset file="changelog.txt" />
 			<fileset file="etc/radar.xml" />
@@ -99,12 +207,24 @@
                         <fileset file="etc/item_radius.json" />
                         <fileset file="etc/gob_path.json" />
 			<fileset file="etc/item_data.json" />
+			<fileset dir="etc" includes="fayte/*.json fayte/*.json.gz fayte/*.txt fayte/*.properties fayte/entries/** fayte/profiles/**" />
 			<manifest>
 				<attribute name="Main-Class" value="haven.MainFrame" />
 				<attribute name="Class-Path" value="jogl-all.jar gluegen-rt.jar lclient-res.jar builtin-res.jar salem-res.jar gson-2.3.jar guava-18.0.jar" />
 			</manifest>
 		</jar>
-		<chmod file="build/lsalem.jar" perm="a+x" />
+		<chmod file="build/fayte.jar" perm="a+x" />
+	</target>
+
+	<target name="editor" depends="jar">
+		<jar destfile="build/entry_editor.jar">
+			<zipfileset src="build/fayte.jar" excludes="META-INF/MANIFEST.MF" />
+			<fileset dir="build/classes" includes="fayte/editor/**" />
+			<manifest>
+				<attribute name="Main-Class" value="fayte.editor.EntryEditor" />
+				<attribute name="Class-Path" value="../lib/jogl-all.jar ../lib/gluegen-rt.jar" />
+			</manifest>
+		</jar>
 	</target>
 
 	<target name="res-jar" depends="build-env" unless="has-res-jar">
@@ -126,7 +246,7 @@
 	<target name="deftgt" depends="jars, appletview" />
 
 	<target name="run" depends="jars">
-		<java jar="build/lsalem.jar" 
+		<java jar="build/fayte.jar" 
 				dir="build" 
 				fork="true" 
 				maxmemory="1024m"
@@ -137,7 +257,7 @@
 	</target>
 
     <target name="debug" depends="jars">
-		<java jar="build/lsalem.jar"
+		<java jar="build/fayte.jar"
 				dir="build"
 				fork="true"
 				maxmemory="1024m"
@@ -148,7 +268,7 @@
 	</target>
 
 	<target name="clean">
-                <delete file="build/lsalem.jar" />
+                <delete file="build/fayte.jar" />
                 <delete file="build/lclient-res.jar" />
 		<delete dir="build/classes" />
 		<delete dir="build/classes-lib" />

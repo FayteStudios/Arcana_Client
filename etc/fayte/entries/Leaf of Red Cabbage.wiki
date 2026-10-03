@@ -1,0 +1,52 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.03
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Cabbage Growing}} [[Cabbage Growing]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Head of Red Cabbage}} [[Head of Red Cabbage]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Sugar Delight}} [[Sugar Delight]]
+| b)= {{icon|Windy Pooh}} [[Windy Pooh]]
+| Counts as= {{icon|Any Cabbage Leaf}} [[Any Cabbage Leaf]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 4 || 4 || 4 || 4
+|-
+! Gluttony min
+| 0 || 1 || 0 || 0
+|-
+! Gluttony max
+| 0 || 4 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Cabbage & Kale}} [[Cabbage and Kale]]
+| Full and Fed= 00:01:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Cabbage and Kale= 10% (5% chance)
+}}
+
+==About==
+
+Generally 6x {{i|Leaf of Red Cabbage}} are received when Splitting a {{i|Head of Red Cabbage}} although some Heads of Red Cabbage contain less.

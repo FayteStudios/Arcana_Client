@@ -1,0 +1,45 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.17
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Fishing}} [[Fishing]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Fire]], {{icon|Filet of Shin Spinner}} [[Filet of Shin Spinner]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 9.5 || 10 || 12.5 || 8
+|-
+! Gluttony min
+| 0 || 0 || 5 || 0
+|-
+! Gluttony max
+| 0 || 0 || 10 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Fish}} [[Fishes]]
+| Full and Fed= 00:03:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Fishes= 50% (50% chance)
+}}
+
+==About==
+
+A {{i|Roasted Shin Spinner}} is obtained when crafting {{i|Roasted Fish}} using a {{i|Filet of Shin Spinner}} over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

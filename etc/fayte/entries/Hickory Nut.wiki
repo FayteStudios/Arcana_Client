@@ -1,0 +1,51 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= None
+}}
+
+{{Facts
+| Title=Forage
+| Found= [[Hickory Tree]], {{icon|Squirrel}} [[Squirrel]], {{icon|Squirrel Stash}} [[Squirrel Stash]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Roasted Hickory Nut}} [[Roasted Hickory Nut]]
+| Counts as= [[Any Nuts]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 1 || 2.5 || 1 || 4
+|-
+! Gluttony min
+| 0 || 0 || 0 || 5
+|-
+! Gluttony max
+| 0 || 0 || 0 || 7
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Nuts & Seeds}} [[Nuts and Seeds]]
+| Full and Fed= 00:12:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Variable food multiplier= Blood 0.5 / Phlegm 0.5 / Yellow 0.5 / Black 1.15
+}}
+
+==About==
+
+A {{i|Hickory Nut}} can be Picked from a {{i|Hickory Tree}}, or found by chance when Rummaging though a {{i|Squirrel Stash}}. A {{i|Roasted Hickory Nut}} is obtained when using a Hickory Nut with the {{i|Roasted Nuts}} recipe, additionally, with the [[Nut Orchards]] Skill learned, a Hickory Nut can be planted in a {{i|Gardening Pot}} to grow a Hickory Tree. Planting in Gardening Pots lowers [[Insanity]]. A Hickory Nut can be stored in a {{i|NutSack}}.

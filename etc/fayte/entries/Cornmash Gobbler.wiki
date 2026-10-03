@@ -1,0 +1,59 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Simple Cooking}} [[Simple Cooking]]
+| Skill 2= {{icon|Turkey Farming}} [[Turkey Farming]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Poultry Thigh}} [[Any Poultry Thigh]], {{icon|Baby Corn}} [[Baby Corn]], {{icon|Carrot}} [[Carrot]] ×2
+| Second Stage= [[Any Stove]], {{icon|Cornmash Gobbler}} [[Unbaked Cornmash Gobbler]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 17.5 || 17.5 || 0 || 0
+|-
+! Argopelter min
+| style="background:#e6b8b8" | 56.55 || 19.5 || style="background:#f0d860" | 56.55 || 19.5
+|-
+! Argopelter max
+| style="background:#e6b8b8" | 65.25 || 22.5 || style="background:#f0d860" | 65.25 || 22.5
+|-
+! Domesticated Turkey min
+| 19.5 || style="background:#6fa0ff" | 46.8 || 19.5 || style="background:#b8c8e6" | 46.8
+|-
+! Domesticated Turkey max
+| 22.5 || style="background:#6fa0ff" | 54 || 22.5 || style="background:#b8c8e6" | 54
+|-
+! Wild Turkey min
+| 19.5 || style="background:#6fa0ff" | 40.95 || 19.5 || style="background:#b8c8e6" | 40.95
+|-
+! Wild Turkey max
+| 22.5 || style="background:#6fa0ff" | 47.25 || 22.5 || style="background:#b8c8e6" | 47.25
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Poultry}} [[Poultry]]
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Poultry & Fowl
+}}
+
+==About==
+
+Crafting a {{i|Cornmash Gobbler}} will make an {{i|Unbaked Cornmash Gobbler}} which can then be baked in {{i|Any Stove}} to produce a Cornmash Gobbler.

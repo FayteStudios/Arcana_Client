@@ -133,6 +133,9 @@ public class Equipory extends Widget {
 		    if((box == null) || (box.tab != this.tab))
 			continue;
 			if(ul.isect(box.c, sqlite.sz())) {
+				FayteTools.feedcancel();
+				if(FayteXfer.equipdrop(Equipory.this, i))
+				    return(true);
 				Equipory.this.wdgmsg("drop", i);
 				return(true);
 			}
@@ -254,6 +257,7 @@ public class Equipory extends Widget {
     @Override
     public void tick(double dt) {
 	super.tick(dt);
+	FayteXfer.equiptick(this);
 	try {
 	    if (!checkForDrop.isEmpty()) {
 		GItem g = checkForDrop.get(0);

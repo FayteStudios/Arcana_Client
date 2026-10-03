@@ -45,7 +45,8 @@ public class Gobble extends SIWidget {
     private boolean updt = true;
     public long lastUpdate = 0;
     private TypeList typelist;
-    private int[] lmax = new int[4];
+    public int[] lmax = new int[4];
+    public int points = 0;
     private int max;
     private Tex lvlmask;
     private long lvltime;
@@ -263,7 +264,13 @@ public class Gobble extends SIWidget {
 	}
     }
 
+    public void faytehide() {
+	hide();
+	typelist.hide();
+    }
+
     public void updt(int[] n) {
+	FayteFeastWnd.gtm(this.lev, n);
 	this.lev = n;
 	texts = null;
 	redraw();
@@ -281,6 +288,7 @@ public class Gobble extends SIWidget {
     }
 
     public void lcount(int n, Color c) {
+	points = n;
 	Text rt = tnf.render(String.format("Gobble Points: %d", n), c);
 	levels = new TexI(rasterimg(blurmask2(rt.img.getRaster(), 2, 1, new Color(0, 0, 0))));
     }

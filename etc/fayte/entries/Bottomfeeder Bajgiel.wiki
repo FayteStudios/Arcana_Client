@@ -1,0 +1,61 @@
+{{Facts
+| Title=Basics
+| Type= Baked Good
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Advanced Cooking}} [[Advanced Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Place = {{icon|Any Shellfish}} [[Any Shellfish|Shellfish]] onto a {{icon|Bajgiel}} [[Bajgiel]].
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 22 || 25 || 78 || 31
+|-
+! Crawdad min
+| style="background:#e6b8b8" | 54 || 20 || 20 || 20
+|-
+! Crawdad max
+| style="background:#e6b8b8" | 148.5 || 55 || 55 || 55
+|-
+! Crab min
+| 20 || style="background:#6fa0ff" | 50 || 20 || 20
+|-
+! Crab max
+| 55 || style="background:#6fa0ff" | 137.5 || 55 || 55
+|-
+! Lobster min
+| 20 || 20 || style="background:#f0d860" | 68 || 20
+|-
+! Lobster max
+| 55 || 55 || style="background:#f0d860" | 187 || 55
+|-
+! Oyster min
+| 20 || 20 || 20 || style="background:#b8c8e6" | 50
+|-
+! Oyster max
+| 55 || 55 || 55 || style="background:#b8c8e6" | 137.5
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Shellfish}} [[Crustacea and Shellfish]]
+| Full and Fed= 01:05:00
+}}
+
+Does NOT need to be cooked
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Shellfish
+}}

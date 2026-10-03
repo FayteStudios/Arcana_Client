@@ -1,0 +1,141 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.95
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= [[Legacy]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Filet of Any Fish}} [[Filet of any Fish]], [[Fire]], {{icon|Gneiss}} [[Gneiss]], {{icon|Granite}} [[Granite]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 4.5 || 2.5 || 8 || 5
+|-
+! Angel-Winged Seabass min
+| style="background:#e6b8b8" | 31.5 || 15 || 15 || 15
+|-
+! Angel-Winged Seabass max
+| style="background:#e6b8b8" | 47.25 || 22.5 || 22.5 || 22.5
+|-
+! Ghostly Whitefish min
+| style="background:#e6b8b8" | 36 || 15 || 15 || 15
+|-
+! Ghostly Whitefish max
+| style="background:#e6b8b8" | 54 || 22.5 || 22.5 || 22.5
+|-
+! Tiger Trout min
+| style="background:#e6b8b8" | 33 || 15 || 15 || 15
+|-
+! Tiger Trout max
+| style="background:#e6b8b8" | 49.5 || 22.5 || 22.5 || 22.5
+|-
+! Blueback Tuna min
+| 15 || style="background:#6fa0ff" | 34.5 || 15 || style="background:#b8c8e6" | 34.5
+|-
+! Blueback Tuna max
+| 22.5 || style="background:#6fa0ff" | 51.75 || 22.5 || style="background:#b8c8e6" | 51.75
+|-
+! Darkwater Bluegill min
+| 15 || style="background:#6fa0ff" | 34.5 || 15 || 15
+|-
+! Darkwater Bluegill max
+| 22.5 || style="background:#6fa0ff" | 51.75 || 22.5 || 22.5
+|-
+! Red-Finned Mullet min
+| 15 || style="background:#6fa0ff" | 31.5 || 15 || 15
+|-
+! Red-Finned Mullet max
+| 22.5 || style="background:#6fa0ff" | 47.25 || 22.5 || 22.5
+|-
+! Silt-Dwelling Mudsnapper min
+| 15 || style="background:#6fa0ff" | 31.5 || 15 || 15
+|-
+! Silt-Dwelling Mudsnapper max
+| 22.5 || style="background:#6fa0ff" | 47.25 || 22.5 || 22.5
+|-
+! Cape Codfish min
+| 15 || 15 || style="background:#f0d860" | 31.5 || 15
+|-
+! Cape Codfish max
+| 22.5 || 22.5 || style="background:#f0d860" | 47.25 || 22.5
+|-
+! Gold Pickerel min
+| 15 || 15 || style="background:#f0d860" | 34.5 || 15
+|-
+! Gold Pickerel max
+| 22.5 || 22.5 || style="background:#f0d860" | 51.75 || 22.5
+|-
+! Shin Spinner min
+| 15 || 15 || style="background:#f0d860" | 33 || 15
+|-
+! Shin Spinner max
+| 22.5 || 22.5 || style="background:#f0d860" | 49.5 || 22.5
+|-
+! Raging Bullhead min
+| 15 || 15 || 15 || style="background:#b8c8e6" | 37.5
+|-
+! Raging Bullhead max
+| 22.5 || 22.5 || 22.5 || style="background:#b8c8e6" | 56.25
+|-
+! Sargasso Eel min
+| 15 || 15 || 15 || style="background:#b8c8e6" | 31.5
+|-
+! Sargasso Eel max
+| 22.5 || 22.5 || 22.5 || style="background:#b8c8e6" | 47.25
+|-
+! Trunk-Nosed Lake Perch min
+| 15 || 15 || 15 || style="background:#b8c8e6" | 31.5
+|-
+! Trunk-Nosed Lake Perch max
+| 22.5 || 22.5 || 22.5 || style="background:#b8c8e6" | 47.25
+|-
+! Crimson Carp min
+| style="background:#e6b8b8" | 90 || style="background:#6fa0ff" | 90 || style="background:#f0d860" | 90 || style="background:#b8c8e6" | 90
+|-
+! Crimson Carp max
+| style="background:#e6b8b8" | 135 || style="background:#6fa0ff" | 135 || style="background:#f0d860" | 135 || style="background:#b8c8e6" | 135
+|-
+! Hellish Halibut min
+| style="background:#e6b8b8" | 36 || style="background:#6fa0ff" | 36 || style="background:#f0d860" | 36 || style="background:#b8c8e6" | 36
+|-
+! Hellish Halibut max
+| style="background:#e6b8b8" | 54 || style="background:#6fa0ff" | 54 || style="background:#f0d860" | 54 || style="background:#b8c8e6" | 54
+|-
+! Long-Whiskered Catfish min
+| style="background:#e6b8b8" | 36 || style="background:#6fa0ff" | 36 || style="background:#f0d860" | 36 || style="background:#b8c8e6" | 36
+|-
+! Long-Whiskered Catfish max
+| style="background:#e6b8b8" | 54 || style="background:#6fa0ff" | 54 || style="background:#f0d860" | 54 || style="background:#b8c8e6" | 54
+|-
+! Red Herring min
+| style="background:#e6b8b8" | 31.5 || style="background:#6fa0ff" | 31.5 || style="background:#f0d860" | 31.5 || style="background:#b8c8e6" | 31.5
+|-
+! Red Herring max
+| style="background:#e6b8b8" | 47.25 || style="background:#6fa0ff" | 47.25 || style="background:#f0d860" | 47.25 || style="background:#b8c8e6" | 47.25
+|}
+
+{{Facts
+| Title=Food Group
+| Group= None
+| Full and Fed= 00:15:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Fish & Seafood
+}}
+
+==About==
+
+A {{i|Filet on the Rocks}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

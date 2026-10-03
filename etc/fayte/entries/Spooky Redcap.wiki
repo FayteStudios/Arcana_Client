@@ -1,0 +1,52 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Fungiculture}} [[Fungiculture]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= [[Any Mushroom]], {{icon|Gardening Pot}} [[Gardening Pot]], {{icon|Humus}} [[Humus]], [[Potable Water]] 0.2 L
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Scary Stroganoff}} [[Scary Stroganoff]]
+| Counts as= [[Any Mushroom]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 25 || 10 || 10 || 10
+|-
+! Gluttony min
+| 5 || 5 || 5 || 5
+|-
+! Gluttony max
+| 10 || 10 || 10 || 10
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Mushrooms}} [[Mushrooms]]
+| Full and Fed= 00:10:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Restores Mushrooms= 30% (90% chance)
+| Variable food multiplier= Blood 1.6 / Phlegm 0.5 / Yellow 0.5 / Black 1.6
+}}
+
+==About==
+
+With the [[Fungiculture]] Skill learned, there is a random chance that when planting {{i|Any Mushroom}} into a {{i|Gardening Pot}} it will instead turn into a {{i|Spooky Redcap}}. A Spooky Redcap can be replanted, but instead of growing another Spooky Redcap, it will turn into one of the other Mushrooms. Planting Mushrooms in Gardening Pots lowers [[Insanity]]. A Spooky Redcap can be stored in a {{i|MushiSack}}. Spooky Redcap is a minor [[Restore Food]] for the {{i2|Mushrooms}} Food Group.

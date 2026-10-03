@@ -1,0 +1,70 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Advanced Cooking}} [[Advanced Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Vegetable}} [[Any Vegetable]] ×2, {{icon|Devil's Wort}} [[Devil's Wort]], {{icon|Garlic}} [[Garlic]], {{icon|Jalapeno}} [[Jalapeno]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 62.5 || 82 || 54 || 45
+|-
+! Big Red min
+| style="background:#e6b8b8" | 152 || 47.5 || 47.5 || 47.5
+|-
+! Big Red max
+| style="background:#e6b8b8" | 200 || 62.5 || 62.5 || 62.5
+|-
+! Tomato min
+| style="background:#e6b8b8" | 118.75 || 47.5 || 47.5 || 47.5
+|-
+! Tomato max
+| style="background:#e6b8b8" | 156.25 || 62.5 || 62.5 || 62.5
+|-
+! Carrot min
+| 47.5 || style="background:#6fa0ff" | 114 || 47.5 || 47.5
+|-
+! Carrot max
+| 62.5 || style="background:#6fa0ff" | 150 || 62.5 || 62.5
+|-
+! Radish min
+| 47.5 || 47.5 || style="background:#f0d860" | 114 || 47.5
+|-
+! Radish max
+| 62.5 || 62.5 || style="background:#f0d860" | 150 || 62.5
+|-
+! Onion min
+| 47.5 || 47.5 || 47.5 || style="background:#b8c8e6" | 128.25
+|-
+! Onion max
+| 62.5 || 62.5 || 62.5 || style="background:#b8c8e6" | 168.75
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Vegetables & Greens}} [[Vegetables and Greens]]
+| Full and Fed= 00:25:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Vegetables and Greens= 15% (35% chance)
+| Menu= Craft > Food > Vegetables
+}}
+
+==About==
+
+{{i|Dragon's Breath Salad}} does '''NOT''' need to be cooked.

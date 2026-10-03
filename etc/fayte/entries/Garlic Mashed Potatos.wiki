@@ -1,0 +1,69 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Potato Growing}} [[Potato Growing]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Garlic}} [[Any Garlic]], {{icon|Any Potato}} [[Any Potato]], {{icon|Milk}} [[Milk]] 0.1 L
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 12 || 17 || 9 || 2
+|-
+! Red Potato min
+| style="background:#e6b8b8" | 28 || 10 || 10 || 10
+|-
+! Red Potato max
+| style="background:#e6b8b8" | 42 || 15 || 15 || 15
+|-
+! Blue Potato min
+| 10 || style="background:#6fa0ff" | 26 || 10 || 10
+|-
+! Blue Potato max
+| 15 || style="background:#6fa0ff" | 39 || 15 || 15
+|-
+! Yellow Potato min
+| 10 || 10 || style="background:#f0d860" | 26 || 10
+|-
+! Yellow Potato max
+| 15 || 15 || style="background:#f0d860" | 39 || 15
+|-
+! Brown Potato min
+| 10 || 10 || 10 || style="background:#b8c8e6" | 24
+|-
+! Brown Potato max
+| 15 || 15 || 15 || style="background:#b8c8e6" | 36
+|-
+! Curious Potato min
+| 20 || 20 || 20 || 20
+|-
+! Curious Potato max
+| 30 || 30 || 30 || 30
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Potato Food}} [[Potato Food]]
+| Full and Fed= 00:20:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Potatoes
+}}
+
+==About==
+
+{{i|Garlic Mashed Potatos}} does '''NOT''' need to be cooked.

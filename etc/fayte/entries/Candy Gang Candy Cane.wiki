@@ -1,0 +1,44 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= None
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= [[Salem Store]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= [[Mystery Weapon Chest]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 100 || 100 || 100 || 100
+|-
+! Gluttony min
+| 0 || 0 || 0 || 0
+|-
+! Gluttony max
+| 0 || 0 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= None
+| Full and Fed= None
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 5
+}}
+
+==About==
+
+A {{i|Candy Gang Candy Cane}} can be obtained by chance from the Store bought {{i|Mystery Weapon Chest}}. The Candy Gang Candy Cane counts as a Club type Weapon. CAUTION: A Candy Gang Candy Cane can actually be eaten! A Candy Gang Candy Cane can be hung on a wall.

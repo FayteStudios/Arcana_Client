@@ -1,0 +1,321 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.30
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Fruit Orchards}} [[Fruit Orchards]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Any Fruit}} [[Any Fruit]], {{icon|Flour}} [[Flour]] 0.1 L
+| Second Stage= [[Any Pot]], {{icon|Fireplace}} [[Fireplace]], [[Potable Water]] ×5, {{icon|Unboiled Delectable Dumplings}} [[Unboiled Delectable Dumplings]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= [[Spoiled Food]]
+}}
+
+{|
+|+ Heal and Gluttony values — With Apple (Blood)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 18 || 11 || 18 || 14
+|-
+! Apple min
+| style="background:#e6b8b8" | 44.1 || 13.86 || 13.86 || 13.86
+|-
+! Apple max
+| style="background:#e6b8b8" | 50.4 || 15.84 || 15.84 || 15.84
+|-
+! Oatmeal min
+| style="background:#e6b8b8" | 53.93 || 12.6 || 12.6 || 12.6
+|-
+! Oatmeal max
+| style="background:#e6b8b8" | 61.63 || 14.4 || 14.4 || 14.4
+|-
+! Barley min
+| style="background:#e6b8b8" | 44.1 || 16.63 || 12.6 || 12.6
+|-
+! Barley max
+| style="background:#e6b8b8" | 50.4 || 19.01 || 14.4 || 14.4
+|-
+! Rye min
+| style="background:#e6b8b8" | 44.1 || 12.6 || 16.63 || 12.6
+|-
+! Rye max
+| style="background:#e6b8b8" | 50.4 || 14.4 || 19.01 || 14.4
+|-
+! Wheat min
+| style="background:#e6b8b8" | 44.1 || 12.6 || 12.6 || 18.14
+|-
+! Wheat max
+| style="background:#e6b8b8" | 50.4 || 14.4 || 14.4 || 20.74
+|}
+
+{|
+|+ With Cherry (Blood)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Cherry min
+| style="background:#e6b8b8" | 36.54 || 13.86 || 13.86 || 13.86
+|-
+! Cherry max
+| style="background:#e6b8b8" | 41.76 || 15.84 || 15.84 || 15.84
+|-
+! Oatmeal min
+| style="background:#e6b8b8" | 44.6 || 12.6 || 12.6 || 12.6
+|-
+! Oatmeal max
+| style="background:#e6b8b8" | 50.98 || 14.4 || 14.4 || 14.4
+|-
+! Barley min
+| style="background:#e6b8b8" | 36.54 || 16.63 || 12.6 || 12.6
+|-
+! Barley max
+| style="background:#e6b8b8" | 41.76 || 19.01 || 14.4 || 14.4
+|-
+! Rye min
+| style="background:#e6b8b8" | 36.54 || 12.6 || 16.63 || 12.6
+|-
+! Rye max
+| style="background:#e6b8b8" | 41.76 || 14.4 || 19.01 || 14.4
+|-
+! Wheat min
+| style="background:#e6b8b8" | 36.54 || 12.6 || 12.6 || 18.14
+|-
+! Wheat max
+| style="background:#e6b8b8" | 41.76 || 14.4 || 14.4 || 20.74
+|}
+
+{|
+|+ With Mulberry (Phlegm)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Mulberry min
+| 13.86 || style="background:#6fa0ff" | 36.54 || 13.86 || 13.86
+|-
+! Mulberry max
+| 15.84 || style="background:#6fa0ff" | 41.76 || 15.84 || 15.84
+|-
+! Oatmeal min
+| 15.37 || style="background:#6fa0ff" | 36.54 || 12.6 || 12.6
+|-
+! Oatmeal max
+| 17.57 || style="background:#6fa0ff" | 41.76 || 14.4 || 14.4
+|-
+! Barley min
+| 12.6 || style="background:#6fa0ff" | 48.64 || 12.6 || 12.6
+|-
+! Barley max
+| 14.4 || style="background:#6fa0ff" | 55.58 || 14.4 || 14.4
+|-
+! Rye min
+| 12.6 || style="background:#6fa0ff" | 36.54 || 16.63 || 12.6
+|-
+! Rye max
+| 14.4 || style="background:#6fa0ff" | 41.76 || 19.01 || 14.4
+|-
+! Wheat min
+| 12.6 || style="background:#6fa0ff" | 36.54 || 12.6 || 18.14
+|-
+! Wheat max
+| 14.4 || style="background:#6fa0ff" | 41.76 || 14.4 || 20.74
+|}
+
+{|
+|+ With Pear (Phlegm)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Pear min
+| 13.86 || style="background:#6fa0ff" | 44.1 || 13.86 || 13.86
+|-
+! Pear max
+| 15.84 || style="background:#6fa0ff" | 50.4 || 15.84 || 15.84
+|-
+! Oatmeal min
+| 15.37 || style="background:#6fa0ff" | 44.1 || 12.6 || 12.6
+|-
+! Oatmeal max
+| 17.57 || style="background:#6fa0ff" | 50.4 || 14.4 || 14.4
+|-
+! Barley min
+| 12.6 || style="background:#6fa0ff" | 58.72 || 12.6 || 12.6
+|-
+! Barley max
+| 14.4 || style="background:#6fa0ff" | 67.1 || 14.4 || 14.4
+|-
+! Rye min
+| 12.6 || style="background:#6fa0ff" | 44.1 || 16.63 || 12.6
+|-
+! Rye max
+| 14.4 || style="background:#6fa0ff" | 50.4 || 19.01 || 14.4
+|-
+! Wheat min
+| 12.6 || style="background:#6fa0ff" | 44.1 || 12.6 || 18.14
+|-
+! Wheat max
+| 14.4 || style="background:#6fa0ff" | 50.4 || 14.4 || 20.74
+|}
+
+{|
+|+ With Peach (Yellow Bile)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Peach min
+| 13.86 || 13.86 || style="background:#f0d860" | 44.1 || 13.86
+|-
+! Peach max
+| 15.84 || 15.84 || style="background:#f0d860" | 50.4 || 15.84
+|-
+! Oatmeal min
+| 15.37 || 12.6 || style="background:#f0d860" | 44.1 || 12.6
+|-
+! Oatmeal max
+| 17.57 || 14.4 || style="background:#f0d860" | 50.4 || 14.4
+|-
+! Barley min
+| 12.6 || 16.63 || style="background:#f0d860" | 44.1 || 12.6
+|-
+! Barley max
+| 14.4 || 19.01 || style="background:#f0d860" | 50.4 || 14.4
+|-
+! Rye min
+| 12.6 || 12.6 || style="background:#f0d860" | 58.72 || 12.6
+|-
+! Rye max
+| 14.4 || 14.4 || style="background:#f0d860" | 67.1 || 14.4
+|-
+! Wheat min
+| 12.6 || 12.6 || style="background:#f0d860" | 44.1 || 18.14
+|-
+! Wheat max
+| 14.4 || 14.4 || style="background:#f0d860" | 50.4 || 20.74
+|}
+
+{|
+|+ With Persimmon (Yellow Bile)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Persimmon min
+| 13.86 || 13.86 || style="background:#f0d860" | 36.54 || 13.86
+|-
+! Persimmon max
+| 15.84 || 15.84 || style="background:#f0d860" | 41.76 || 15.84
+|-
+! Oatmeal min
+| 15.37 || 12.6 || style="background:#f0d860" | 36.54 || 12.6
+|-
+! Oatmeal max
+| 17.57 || 14.4 || style="background:#f0d860" | 41.76 || 14.4
+|-
+! Barley min
+| 12.6 || 16.63 || style="background:#f0d860" | 36.54 || 12.6
+|-
+! Barley max
+| 14.4 || 19.01 || style="background:#f0d860" | 41.76 || 14.4
+|-
+! Rye min
+| 12.6 || 12.6 || style="background:#f0d860" | 48.64 || 12.6
+|-
+! Rye max
+| 14.4 || 14.4 || style="background:#f0d860" | 55.58 || 14.4
+|-
+! Wheat min
+| 12.6 || 12.6 || style="background:#f0d860" | 36.54 || 18.14
+|-
+! Wheat max
+| 14.4 || 14.4 || style="background:#f0d860" | 41.76 || 20.74
+|}
+
+{|
+|+ With Plum (Black Bile)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Plum min
+| 13.86 || 13.86 || 13.86 || style="background:#b8c8e6" | 36.54
+|-
+! Plum max
+| 15.84 || 15.84 || 15.84 || style="background:#b8c8e6" | 41.76
+|-
+! Oatmeal min
+| 15.37 || 12.6 || 12.6 || style="background:#b8c8e6" | 36.54
+|-
+! Oatmeal max
+| 17.57 || 14.4 || 14.4 || style="background:#b8c8e6" | 41.76
+|-
+! Barley min
+| 12.6 || 16.63 || 12.6 || style="background:#b8c8e6" | 36.54
+|-
+! Barley max
+| 14.4 || 19.01 || 14.4 || style="background:#b8c8e6" | 41.76
+|-
+! Rye min
+| 12.6 || 12.6 || 16.63 || style="background:#b8c8e6" | 36.54
+|-
+! Rye max
+| 14.4 || 14.4 || 19.01 || style="background:#b8c8e6" | 41.76
+|-
+! Wheat min
+| 12.6 || 12.6 || 12.6 || style="background:#b8c8e6" | 52.67
+|-
+! Wheat max
+| 14.4 || 14.4 || 14.4 || style="background:#b8c8e6" | 60.19
+|}
+
+{|
+|+ With Snozberry (Black Bile)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Snozberry min
+| 13.86 || 13.86 || 13.86 || style="background:#b8c8e6" | 44.1
+|-
+! Snozberry max
+| 15.84 || 15.84 || 15.84 || style="background:#b8c8e6" | 50.4
+|-
+! Oatmeal min
+| 15.37 || 12.6 || 12.6 || style="background:#b8c8e6" | 44.1
+|-
+! Oatmeal max
+| 17.57 || 14.4 || 14.4 || style="background:#b8c8e6" | 50.4
+|-
+! Barley min
+| 12.6 || 16.63 || 12.6 || style="background:#b8c8e6" | 44.1
+|-
+! Barley max
+| 14.4 || 19.01 || 14.4 || style="background:#b8c8e6" | 50.4
+|-
+! Rye min
+| 12.6 || 12.6 || 16.63 || style="background:#b8c8e6" | 44.1
+|-
+! Rye max
+| 14.4 || 14.4 || 19.01 || style="background:#b8c8e6" | 50.4
+|-
+! Wheat min
+| 12.6 || 12.6 || 12.6 || style="background:#b8c8e6" | 63.5
+|-
+! Wheat max
+| 14.4 || 14.4 || 14.4 || style="background:#b8c8e6" | 72.58
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Fruit Food}} [[Fruits]]
+| Full and Fed= 00:10:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Fruits= 10% (40% chance)
+| Menu= Craft > Food > Fruits
+}}
+
+==About==
+
+Crafting {{i|Delectable Dumplings}} will make an {{i|Unboiled Delectable Dumplings}} which can then be boiled in a {{i|Clay Pot}}, {{i|Copper Pot}}, or {{i|Cauldron}} for 3 minutes to produce Delectable Dumplings. Unboiled Delectable Dumplings will become {{i|Spoiled Food}} if not boiled within 3 days and Delectable Dumplings will become Spoiled Food if not eaten within 3 days. Delectable Dumplings is [[Gluttony#Double Variable Recipe|Double Variable Recipe]].

@@ -1,0 +1,45 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.13
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Fried Foods}} [[Fried Foods]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Any Potato}} [[Any Potato]], {{icon|Coarse Salt}} [[Coarse Salt]], [[Fire]], {{icon|Frying Pan}} [[Frying Pan]], {{icon|Pumpkinseed Oil}} [[Pumpkinseed Oil]] 0.05 L
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 25 || 25 || 25 || 25
+|-
+! Gluttony min
+| 1 || 1 || 1 || 1
+|-
+! Gluttony max
+| 30 || 30 || 30 || 30
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Potato Food}} [[Potato Food]]
+| Full and Fed= 00:15:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Potatoes
+}}
+
+==About==
+
+{{i|Homefries}} must be cooked with a {{i|Frying Pan}} equipped and over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}. This recipe will make 7x Homefries.

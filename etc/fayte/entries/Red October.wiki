@@ -1,0 +1,47 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Pumpkin Planting}} [[Pumpkin Planting]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Company Bacon}} [[Company Bacon]], {{icon|Connecticut Field}} [[Connecticut Field]], {{icon|Tomato}} [[Tomato]] ×2
+| Second Stage= [[Any Stove]], {{icon|Red October}} [[Unbaked Red October]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 15 || 12 || 11 || 13
+|-
+! Gluttony min
+| 10 || 10 || 10 || 10
+|-
+! Gluttony max
+| 10 || 10 || 10 || 10
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Pumpkins & Gourds}} [[Pumpkins and Gourds]]
+| Full and Fed= 02:00:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Restores Pumpkins and Gourds= 100% (100% chance)
+| Menu= Craft > Food > Pumpkins
+}}
+
+==About==
+
+Crafting a {{i|Red October}} will make an {{i|Unbaked Red October}} which can then be baked in {{i|Any Stove}} to produce a Red October. Red October is a major [[Restore Food]] for the {{i2|Pumpkins and Gourds}} Food Group.

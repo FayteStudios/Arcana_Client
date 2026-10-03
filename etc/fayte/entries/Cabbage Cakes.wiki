@@ -1,0 +1,64 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+}}
+
+{{Facts
+| Title=Bake
+| Needs= {{icon|Baking Table}} [[Baking Table]], {{icon|Flour}} [[Flour]] 0.45 L, {{icon|Leaf of Green Cabbage}} [[Leaf of Green Cabbage]], {{icon|Leaf of White Cabbage}} [[Leaf of White Cabbage]] ×2, [[Potable Water]] 0.75 L
+| Second Stage= {{icon|Bread Oven}} [[Bread Oven]], {{icon|Unbaked Cabbage Cakes}} [[Unbaked Cabbage Cakes]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 12.5 || 12.5 || 12.5 || 20
+|-
+! Oatmeal min
+| style="background:#e6b8b8" | 34.1 || 27.9 || 27.9 || 27.9
+|-
+! Oatmeal max
+| style="background:#e6b8b8" | 44 || 36 || 36 || 36
+|-
+! Barley min
+| 27.9 || style="background:#6fa0ff" | 37.2 || 27.9 || 27.9
+|-
+! Barley max
+| 36 || style="background:#6fa0ff" | 48 || 36 || 36
+|-
+! Rye min
+| 27.9 || 27.9 || style="background:#f0d860" | 37.2 || 27.9
+|-
+! Rye max
+| 36 || 36 || style="background:#f0d860" | 48 || 36
+|-
+! Wheat min
+| 27.9 || 27.9 || 27.9 || style="background:#b8c8e6" | 40.3
+|-
+! Wheat max
+| 36 || 36 || 36 || style="background:#b8c8e6" | 52
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Bread}} [[Bread]]
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 2
+| Menu= Craft > Food > Bread
+}}
+
+==About==
+
+Crafting {{i|Cabbage Cakes}} at a {{i|Baking Table}} will make an {{i|Unbaked Cabbage Cakes}} which can then be baked in a {{i|Bread Oven}} to produce a Cabbage Cakes. Preparing Foods on a Baking Table removes a small amount of [[Insanity]] and has a chance of giving you an {{i|Eloped Gingerbread Man}}. When baking Foods in a Bread Oven there is a chance for them to become {{i|Animal Crackers}} instead.

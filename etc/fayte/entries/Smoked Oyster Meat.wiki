@@ -1,0 +1,45 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.06
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Smoked Meats}} [[Smoked Meats]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Sharpened Stick}} [[Sharpened Stick]], {{icon|Smoked Oyster}} [[Smoked Oyster]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 2 || 3 || 1 || 4
+|-
+! Gluttony min
+| 0 || 0 || 0 || 1
+|-
+! Gluttony max
+| 0 || 0 || 0 || 32
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Shellfish}} [[Crustacea and Shellfish]]
+| Full and Fed= 00:06:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Crustacea and Shellfish= 10% (20% chance)
+}}
+
+==About==
+
+{{i|Smoked Oyster Meat}} is received when prying open a {{i|Smoked Oyster}} with a {{i|Sharpened Stick}}.

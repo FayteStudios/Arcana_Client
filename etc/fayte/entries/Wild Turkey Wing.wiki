@@ -1,0 +1,59 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.17
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Simple Cooking}} [[Simple Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Raw Wild Turkey Wing}} [[Raw Wild Turkey Wing]], [[Any Stove]]
+| Or= {{icon|Wild Stuffed Turkey}} [[Wild Stuffed Turkey]]
+| Or 2= {{icon|Raw Turkey Wing}} [[Raw Turkey Wing]], [[Any Stove]]
+}}
+
+{{Facts
+| Title=Used By
+| Counts as= {{icon|Any Poultry Wing}} [[Any Poultry Wing]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 7 || 17.5 || 7 || 7
+|-
+! Gluttony min
+| 0 || 7 || 0 || 0
+|-
+! Gluttony max
+| 0 || 9 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Poultry}} [[Poultry]]
+| Full and Fed= 00:06:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Poultry= 40% (40% chance)
+}}
+
+==New Haven==
+
+{{i|Wild Turkey Wing}} requires baking a {{i|Raw Wild Turkey Wing}} for 2.5 hours in {{i|Any Stove}}.
+
+==Providence==
+
+2x {{i|Wild Turkey Wing}}s are received when Cutting Up a {{i|Stuffed Wild Turkey}}. Additionally a Wild Turkey Wing can be obtained by baking a {{i|Raw Turkey Wing}} in {{i|Any Stove}}.
+
+==[https://forum.salemthegame.com/viewtopic.php?f=2&t=21020 Patch 2.3.0 - Quiet Before the Storm]==
+As a part of the Gluttony overhaul, the poultry food group has been completely revamped.

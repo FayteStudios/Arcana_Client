@@ -1,0 +1,203 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.70
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Any Raw Domesticated Cut]] ×2, [[Fire]], {{icon|Leaf of Green Cabbage}} [[Leaf of Green Cabbage]], {{icon|Tomato}} [[Tomato]], {{icon|Tortilla}} [[Tortilla]]
+}}
+
+{|
+|+ Heal and Gluttony values — With White Corn (Blood)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 9.5 || 9.5 || 9.5 || 9.5
+|-
+! White Corn min
+| style="background:#e6b8b8" | 81.6 || 34 || 34 || 34
+|-
+! White Corn max
+| style="background:#e6b8b8" | 100.8 || 42 || 42 || 42
+|-
+! Pork min
+| style="background:#e6b8b8" | 114.24 || 17 || 17 || 17
+|-
+! Pork max
+| style="background:#e6b8b8" | 141.12 || 21 || 21 || 21
+|-
+! Mutton min
+| style="background:#e6b8b8" | 40.8 || style="background:#6fa0ff" | 47.6 || 17 || 17
+|-
+! Mutton max
+| style="background:#e6b8b8" | 50.4 || style="background:#6fa0ff" | 58.8 || 21 || 21
+|-
+! Beef min
+| style="background:#e6b8b8" | 40.8 || 17 || style="background:#f0d860" | 54.4 || 17
+|-
+! Beef max
+| style="background:#e6b8b8" | 50.4 || 21 || style="background:#f0d860" | 67.2 || 21
+|-
+! Chevon min
+| style="background:#e6b8b8" | 40.8 || 17 || 17 || style="background:#b8c8e6" | 54.4
+|-
+! Chevon max
+| style="background:#e6b8b8" | 50.4 || 21 || 21 || style="background:#b8c8e6" | 67.2
+|}
+
+{|
+|+ With Blue Corn (Phlegm)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Blue Corn min
+| 34 || style="background:#6fa0ff" | 81.6 || 34 || 34
+|-
+! Blue Corn max
+| 42 || style="background:#6fa0ff" | 100.8 || 42 || 42
+|-
+! Pork min
+| style="background:#e6b8b8" | 47.6 || style="background:#6fa0ff" | 40.8 || 17 || 17
+|-
+! Pork max
+| style="background:#e6b8b8" | 58.8 || style="background:#6fa0ff" | 50.4 || 21 || 21
+|-
+! Mutton min
+| 17 || style="background:#6fa0ff" | 114.24 || 17 || 17
+|-
+! Mutton max
+| 21 || style="background:#6fa0ff" | 141.12 || 21 || 21
+|-
+! Beef min
+| 17 || style="background:#6fa0ff" | 40.8 || style="background:#f0d860" | 54.4 || 17
+|-
+! Beef max
+| 21 || style="background:#6fa0ff" | 50.4 || style="background:#f0d860" | 67.2 || 21
+|-
+! Chevon min
+| 17 || style="background:#6fa0ff" | 40.8 || 17 || style="background:#b8c8e6" | 54.4
+|-
+! Chevon max
+| 21 || style="background:#6fa0ff" | 50.4 || 21 || style="background:#b8c8e6" | 67.2
+|}
+
+{|
+|+ With Golden Corn (Yellow Bile)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Golden Corn min
+| 34 || 34 || style="background:#f0d860" | 88.4 || 34
+|-
+! Golden Corn max
+| 42 || 42 || style="background:#f0d860" | 109.2 || 42
+|-
+! Pork min
+| style="background:#e6b8b8" | 47.6 || 17 || style="background:#f0d860" | 44.2 || 17
+|-
+! Pork max
+| style="background:#e6b8b8" | 58.8 || 21 || style="background:#f0d860" | 54.6 || 21
+|-
+! Mutton min
+| 17 || style="background:#6fa0ff" | 47.6 || style="background:#f0d860" | 44.2 || 17
+|-
+! Mutton max
+| 21 || style="background:#6fa0ff" | 58.8 || style="background:#f0d860" | 54.6 || 21
+|-
+! Beef min
+| 17 || 17 || style="background:#f0d860" | 141.44 || 17
+|-
+! Beef max
+| 21 || 21 || style="background:#f0d860" | 174.72 || 21
+|-
+! Chevon min
+| 17 || 17 || style="background:#f0d860" | 44.2 || style="background:#b8c8e6" | 54.4
+|-
+! Chevon max
+| 21 || 21 || style="background:#f0d860" | 54.6 || style="background:#b8c8e6" | 67.2
+|}
+
+{|
+|+ With Yellow Corn (Black Bile)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Yellow Corn min
+| 34 || 34 || 34 || style="background:#b8c8e6" | 74.8
+|-
+! Yellow Corn max
+| 42 || 42 || 42 || style="background:#b8c8e6" | 92.4
+|-
+! Pork min
+| style="background:#e6b8b8" | 47.6 || 17 || 17 || style="background:#b8c8e6" | 37.4
+|-
+! Pork max
+| style="background:#e6b8b8" | 58.8 || 21 || 21 || style="background:#b8c8e6" | 46.2
+|-
+! Mutton min
+| 17 || style="background:#6fa0ff" | 47.6 || 17 || style="background:#b8c8e6" | 37.4
+|-
+! Mutton max
+| 21 || style="background:#6fa0ff" | 58.8 || 21 || style="background:#b8c8e6" | 46.2
+|-
+! Beef min
+| 17 || 17 || style="background:#f0d860" | 54.4 || style="background:#b8c8e6" | 37.4
+|-
+! Beef max
+| 21 || 21 || style="background:#f0d860" | 67.2 || style="background:#b8c8e6" | 46.2
+|-
+! Chevon min
+| 17 || 17 || 17 || style="background:#b8c8e6" | 119.68
+|-
+! Chevon max
+| 21 || 21 || 21 || style="background:#b8c8e6" | 147.84
+|}
+
+{|
+|+ With Domesticated Meat
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Pork min
+| style="background:#e6b8b8" | 95.2 || 34 || 34 || 34
+|-
+! Pork max
+| style="background:#e6b8b8" | 117.6 || 42 || 42 || 42
+|-
+! Mutton min
+| 34 || style="background:#6fa0ff" | 95.2 || 34 || 34
+|-
+! Mutton max
+| 42 || style="background:#6fa0ff" | 117.6 || 42 || 42
+|-
+! Beef min
+| 34 || 34 || style="background:#f0d860" | 108.8 || 34
+|-
+! Beef max
+| 42 || 42 || style="background:#f0d860" | 134.4 || 42
+|-
+! Chevon min
+| 34 || 34 || 34 || style="background:#b8c8e6" | 108.8
+|-
+! Chevon max
+| 42 || 42 || 42 || style="background:#b8c8e6" | 134.4
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Domesticated Meats}} [[Domesticated Meat]]
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Domesticated Meats
+}}
+
+==About==
+
+A {{i|Tasty Taco}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}. Tasty Taco is [[Gluttony#Double Variable Recipe|Double Variable Recipe]].

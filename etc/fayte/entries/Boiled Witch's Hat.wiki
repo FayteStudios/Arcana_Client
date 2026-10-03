@@ -1,0 +1,50 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Colonial Tradesmanship}} [[Colonial Tradesmanship]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Any Pot]], {{icon|Fireplace}} [[Fireplace]], [[Potable Water]] ×5, {{icon|Witch's Hat}} [[Witch's Hat]]
+}}
+
+{{Facts
+| Title=Used By
+| Counts as= [[Any Mushroom]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 9 || 9 || 9 || 9
+|-
+! Gluttony min
+| 10 || 10 || 10 || 10
+|-
+! Gluttony max
+| 10 || 10 || 10 || 10
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Mushrooms}} [[Mushrooms]]
+| Full and Fed= 00:10:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Mushrooms= 50% (50% chance)
+}}
+
+==About==
+
+A {{i|Boiled Witch's Hat}} is made by boiling a {{i|Witch's Hat}} in a {{i|Clay Pot}}, {{i|Copper Pot}}, or {{i|Cauldron}}. With the [[Fungiculture]] skill learned, a Boiled Witch's Hat can still be planted in a {{i|Gardening Pot}} to grow a Waning Toadstool. When planting a Boiled Witch's Hat there is a chance for it to grow into a {{i|Spooky Redcap}} instead. Planting Mushrooms in Gardening Pots lowers [[Insanity]]. A Boiled Witch's Hat can be stored in a {{i|MushiSack}}. Both a Boiled Witch's Hat and a Witch's Hat count as a Witch's Hat when planting and in Food recipes. '''NOTE:''' There is a chance that even after Boiling, a Witch's Hat will still be poisonous.

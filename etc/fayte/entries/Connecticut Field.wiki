@@ -1,0 +1,55 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 1.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Pumpkin Planting}} [[Pumpkin Planting]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= Seeds of Pumpkin;θ, [[Tilled Field]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Connecticut Field Masque}} [[Connecticut Field Masque]]
+| b)= {{icon|Connecticut Field Pack}} [[Connecticut Field Pack]]
+| c)= {{icon|Funky Pumpkins}} [[Funky Pumpkins]]
+| d)= [[Pumpkin]]
+| e)= {{icon|Red October}} [[Red October]]
+| Counts as= [[Any Large Pumpkin]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 7 || 7 || 7.5 || 7
+|-
+! Gluttony min
+| 0 || 0 || 18 || 0
+|-
+! Gluttony max
+| 0 || 0 || 54 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Pumpkins & Gourds}} [[Pumpkins and Gourds]]
+| Full and Fed= 06:00:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Pumpkins and Gourds= 70% (70% chance)
+}}
+
+==About==
+
+A {{i|Connecticut Field}} is the product of a third growth stage, second tier {{i|Pumpkin}} Harvest. Right-clicking a Connecticut Field and selecting "Slice" will give you 6x {{i|Pumpkin Flesh}} and 15x {{i|Seeds of Pumpkin}}. A Connecticut Field counts as {{i|Any Large Pumpkin}}. A Connecticut Field can be stored in a {{i|Stockbin}}.

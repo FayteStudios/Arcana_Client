@@ -1,0 +1,94 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.16
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Any Mushroom]] ×2, [[Fire]], {{icon|Leaf of Colewort}} [[Leaf of Colewort]] ×3
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 23 || 11 || 14 || 27
+|-
+! Spooky Redcap min
+| 35.2 || 35.2 || 35.2 || 35.2
+|-
+! Spooky Redcap max
+| 40 || 40 || 40 || 40
+|-
+! Monk's Pan min
+| style="background:#e6b8b8" | 27.5 || 11 || 11 || 11
+|-
+! Monk's Pan max
+| style="background:#e6b8b8" | 31.25 || 12.5 || 12.5 || 12.5
+|-
+! Toadstool min
+| style="background:#e6b8b8" | 29.7 || 11 || 11 || 11
+|-
+! Toadstool max
+| style="background:#e6b8b8" | 33.75 || 12.5 || 12.5 || 12.5
+|-
+! Lavender Blewit min
+| 11 || style="background:#6fa0ff" | 27.5 || 11 || 11
+|-
+! Lavender Blewit max
+| 12.5 || style="background:#6fa0ff" | 31.25 || 12.5 || 12.5
+|-
+! Honeylamp min
+| 11 || style="background:#6fa0ff" | 27.5 || 11 || 11
+|-
+! Honeylamp max
+| 12.5 || style="background:#6fa0ff" | 31.25 || 12.5 || 12.5
+|-
+! Lobster Mushroom min
+| 11 || 11 || style="background:#f0d860" | 27.5 || 11
+|-
+! Lobster Mushroom max
+| 12.5 || 12.5 || style="background:#f0d860" | 31.25 || 12.5
+|-
+! Yellow Morel min
+| 11 || 11 || style="background:#f0d860" | 29.7 || 11
+|-
+! Yellow Morel max
+| 12.5 || 12.5 || style="background:#f0d860" | 33.75 || 12.5
+|-
+! Sugar Caps min
+| 11 || 11 || 11 || style="background:#b8c8e6" | 27.5
+|-
+! Sugar Caps max
+| 12.5 || 12.5 || 12.5 || style="background:#b8c8e6" | 31.25
+|-
+! Witch's Hat min
+| 11 || 11 || 11 || style="background:#b8c8e6" | 29.7
+|-
+! Witch's Hat max
+| 12.5 || 12.5 || 12.5 || style="background:#b8c8e6" | 33.75
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Mushrooms}} [[Mushrooms]]
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Mushrooms= 20% (40% chance)
+| Menu= Craft > Food > Fungus
+}}
+
+==About==
+
+A {{i|Shroom Rolls}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}. '''NOTE:''' Remember to boil your Mushrooms to reduce {{i|'Shroom Poisoning}}.

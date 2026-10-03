@@ -1,0 +1,141 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.14
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Simple Cooking}} [[Simple Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Filet of Any Fish}} [[Filet of any Fish]] ×2, {{icon|Seaweed}} [[Seaweed]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 5 || 10 || 15 || 4
+|-
+! Angel-Winged Seabass min
+| style="background:#e6b8b8" | 13.65 || 6.5 || 6.5 || 6.5
+|-
+! Angel-Winged Seabass max
+| style="background:#e6b8b8" | 17.85 || 8.5 || 8.5 || 8.5
+|-
+! Ghostly Whitefish min
+| style="background:#e6b8b8" | 15.6 || 6.5 || 6.5 || 6.5
+|-
+! Ghostly Whitefish max
+| style="background:#e6b8b8" | 20.4 || 8.5 || 8.5 || 8.5
+|-
+! Tiger Trout min
+| style="background:#e6b8b8" | 14.3 || 6.5 || 6.5 || 6.5
+|-
+! Tiger Trout max
+| style="background:#e6b8b8" | 18.7 || 8.5 || 8.5 || 8.5
+|-
+! Blueback Tuna min
+| 6.5 || style="background:#6fa0ff" | 14.95 || 6.5 || style="background:#b8c8e6" | 14.95
+|-
+! Blueback Tuna max
+| 8.5 || style="background:#6fa0ff" | 19.55 || 8.5 || style="background:#b8c8e6" | 19.55
+|-
+! Darkwater Bluegill min
+| 6.5 || style="background:#6fa0ff" | 14.95 || 6.5 || 6.5
+|-
+! Darkwater Bluegill max
+| 8.5 || style="background:#6fa0ff" | 19.55 || 8.5 || 8.5
+|-
+! Red-Finned Mullet min
+| 6.5 || style="background:#6fa0ff" | 13.65 || 6.5 || 6.5
+|-
+! Red-Finned Mullet max
+| 8.5 || style="background:#6fa0ff" | 17.85 || 8.5 || 8.5
+|-
+! Silt-Dwelling Mudsnapper min
+| 6.5 || style="background:#6fa0ff" | 13.65 || 6.5 || 6.5
+|-
+! Silt-Dwelling Mudsnapper max
+| 8.5 || style="background:#6fa0ff" | 17.85 || 8.5 || 8.5
+|-
+! Cape Codfish min
+| 6.5 || 6.5 || style="background:#f0d860" | 13.65 || 6.5
+|-
+! Cape Codfish max
+| 8.5 || 8.5 || style="background:#f0d860" | 17.85 || 8.5
+|-
+! Gold Pickerel min
+| 6.5 || 6.5 || style="background:#f0d860" | 14.95 || 6.5
+|-
+! Gold Pickerel max
+| 8.5 || 8.5 || style="background:#f0d860" | 19.55 || 8.5
+|-
+! Shin Spinner min
+| 6.5 || 6.5 || style="background:#f0d860" | 14.3 || 6.5
+|-
+! Shin Spinner max
+| 8.5 || 8.5 || style="background:#f0d860" | 18.7 || 8.5
+|-
+! Raging Bullhead min
+| 6.5 || 6.5 || 6.5 || style="background:#b8c8e6" | 16.25
+|-
+! Raging Bullhead max
+| 8.5 || 8.5 || 8.5 || style="background:#b8c8e6" | 21.25
+|-
+! Sargasso Eel min
+| 6.5 || 6.5 || 6.5 || style="background:#b8c8e6" | 13.65
+|-
+! Sargasso Eel max
+| 8.5 || 8.5 || 8.5 || style="background:#b8c8e6" | 17.85
+|-
+! Trunk-Nosed Lake Perch min
+| 6.5 || 6.5 || 6.5 || style="background:#b8c8e6" | 13.65
+|-
+! Trunk-Nosed Lake Perch max
+| 8.5 || 8.5 || 8.5 || style="background:#b8c8e6" | 17.85
+|-
+! Crimson Carp min
+| style="background:#e6b8b8" | 39 || style="background:#6fa0ff" | 39 || style="background:#f0d860" | 39 || style="background:#b8c8e6" | 39
+|-
+! Crimson Carp max
+| style="background:#e6b8b8" | 51 || style="background:#6fa0ff" | 51 || style="background:#f0d860" | 51 || style="background:#b8c8e6" | 51
+|-
+! Hellish Halibut min
+| style="background:#e6b8b8" | 15.6 || style="background:#6fa0ff" | 15.6 || style="background:#f0d860" | 15.6 || style="background:#b8c8e6" | 15.6
+|-
+! Hellish Halibut max
+| style="background:#e6b8b8" | 20.4 || style="background:#6fa0ff" | 20.4 || style="background:#f0d860" | 20.4 || style="background:#b8c8e6" | 20.4
+|-
+! Long-Whiskered Catfish min
+| style="background:#e6b8b8" | 15.6 || style="background:#6fa0ff" | 15.6 || style="background:#f0d860" | 15.6 || style="background:#b8c8e6" | 15.6
+|-
+! Long-Whiskered Catfish max
+| style="background:#e6b8b8" | 20.4 || style="background:#6fa0ff" | 20.4 || style="background:#f0d860" | 20.4 || style="background:#b8c8e6" | 20.4
+|-
+! Red Herring min
+| style="background:#e6b8b8" | 13.65 || style="background:#6fa0ff" | 13.65 || style="background:#f0d860" | 13.65 || style="background:#b8c8e6" | 13.65
+|-
+! Red Herring max
+| style="background:#e6b8b8" | 17.85 || style="background:#6fa0ff" | 17.85 || style="background:#f0d860" | 17.85 || style="background:#b8c8e6" | 17.85
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Fish}} [[Fishes]]
+| Full and Fed= 00:15:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Fish & Seafood
+}}
+
+==About==
+
+{{i|Seaweed Rolls}} does '''NOT''' need to be cooked.

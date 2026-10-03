@@ -1,0 +1,44 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.05
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|French Cuisine}} [[French Cuisine]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Garlic Bread}} [[Garlic Bread]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 12 || 14 || 11 || 14
+|-
+! Gluttony min
+| 21 || 26 || 21 || 21
+|-
+! Gluttony max
+| 29 || 36 || 29 || 29
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Bread}} [[Bread]]
+| Full and Fed= 00:20:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+}}
+
+==About==
+
+Right-clicking on {{i|Garlic Bread}} and selecting "Split" will separate the Garlic Bread into 3x individual {{i|Garlic Bread Slices}}. Garlic Bread cannot be eaten until it has been Split.

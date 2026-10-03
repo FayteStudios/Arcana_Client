@@ -1,0 +1,45 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Smoked Meats}} [[Smoked Meats]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Meatsmoker}} [[Meatsmoker]], {{icon|Raw Bear Cut}} [[Raw Bear Cut]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 7.5 || 7.5 || 7.5 || 7.5
+|-
+! Gluttony min
+| 1 || 0 || 0 || 0
+|-
+! Gluttony max
+| 22 || 0 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Game}} [[Game Meat]]
+| Full and Fed= 00:06:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Game Meat= 10% (20% chance)
+}}
+
+==About==
+
+A {{i|Smoked Bear Cut}} is made by smoking a {{i|Raw Bear Cut}} in a lit {{i|Meatsmoker}} for 8 hours.

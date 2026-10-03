@@ -1,0 +1,94 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.20
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Fruit Orchards}} [[Fruit Orchards]]
+| Skill 2= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Any Fruit}} [[Any Fruit]], [[Berry Juice]] 0.01 L, [[Fire]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= [[Spoiled Food]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 18 || 11 || 18 || 14
+|-
+! Apple min
+| style="background:#e6b8b8" | 61.25 || 17.5 || 17.5 || 17.5
+|-
+! Apple max
+| style="background:#e6b8b8" | 78.75 || 22.5 || 22.5 || 22.5
+|-
+! Cherry min
+| style="background:#e6b8b8" | 50.75 || 17.5 || 17.5 || 17.5
+|-
+! Cherry max
+| style="background:#e6b8b8" | 65.25 || 22.5 || 22.5 || 22.5
+|-
+! Mulberry min
+| 17.5 || style="background:#6fa0ff" | 50.75 || 17.5 || 17.5
+|-
+! Mulberry max
+| 22.5 || style="background:#6fa0ff" | 65.25 || 22.5 || 22.5
+|-
+! Pear min
+| 17.5 || style="background:#6fa0ff" | 61.25 || 17.5 || 17.5
+|-
+! Pear max
+| 22.5 || style="background:#6fa0ff" | 78.75 || 22.5 || 22.5
+|-
+! Peach min
+| 17.5 || 17.5 || style="background:#f0d860" | 61.25 || 17.5
+|-
+! Peach max
+| 22.5 || 22.5 || style="background:#f0d860" | 78.75 || 22.5
+|-
+! Persimmon min
+| 17.5 || 17.5 || style="background:#f0d860" | 50.75 || 17.5
+|-
+! Persimmon max
+| 22.5 || 22.5 || style="background:#f0d860" | 65.25 || 22.5
+|-
+! Plum min
+| 17.5 || 17.5 || 17.5 || style="background:#b8c8e6" | 50.75
+|-
+! Plum max
+| 22.5 || 22.5 || 22.5 || style="background:#b8c8e6" | 65.25
+|-
+! Snozberry min
+| 17.5 || 17.5 || 17.5 || style="background:#b8c8e6" | 61.25
+|-
+! Snozberry max
+| 22.5 || 22.5 || 22.5 || style="background:#b8c8e6" | 78.75
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Fruit Food}} [[Fruits]]
+| Full and Fed= 00:10:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Fruits= 10% (40% chance)
+| Menu= Craft > Food > Fruits
+}}
+
+==About==
+
+{{i|Berries Jubilee}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}. Berries Jubilee will become {{i|Spoiled Food}} if not eaten within 3 days.

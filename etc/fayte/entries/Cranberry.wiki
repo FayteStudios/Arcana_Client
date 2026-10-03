@@ -1,0 +1,75 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= None
+}}
+
+{{Facts
+| Title=Forage
+| Found= [[Cranberry Bush]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Berry Salad}} [[Berry Salad]]
+| b)= {{icon|Berrymash Purgative}} [[Berrymash Purgative]]
+| c)= {{icon|Cranberry Pectin}} [[Cranberry Pectin]]
+| d)= {{icon|Cranberry Sauce}} [[Cranberry Sauce]]
+| e)= {{icon|Dehydrated Cranberry}} [[Dehydrated Cranberry]]
+| f)= {{icon|Painted Feathers}} [[Painted Feathers]]
+| g)= {{icon|Reindeer Mask}} [[Reindeer Mask]]
+| h)= {{icon|Soulcake}} [[Soulcake]]
+| i)= {{icon|Wreath}} [[Wreath]]
+| Counts as= {{icon|Any Berries}} [[Any Berries]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 2.5 || 2.5 || 2.5 || 2.5
+|-
+! Gluttony min
+| 5 || 0 || 0 || 0
+|-
+! Gluttony max
+| 6 || 0 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Berries}} [[Berries]]
+| Full and Fed= 00:06:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Variable food multiplier= Blood 1.15 / Phlegm 0.5 / Yellow 0.5 / Black 0.5
+}}
+
+==About==
+
+{{i|Cranberry}} can be Picked from a {{i|Cranberry Bush}}. Learning the [[Flowers & Berries]] Skill will allow you to Pick more Cranberry from each Bush. A Cranberry can be stored a {{i|Berry Sack}}.
+
+==Berry Uses==
+{{{!}} class=wikitable
+{{!}}-
+{{!}} '''Berry'''
+{{!}} '''When [[Shrub Orchards|Planted]]'''
+{{!}} '''When [[Fireplace#Boiling|Boiled]]'''
+{{!}} '''When [[Steam Distillation|Dehydrated]]'''
+{{!}}-
+{{!}} {{i|Cranberry}}
+{{!}} {{i|Cranberry Bush}}
+{{!}} {{i|Cranberry Pectin}}
+{{!}}
+* {{i|Dehydrated Cranberry}}
+* .01 L {{i|Berry Juice}}
+{{!}}}

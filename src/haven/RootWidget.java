@@ -59,13 +59,13 @@ public class RootWidget extends ConsoleHost {
 		    new Profwnd(new Coord(100, 100), this, gi.map.prof, "MV prof");
 	    } else if(key == ':') {
 		entercmd();
-	    }else if(isgui && (code == KeyEvent.VK_L || code == KeyEvent.VK_F) && ctrl && !shift){
+	    }else if(isgui && (code == KeyEvent.VK_L || code == KeyEvent.VK_F) && ctrl && !shift && !FayteModules.STYLE.on()){
 		FlatnessTool ft = FlatnessTool.instance(ui);
                 if(ft!=null) ft.toggle();
 	    }else if(isgui && (code == KeyEvent.VK_A) && ctrl && !shift){
 		OverviewTool ot = OverviewTool.instance(ui);
                 if(ot!=null) ot.toggle();
-	    }else if(isgui && (code == KeyEvent.VK_X) && ctrl && !shift){
+	    }else if(isgui && (code == KeyEvent.VK_X) && ctrl && !shift && !FayteModules.STYLE.on()){
 		CartographWindow.toggle();
 	    }else if(isgui && code == KeyEvent.VK_D && ctrl && !shift){
 		DarknessWnd.toggle();
@@ -101,9 +101,9 @@ public class RootWidget extends ConsoleHost {
 	    }else if(isgui && code == KeyEvent.VK_C && alt){
 	    }else if(code == KeyEvent.VK_R && alt){
 		Config.toggleRadius();
-	    }else if(code == KeyEvent.VK_C && alt && isgui){
+	    }else if(code == KeyEvent.VK_C && alt && isgui && !FayteModules.STYLE.on()){
 		ui.gui.toggleCraftWnd();
-	    }else if(code == KeyEvent.VK_F && alt && isgui){
+	    }else if(code == KeyEvent.VK_F && alt && isgui && !FayteModules.STYLE.on()){
 		ui.gui.toggleFilterWnd();
             }else if(code == KeyEvent.VK_R && ctrl && isgui){
                 //toggle toolbelt
@@ -172,13 +172,30 @@ public class RootWidget extends ConsoleHost {
     @Override
     public boolean keyup(KeyEvent ev) {
 	if(ev.getKeyCode() == KeyEvent.VK_PRINTSCREEN){
-	    Screenshooter.take(ui.gui, Config.screenurl);
+	    if(FayteOpt.shots())
+		Screenshooter.take(ui.gui, Config.screenurl);
 	    return true;
 	}
 	return super.keyup(ev);
     }
 
+    private static Tex fbg = null;
+
     public void draw(GOut g) {
+	if(FayteSkin.on() && (Charlist.live != null) && (Charlist.live.parent != null)) {
+	    try {
+		if(fbg == null)
+		    fbg = Resource.loadtex("gfx/loginscr");
+		Coord bs = fbg.sz();
+		double f = Math.max(0.5, (double)(sz.y - 32) / bs.y);
+		Coord ts = new Coord((int)(bs.x * f), (int)(bs.y * f));
+		g.chcolor(0, 0, 0, 255);
+		g.frect(Coord.z, sz);
+		g.chcolor();
+		g.image(fbg, sz.sub(ts).div(2), ts);
+	    } catch(Loading e) {
+	    }
+	}
 	super.draw(g);
 	drawcmd(g, new Coord(20, sz.y - 20));
     }

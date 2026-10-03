@@ -1,0 +1,45 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.17
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Fishing}} [[Fishing]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Fire]], [[Filet of Raging Bullhead]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 14 || 12 || 12 || 14
+|-
+! Gluttony min
+| 0 || 0 || 0 || 5
+|-
+! Gluttony max
+| 0 || 0 || 0 || 25
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Fish}} [[Fishes]]
+| Full and Fed= 00:03:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Fishes= 50% (50% chance)
+}}
+
+==About==
+
+A {{i|Roasted Raging Bullhead}} is obtained when crafting {{i|Roasted Fish}} using a {{i|Filet of Raging Bullhead}} over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

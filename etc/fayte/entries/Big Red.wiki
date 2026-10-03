@@ -1,0 +1,54 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.30
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Vegetable Potting}} [[Vegetable Potting]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Gardening Pot}} [[Gardening Pot]], {{icon|Humus}} [[Humus]], [[Potable Water]] 0.2 L, {{icon|Tomato}} [[Tomato]]
+}}
+
+{{Facts
+| Title=Used By
+| Counts as= {{icon|Any Vegetable}} [[Any Vegetable]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 30 || 10 || 10 || 10
+|-
+! Gluttony min
+| 12 || 0 || 0 || 0
+|-
+! Gluttony max
+| 18 || 0 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Vegetables & Greens}} [[Vegetables and Greens]]
+| Full and Fed= 00:10:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Vegetables and Greens= 50% (30% chance)
+}}
+
+==Flavor Text==
+
+''Imagine the shame that would fall upon the poor soul in the stock covered with this monster.''
+
+==About==
+
+{{i|Big Red}}s are received rarely instead of Tomatoes when Picking {{i|Tomato}}es grown in {{i|Gardening Pot}}. A Big Red can be stored in a {{i|Veggie Sack}}. '''NOTE:''' A Big Red counts as a Tomato in recipes.

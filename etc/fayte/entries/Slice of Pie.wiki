@@ -1,0 +1,47 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.13
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Baking}} [[Baking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Humble Meat Pie}} [[Humble Meat Pie]]
+| Or= {{icon|Pumpkin Pie}} [[Pumpkin Pie]]
+| Or 2= {{icon|Wildberry Pie}} [[Wildberry Pie]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 10 || 10 || 10 || 10
+|-
+! Gluttony min
+| ? || ? || ? || ?
+|-
+! Gluttony max
+| ? || ? || ? || ?
+|}
+
+{{Facts
+| Title=Food Group
+| Group= None
+| Full and Fed= None
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 2
+}}
+
+==About==
+
+Right-clicking any Pie with the [[Baking]] Skill learned and selecting "Slice" will divide your Pie into 8x {{i|Slice of Pie}}s. When Slicing Pie there is chance to receive a {{i|Little Jack Horner's Thumbnail}}.
+{{Notice|WARNING!| Finding a Little Jack Horner's Thumbnail in your Pie adds a great deal of [[Insanity]].}}

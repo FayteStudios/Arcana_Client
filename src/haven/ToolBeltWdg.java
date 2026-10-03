@@ -168,7 +168,10 @@ public class ToolBeltWdg extends Window implements DropTarget{
 	for(int i = 0; i < COUNT; i++) {
 	    int slot = getbelt(i);
 	    Coord c = beltc(i);
-	    g.image(sqlite, beltc(i));
+	    if(FayteSkin.on())
+		FayteSkin.box(g, c, sqlite.sz(), FayteSkin.mix(FayteSkin.PANEL, FayteSkin.BORDER, 0.25), FayteSkin.BORDER);
+	    else
+		g.image(sqlite, beltc(i));
 	    Tex tex = null;
 	    try {
 		Indir<Resource> ir = gui.belt[slot];
@@ -267,6 +270,8 @@ public class ToolBeltWdg extends Window implements DropTarget{
     }
     
     public boolean globtype(char ch, KeyEvent ev) {
+	if(!visible)
+	    return(false);
 	if(!key(ch, ev))
 	    return(super.globtype(ch, ev));
 	else

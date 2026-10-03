@@ -1,0 +1,51 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.03
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Survival Skills}} [[Survival Skills]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Grub}} [[Grub]], [[Fire]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Grub De La Grub}} [[Grub De La Grub]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 2 || 1 || 5 || 3
+|-
+! Gluttony min
+| 0 || 0 || 8 || 0
+|-
+! Gluttony max
+| 0 || 0 || 11 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Slugs N' Bugs}} [[Slugs Bugs and Kritters]]
+| Full and Fed= 00:05:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 3
+| Reduces Slugs Bugs and Kritters= 50% (50% chance)
+| Menu= Craft > Food > Slugs, Bugs & Kritters
+}}
+
+==About==
+
+A {{i|Sizzled Grub}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

@@ -1,0 +1,94 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.12
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= None
+}}
+
+{{Facts
+| Title=Make
+| Needs= [[Any Mushroom]] ×2, {{icon|Branch}} [[Branch]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 7.5 || 8.5 || 9.2 || 8.5
+|-
+! Spooky Redcap min
+| 14.4 || 14.4 || 14.4 || 14.4
+|-
+! Spooky Redcap max
+| 19.2 || 19.2 || 19.2 || 19.2
+|-
+! Monk's Pan min
+| style="background:#e6b8b8" | 11.25 || 4.5 || 4.5 || 4.5
+|-
+! Monk's Pan max
+| style="background:#e6b8b8" | 15 || 6 || 6 || 6
+|-
+! Toadstool min
+| style="background:#e6b8b8" | 12.15 || 4.5 || 4.5 || 4.5
+|-
+! Toadstool max
+| style="background:#e6b8b8" | 16.2 || 6 || 6 || 6
+|-
+! Lavender Blewit min
+| 4.5 || style="background:#6fa0ff" | 11.25 || 4.5 || 4.5
+|-
+! Lavender Blewit max
+| 6 || style="background:#6fa0ff" | 15 || 6 || 6
+|-
+! Honeylamp min
+| 4.5 || style="background:#6fa0ff" | 11.25 || 4.5 || 4.5
+|-
+! Honeylamp max
+| 6 || style="background:#6fa0ff" | 15 || 6 || 6
+|-
+! Lobster Mushroom min
+| 4.5 || 4.5 || style="background:#f0d860" | 11.25 || 4.5
+|-
+! Lobster Mushroom max
+| 6 || 6 || style="background:#f0d860" | 15 || 6
+|-
+! Yellow Morel min
+| 4.5 || 4.5 || style="background:#f0d860" | 12.15 || 4.5
+|-
+! Yellow Morel max
+| 6 || 6 || style="background:#f0d860" | 16.2 || 6
+|-
+! Sugar Caps min
+| 4.5 || 4.5 || 4.5 || style="background:#b8c8e6" | 11.25
+|-
+! Sugar Caps max
+| 6 || 6 || 6 || style="background:#b8c8e6" | 15
+|-
+! Witch's Hat min
+| 4.5 || 4.5 || 4.5 || style="background:#b8c8e6" | 12.15
+|-
+! Witch's Hat max
+| 6 || 6 || 6 || style="background:#b8c8e6" | 16.2
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Mushrooms}} [[Mushrooms]]
+| Full and Fed= 00:10:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 2
+| Reduces Mushrooms= 10% (50% chance)
+| Menu= Craft > Food > Fungus
+}}
+
+==About==
+
+{{i|'Shrooms-on-a-Stick}} does '''NOT''' need to be cooked. '''NOTE:''' Remember to boil your Mushrooms first to reduce {{i|'Shroom Poisoning}}.

@@ -1,0 +1,45 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Survival Skills}} [[Survival Skills]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Drying Frame}} [[Drying Frame]], {{icon|Shin Spinner}} [[Shin Spinner]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 12 || 12 || 10 || 8
+|-
+! Gluttony min
+| 0 || 0 || 0 || 0
+|-
+! Gluttony max
+| 0 || 0 || 1 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Fish}} [[Fishes]]
+| Full and Fed= 00:03:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Fishes= 10% (20% chance)
+}}
+
+==About==
+
+A {{i|Shin Spinner}} can be dried on a {{i|Drying Frame}} for 72 hours to make a {{i|Dried Shin Spinner}}. Due to the current nature of the most recent Fish rework there is no reason to ever make a Dried Shin Spinner.

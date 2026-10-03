@@ -1,0 +1,52 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Fruit Orchards}} [[Fruit Orchards]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= [[Bee Skep]], [[Plum Tree]]
+| Or= {{icon|Butterfly Conservatory}} [[Butterfly Conservatory]], [[Plum Tree]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Pulpish Purgative}} [[Pulpish Purgative]]
+| Counts as= {{icon|Any Fruit}} [[Any Fruit]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 12 || 12 || 12 || 12
+|-
+! Gluttony min
+| 5 || 5 || 5 || 15
+|-
+! Gluttony max
+| 10 || 10 || 10 || 50
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Fruit Food}} [[Fruits]]
+| Full and Fed= 00:20:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Fruits= 50% (50% chance)
+}}
+
+==About==
+
+4x {{i|Plum}}s may be Picked from a ripe {{i|Plum Tree}} during an {{i|Everbloom}}. A Plum will become a {{i|Rotten Plum}} if not used within a few days of being Picked. With the [[Fruit Orchards]] Skill learned, a Plum can be used to grow a Plum Tree when planted in a {{i|Gardening Pot}}. Planting in Gardening Pots lowers [[Insanity]]. NOTE: Fruit trees were originally seeded into the Newhaven map and found very rarely. The seeds for the corresponding trees were mostly either cut down or hoarded. It is unknown if there are still randomly spawned fruit trees in the wilderness or not. The fastest and easiest way to obtain fruit to plant as seeds is through trade with other players.

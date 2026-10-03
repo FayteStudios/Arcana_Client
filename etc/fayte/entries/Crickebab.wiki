@@ -1,0 +1,70 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Bug Hunting}} [[Bug Hunting]]
+| Skill 2= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Any Bugs]], {{icon|Any Garlic}} [[Any Garlic]] ×2, {{icon|Dead Wartbite Cricket}} [[Dead Wartbite Cricket]], [[Fire]], {{icon|Sharpened Stick}} [[Sharpened Stick]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 9 || 9 || 9 || 9
+|-
+! Caterpillar min
+| style="background:#e6b8b8" | 33.75 || 12.5 || 12.5 || 12.5
+|-
+! Caterpillar max
+| style="background:#e6b8b8" | 37.8 || 14 || 14 || 14
+|-
+! Ladybug min
+| style="background:#e6b8b8" | 37.5 || 12.5 || 12.5 || 12.5
+|-
+! Ladybug max
+| style="background:#e6b8b8" | 42 || 14 || 14 || 14
+|-
+! Snail min
+| 12.5 || style="background:#6fa0ff" | 33.75 || 12.5 || 12.5
+|-
+! Snail max
+| 14 || style="background:#6fa0ff" | 37.8 || 14 || 14
+|-
+! Grub min
+| 12.5 || 12.5 || style="background:#f0d860" | 28.75 || 12.5
+|-
+! Grub max
+| 14 || 14 || style="background:#f0d860" | 32.2 || 14
+|-
+! Beetle min
+| 12.5 || 12.5 || 12.5 || style="background:#b8c8e6" | 31.25
+|-
+! Beetle max
+| 14 || 14 || 14 || style="background:#b8c8e6" | 35
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Slugs N' Bugs}} [[Slugs Bugs and Kritters]]
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Slugs, Bugs & Kritters
+}}
+
+==About==
+
+A {{i|Crickebab}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

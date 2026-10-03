@@ -1,0 +1,60 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.03
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= [[Inherent Rights]]
+}}
+
+{{Facts
+| Title=Forage
+| Found= [[Boulder]], {{icon|Bug in a Blanket}} [[Bug in a Blanket]], [[Dirt]], {{icon|Frog}} [[Frog]], [[Hollow Stump]], [[Hollow Log]]
+| Or= {{icon|Grub}} [[Grub]], {{icon|Containers}} [[Containers]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Argomoon}} [[Argomoon]]
+| b)= {{icon|Pectin Prison}} [[Pectin Prison]]
+| c)= {{icon|Pisces Iscariot}} [[Pisces Iscariot]]
+| d)= {{icon|Things with Wings}} [[Things with Wings]]
+| e)= {{icon|Walking the Beetle}} [[Walking the Beetle]]
+| Counts as= [[Any Bugs]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 2 || 1 || 3 || 5
+|-
+! Gluttony min
+| 0 || 0 || 0 || 6
+|-
+! Gluttony max
+| 0 || 0 || 0 || 9
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Slugs N' Bugs}} [[Slugs Bugs and Kritters]]
+| Full and Fed= 00:05:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Inspiration= Herbs & Sprouts 425, Sparks & Embers 350, Sugar & Spice 550, Natural Philosophy 650
+}}
+
+==Flavor Text==
+
+''His carapace sheathed his wings more efficiently than the finest of armors.''
+
+==About==
+
+A {{i|Beetle}} can be found most commonly by {{i|Lift}}ing any {{i|Boulder}} that has sat long enough on the surface and looking underneath. Additionally a Beetle can be found by chance inside {{i|Hollow Log}}s and {{i|Hollow Stump}}s, Dissecting a {{i|Frog}}, Releasing a {{i|Bug in a Blanket}}, or grown by placing a {{i|Grub}} is placed in any [[Container]] for a few days.

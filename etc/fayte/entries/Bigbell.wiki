@@ -1,0 +1,113 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 1.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Pumpkin Planting}} [[Pumpkin Planting]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Big Autumn}} [[Big Autumn]], {{icon|Green Bell Peppers}} [[Green Bell Peppers]], {{icon|Pumpkin Flesh}} [[Pumpkin Flesh]] ×4, {{icon|Red Bell Peppers}} [[Red Bell Peppers]]
+| Second Stage= [[Any Stove]], {{icon|Unbaked Bigbell}} [[Unbaked Bigbell]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 29 || 12 || 11 || 27
+|-
+! Ghost Rider min
+| style="background:#e6b8b8" | 27 || 10 || 10 || 10
+|-
+! Ghost Rider max
+| style="background:#e6b8b8" | 40.5 || 15 || 15 || 15
+|-
+! Jack-o-Lantern min
+| style="background:#e6b8b8" | 28 || 10 || 10 || 10
+|-
+! Jack-o-Lantern max
+| style="background:#e6b8b8" | 42 || 15 || 15 || 15
+|-
+! Spooktacular min
+| style="background:#e6b8b8" | 26 || 10 || 10 || 10
+|-
+! Spooktacular max
+| style="background:#e6b8b8" | 39 || 15 || 15 || 15
+|-
+! Big Autumn min
+| 10 || style="background:#6fa0ff" | 24 || 10 || 10
+|-
+! Big Autumn max
+| 15 || style="background:#6fa0ff" | 36 || 15 || 15
+|-
+! Bushkin min
+| 10 || style="background:#6fa0ff" | 25 || 10 || 10
+|-
+! Bushkin max
+| 15 || style="background:#6fa0ff" | 37.5 || 15 || 15
+|-
+! Small Sugar min
+| 10 || style="background:#6fa0ff" | 23 || 10 || 10
+|-
+! Small Sugar max
+| 15 || style="background:#6fa0ff" | 34.5 || 15 || 15
+|-
+! Connecticut Field min
+| 10 || 10 || style="background:#f0d860" | 24 || 10
+|-
+! Connecticut Field max
+| 15 || 15 || style="background:#f0d860" | 36 || 15
+|-
+! Harvest Moon min
+| 10 || 10 || style="background:#f0d860" | 25 || 10
+|-
+! Harvest Moon max
+| 15 || 15 || style="background:#f0d860" | 37.5 || 15
+|-
+! Sugar Treat min
+| 10 || 10 || style="background:#f0d860" | 23 || 10
+|-
+! Sugar Treat max
+| 15 || 15 || style="background:#f0d860" | 34.5 || 15
+|-
+! Aspen min
+| 10 || 10 || 10 || style="background:#b8c8e6" | 22
+|-
+! Aspen max
+| 15 || 15 || 15 || style="background:#b8c8e6" | 33
+|-
+! Autumn Gold min
+| 10 || 10 || 10 || style="background:#b8c8e6" | 23
+|-
+! Autumn Gold max
+| 15 || 15 || 15 || style="background:#b8c8e6" | 34.5
+|-
+! Baby Bear min
+| 10 || 10 || 10 || style="background:#b8c8e6" | 21
+|-
+! Baby Bear max
+| 15 || 15 || 15 || style="background:#b8c8e6" | 31.5
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Pumpkins & Gourds}} [[Pumpkins and Gourds]]
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Pumpkins and Gourds= 20% (40% chance)
+| Menu= Craft > Food > Pumpkins
+}}
+
+==About==
+
+Crafting a {{i|Bigbell}} will make an {{i|Unbaked Bigbell}} which can then be baked in {{i|Any Stove}} to produce a Bigbell.

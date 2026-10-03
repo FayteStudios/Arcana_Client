@@ -1,0 +1,82 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Any Raw Meat Cut}} [[Any Raw Meat Cut]], {{icon|Branch}} [[Branch]], [[Fire]], {{icon|Lilypad Bulb}} [[Lilypad Bulb]], {{icon|Raw Beaver Steak}} [[Raw Beaver Steak]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 13 || 13 || 13 || 34
+|-
+! Bear min
+| style="background:#e6b8b8" | 37.2 || 12 || 12 || 12
+|-
+! Bear max
+| style="background:#e6b8b8" | 40.3 || 13 || 13 || 13
+|-
+! Timber Rattler min
+| style="background:#e6b8b8" | 30 || 12 || 12 || 12
+|-
+! Timber Rattler max
+| style="background:#e6b8b8" | 32.5 || 13 || 13 || 13
+|-
+! Cougar min
+| 12 || style="background:#6fa0ff" | 34.8 || 12 || 12
+|-
+! Cougar max
+| 13 || style="background:#6fa0ff" | 37.7 || 13 || 13
+|-
+! Rabbit min
+| 12 || style="background:#6fa0ff" | 30 || 12 || 12
+|-
+! Rabbit max
+| 13 || style="background:#6fa0ff" | 32.5 || 13 || 13
+|-
+! Deer min
+| 12 || 12 || style="background:#f0d860" | 34.8 || 12
+|-
+! Deer max
+| 13 || 13 || style="background:#f0d860" | 37.7 || 13
+|-
+! Varmint min
+| 12 || 12 || style="background:#f0d860" | 27.6 || 12
+|-
+! Varmint max
+| 13 || 13 || style="background:#f0d860" | 29.9 || 13
+|-
+! Beaver min
+| 12 || 12 || 12 || style="background:#b8c8e6" | 32.4
+|-
+! Beaver max
+| 13 || 13 || 13 || style="background:#b8c8e6" | 35.1
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Game}} [[Game Meat]]
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Game Meat= 20% (40% chance)
+| Menu= Craft > Food > Game Meats
+}}
+
+==About==
+
+A {{i|Beaver Dam}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

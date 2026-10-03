@@ -1,0 +1,70 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Advanced Cooking}} [[Advanced Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= [[Any Raw Domesticated Steak]], {{icon|Honey}} [[Honey]] ×2
+| Second Stage= [[Any Stove]], {{icon|Uncooked Slow Roast}} [[Uncooked Slow Roast]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 64.5 || 44.5 || 42 || 40
+|-
+! Pork min
+| style="background:#e6b8b8" | 31.2 || 12 || 12 || 12
+|-
+! Pork max
+| style="background:#e6b8b8" | 59.8 || 23 || 23 || 23
+|-
+! Mutton min
+| 12 || style="background:#6fa0ff" | 31.2 || 12 || 12
+|-
+! Mutton max
+| 23 || style="background:#6fa0ff" | 59.8 || 23 || 23
+|-
+! Beef min
+| 12 || 12 || style="background:#f0d860" | 31.2 || 12
+|-
+! Beef max
+| 23 || 23 || style="background:#f0d860" | 59.8 || 23
+|-
+! Horse min
+| 12 || 12 || style="background:#f0d860" | 43.2 || 12
+|-
+! Horse max
+| 23 || 23 || style="background:#f0d860" | 82.8 || 23
+|-
+! Chevon min
+| 12 || 12 || 12 || style="background:#b8c8e6" | 31.2
+|-
+! Chevon max
+| 23 || 23 || 23 || style="background:#b8c8e6" | 59.8
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Domesticated Meats}} [[Domesticated Meat]]
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Domesticated Meats
+}}
+
+==About==
+
+Crafting a {{i|Slow Roast}} will make an {{i|Uncooked Slow Roast}} which can then be baked in {{i|Any Stove}} to produce a Slow Roast.

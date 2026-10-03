@@ -1,0 +1,47 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Simple Cooking}} [[Simple Cooking]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Autumn Grass}} [[Autumn Grass]] ×2, {{icon|Caterpillar}} [[Caterpillar]] ×2, {{icon|Common Earthworm}} [[Common Earthworm]], {{icon|Virginia Snail}} [[Virginia Snail]] ×3
+| Second Stage= {{icon|Fireplace}} [[Fireplace]], {{icon|Unbaked Three Virginians}} [[Unbaked Three Virginians]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 5 || 15 || 5 || 15
+|-
+! Gluttony min
+| 6 || 6 || 6 || 6
+|-
+! Gluttony max
+| 8 || 8 || 8 || 8
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Slugs N' Bugs}} [[Slugs Bugs and Kritters]]
+| Full and Fed= 02:00:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 20
+| Reduces Slugs Bugs and Kritters= 50% (20% chance)
+| Menu= Craft > Food > Slugs, Bugs & Kritters
+}}
+
+==About==
+
+Crafting {{i|Three Virginians}} will make an {{i|Unbaked Three Virginians}} which can then be baked in a lit {{i|Fireplace}} to produce Three Virginians.

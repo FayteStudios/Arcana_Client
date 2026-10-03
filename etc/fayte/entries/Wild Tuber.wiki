@@ -1,0 +1,55 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= [[Inherent Rights]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= [[Any Shovel]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Blue Potato}} [[Blue Potato]]
+| b)= {{icon|Brown Potato}} [[Brown Potato]]
+| c)= {{icon|Candied Yams}} [[Candied Yams]]
+| d)= {{icon|Curious Potato}} [[Curious Potato]]
+| e)= {{icon|Red Potato}} [[Red Potato]]
+| f)= {{icon|Roost Roasted Roots}} [[Roost Roasted Roots]]
+| g)= {{icon|Yellow Potato}} [[Yellow Potato]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 10.0 || 10.0 || 10.0 || 10.0
+|-
+! Gluttony min
+| 5 || 5 || 5 || 5
+|-
+! Gluttony max
+| 10 || 10 || 10 || 10
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Potato Food}} [[Potato Food]]
+| Full and Fed= 00:05:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+}}
+
+==About==
+
+A {{i|Wild Tuber}} is found by chance while {{i|Dig}}ging {{i|Dirt}} producing biomes. If you have learned the [[Potato Growing]] Skill, you can Plant a Wild Tuber in a {{i|Tilled Field}} to grow {{i|Any Potato}}s. It only takes a single Wild Tuber to Plant a Tilled Field at '''ANY''' % [[Tilled Field#Upkeep|Upkeep]], which makes Wild Tubers useful for resetting a Tilled Field which has been damaged by a {{i|Crow}}.

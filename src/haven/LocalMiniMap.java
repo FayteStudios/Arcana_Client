@@ -77,6 +77,8 @@ public class LocalMiniMap extends Window implements Console.Directory{
     private static final BufferedImage ilocko = Resource.loadimg("gfx/hud/locko");
     private static final BufferedImage ilockoh = Resource.loadimg("gfx/hud/lockoh");
     private IButton lockbtn;
+    private Text ftitle;
+    private Text title;
     boolean locked;
     
     private final Map<Coord, Future<MapTile>> cache = new LinkedHashMap<Coord, Defer.Future<MapTile>>(9, 0.75f, true) {
@@ -270,6 +272,8 @@ public class LocalMiniMap extends Window implements Console.Directory{
 		throw new Exception("No such setting");
 	    }
 	});
+	if(FayteConfig.minimapMovable.get() && !FayteConfig.minimapLocked.isDefault())
+	    locked = FayteConfig.minimapLocked.get();
         
 	lockbtn = new IButton(new Coord(-10,-43), this, locked?ilockc:ilocko, locked?ilocko:ilockc, locked?ilockch:ilockoh) {
 	    public void click() {
@@ -287,6 +291,10 @@ public class LocalMiniMap extends Window implements Console.Directory{
 	    }
 	};
 	lockbtn.recthit = true;
+	if(FayteSkin.on()) {
+	    lockbtn.hide();
+	    locked = false;
+	}
     }
     
     public Coord p2c(Coord pc) {
@@ -335,6 +343,54 @@ public class LocalMiniMap extends Window implements Console.Directory{
     protected void loadOpts() {
 	super.loadOpts();
 	sz = getOptCoord(OPT_SZ, sz);
+	if(FayteConfig.minimapMovable.get() && (FayteConfig.minimapPos.get() != null))
+	    c = FayteConfig.minimapPos.get();
+    }
+
+    @Override
+    public void storeOpt(String opt, Coord value) {
+	if(FayteConfig.minimapMovable.get() && opt.equals("_pos"))
+	    FayteConfig.minimapPos.set(value);
+	else
+	    super.storeOpt(opt, value);
+    }
+
+    @Override
+    public void storeOpt(String opt, boolean value) {
+	if(FayteConfig.minimapMovable.get() && opt.equals(OPT_LOCKED))
+	    FayteConfig.minimapLocked.set(value);
+	else
+	    super.storeOpt(opt, value);
+    }
+
+    private int titleh() {
+	if(!FayteConfig.minimapMovable.get())
+	    return(0);
+	return(FayteSkin.on() ? Window.CTH : tmain.sz().y);
+    }
+
+    private Tex ftitlet = null;
+
+    private void drawtitle(GOut g) {
+	int h = titleh();
+	if(FayteSkin.on()) {
+	    if(ftitlet == null)
+		ftitlet = new TexI(Utils.outline2(Window.ctf.render("Mini-map").img, java.awt.Color.BLACK));
+	    FayteSkin.box(g, Coord.z, new Coord(sz.x, h), FayteSkin.mix(FayteSkin.PANEL, FayteSkin.BORDER, 0.3), FayteSkin.BORDER);
+	    g.aimage(ftitlet, new Coord(7, h / 2), 0.0, 0.5);
+	    return;
+	}
+	Coord br = new Coord(sz.x, h);
+	for(int x = 0; x < sz.x; x += tmain.sz().x)
+	    g.image(tmain, new Coord(x, 0), Coord.z, br);
+	if(title == null)
+	    title = cf.render("Mini-map");
+	Tex t = title.tex();
+	g.image(t, new Coord(8, (h - t.sz().y) / 2));
+    }
+
+    private boolean ontitle(Coord c) {
+	return((c.y >= 0) && (c.y < titleh()) && !(lockbtn.visible && c.isect(xlate(lockbtn.c, true), lockbtn.sz)));
     }
 
     public void toggleHeight(){
@@ -411,15 +467,19 @@ public class LocalMiniMap extends Window implements Console.Directory{
 		    Defer.Future<MapTile> f = cache.get(cg);
 		    final Coord tcg = new Coord(cg);
 		    final Coord ul = cg.mul(cmaps);
+		    final Coord fsp = sp;
+		    final String fsession = session;
 		    if((f == null) && (cg.manhattan2(plg) <= 1)) {
 			f = Defer.later(new Defer.Callable<MapTile>() {
 			    public MapTile call() {
+				long gid = FayteMapStore.gridid(ui.sess.glob.map, tcg);
 				BufferedImage img = drawmap(ul, cmaps, true);
 				if(img == null) { return null; }
 				MapTile mapTile = new MapTile(new TexI(img), ul, tcg);
 				if(Config.store_map) {
 				    img = drawmap(ul, cmaps, false);
-				    store(img, tcg);
+				    if(gid != 0L && FayteMapStore.gridid(ui.sess.glob.map, tcg) == gid)
+					store(img, tcg, gid, fsp, fsession);
 				}
 				return mapTile;
 			    }
@@ -427,11 +487,17 @@ public class LocalMiniMap extends Window implements Console.Directory{
 			cache.put(tcg, f);
 		    }
 		    if((f == null) || (!f.done())) {
+			Tex ft = FayteMiniFill.tile(ui.sess.glob.map, plg, tcg);
+			if(ft != null)
+			    g.image(ft, ul.add(tc.inv()).add(hsz.div(2)));
 			continue;
 		    }
 		    MapTile mt = f.get();
 		    if(mt == null){
 			cache.put(cg, null);
+			Tex ft = FayteMiniFill.tile(ui.sess.glob.map, plg, tcg);
+			if(ft != null)
+			    g.image(ft, ul.add(tc.inv()).add(hsz.div(2)));
 			continue;
 		    }
 		    Tex img = mt.img;
@@ -451,6 +517,7 @@ public class LocalMiniMap extends Window implements Console.Directory{
 	}
 
 	drawmarkers(g, c0);
+	FayteHighlights.drawmini(g, c0, ui.sess.glob, ui.gui);
 	synchronized(ui.sess.glob.party.memb) {
 	    try {
 		Tex tx = plx.layer(Resource.imgc).tex();
@@ -470,9 +537,12 @@ public class LocalMiniMap extends Window implements Console.Directory{
 	g.gl.glPopMatrix();
 
 	Window.swbox.draw(og, Coord.z, this.sz);
+	if(FayteConfig.minimapMovable.get())
+	    drawtitle(og);
         
         //draw the lock icon
-        lockbtn.draw(og.reclipl(xlate(lockbtn.c, true), lockbtn.sz));
+        if(lockbtn.visible)
+            lockbtn.draw(og.reclipl(xlate(lockbtn.c, true), lockbtn.sz));
     }
 
     private String mapfolder(){
@@ -484,6 +554,10 @@ public class LocalMiniMap extends Window implements Console.Directory{
     }
 
     private String mapsessfile(String file){
+	return(mapsessfile(session, file));
+    }
+
+    private String mapsessfile(String session, String file){
 	return String.format("%s%s/%s",mapfolder(), session, file);
     }
 
@@ -491,14 +565,32 @@ public class LocalMiniMap extends Window implements Console.Directory{
 	return mapsessfile("");
     }
 
-    private void store(BufferedImage img, Coord cg) {
-	if(!Config.store_map || img == null){return;}
+    private void store(BufferedImage img, Coord cg, long gid, Coord sp, String session) {
+	if(img == null){return;}
+	if(FayteModules.WORLDMAP.on()) {
+	    try {
+		FayteMapStore.get(new File(mapfolder())).live(ui.sess.glob.map, cg, img, gid);
+	    } catch(RuntimeException e) {
+		FayteLog.log("Map store: " + e);
+	    }
+	    return;
+	}
+	if(!Config.store_map || (sp == null) || (session == null)){return;}
 	Coord c = cg.sub(sp);
-	String fileName = mapsessfile(String.format("tile_%d_%d.png", c.x, c.y));
+	String fileName = mapsessfile(session, String.format("tile_%d_%d.png", c.x, c.y));
 	File outputfile = new File(fileName);
 	try {
+	    outputfile.getParentFile().mkdirs();
 	    ImageIO.write(img, "png", outputfile);
 	} catch (IOException e) {}
+    }
+
+    public String session() {
+	return(session);
+    }
+
+    public Coord sessionorigin() {
+	return(sp);
     }
 
     private void checkSession(Coord plg) {
@@ -516,7 +608,7 @@ public class LocalMiniMap extends Window implements Console.Directory{
 		cache.clear();
 	    }
 	    session = Utils.current_date();
-	    if(Config.store_map){
+	    if(Config.store_map && !FayteModules.WORLDMAP.on()){
 		(new File(mapsessfolder())).mkdirs();
 		try {
 		    Writer currentSessionFile = new FileWriter(mapfile("currentsession.js"));
@@ -539,6 +631,24 @@ public class LocalMiniMap extends Window implements Console.Directory{
     public boolean mousedown(Coord c, int button) {
 	parent.setfocus(this);
 	raise();
+	if((button == 1) && ontitle(c)) {
+	    if(!locked) {
+		ui.grabmouse(this);
+		super.dm = true;
+		doff = c;
+	    }
+	    return(true);
+	}
+	if((button == 1) && FayteConfig.minimapMovable.get()) {
+	    if(lockbtn.visible && c.isect(xlate(lockbtn.c, true), lockbtn.sz))
+		return(super.mousedown(c, button));
+	    if(!locked && c.isect(sz.sub(gzsz), gzsz)) {
+		ui.grabmouse(this);
+		doff = c;
+		rsm = true;
+		return(true);
+	    }
+	}
 
 	Marker m = getmarkerat(c);
 	Coord mc = uitomap(c);
@@ -606,6 +716,8 @@ public class LocalMiniMap extends Window implements Console.Directory{
 	}
 
 	if (rsm){
+	    if(FayteHud.locked(ui))
+		return;
 	    d = c.sub(doff);
 	    sz = sz.add(d);
 	    sz.x = Math.max(minsz.x, sz.x);

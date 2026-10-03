@@ -1,0 +1,71 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 1.00
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Baking}} [[Baking]]
+}}
+
+{{Facts
+| Title=Bake
+| Needs= {{icon|Any Berries}} [[Any Berries]] ×9, {{icon|Baking Table}} [[Baking Table]], {{icon|Rested Pie Dough}} [[Rested Pie Dough]]
+| Second Stage= {{icon|Bread Oven}} [[Bread Oven]], {{icon|Wildberry Pie}} [[Unbaked Wildberry Pie]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= [[Little Jack Horner's Thumbnail]]
+| b)= {{icon|Slice of Pie}} [[Slice of Pie]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 6 || 12 || 17 || 4
+|-
+! Cranberry min
+| style="background:#e6b8b8" | 34.5 || 15 || 15 || 15
+|-
+! Cranberry max
+| style="background:#e6b8b8" | 46 || 20 || 20 || 20
+|-
+! Crowberry min
+| 15 || style="background:#6fa0ff" | 40.5 || 15 || 15
+|-
+! Crowberry max
+| 20 || style="background:#6fa0ff" | 54 || 20 || 20
+|-
+! Huckleberries min
+| 15 || 15 || style="background:#f0d860" | 39 || 15
+|-
+! Huckleberries max
+| 20 || 20 || style="background:#f0d860" | 52 || 20
+|-
+! Blackberries min
+| 15 || 15 || 15 || style="background:#b8c8e6" | 34.5
+|-
+! Blackberries max
+| 20 || 20 || 20 || style="background:#b8c8e6" | 46
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Berries}} [[Berries]]
+| Full and Fed= 00:33:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Berries
+}}
+
+==About==
+
+Crafting {{i|Wildberry Pie}} at a {{i|Baking Table}} will make an {{i|Unbaked Wildberry Pie}} which can then be baked in a {{i|Bread Oven}} to produce a Wildberry Pie. Preparing Foods on a Baking Table removes a small amount of [[Insanity]] and has a chance of giving you an {{i|Eloped Gingerbread Man}}. When baking Foods in a Bread Oven there is a chance for them to become {{i|Animal Crackers}} instead. Right-clicking a Wildberry Pie with the [[Baking]] Skill learned and selecting "Slice" will divide your Pie into 8x {{i|Slice of Pie}}s. When Slicing Pie there is small chance to receive a {{i|Little Jack Horner's Thumbnail}}.
+{{Notice|WARNING!| Finding a Little Jack Horner's Thumbnail in your Pie adds a great deal of [[Insanity]].}}

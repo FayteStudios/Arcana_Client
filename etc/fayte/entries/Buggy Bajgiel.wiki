@@ -1,0 +1,67 @@
+{{Facts
+| Title=Basics
+| Type= Baked Good
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Advanced Cooking}} [[Advanced Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Place = 2 {{icon|Any Bug}} [[Any Bugs|Bugs]] onto a {{icon|Bajgiel}} [[Bajgiel]].
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 22 || 78 || 25 || 31
+|-
+! Caterpillar min
+| style="background:#e6b8b8" | 54 || 20 || 20 || 20
+|-
+! Caterpillar max
+| style="background:#e6b8b8" | 148.5 || 55 || 55 || 55
+|-
+! Ladybug min
+| style="background:#e6b8b8" | 60 || 20 || 20 || 20
+|-
+! Ladybug max
+| style="background:#e6b8b8" | 165 || 55 || 55 || 55
+|-
+! Snail min
+| 20 || style="background:#6fa0ff" | 54 || 20 || 20
+|-
+! Snail max
+| 55 || style="background:#6fa0ff" | 148.5 || 55 || 55
+|-
+! Grub min
+| 20 || 20 || style="background:#f0d860" | 46 || 20
+|-
+! Grub max
+| 55 || 55 || style="background:#f0d860" | 126.5 || 55
+|-
+! Beetle min
+| 20 || 20 || 20 || style="background:#b8c8e6" | 50
+|-
+! Beetle max
+| 55 || 55 || 55 || style="background:#b8c8e6" | 137.5
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Slugs N' Bugs}} [[Slugs Bugs and Kritters]]
+| Full and Fed= 01:05:00
+}}
+
+Does NOT need to be cooked
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Slugs, Bugs & Kritters
+}}

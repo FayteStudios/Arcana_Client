@@ -1,0 +1,69 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Any Potato}} [[Any Potato]], {{icon|Butter}} [[Butter]], [[Fire]], {{icon|Honey}} [[Honey]] 0.2 L, {{icon|Wild Tuber}} [[Wild Tuber]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 85 || 25 || 55 || 25
+|-
+! Red Potato min
+| style="background:#e6b8b8" | 47.6 || 17 || 17 || 17
+|-
+! Red Potato max
+| style="background:#e6b8b8" | 64.4 || 23 || 23 || 23
+|-
+! Blue Potato min
+| 17 || style="background:#6fa0ff" | 44.2 || 17 || 17
+|-
+! Blue Potato max
+| 23 || style="background:#6fa0ff" | 59.8 || 23 || 23
+|-
+! Yellow Potato min
+| 17 || 17 || style="background:#f0d860" | 44.2 || 17
+|-
+! Yellow Potato max
+| 23 || 23 || style="background:#f0d860" | 59.8 || 23
+|-
+! Brown Potato min
+| 17 || 17 || 17 || style="background:#b8c8e6" | 40.8
+|-
+! Brown Potato max
+| 23 || 23 || 23 || style="background:#b8c8e6" | 55.2
+|-
+! Curious Potato min
+| 34 || 34 || 34 || 34
+|-
+! Curious Potato max
+| 46 || 46 || 46 || 46
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Potato Food}} [[Potato Food]]
+| Full and Fed= 00:32:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Potatoes
+}}
+
+==About==
+
+{{i|Candied Yams}} must be Cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}. Candied Yams is a major [[Restore Food]] for the {{i2|Potato Food}} Food Group.

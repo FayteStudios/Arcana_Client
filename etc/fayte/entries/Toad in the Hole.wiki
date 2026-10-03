@@ -1,0 +1,69 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.60
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Advanced Cooking}} [[Advanced Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= [[Any Raw Domesticated Cut]] ×3, {{icon|Dry Pie}} [[Dry Pie]], {{icon|Turkey Egg}} [[Turkey Egg]], {{icon|Toad}} [[Toad]]
+| Second Stage= [[Any Stove]], {{icon|Uncooked Toad in the Hole}} [[Uncooked Toad in the Hole]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 45.5 || 44.5 || 42 || 60
+|-
+! Pork min
+| style="background:#e6b8b8" | 52 || 20 || 20 || 20
+|-
+! Pork max
+| style="background:#e6b8b8" | 110.5 || 42.5 || 42.5 || 42.5
+|-
+! Mutton min
+| 20 || style="background:#6fa0ff" | 52 || 20 || 20
+|-
+! Mutton max
+| 42.5 || style="background:#6fa0ff" | 110.5 || 42.5 || 42.5
+|-
+! Beef min
+| 20 || 20 || style="background:#f0d860" | 52 || 20
+|-
+! Beef max
+| 42.5 || 42.5 || style="background:#f0d860" | 110.5 || 42.5
+|-
+! Horse min
+| 20 || 20 || style="background:#f0d860" | 72 || 20
+|-
+! Horse max
+| 42.5 || 42.5 || style="background:#f0d860" | 153 || 42.5
+|-
+! Chevon min
+| 20 || 20 || 20 || style="background:#b8c8e6" | 52
+|-
+! Chevon max
+| 42.5 || 42.5 || 42.5 || style="background:#b8c8e6" | 110.5
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Domesticated Meats}} [[Domesticated Meat]]
+| Full and Fed= 00:50:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+}}
+
+==About==
+
+Crafting a {{i|Toad in the Hole}} will make an {{i|Uncooked Toad in the Hole}} which can then be baked in {{i|Any Stove}} to produce a Toad in the Hole.

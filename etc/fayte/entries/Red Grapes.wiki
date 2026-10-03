@@ -1,0 +1,53 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.20
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Gardening}} [[Gardening]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Gardening Pot}} [[Gardening Pot]], {{icon|Humus}} [[Humus]], {{icon|Honeysuckle Kudzu}} [[Honeysuckle Kudzu]], [[Potable Water]] 0.2 L
+| Or= [[Vitis]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Grape Cornmeal Cake}} [[Grape Cornmeal Cake]]
+| b)= {{icon|On the Vine}} [[On the Vine]]
+| c)= {{icon|Raisins}} [[Raisins]]
+| d)= [[Red Grape Juice]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 4 || 4 || 4 || 4
+|-
+! Gluttony min
+| 2 || 1 || 2 || 1
+|-
+! Gluttony max
+| 7 || 4 || 7 || 4
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Fruit Food}} [[Fruits]]
+| Full and Fed= 00:03:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+}}
+
+==About==
+
+{{i|Red Grapes}} can be harvested from a mature {{i|Vitis}} or grown by chance when planting {{i|Honeysuckle Kudzu}}.

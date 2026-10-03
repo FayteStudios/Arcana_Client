@@ -1,0 +1,113 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|French Cuisine}} [[French Cuisine]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Bellpeppers}} [[Any Bellpeppers]], {{icon|Pumpkin Flesh}} [[Pumpkin Flesh]] ×4, {{icon|Raw Venison Steak}} [[Raw Venison Steak]], {{icon|Tomato}} [[Tomato]]
+| Second Stage= [[Any Stove]], {{icon|Aztec Abattoir}} [[Unbaked Aztec Abattoir]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 17.5 || 17.5 || 17.5 || 17.5
+|-
+! Ghost Rider min
+| style="background:#e6b8b8" | 42.53 || 15.75 || 15.75 || 15.75
+|-
+! Ghost Rider max
+| style="background:#e6b8b8" | 49.41 || 18.3 || 18.3 || 18.3
+|-
+! Jack-o-Lantern min
+| style="background:#e6b8b8" | 44.1 || 15.75 || 15.75 || 15.75
+|-
+! Jack-o-Lantern max
+| style="background:#e6b8b8" | 51.24 || 18.3 || 18.3 || 18.3
+|-
+! Spooktacular min
+| style="background:#e6b8b8" | 40.95 || 15.75 || 15.75 || 15.75
+|-
+! Spooktacular max
+| style="background:#e6b8b8" | 47.58 || 18.3 || 18.3 || 18.3
+|-
+! Big Autumn min
+| 15.75 || style="background:#6fa0ff" | 37.8 || 15.75 || 15.75
+|-
+! Big Autumn max
+| 18.3 || style="background:#6fa0ff" | 43.92 || 18.3 || 18.3
+|-
+! Bushkin min
+| 15.75 || style="background:#6fa0ff" | 39.38 || 15.75 || 15.75
+|-
+! Bushkin max
+| 18.3 || style="background:#6fa0ff" | 45.75 || 18.3 || 18.3
+|-
+! Small Sugar min
+| 15.75 || style="background:#6fa0ff" | 36.22 || 15.75 || 15.75
+|-
+! Small Sugar max
+| 18.3 || style="background:#6fa0ff" | 42.09 || 18.3 || 18.3
+|-
+! Connecticut Field min
+| 15.75 || 15.75 || style="background:#f0d860" | 37.8 || 15.75
+|-
+! Connecticut Field max
+| 18.3 || 18.3 || style="background:#f0d860" | 43.92 || 18.3
+|-
+! Harvest Moon min
+| 15.75 || 15.75 || style="background:#f0d860" | 39.38 || 15.75
+|-
+! Harvest Moon max
+| 18.3 || 18.3 || style="background:#f0d860" | 45.75 || 18.3
+|-
+! Sugar Treat min
+| 15.75 || 15.75 || style="background:#f0d860" | 36.22 || 15.75
+|-
+! Sugar Treat max
+| 18.3 || 18.3 || style="background:#f0d860" | 42.09 || 18.3
+|-
+! Aspen min
+| 15.75 || 15.75 || 15.75 || style="background:#b8c8e6" | 34.65
+|-
+! Aspen max
+| 18.3 || 18.3 || 18.3 || style="background:#b8c8e6" | 40.26
+|-
+! Autumn Gold min
+| 15.75 || 15.75 || 15.75 || style="background:#b8c8e6" | 36.22
+|-
+! Autumn Gold max
+| 18.3 || 18.3 || 18.3 || style="background:#b8c8e6" | 42.09
+|-
+! Baby Bear min
+| 15.75 || 15.75 || 15.75 || style="background:#b8c8e6" | 33.08
+|-
+! Baby Bear max
+| 18.3 || 18.3 || 18.3 || style="background:#b8c8e6" | 38.43
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Pumpkins & Gourds}} [[Pumpkins and Gourds]]
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Pumpkins and Gourds= 20% (40% chance)
+| Menu= Craft > Food > Pumpkins
+}}
+
+==About==
+
+Crafting a {{i|Aztec Abattoir}} will make an {{i|Unbaked Aztec Abattoir}} which can then be baked in {{i|Any Stove}} to produce a Aztec Abattoir.

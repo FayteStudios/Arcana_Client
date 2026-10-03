@@ -1,0 +1,52 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Potato Growing}} [[Potato Growing]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Potato Chunk}} [[Potato Chunk]], [[Tilled Field]]
+| Or= [[Tilled Field]], {{icon|Wild Tuber}} [[Wild Tuber]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Green Cabbage Chuck Roast}} [[Green Cabbage Chuck Roast]]
+| b)= {{icon|Roost Roasted Roots}} [[Roost Roasted Roots]]
+| Counts as= {{icon|Any Potato}} [[Any Potato]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 6 || 6 || 6 || 6
+|-
+! Gluttony min
+| 0 || 0 || 0 || 5
+|-
+! Gluttony max
+| 0 || 0 || 0 || 11
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Potato Food}} [[Potato Food]]
+| Full and Fed= 00:45:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+}}
+
+==About==
+
+A {{i|Brown Potato}} is the product of a first tier {{i|Any Potato}} Harvest. Right-clicking a Brown Potato and selecting "Split' will divide your Brown Potato into 6x {{i|Potato Chunk}}s. A Brown Potato can be baked in a {{i|Bread Oven}} to produce a {{i|Baked Potato}} or boiled in a {{i|Clay Pot}}, {{i|Copper Pot}}, or {{i|Cauldron}} to produce a {{i|Boiled Potato}}.

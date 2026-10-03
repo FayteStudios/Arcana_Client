@@ -1,0 +1,70 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.03
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Simple Cooking}} [[Simple Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Vegetable}} [[Any Vegetable]] ×2, {{icon|Ostrich Fiddlehead}} [[Ostrich Fiddlehead]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 14.5 || 14.5 || 14.5 || 14.5
+|-
+! Big Red min
+| style="background:#e6b8b8" | 22.4 || 7 || 7 || 7
+|-
+! Big Red max
+| style="background:#e6b8b8" | 33.6 || 10.5 || 10.5 || 10.5
+|-
+! Tomato min
+| style="background:#e6b8b8" | 17.5 || 7 || 7 || 7
+|-
+! Tomato max
+| style="background:#e6b8b8" | 26.25 || 10.5 || 10.5 || 10.5
+|-
+! Carrot min
+| 7 || style="background:#6fa0ff" | 16.8 || 7 || 7
+|-
+! Carrot max
+| 10.5 || style="background:#6fa0ff" | 25.2 || 10.5 || 10.5
+|-
+! Radish min
+| 7 || 7 || style="background:#f0d860" | 16.8 || 7
+|-
+! Radish max
+| 10.5 || 10.5 || style="background:#f0d860" | 25.2 || 10.5
+|-
+! Onion min
+| 7 || 7 || 7 || style="background:#b8c8e6" | 18.9
+|-
+! Onion max
+| 10.5 || 10.5 || 10.5 || style="background:#b8c8e6" | 28.35
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Vegetables & Greens}} [[Vegetables and Greens]]
+| Full and Fed= 00:15:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Vegetables and Greens= 20% (20% chance)
+| Menu= Craft > Food > Vegetables
+}}
+
+==About==
+
+{{i|Garden Veg}} does '''NOT''' need to be cooked.

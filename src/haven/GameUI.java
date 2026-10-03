@@ -28,7 +28,6 @@ package haven;
 
 import haven.Gob.Overlay;
 import haven.res.lib.HomeTrackerFX;
-import org.ender.timer.TimerController;
 
 import java.awt.*;
 import java.awt.event.KeyEvent;
@@ -53,11 +52,15 @@ public class GameUI extends ConsoleHost implements Console.Directory {
     public final long plid;
     public final EquipProxyWdg equipProxy;
     public MenuGrid menu;
+    private Widget blkwdg;
     public CraftWnd craftwnd;
+    public ToolBeltWdg fbelt, nbelt;
     public Tempers tm;
+    public FayteFoodSlots foodslots;
     public Widget gobble;
     public MapView map;
     public LocalMiniMap mmap;
+    private final Map<Widget, Coord[]> heldWindows = new WeakHashMap<Widget, Coord[]>();
     public Fightview fv;
     public static final Text.Foundry errfoundry = new Text.Foundry(new java.awt.Font("SansSerif", java.awt.Font.BOLD, 14), new Color(192, 0, 0));
     private Text lasterr;
@@ -129,15 +132,25 @@ public class GameUI extends ConsoleHost implements Console.Directory {
     public GameUI(Widget parent, String chrid, long plid) {
 	super(Coord.z, parent.sz, parent);
 	ui.gui = this;
+	if((chrid == null) || chrid.isEmpty()) {
+	    if((Config.currentCharName != null) && !Config.currentCharName.isEmpty())
+		FayteLog.log("Character: unknown (was " + Config.currentCharName + ")");
+	    Config.currentCharName = "";
+	} else if(!chrid.equals(Config.currentCharName)) {
+	    FayteLog.log("Character: " + chrid + (((Config.currentCharName == null) || Config.currentCharName.isEmpty()) ? "" : " (was " + Config.currentCharName + ")"));
+	    Config.setCharName(chrid);
+	}
+	FayteLog.log("Game screen: created");
 	this.chrid = chrid;
 	this.plid = plid;
 	setcanfocus(true);
 	setfocusctl(true);
-	menu = new MenuGrid(Coord.z, this);
-	new SeasonImg(new Coord(2,2), Avaview.dasz, this);
-	new Bufflist(new Coord(80, 60), this);
-	equipProxy = new EquipProxyWdg(new Coord(80, 2), new int[]{6, 7, 9, 14, 5, 4}, this);
-	tm = new Tempers(Coord.z, this);
+	menu = FayteHud.reg(new MenuGrid(Coord.z, this), "actions");
+	FayteHud.reg(new SeasonImg(new Coord(2,2), Avaview.dasz, this), "season");
+	FayteHud.reg(new Bufflist(new Coord(80, 60), this), "buffs");
+	equipProxy = FayteHud.reg(new EquipProxyWdg(new Coord(80, 2), new int[]{6, 7, 9, 14, 5, 4}, this), "equip");
+	tm = FayteHud.reg(new Tempers(Coord.z, this), "tempers");
+	foodslots = FayteHud.reg(new FayteFoodSlots(Coord.z, this), "cravings");
 	chat = new ChatUI(Coord.z, 0, this);
 	syslog = new ChatUI.Log(chat, "System");
 	ui.cons.out = new java.io.PrintWriter(new java.io.Writer() {
@@ -157,7 +170,6 @@ public class GameUI extends ConsoleHost implements Console.Directory {
 	    });
 	opts = new OptWnd(sz.sub(200, 200).div(2), this);
 	opts.hide();
-	TimerController.init(Config.server);
 	makemenu();
 	resize(sz);
         updateRenderFilter();
@@ -183,6 +195,8 @@ public class GameUI extends ConsoleHost implements Console.Directory {
 	    down = sel;
 	}
 	public boolean globtype(char key, KeyEvent ev) {
+	    if(((gkey == 16) || (gkey == 3)) && FayteModules.STYLE.on())
+		return(super.globtype(key, ev));
 	    if((gkey != -1) && (key == gkey)) {
 		click();
 		return(true);
@@ -265,6 +279,47 @@ public class GameUI extends ConsoleHost implements Console.Directory {
 		updweight();
 	    } else {
 		wlbl = null;
+	    }
+	}
+
+	public boolean main() {
+	    return(wui != null);
+	}
+
+	public String infotip() {
+	    if(wui == null)
+		return(null);
+	    int nr = (wui.maininv != null) ? wui.maininv.wmap.size() : 0;
+	    int cap = 25000;
+	    Glob.CAttr ca = ui.sess.glob.cattr.get("carry");
+	    if(ca != null)
+		cap = ca.comp;
+	    if(FayteModules.STYLE.on())
+		return(((wui.maininv != null) ? (wui.maininv.usedslots() + " of " + wui.maininv.slots() + " slots used, ") : "") + nr + " items. Weight is shown on the HUD.");
+	    return(String.format("Carrying %.2f / %.2f kg\n%d items in your inventory", wui.weight / 1000.0, cap / 1000.0, nr));
+	}
+
+	public String info() {
+	    if(wui == null)
+		return(null);
+	    int nr = (wui.maininv != null) ? wui.maininv.wmap.size() : 0;
+	    int cap = 25000;
+	    Glob.CAttr ca = ui.sess.glob.cattr.get("carry");
+	    if(ca != null)
+		cap = ca.comp;
+	    if(FayteModules.STYLE.on())
+		return((wui.maininv != null) ? (wui.maininv.usedslots() + "/" + wui.maininv.slots()) : (nr + " items"));
+	    return(String.format("%.2f/%.2f  %d", wui.weight / 1000.0, cap / 1000.0, nr));
+	}
+
+	public void tick(double dt) {
+	    super.tick(dt);
+	    if(wlbl != null) {
+		boolean want = !compact();
+		if(wlbl.visible != want) {
+		    wlbl.show(want);
+		    pack();
+		}
 	    }
 	}
 
@@ -359,6 +414,8 @@ public class GameUI extends ConsoleHost implements Console.Directory {
 	if((hand.isEmpty() && (vhand != null)) || ((vhand != null) && !hand.contains(vhand.item))) {
 	    ui.destroy(vhand);
 	    vhand = null;
+	    if(hand.isEmpty())
+		FayteXfer.handempty(this);
 	}
 	if(!hand.isEmpty() && (vhand == null)) {
 	    GItem fi = hand.iterator().next();
@@ -385,7 +442,7 @@ public class GameUI extends ConsoleHost implements Console.Directory {
 	    mmap = new LocalMiniMap(new Coord(GameUI.this.sz.x-250, 15), new Coord(146,146), this, map);
 	    return(map);
 	} else if(place == "fight") {
-	    fv = (Fightview)gettype(type).create(new Coord(sz.x - Fightview.width, 0), this, cargs);
+	    fv = FayteHud.reg((Fightview)gettype(type).create(new Coord(sz.x - Fightview.width, 0), this, cargs), "fight");
 	    return(fv);
 	} else if(place == "inv") {
 	    String nm = (pargs.length > 1)?((String)pargs[1]):null;
@@ -414,7 +471,9 @@ public class GameUI extends ConsoleHost implements Console.Directory {
 	    return(g);
 	} else if(place == "craft") {
 	    final Widget[] mk = {null};
-	    showCraftWnd();
+	    boolean quiet = FayteRecipes.quiet(((cargs.length > 0) && (cargs[0] instanceof String)) ? (String)cargs[0] : null);
+	    if(!quiet)
+		showCraftWnd();
 	    if(craftwnd != null){
 		mk[0] = gettype(type).create(new Coord(215, 250), craftwnd, cargs);
 		craftwnd.setMakewindow(mk[0]);
@@ -437,6 +496,10 @@ public class GameUI extends ConsoleHost implements Console.Directory {
 		};
 	    mk[0] = gettype(type).create(Coord.z, makewnd, cargs);
 	    makewnd.pack();
+	    if(quiet)
+		makewnd.hide();
+	    if(quiet && FayteRecipes.unwanted())
+		mk[0].wdgmsg("close");
 		return (mk[0]);
 	    }
 	} else if(place == "buddy") {
@@ -455,7 +518,7 @@ public class GameUI extends ConsoleHost implements Console.Directory {
 	} else if(place == "chat") {
 	    return(chat.makechild(type, new Object[] {}, cargs));
 	} else if(place == "party") {
-	    return(gettype(type).create(new Coord(2, 80), this, cargs));
+	    return(FayteHud.reg(gettype(type).create(new Coord(2, 80), this, cargs), "party"));
 	} else if(place == "misc") {
 	    if(type.contains("ui/hrtptr")){
                 if(hrtptr != null)
@@ -466,7 +529,10 @@ public class GameUI extends ConsoleHost implements Console.Directory {
 		hrtptr = new HomeTrackerFX.HTrackWdg(this, gettype(type).create((Coord)pargs[1], this, cargs));
 		return hrtptr;
 	    }
-	    return(gettype(type).create((Coord)pargs[1], this, cargs));
+	    Widget mw = gettype(type).create((Coord)pargs[1], this, cargs);
+	    if(mw instanceof Window)
+		return(mw);
+	    return(FayteHud.reg(mw, "misc_" + type.replaceAll("[^A-Za-z0-9]", "_")));
 	} else {
 	    throw(new UI.UIException("Illegal gameui child", type, pargs));
 	}
@@ -496,9 +562,12 @@ public class GameUI extends ConsoleHost implements Console.Directory {
     }
     
     public void destroy() {
+	FayteWatchdog.stop();
+	FayteProfiles.onlogout(this);
+	FayteMapSeen.save(true);
+	FayteModules.destroy(this);
 	super.destroy();
 	OptWnd2.close();
-	TimerPanel.close();
 	DarknessWnd.close();
 	FlatnessTool.close();
         OverviewTool.close();
@@ -614,9 +683,35 @@ public class GameUI extends ConsoleHost implements Console.Directory {
 		    act(Utils.getprefb("attrview", false));
 		}
 	    };
+	FayteHud.reg(attrview, "attributes");
+    }
+
+    public void fayteskills() {
+	if(FayteModules.ALMANAC.on()) {
+	    FayteAlmanacWnd.skills(this, false);
+	} else if(chrwdg != null && !chrwdg.visible) {
+	    classiccw();
+	} else if(chrwdg != null) {
+	    chrwdg.raise();
+	}
+    }
+
+    public void toggleequ() {
+	if((equwnd != null) && equwnd.show(!equwnd.visible)) {
+	    equwnd.raise();
+	    fitwdg(equwnd);
+	}
     }
 
     private void togglecw() {
+	if(FayteModules.ALMANAC.on()) {
+	    FayteAlmanacWnd.toggleskills(this);
+	    return;
+	}
+	classiccw();
+    }
+
+    public void classiccw() {
 	if(chrwdg != null) {
 	    if(chrwdg.show(!chrwdg.visible)) {
 		chrwdg.raise();
@@ -690,13 +785,30 @@ public class GameUI extends ConsoleHost implements Console.Directory {
 		g.image(lasterr.tex(), new Coord(bx, by -= 20));
 	    }
 	}
-	if(!Config.chat_expanded) {
+	if(!Config.chat_expanded && FayteModules.classicchat()) {
 	    chat.drawsmall(g, new Coord(bx, by), 50);
 	}
+	FayteModules.draw(this, g);
     }
-    
+
+    private final long createdat = System.currentTimeMillis();
+    private boolean readylogged = false;
+
     public void tick(double dt) {
+	FayteWatchdog.beat();
 	super.tick(dt);
+	if(!readylogged && map != null && map.player() != null) {
+	    readylogged = true;
+	    FayteLog.log("Game screen: ready " + (System.currentTimeMillis() - createdat) + " ms after it was created");
+	}
+	if(mainmenu != null) {
+	    boolean sb = FayteConfig.storeButton.get() && !FayteLayout.custom();
+	    boolean wb = FayteConfig.wikiButton.get() && !FayteLayout.custom();
+	    if((mainmenu.cash != null) && (mainmenu.cash.visible != sb))
+		mainmenu.cash.show(sb);
+	    if((mainmenu.manual != null) && (mainmenu.manual.visible != wb))
+		mainmenu.manual.show(wb);
+	}
 	if(!afk && (System.currentTimeMillis() - ui.lastevent > 300000)) {
 	    afk = true;
 	    wdgmsg("afk");
@@ -704,6 +816,59 @@ public class GameUI extends ConsoleHost implements Console.Directory {
 	    afk = false;
 	}
 	dwalkupd();
+	keepWindowsOnScreen();
+	FayteModules.tick(this);
+	if(!FayteModules.STYLE.on())
+	    foodslots.hide();
+	boolean classic = FayteModules.classicchat();
+	if(chat.visible != classic) {
+	    if(classic)
+		chat.show();
+	    else
+		chat.hide();
+	}
+    }
+
+    public Coord homestead() {
+	return((hrtptr == null) ? null : hrtptr.home());
+    }
+
+    public static Coord onScreen(Coord c, Coord wsz, Coord area) {
+	return(new Coord(Math.max(0, Math.min(c.x, area.x - wsz.x)), Math.max(0, Math.min(c.y, area.y - wsz.y))));
+    }
+
+    private void keepWindowsOnScreen() {
+	for(Widget wdg = child; wdg != null; wdg = wdg.next) {
+	    if((wdg instanceof Window) && wdg.visible) {
+		Coord[] held = heldWindows.get(wdg);
+		if((held != null) && (((Window)wdg).dm || !wdg.c.equals(held[1]))) {
+		    heldWindows.remove(wdg);
+		    held = null;
+		}
+		Coord want = (held != null) ? held[0] : wdg.c;
+		Coord nc = onScreen(want, wdg.sz, sz);
+		if(nc.equals(want))
+		    heldWindows.remove(wdg);
+		else if(!((Window)wdg).dm)
+		    heldWindows.put(wdg, new Coord[] {want, nc});
+		if(!nc.equals(wdg.c))
+		    wdg.c = nc;
+	    }
+	}
+    }
+
+    public int gatherWindows() {
+	int count = 0;
+	heldWindows.clear();
+	for(Widget wdg = child; wdg != null; wdg = wdg.next) {
+	    if((wdg instanceof Window) && wdg.visible) {
+		Window wnd = (Window)wdg;
+		wnd.c = onScreen(wnd.c, wnd.sz, sz);
+		wnd.storeOpt("_pos", wnd.c);
+		count++;
+	    }
+	}
+	return(count);
     }
     
     public void uimsg(String msg, Object... args) {
@@ -743,12 +908,18 @@ public class GameUI extends ConsoleHost implements Console.Directory {
 		tm.cravail(ui.sess.getres((Integer)args[0]));
 	} else if(msg == "gobble") {
 	    boolean g = (Integer)args[0] != 0;
+	    FayteGains.feast(g);
 	    if(g && (gobble == null)) {
 		boolean old = args.length < 2 || (Integer)args[1] == 0;
-		tm.hide();
-		gobble = old ? new OldGobble(Coord.z, this) : new Gobble(Coord.z, this);
+		boolean fayte = !old && FayteFeastWnd.on();
+		if(!fayte)
+		    tm.hide();
+		gobble = FayteHud.reg(old ? (Widget)new OldGobble(Coord.z, this) : (Widget)new Gobble(Coord.z, this), "tempers");
 		resize(sz);
+		if(fayte)
+		    FayteFeastWnd.start(this, (Gobble)gobble);
 	    } else if(!g && (gobble != null)) {
+		FayteFeastWnd.stop();
 		ui.destroy(gobble);
 		gobble = null;
 		tm.show();
@@ -972,7 +1143,9 @@ public class GameUI extends ConsoleHost implements Console.Directory {
 		},
 		budb = new MenuButton(new Coord(4, 66), this, "bud", 2, "Buddy List (Ctrl+B)") {
 		    public void click() {
-			if((buddies != null) && buddies.show(!buddies.visible)) {
+			if(FayteModules.ALMANAC.on()) {
+			    FayteAlmanacWnd.togglepilgrims(GameUI.this);
+			} else if((buddies != null) && buddies.show(!buddies.visible)) {
 			    buddies.raise();
 			    fitwdg(buddies);
 			    setfocus(buddies);
@@ -999,7 +1172,10 @@ public class GameUI extends ConsoleHost implements Console.Directory {
 		},
 		optb = new MenuButton(new Coord(120, 66), this, "opt", 15, "Options (Ctrl+O)") {
 		    public void click() {
-			OptWnd2.toggle();
+			if(FayteModules.STYLE.on())
+			    FayteOptWnd.toggle(GameUI.this);
+			else
+			    OptWnd2.toggle();
 //			if(opts.show(!opts.visible)) {
 //			    opts.raise();
 //			    fitwdg(opts);
@@ -1009,7 +1185,14 @@ public class GameUI extends ConsoleHost implements Console.Directory {
 		}
 	};
 	public IButton cash, manual;
-	
+	private Map<Widget, Coord> orig;
+	private Coord origsz;
+	private boolean lflat = false;
+	private int lcols = -1;
+	private boolean lfull;
+	private boolean moving = false;
+	private Coord moff;
+
 	public MainMenu(Coord c, Coord sz, Widget parent) {
 	    super(c, sz, parent);
 
@@ -1124,8 +1307,124 @@ public class GameUI extends ConsoleHost implements Console.Directory {
 
 	@Override
 	public void draw(GOut g) {
-	    g.image(Config.mainmenu_full?menubgfull:menubg, Coord.z);
+	    if(lflat) {
+		FayteSkin.panel(g, Coord.z, sz, "buttons");
+		FayteSkin.box(g, new Coord(FayteSkin.BW, FayteSkin.BW), new Coord(sz.x - FayteSkin.BW * 2, MenuGrid.STRIP - FayteSkin.BW), FayteSkin.BORDER, null);
+	    } else {
+		g.image(Config.mainmenu_full?menubgfull:menubg, Coord.z);
+	    }
 	    super.draw(g);
+	}
+
+	public void tick(double dt) {
+	    super.tick(dt);
+	    relayout();
+	}
+
+	private void relayout() {
+	    boolean f = FayteSkin.on();
+	    int cols = FayteConfig.buttonPanelCols.get();
+	    if((f == lflat) && (cols == lcols) && (Config.mainmenu_full == lfull))
+		return;
+	    if(orig == null) {
+		orig = new HashMap<Widget, Coord>();
+		for(Widget w = child; w != null; w = w.next)
+		    orig.put(w, w.c);
+		origsz = sz;
+	    }
+	    lflat = f;
+	    lcols = cols;
+	    lfull = Config.mainmenu_full;
+	    if(!f) {
+		for(Entry<Widget, Coord> e : orig.entrySet())
+		    e.getKey().c = e.getValue();
+		sz = origsz;
+	    } else {
+		flatlayout(cols);
+	    }
+	    place(parent.sz);
+	}
+
+	private void flatlayout(int cols) {
+	    int pad = 4, gap = 2;
+	    int y0 = MenuGrid.STRIP + pad;
+	    List<Widget> big = new ArrayList<Widget>();
+	    List<Widget> small = new ArrayList<Widget>();
+	    Coord bs = Coord.z, ss = Coord.z;
+	    for(Widget w = child; w != null; w = w.next) {
+		if(!w.visible)
+		    continue;
+		if(w.sz.x >= 32) {
+		    big.add(w);
+		    bs = new Coord(Math.max(bs.x, w.sz.x), Math.max(bs.y, w.sz.y));
+		} else {
+		    small.add(w);
+		    ss = new Coord(Math.max(ss.x, w.sz.x), Math.max(ss.y, w.sz.y));
+		}
+	    }
+	    int bw = 0, bh = 0;
+	    for(int i = 0; i < big.size(); i++) {
+		Widget w = big.get(i);
+		w.c = new Coord(pad + (i % cols) * (bs.x + gap), y0 + (i / cols) * (bs.y + gap));
+		bw = Math.max(bw, w.c.x + bs.x - pad);
+		bh = Math.max(bh, w.c.y + bs.y - y0);
+	    }
+	    int sy = y0 + ((bh > 0) ? (bh + gap * 2) : 0);
+	    int limit = Math.max(bw, cols * (ss.x + gap) - gap);
+	    int x = 0, sw = 0;
+	    int rows = small.isEmpty() ? 0 : 1;
+	    for(Widget w : small) {
+		if((x > 0) && (x + ss.x > limit)) {
+		    x = 0;
+		    sy += ss.y + gap;
+		    rows++;
+		}
+		w.c = new Coord(pad + x + (ss.x - w.sz.x) / 2, sy + (ss.y - w.sz.y) / 2);
+		x += ss.x + gap;
+		sw = Math.max(sw, x - gap);
+	    }
+	    int bottom = (rows > 0) ? (sy + ss.y) : (y0 + bh);
+	    sz = new Coord(pad * 2 + Math.max(bw, sw), bottom + pad);
+	}
+
+	public void place(Coord psz) {
+	    Coord pos = lflat ? FayteConfig.buttonPanelPos.get() : null;
+	    if(pos == null)
+		c = new Coord(0, psz.y - sz.y);
+	    else
+		c = onScreen(pos, sz, psz);
+	    menumoved();
+	}
+
+	public boolean mousedown(Coord c, int button) {
+	    if(lflat && (button == 1) && (c.y < MenuGrid.STRIP)) {
+		moving = true;
+		moff = c;
+		ui.grabmouse(this);
+		return(true);
+	    }
+	    return(super.mousedown(c, button));
+	}
+
+	public void mousemove(Coord c) {
+	    if(moving) {
+		if(FayteHud.locked(ui))
+		    return;
+		this.c = onScreen(WindowSnap.snap(this, this.c.add(c.sub(moff))), sz, parent.sz);
+		menumoved();
+	    } else {
+		super.mousemove(c);
+	    }
+	}
+
+	public boolean mouseup(Coord c, int button) {
+	    if(moving) {
+		moving = false;
+		ui.grabmouse(null);
+		FayteConfig.buttonPanelPos.set(this.c);
+		return(true);
+	    }
+	    return(super.mouseup(c, button));
 	}
 
         public void toggle() {
@@ -1169,9 +1468,9 @@ public class GameUI extends ConsoleHost implements Console.Directory {
     }
     
     private void makemenu() {
-	mainmenu = new MainMenu(new Coord(0, sz.y - menubg.sz().y), menubg.sz(), this);
-	
-	new Widget(Coord.z, isqsz.add(Window.swbox.bisz()), this) {
+	mainmenu = FayteHud.reg(new MainMenu(new Coord(0, sz.y - menubg.sz().y), menubg.sz(), this), "buttons");
+
+	blkwdg = new Widget(Coord.z, isqsz.add(Window.swbox.bisz()), this) {
 	    private final Tex none = Resource.loadtex("gfx/hud/blknone");
 	    private Tex mono;
 	    private Indir<Resource> monores;
@@ -1196,6 +1495,10 @@ public class GameUI extends ConsoleHost implements Console.Directory {
 		}
 		} catch(Loading e) {
 		}
+		if(FayteSkin.on()) {
+		    FayteSkin.frame(g, Coord.z, sz, "stance");
+		    return;
+		}
 		g.chcolor(133, 92, 62, 255);
 		Window.swbox.draw(g, Coord.z, sz);
 		g.chcolor();
@@ -1217,7 +1520,9 @@ public class GameUI extends ConsoleHost implements Console.Directory {
 		act("blk");
 		return(true);
 	    }
-	}.presize();
+	};
+	blkwdg.presize();
+	FayteHud.reg(blkwdg, "stance");
 	if((Config.manualurl != null) && (WebBrowser.self != null)) {
 	    IButton manual = new IButton(new Coord(150, 0), this, Resource.loadimg("gfx/hud/manu"), Resource.loadimg("gfx/hud/mand"), Resource.loadimg("gfx/hud/manh")) {
 		{
@@ -1244,7 +1549,7 @@ public class GameUI extends ConsoleHost implements Console.Directory {
 		}
 	    };
             manual.presize();
-            mainmenu.manual = manual;
+            mainmenu.manual = FayteHud.reg(manual, "wiki");
 	}
 	if((Config.storebase != null) && (WebBrowser.self != null)) {
 	    IButton cash = new IButton(Coord.z, this, Resource.loadimg("gfx/hud/cashu"), Resource.loadimg("gfx/hud/cashd"), Resource.loadimg("gfx/hud/cashh")) {
@@ -1273,7 +1578,7 @@ public class GameUI extends ConsoleHost implements Console.Directory {
 		}
 	    };
 	    cash.presize();
-	    mainmenu.cash = cash;
+	    mainmenu.cash = FayteHud.reg(cash, "store");
 	}
 	
 	if(mainmenu.manual != null || mainmenu.cash != null)
@@ -1284,6 +1589,13 @@ public class GameUI extends ConsoleHost implements Console.Directory {
 	char ukey = Character.toUpperCase(key);
 	if(key == ':') {
 	    entercmd();
+	    return(true);
+	} else if((key == '\n') && FayteAlmanacWnd.enter()) {
+	    return(true);
+	} else if((key == '\n') && !FayteModules.classicchat() && FayteChatWindow.focuslast(this)) {
+	    return(true);
+	} else if((key == 27) && FayteModules.STYLE.on()) {
+	    FayteOptWnd.toggle(this);
 	    return(true);
 	} else if((Config.screenurl != null) && (ukey == 'S') && ((ev.getModifiersEx() & (KeyEvent.META_DOWN_MASK | KeyEvent.ALT_DOWN_MASK)) != 0)) {
 	    Screenshooter.take(this, Config.screenurl);
@@ -1314,22 +1626,50 @@ public class GameUI extends ConsoleHost implements Console.Directory {
     }
     
     public boolean mousedown(Coord c, int button) {
-	return(super.mousedown(c, button));
+	return(FayteHud.mousedown(this, c, button) || super.mousedown(c, button));
+    }
+
+    public void mousemove(Coord c) {
+	if(FayteHud.dragging())
+	    FayteHud.mousemove(this, c);
+	else
+	    super.mousemove(c);
+    }
+
+    public boolean mouseup(Coord c, int button) {
+	return(FayteHud.mouseup(this, c, button) || super.mouseup(c, button));
+    }
+
+    public void menumoved() {
+	if(blkwdg != null)
+	    blkwdg.presize();
+	if(mainmenu != null) {
+	    if(mainmenu.manual != null)
+		mainmenu.manual.presize();
+	    if(mainmenu.cash != null)
+		mainmenu.cash.presize();
+	}
+	FayteHud.applyall(this);
     }
 
     public void resize(Coord sz) {
+	Coord osz = this.sz;
 	this.sz = sz;
-	menu.c = sz.sub(menu.sz);
+	WindowSnap.resized(this, osz, sz);
+	menu.place(sz);
 	tm.c = new Coord((sz.x - tm.sz.x) / 2, 0);
-	chat.move(new Coord(mainmenu.sz.x, sz.y));
-	chat.resize(sz.x - chat.c.x - menu.sz.x);
+	if(foodslots != null)
+	    foodslots.c = new Coord((sz.x - foodslots.sz.x) / 2, tm.sz.y + 4);
+	chat.move(new Coord(menubg.sz().x, sz.y));
+	chat.resize(sz.x - chat.c.x - Inventory.invsz(new Coord(4, 4)).x);
 	if(gobble != null)
 	    gobble.c = new Coord((sz.x - gobble.sz.x) / 2, 0);
 	if(map != null)
 	    map.resize(sz);
 	if(fv != null)
-	    fv.c = new Coord(sz.x - Fightview.width, 0);
-	mainmenu.c = new Coord(0, sz.y - mainmenu.sz.y);
+	    fv.c = new Coord(sz.x - fv.sz.x, 0);
+	mainmenu.place(sz);
+	FayteHud.applyall(this);
 //	beltwdg.c = new Coord(mainmenu.sz.x + 10, sz.y - beltwdg.sz.y);
 	for(Widget wdg = lchild; wdg != null; wdg = wdg.prev) {
 	    if(wdg.visible)
@@ -1352,6 +1692,8 @@ public class GameUI extends ConsoleHost implements Console.Directory {
     }
 
     public void message(String msg, Color msgColor) {
+	FayteTools.onmessage(msg);
+	FayteDeath.onmessage(this, msg);
 	errtime = System.currentTimeMillis();
 	lasterr = errfoundry.render(msg, msgColor);
 	syslog.append(msg, msgColor);
@@ -1582,8 +1924,8 @@ public class GameUI extends ConsoleHost implements Console.Directory {
     }
     
     {
-	new ToolBeltWdg(this, "F-Belt", 0, fkeys);
-	new ToolBeltWdg(this, "NumericBelt", 6, nkeys);
+	fbelt = new ToolBeltWdg(this, "F-Belt", 0, fkeys);
+	nbelt = new ToolBeltWdg(this, "NumericBelt", 6, nkeys);
 //	String val = Utils.getpref("belttype", "n");
 //	if(val.equals("n")) {
 //	    beltwdg = new NKeyBelt();

@@ -1,0 +1,63 @@
+{{Facts
+| Title=Basics
+| Type= Food
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Tasty Pastries}} [[Tasty Pastries]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Pectin}} [[Any Pectin]], {{icon|Glass Jar}} [[Glass Jar]], {{icon|Sugar}} [[Sugar]] 0.25 L
+}}
+
+{{Facts
+| Title=Used By
+| a)= [[Jam Sandwich]]
+}}
+
+{|
+|+ 
+
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 21 || 28 || 18 || 18
+|-
+! Cranberry min
+| style="background:#e6b8b8" | 36.8 || 16 || 16 || 16
+|-
+! Cranberry max
+| style="background:#e6b8b8" | 49.45 || 21.5 || 21.5 || 21.5
+|-
+! Crowberry min
+| 16 || style="background:#6fa0ff" | 43.2 || 16 || 16
+|-
+! Crowberry max
+| 21.5 || style="background:#6fa0ff" | 58.05 || 21.5 || 21.5
+|-
+! Huckleberries min
+| 16 || 16 || style="background:#f0d860" | 41.6 || 16
+|-
+! Huckleberries max
+| 21.5 || 21.5 || style="background:#f0d860" | 55.9 || 21.5
+|-
+! Blackberries min
+| 16 || 16 || 16 || style="background:#b8c8e6" | 36.8
+|-
+! Blackberries max
+| 21.5 || 21.5 || 21.5 || style="background:#b8c8e6" | 49.45
+|}
+
+{{Facts
+| Title=Food Group
+
+}}
+
+
+==About==
+
+{{i|Berry Jam}} does '''NOT''' need to be cooked. Eating Berry Jam will return the {{i|Glass Jar}}.

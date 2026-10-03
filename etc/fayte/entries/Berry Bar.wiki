@@ -1,0 +1,200 @@
+{{Facts
+| Title=Basics
+| Type= Baked Goods
+| Weight= ??
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Tasty Pastries}} [[Tasty Pastries]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Berries}} [[Any Berries]] ×6, [[Any Poultry Egg]], {{icon|Baking Table}} [[Baking Table]], {{icon|Oatmeal}} [[Oatmeal]] 0.1 L, {{icon|Sugar}} [[Sugar]] 0.05 L
+}}
+
+{|
+|+ Heal and Gluttony values — With Argopelter Egg (Blood)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 12 || 17 || 9 || 2
+|-
+! Argopelter Egg min
+| style="background:#e6b8b8" | 50.82 || 33 || 33 || 33
+|-
+! Argopelter Egg max
+| style="background:#e6b8b8" | 62.68 || 40.7 || 40.7 || 40.7
+|-
+! Cranberry min
+| style="background:#e6b8b8" | 58.74 || 16.5 || 16.5 || 16.5
+|-
+! Cranberry max
+| style="background:#e6b8b8" | 72.45 || 20.35 || 20.35 || 20.35
+|-
+! Crowberry min
+| 25.41 || style="background:#6fa0ff" | 44.55 || 16.5 || 16.5
+|-
+! Crowberry max
+| 31.34 || style="background:#6fa0ff" | 54.95 || 20.35 || 20.35
+|-
+! Huckleberries min
+| 25.41 || 16.5 || style="background:#f0d860" | 42.9 || 16.5
+|-
+! Huckleberries max
+| 31.34 || 20.35 || style="background:#f0d860" | 52.91 || 20.35
+|-
+! Blackberries min
+| 25.41 || 16.5 || 16.5 || style="background:#b8c8e6" | 37.95
+|-
+! Blackberries max
+| 31.34 || 20.35 || 20.35 || style="background:#b8c8e6" | 46.8
+|}
+
+{|
+|+ With Sparrow Eggs (Phlegm)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Sparrow Eggs min
+| 33 || style="background:#6fa0ff" | 44.88 || 33 || 33
+|-
+! Sparrow Eggs max
+| 40.7 || style="background:#6fa0ff" | 55.35 || 40.7 || 40.7
+|-
+! Cranberry min
+| style="background:#e6b8b8" | 37.95 || 22.44 || 16.5 || 16.5
+|-
+! Cranberry max
+| style="background:#e6b8b8" | 46.8 || 27.68 || 20.35 || 20.35
+|-
+! Crowberry min
+| 16.5 || style="background:#6fa0ff" | 60.72 || 16.5 || 16.5
+|-
+! Crowberry max
+| 20.35 || style="background:#6fa0ff" | 74.89 || 20.35 || 20.35
+|-
+! Huckleberries min
+| 16.5 || 22.44 || style="background:#f0d860" | 42.9 || 16.5
+|-
+! Huckleberries max
+| 20.35 || 27.68 || style="background:#f0d860" | 52.91 || 20.35
+|-
+! Blackberries min
+| 16.5 || 22.44 || 16.5 || style="background:#b8c8e6" | 37.95
+|-
+! Blackberries max
+| 20.35 || 27.68 || 20.35 || style="background:#b8c8e6" | 46.8
+|}
+
+{|
+|+ With Eagle Egg (Yellow Bile)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Eagle Egg min
+| 33 || 33 || style="background:#f0d860" | 47.85 || 33
+|-
+! Eagle Egg max
+| 40.7 || 40.7 || style="background:#f0d860" | 59.02 || 40.7
+|-
+! Cranberry min
+| style="background:#e6b8b8" | 37.95 || 16.5 || 24.09 || 16.5
+|-
+! Cranberry max
+| style="background:#e6b8b8" | 46.8 || 20.35 || 29.71 || 20.35
+|-
+! Crowberry min
+| 16.5 || style="background:#6fa0ff" | 44.55 || 24.09 || 16.5
+|-
+! Crowberry max
+| 20.35 || style="background:#6fa0ff" | 54.95 || 29.71 || 20.35
+|-
+! Huckleberries min
+| 16.5 || 16.5 || style="background:#f0d860" | 62.37 || 16.5
+|-
+! Huckleberries max
+| 20.35 || 20.35 || style="background:#f0d860" | 76.92 || 20.35
+|-
+! Blackberries min
+| 16.5 || 16.5 || 24.09 || style="background:#b8c8e6" | 37.95
+|-
+! Blackberries max
+| 20.35 || 20.35 || 29.71 || style="background:#b8c8e6" | 46.8
+|}
+
+{|
+|+ With Turkey Egg (Black Bile)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Turkey Egg min
+| 33 || 33 || 33 || style="background:#b8c8e6" | 40.26
+|-
+! Turkey Egg max
+| 40.7 || 40.7 || 40.7 || style="background:#b8c8e6" | 49.65
+|-
+! Cranberry min
+| style="background:#e6b8b8" | 37.95 || 16.5 || 16.5 || 20.13
+|-
+! Cranberry max
+| style="background:#e6b8b8" | 46.8 || 20.35 || 20.35 || 24.83
+|-
+! Crowberry min
+| 16.5 || style="background:#6fa0ff" | 44.55 || 16.5 || 20.13
+|-
+! Crowberry max
+| 20.35 || style="background:#6fa0ff" | 54.95 || 20.35 || 24.83
+|-
+! Huckleberries min
+| 16.5 || 16.5 || style="background:#f0d860" | 42.9 || 16.5
+|-
+! Huckleberries max
+| 20.35 || 24.83 || style="background:#f0d860" | 52.91 || 24.83
+|-
+! Blackberries min
+| 16.5 || 16.5 || 16.5 || style="background:#b8c8e6" | 46.53
+|-
+! Blackberries max
+| 20.35 || 20.35 || 20.35 || style="background:#b8c8e6" | 57.39
+|}
+
+{|
+|+ With Green Easter Egg (Bonus)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Green Easter Egg min
+| style="background:#e6b8b8" | 54.12 || style="background:#6fa0ff" | 54.12 || style="background:#f0d860" | 54.12 || style="background:#b8c8e6" | 54.12
+|-
+! Green Easter Egg max
+| style="background:#e6b8b8" | 66.75 || style="background:#6fa0ff" | 66.75 || style="background:#f0d860" | 66.75 || style="background:#b8c8e6" | 66.75
+|-
+! Cranberry min
+| style="background:#e6b8b8" | 62.04 || 27.06 || 27.06 || 27.06
+|-
+! Cranberry max
+| style="background:#e6b8b8" | 76.52 || 33.37 || 33.37 || 33.37
+|-
+! Crowberry min
+| 27.06 || style="background:#6fa0ff" | 72.93 || 27.06 || 27.06
+|-
+! Crowberry max
+| 33.37 || style="background:#6fa0ff" | 89.95 || 33.37 || 33.37
+|-
+! Huckleberries min
+| 27.06 || 27.06 || style="background:#f0d860" | 69.96 || 27.06
+|-
+! Huckleberries max
+| 33.37 || 33.37 || style="background:#f0d860" | 86.28 || 33.37
+|-
+! Blackberries min
+| 27.06 || 27.06 || 27.06 || style="background:#b8c8e6" | 62.04
+|-
+! Blackberries max
+| 33.37 || 33.37 || 33.37 || style="background:#b8c8e6" | 76.52
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Berries}} [[Berries]]
+| Full and Fed= 00:30:00
+| Uses= 1
+}}

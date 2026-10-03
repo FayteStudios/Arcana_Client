@@ -44,7 +44,7 @@ public class Avaview extends PView {
 	this.avagob = avagob;
     }
     
-    private boolean missed = false;
+    protected boolean missed = false;
     private Camera cam = null;
 
     private Composite getgcomp() {

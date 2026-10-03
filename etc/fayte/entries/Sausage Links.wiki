@@ -1,0 +1,46 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= θ
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Pig Keeping}} [[Pig Keeping]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Raw Pork Cut}} [[Raw Pork Cut]], {{icon|Meat Grinder}} [[Meat Grinder]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 20 || 20 || 20 || 20
+|-
+! Gluttony min
+| ? || 0 || 0 || 0
+|-
+! Gluttony max
+| ? || 0 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Domesticated Meats}} [[Domesticated Meat]]
+| Full and Fed= ?
+}}
+
+{{Facts
+| Title=Other info
+| Uses= θ
+| Reduces Domesticated Meat= 20% (80% chance)
+| Menu= Craft > Food > Domesticated Meats
+}}
+
+==About==
+
+{{i|Sausage Links}} must be crafted using a {{i|Meat Grinder}}. If you already have Sausage Links in your inventory, crafting more Sausage Links will add number of uses rather than creating new Sausage Links. Each additional Sausage Link added increases its Gluttony Time and Gluttony points for [[Blood]] by 1 as well as its Uses. The [[Purity]] of your Sausage Links will be the average of the Purity of all the {{i|Raw Pork Cut}}s used. '''NOTE''': To estimate the number of Uses when purchases Sausage Links from Player's [[Mercantilism|Stalls]], look at {{i|Full and Fed Up}} debuff in minutes as it is equal to amount of Uses left.

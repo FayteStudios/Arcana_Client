@@ -1,0 +1,47 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.85
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|French Cuisine}} [[French Cuisine]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Raw Meat Cut}} [[Any Raw Meat Cut]] ×2, {{icon|Brain}} [[Brain]], {{icon|Garlic}} [[Garlic]] ×2, {{icon|Pepper}} [[Pepper]] 0.05 L, {{icon|Raw Beaver Steak}} [[Raw Beaver Steak]]
+| Second Stage= [[Any Stove]], {{icon|Braised Beaver Brain}} [[Unbaked Braised Beaver Brain]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 90 || 8.5 || 5 || 27.5
+|-
+! Gluttony min
+| 10 || 10 || 10 || 10
+|-
+! Gluttony max
+| 10 || 10 || 10 || 10
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Game}} [[Game Meat]]
+| Full and Fed= 02:00:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Restores Game Meat= 100% (100% chance)
+| Menu= Craft > Food > Game Meats
+}}
+
+==About==
+
+Crafting a {{i|Braised Beaver Brain}} will make an {{i|Unbaked Braised Beaver Brain}} which can then be baked in {{i|Any Stove}} to produce a Braised Beaver Brain.

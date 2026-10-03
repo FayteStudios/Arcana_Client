@@ -1,0 +1,50 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Maize Planting}} [[Maize Planting]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= Any Corn;θ, [[Tilled Field]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 18 || 18 || 18 || 18
+|-
+! Gluttony min
+| 7 || 7 || 7 || 7
+|-
+! Gluttony max
+| 14 || 14 || 14 || 14
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Corn}} [[Maize]]
+| Full and Fed= 00:05:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 2
+| Restores Maize= 30% (90% chance)
+| Inspiration= Law & Lore 1950, Sparks & Embers 1100, Stocks & Cultivars 2500, Natural Philosophy 375
+}}
+
+==Flavor Text==
+
+''Red kernal, White kernal, Black kernal, Blue. All the same shape, but not the same hue.''
+
+==About==
+
+A {{i|Curious Indian Corn}} received by chance when Harvesting mature {{i|Corn}}. Curious Indian Corn is a minor [[Restore Food]] for the {{i2|Maize}} Food Group.

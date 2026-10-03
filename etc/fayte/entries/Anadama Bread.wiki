@@ -1,0 +1,64 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Baking}} [[Baking]]
+}}
+
+{{Facts
+| Title=Bake
+| Needs= {{icon|Baking Table}} [[Baking Table]], {{icon|Flour}} [[Flour]] 0.4 L, {{icon|Milk}} [[Milk]] 0.75 L, {{icon|Molasses}} [[Molasses]], {{icon|Yellow Cornmeal}} [[Yellow Cornmeal]] 0.2 L
+| Second Stage= {{icon|Anadama Bread Dough}} [[Anadama Bread Dough]], {{icon|Bread Oven}} [[Bread Oven]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 12 || 18 || 15 || 31
+|-
+! Oatmeal min
+| style="background:#e6b8b8" | 39.6 || 32.4 || 32.4 || 32.4
+|-
+! Oatmeal max
+| style="background:#e6b8b8" | 53.9 || 44.1 || 44.1 || 44.1
+|-
+! Barley min
+| 32.4 || style="background:#6fa0ff" | 43.2 || 32.4 || 32.4
+|-
+! Barley max
+| 44.1 || style="background:#6fa0ff" | 58.8 || 44.1 || 44.1
+|-
+! Rye min
+| 32.4 || 32.4 || style="background:#f0d860" | 43.2 || 32.4
+|-
+! Rye max
+| 44.1 || 44.1 || style="background:#f0d860" | 58.8 || 44.1
+|-
+! Wheat min
+| 32.4 || 32.4 || 32.4 || style="background:#b8c8e6" | 46.8
+|-
+! Wheat max
+| 44.1 || 44.1 || 44.1 || style="background:#b8c8e6" | 63.7
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Bread}} [[Bread]]
+| Full and Fed= 00:38:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Bread
+}}
+
+==About==
+
+Crafting {{i|Anadama Bread}} at a {{i|Baking Table}} will make an {{i|Anadama Bread Dough}} which can then be baked in a {{i|Bread Oven}} to produce a Anadama Bread. Preparing Foods on a Baking Table removes a small amount of [[Insanity]] and has a chance of giving you an {{i|Eloped Gingerbread Man}}. When baking Foods in a Bread Oven there is a chance for them to become {{i|Animal Crackers}} instead.

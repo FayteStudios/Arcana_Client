@@ -1,0 +1,63 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.30
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Advanced Cooking}} [[Advanced Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Garlic}} [[Any Garlic]], {{icon|Any Shellfish}} [[Any Shellfish]] ×2, {{icon|Coarse Salt}} [[Coarse Salt]], {{icon|Onion}} [[Onion]] ×2, {{icon|Raw Bear Steak}} [[Raw Bear Steak]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 32.5 || 15.5 || 33.5 || 22.5
+|-
+! Crawdad min
+| style="background:#e6b8b8" | 56.7 || 21 || 21 || 21
+|-
+! Crawdad max
+| style="background:#e6b8b8" | 70.74 || 26.2 || 26.2 || 26.2
+|-
+! Crab min
+| 21 || style="background:#6fa0ff" | 52.5 || 21 || 21
+|-
+! Crab max
+| 26.2 || style="background:#6fa0ff" | 65.5 || 26.2 || 26.2
+|-
+! Lobster min
+| 21 || 21 || style="background:#f0d860" | 71.4 || 21
+|-
+! Lobster max
+| 26.2 || 26.2 || style="background:#f0d860" | 89.08 || 26.2
+|-
+! Oyster min
+| 21 || 21 || 21 || style="background:#b8c8e6" | 52.5
+|-
+! Oyster max
+| 26.2 || 26.2 || 26.2 || style="background:#b8c8e6" | 65.5
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Shellfish}} [[Crustacea and Shellfish]]
+| Full and Fed= 00:25:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Crustacea and Shellfish= 15% (35% chance)
+| Menu= Craft > Food > Shellfish
+}}
+
+==About==
+{{i|Surf & Turf}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

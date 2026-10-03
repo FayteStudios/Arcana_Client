@@ -1,0 +1,70 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|French Cuisine}} [[French Cuisine]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= [[Any Bugs]], {{icon|Green Bell Peppers}} [[Green Bell Peppers]], {{icon|Raw Venison Steak}} [[Raw Venison Steak]], {{icon|Red Bell Peppers}} [[Red Bell Peppers]]
+| Second Stage= [[Any Stove]], {{icon|Papricharred Charcuterie}} [[Unbaked Papricharred Charcuterie]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 20 || 16 || 17.5 || 9.5
+|-
+! Caterpillar min
+| style="background:#e6b8b8" | 31.05 || 11.5 || 11.5 || 11.5
+|-
+! Caterpillar max
+| style="background:#e6b8b8" | 70.2 || 26 || 26 || 26
+|-
+! Ladybug min
+| style="background:#e6b8b8" | 34.5 || 11.5 || 11.5 || 11.5
+|-
+! Ladybug max
+| style="background:#e6b8b8" | 78 || 26 || 26 || 26
+|-
+! Snail min
+| 11.5 || style="background:#6fa0ff" | 31.05 || 11.5 || 11.5
+|-
+! Snail max
+| 26 || style="background:#6fa0ff" | 70.2 || 26 || 26
+|-
+! Grub min
+| 11.5 || 11.5 || style="background:#f0d860" | 26.45 || 11.5
+|-
+! Grub max
+| 26 || 26 || style="background:#f0d860" | 59.8 || 26
+|-
+! Beetle min
+| 11.5 || 11.5 || 11.5 || style="background:#b8c8e6" | 28.75
+|-
+! Beetle max
+| 26 || 26 || 26 || style="background:#b8c8e6" | 65
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Slugs N' Bugs}} [[Slugs Bugs and Kritters]]
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Slugs, Bugs & Kritters
+}}
+
+==About==
+
+Crafting a {{i|Papricharred Charcuterie}} will make an {{i|Unbaked Papricharred Charcuterie}} which can then be baked in {{i|Any Stove}} to produce a Papricharred Charcuterie.

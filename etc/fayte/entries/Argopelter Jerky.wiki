@@ -1,0 +1,45 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.20
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Survival Skills}} [[Survival Skills]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Drying Frame}} [[Drying Frame]], [[Argopelter Neck]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 24 || 12 || 24 || 12
+|-
+! Gluttony min
+| 9 || 9 || 9 || 9
+|-
+! Gluttony max
+| 18 || 18 || 18 || 18
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Poultry}} [[Poultry]]
+| Full and Fed= 00:04:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 14
+| Reduces Poultry= 5% (5% chance)
+}}
+
+==About==
+
+An {{i|Argopelter Neck}} can be dried on a {{i|Drying Frame}} for about 18 hours to make {{i|Argopelter Jerky}}.

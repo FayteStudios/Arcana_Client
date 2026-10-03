@@ -1,0 +1,46 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+| Skill 2= {{icon|Nuts & Seeds}} [[Nuts & Seeds]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Dehydrated Blackberry}} [[Dehydrated Blackberry]], {{icon|Dehydrated Cranberry}} [[Dehydrated Cranberry]], [[Dehydrated Crowberry]], {{icon|Dehydrated Huckleberry}} [[Dehydrated Huckleberry]], {{icon|Roasted Chestnut}} [[Roasted Chestnut]], {{icon|Roasted Hickory Nut}} [[Roasted Hickory Nut]], {{icon|Roasted Pine Nuts}} [[Roasted Pine Nuts]], {{icon|Walnut}} [[Walnut]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 30 || 30 || 30 || 30
+|-
+! Gluttony min
+| 11 || 11 || 11 || 11
+|-
+! Gluttony max
+| 14 || 14 || 14 || 14
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Nuts & Seeds}} [[Nuts and Seeds]]
+| Full and Fed= 00:36:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 20
+| Menu= Craft > Food > Nuts
+}}
+
+==About==
+
+{{i|Adventurer's Trailmix}} does '''NOT''' need to be cooked.

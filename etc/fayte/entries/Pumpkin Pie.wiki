@@ -1,0 +1,119 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 1.00
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Baking}} [[Baking]]
+}}
+
+{{Facts
+| Title=Bake
+| Needs= {{icon|Baking Table}} [[Baking Table]], {{icon|Pumpkin Flesh}} [[Pumpkin Flesh]] ×7, {{icon|Rested Pie Dough}} [[Rested Pie Dough]]
+| Second Stage= {{icon|Bread Oven}} [[Bread Oven]], {{icon|Unbaked Pumpkin Pie}} [[Unbaked Pumpkin Pie]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= [[Little Jack Horner's Thumbnail]]
+| b)= {{icon|Slice of Pie}} [[Slice of Pie]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 19.5 || 15.5 || 15.5 || 18
+|-
+! Ghost Rider min
+| style="background:#e6b8b8" | 48.6 || 18 || 18 || 18
+|-
+! Ghost Rider max
+| style="background:#e6b8b8" | 66.15 || 24.5 || 24.5 || 24.5
+|-
+! Jack-o-Lantern min
+| style="background:#e6b8b8" | 50.4 || 18 || 18 || 18
+|-
+! Jack-o-Lantern max
+| style="background:#e6b8b8" | 68.6 || 24.5 || 24.5 || 24.5
+|-
+! Spooktacular min
+| style="background:#e6b8b8" | 46.8 || 18 || 18 || 18
+|-
+! Spooktacular max
+| style="background:#e6b8b8" | 63.7 || 24.5 || 24.5 || 24.5
+|-
+! Big Autumn min
+| 18 || style="background:#6fa0ff" | 43.2 || 18 || 18
+|-
+! Big Autumn max
+| 24.5 || style="background:#6fa0ff" | 58.8 || 24.5 || 24.5
+|-
+! Bushkin min
+| 18 || style="background:#6fa0ff" | 45 || 18 || 18
+|-
+! Bushkin max
+| 24.5 || style="background:#6fa0ff" | 61.25 || 24.5 || 24.5
+|-
+! Small Sugar min
+| 18 || style="background:#6fa0ff" | 41.4 || 18 || 18
+|-
+! Small Sugar max
+| 24.5 || style="background:#6fa0ff" | 56.35 || 24.5 || 24.5
+|-
+! Connecticut Field min
+| 18 || 18 || style="background:#f0d860" | 43.2 || 18
+|-
+! Connecticut Field max
+| 24.5 || 24.5 || style="background:#f0d860" | 58.8 || 24.5
+|-
+! Harvest Moon min
+| 18 || 18 || style="background:#f0d860" | 45 || 18
+|-
+! Harvest Moon max
+| 24.5 || 24.5 || style="background:#f0d860" | 61.25 || 24.5
+|-
+! Sugar Treat min
+| 18 || 18 || style="background:#f0d860" | 41.4 || 18
+|-
+! Sugar Treat max
+| 24.5 || 24.5 || style="background:#f0d860" | 56.35 || 24.5
+|-
+! Aspen min
+| 18 || 18 || 18 || style="background:#b8c8e6" | 39.6
+|-
+! Aspen max
+| 24.5 || 24.5 || 24.5 || style="background:#b8c8e6" | 53.9
+|-
+! Autumn Gold min
+| 18 || 18 || 18 || style="background:#b8c8e6" | 41.4
+|-
+! Autumn Gold max
+| 24.5 || 24.5 || 24.5 || style="background:#b8c8e6" | 56.35
+|-
+! Baby Bear min
+| 18 || 18 || 18 || style="background:#b8c8e6" | 37.8
+|-
+! Baby Bear max
+| 24.5 || 24.5 || 24.5 || style="background:#b8c8e6" | 51.45
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Pumpkins & Gourds}} [[Pumpkins and Gourds]]
+| Full and Fed= 00:40:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Pumpkins
+}}
+
+==About==
+
+Crafting {{i|Pumpkin Pie}} at a {{i|Baking Table}} will make an {{i|Unbaked Pumpkin Pie}} which can then be baked in a {{i|Bread Oven}} to produce a Pumpkin Pie. Preparing Foods on a Baking Table removes a small amount of [[Insanity]] and has a chance of giving you an {{i|Eloped Gingerbread Man}}. When baking Foods in a Bread Oven there is a chance for them to become {{i|Animal Crackers}} instead. Right-clicking a Pumpkin Pie with the [[Baking]] Skill learned and selecting "Slice" will divide your Pie into 8x {{i|Slice of Pie}}s. When Slicing Pie there is small chance to receive a {{i|Little Jack Horner's Thumbnail}}.
+{{Notice|WARNING!| Finding a Little Jack Horner's Thumbnail in your Pie adds a great deal of [[Insanity]].}}

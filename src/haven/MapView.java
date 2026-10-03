@@ -52,6 +52,11 @@ public class MapView extends PView implements DTarget, Console.Directory {
     private Collection<Rendered> extradraw = new LinkedList<Rendered>();
     public Camera camera;
     private Plob placing = null;
+    public static volatile boolean placesent = false;
+
+    public boolean placing() {
+	return(placing != null);
+    }
     private int[] visol = new int[32];
     private Grabber grab;
     public static final Map<String, Class<? extends Camera>> camtypes = new HashMap<String, Class<? extends Camera>>();
@@ -579,6 +584,7 @@ public class MapView extends PView implements DTarget, Console.Directory {
 	    public boolean setup(RenderList rl) {
 		Coord cc = MapView.this.cc.div(tilesz).div(MCache.cutsz);
 		Coord o = new Coord();
+		int view = FayteView.terrain();
 		for(o.y = -view; o.y <= view; o.y++) {
 		    for(o.x = -view; o.x <= view; o.x++) {
 			Coord pc = cc.add(o).mul(MCache.cutsz).mul(tilesz);
@@ -586,7 +592,7 @@ public class MapView extends PView implements DTarget, Console.Directory {
 			rl.add(cut, Location.xlate(new Coord3f(pc.x, -pc.y, 0)));
 			Collection<Gob> fol;
 			try {
-			    fol = glob.map.getfo(cc.add(o));
+			    fol = FayteView.grass() ? glob.map.getfo(cc.add(o)) : Collections.<Gob>emptyList();
 			} catch(Loading e) {
 			    fol = Collections.emptyList();
 			}
@@ -610,6 +616,17 @@ public class MapView extends PView implements DTarget, Console.Directory {
 		mats[4] = new Material(new Color(255, 0, 0, 96));
 		mats[16] = new Material(new Color(0, 255, 0, 32));
 		mats[17] = new Material(new Color(255, 255, 0, 32));
+		for(int k = 0; k < FayteSelections.COLORS.length; k++) {
+		    Color sc = FayteSelections.COLORS[k];
+		    mats[FayteSelections.BIT0 + k] = new Material(new Color(sc.getRed(), sc.getGreen(), sc.getBlue(), 80));
+		}
+		mats[FayteSelections.PREVIEW] = new Material(new Color(240, 235, 221, 70));
+		for(int k = 0; k < FayteSelections.STEPS; k++) {
+		    float f = (k + 1) / (float)FayteSelections.STEPS;
+		    mats[FayteSelections.DIG0 + k] = new Material(new Color(240, (int)(200 - 150 * f), (int)(90 - 70 * f), (int)(70 + 80 * f)));
+		    mats[FayteSelections.FILL0 + k] = new Material(new Color((int)(120 - 90 * f), (int)(180 - 100 * f), 245, (int)(70 + 80 * f)));
+		}
+		mats[FayteSelections.LEVEL] = new Material(new Color(80, 200, 100, 90));
 		mats[WFOL] = new Material(wftex, true);
 		mats[WFOL] = new Material(wftex);
 	    }
@@ -619,6 +636,7 @@ public class MapView extends PView implements DTarget, Console.Directory {
 	    public boolean setup(RenderList rl) {
 		Coord cc = MapView.this.cc.div(tilesz).div(MCache.cutsz);
 		Coord o = new Coord();
+		int view = FayteView.terrain();
 		for(o.y = -view; o.y <= view; o.y++) {
 		    for(o.x = -view; o.x <= view; o.x++) {
 			Coord pc = cc.add(o).mul(MCache.cutsz).mul(tilesz);
@@ -667,8 +685,28 @@ public class MapView extends PView implements DTarget, Console.Directory {
 	    
 	    public boolean setup(RenderList rl) {
 		synchronized(glob.oc) {
-		    for(Gob gob : glob.oc)
-			addgob(rl, gob);
+		    Coord3f pc;
+		    try {
+			pc = FayteView.on() ? getcc() : null;
+		    } catch(Loading e) {
+			pc = null;
+		    }
+		    for(Gob gob : glob.oc) {
+			int v = FayteView.check(gob, pc, plgob);
+			if((v == FayteView.DRAW) || (v == FayteView.DRAWRING))
+			    addgob(rl, gob);
+			if((v == FayteView.RING) || (v == FayteView.DRAWRING)) {
+			    ColoredRadius r = FayteView.ring(gob);
+			    if(r != null)
+				rl.add(r, gob.loc);
+			}
+			ColoredRadius hr = FayteHighlights.ring(gob);
+			if(hr != null)
+			    rl.add(hr, gob.loc);
+			ColoredRadius og = FayteOpenGlow.ring(gob);
+			if(og != null)
+			    rl.add(og, gob.loc);
+		    }
 		}
 		return(false);
 	    }
@@ -1351,7 +1389,11 @@ public class MapView extends PView implements DTarget, Console.Directory {
 	
 	protected void hit(Coord pc, Coord mc, ClickInfo inf) {
 	    int modflags = ui.modflags();
+	    if(clickb == 3)
+		FayteTools.feedcancel();
 	    if(inf == null) {
+		if((clickb == 3) && (modflags == 0) && FayteTools.ground(ui.gui, mc))
+		    return;
 		if(Config.center){mc = mc.div(11).mul(11).add(5, 5);}
 		wdgmsg("click", pc, mc, clickb, modflags);
 	    } else {
@@ -1362,14 +1404,34 @@ public class MapView extends PView implements DTarget, Console.Directory {
 		    }
 		}
 		if(inf.ol == null) {
-		    wdgmsg("click", pc, mc, clickb, modflags, 0, (int)inf.gob.id, inf.gob.rc, 0, getid(inf.r));
+		    if(clickb == 3) {
+			FayteAnimal.clicked(inf.gob);
+			FayteStations.clicked(ui.gui, inf.gob);
+		    }
+		    Object[] ca = {pc, mc, clickb, modflags, 0, (int)inf.gob.id, inf.gob.rc, 0, FayteTools.part(inf.gob, getid(inf.r), clickb, modflags)};
+		    FayteTools.clicked(ca);
+		    wdgmsg("click", ca);
 		} else {
-		    wdgmsg("click", pc, mc, clickb, modflags, 1, (int)inf.gob.id, inf.gob.rc, inf.ol.id, getid(inf.r));
+		    if(clickb == 3) {
+			FayteAnimal.clicked(inf.gob);
+			FayteStations.clicked(ui.gui, inf.gob);
+		    }
+		    Object[] ca = {pc, mc, clickb, modflags, 1, (int)inf.gob.id, inf.gob.rc, inf.ol.id, FayteTools.part(inf.gob, getid(inf.r), clickb, modflags)};
+		    FayteTools.clicked(ca);
+		    wdgmsg("click", ca);
 		}
 	    }
 	}
     }
     
+    public boolean clickatmouse(int button) {
+	Coord c = ui.mc.sub(rootpos());
+	if((c.x < 0) || (c.y < 0) || (c.x >= sz.x) || (c.y >= sz.y))
+	    return(false);
+	delay(new Click(c, button));
+	return(true);
+    }
+
     public void grab(Grabber grab) {
 	this.grab = grab;
     }
@@ -1382,9 +1444,15 @@ public class MapView extends PView implements DTarget, Console.Directory {
     //project free the camera
     private boolean LMBdown = false;
     private boolean mousemoved = false;
+    private Coord fayteMidDown;
+    private long fayteMidTime;
     
     public boolean mousedown(Coord c, int button) {
 	parent.setfocus(this);
+	if((button == 2) && !Config.laptopcontrols) {
+	    fayteMidDown = c;
+	    fayteMidTime = System.currentTimeMillis();
+	}
         
         if(button == 1){
             LMBdown = true;
@@ -1399,6 +1467,7 @@ public class MapView extends PView implements DTarget, Console.Directory {
         } else if(placing != null) {
             if(placing.lastmc != null)
                 wdgmsg("place", placing.rc, (int)(placing.a * 180 / Math.PI), button, ui.modflags());
+                placesent = true;
         } else if((grab != null) && grab.mmousedown(c, button)) {
         } else if(!(Config.laptopcontrols && LMBdown)){
             delay(new Click(c, button));
@@ -1420,6 +1489,13 @@ public class MapView extends PView implements DTarget, Console.Directory {
     }
     
     public boolean mouseup(Coord c, int button) {
+	if((button == 2) && (fayteMidDown != null)) {
+	    Coord d = c.sub(fayteMidDown);
+	    if((Math.abs(d.x) <= 4) && (Math.abs(d.y) <= 4) && (System.currentTimeMillis() - fayteMidTime < 500) && !ui.modshift && !ui.modctrl && !ui.modmeta)
+		if(FayteModules.ALMANAC.on())
+		    FayteInspect.worldclick(this, c);
+	    fayteMidDown = null;
+	}
         if( (!Config.laptopcontrols && button == 2) || (Config.laptopcontrols && button == 3 && camdrag)) {
             if(camdrag) {
                 ((Camera)camera).release();
@@ -1456,6 +1532,7 @@ public class MapView extends PView implements DTarget, Console.Directory {
     public boolean drop(final Coord cc, final Coord ul) {
 	delay(new Hittest(cc) {
 		public void hit(Coord pc, Coord mc, ClickInfo inf) {
+		    FayteTools.feedcancel();
 		    wdgmsg("drop", pc, mc, ui.modflags());
 		}
 	    });
@@ -1465,6 +1542,8 @@ public class MapView extends PView implements DTarget, Console.Directory {
     public boolean iteminteract(Coord cc, Coord ul) {
 	delay(new Hittest(cc) {
 		public void hit(Coord pc, Coord mc, ClickInfo inf) {
+		    FayteXfer.itemact(ui.gui, ui.modshift);
+		    FayteTools.feedstart(ui.gui, ui.modctrl, (inf == null) ? new Object[] {pc, mc, ui.modflags()} : new Object[] {pc, mc, ui.modflags(), (int)inf.gob.id, inf.gob.rc, getid(inf.r)});
 		    if(inf == null)
 			wdgmsg("itemact", pc, mc, ui.modflags());
 		    else
@@ -1571,6 +1650,43 @@ public class MapView extends PView implements DTarget, Console.Directory {
 		    if(l == null)
 			throw(new Exception("Not loading"));
 		    l.printStackTrace(cons.out);
+		}
+	    });
+	cmdmap.put("fayte", new Console.Command() {
+		public void run(Console cons, String[] args) throws Exception {
+		    if(args.length < 2) {
+			for(FayteConfig.Setting<?> s : FayteConfig.all())
+			    FayteMsg.say(s.key + " = " + s.display() + (s.isDefault() ? " (default)" : " (default: " + s.displayDefault() + ")"));
+			return;
+		    }
+		    FayteConfig.Setting<?> s = FayteConfig.byKey(args[1]);
+		    if(s == null) {
+			FayteMsg.say("Unknown setting: " + args[1], GameUI.MsgType.BAD);
+		    } else if(args.length < 3) {
+			FayteMsg.say(s.key + " = " + s.display());
+		    } else {
+			int first = (args[2].equals("=") && (args.length > 3)) ? 3 : 2;
+			String raw = args[first].startsWith("=") ? args[first].substring(1) : args[first];
+			for(int i = first + 1; i < args.length; i++)
+			    raw = raw + " " + args[i];
+			boolean ok = raw.equalsIgnoreCase("default") ? s.reset() : s.setString(raw);
+			if(ok)
+			    FayteMsg.say(s.key + " = " + s.display());
+			else
+			    FayteMsg.say("Could not set " + s.key + " to '" + raw + "'", GameUI.MsgType.BAD);
+		    }
+		}
+	    });
+	cmdmap.put("modules", new Console.Command() {
+		public void run(Console cons, String[] args) {
+		    FayteModulesWnd.toggle(ui.gui);
+		}
+	    });
+	FayteModules.commands(cmdmap);
+	cmdmap.put("gatherwindows", new Console.Command() {
+		public void run(Console cons, String[] args) throws Exception {
+		    int n = ui.gui.gatherWindows();
+		    FayteMsg.say("Moved " + n + " open windows onto the screen and saved their positions");
 		}
 	    });
 }

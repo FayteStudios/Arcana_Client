@@ -1,0 +1,58 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.1
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= None
+}}
+
+{{Facts
+| Title=Forage
+| Found= [[Grassland]]
+| Or= {{icon|Gardening Pot}} [[Gardening Pot]], {{icon|Humus}} [[Humus]], [[Potable Water]] 0.2 L, {{icon|Wild Onion}} [[Wild Onion]]
+}}
+
+{{Facts
+| Title=Used By
+| Counts as= [[Any Flower]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 5 || 5 || 5 || 5
+|-
+! Gluttony min
+| 0 || 0 || 0 || 1
+|-
+! Gluttony max
+| 0 || 0 || 0 || 8
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Vegetables & Greens}} [[Vegetables and Greens]]
+| Full and Fed= 00:06:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Vegetables and Greens= -99% (% chance)
+| Inspiration= Arts & Crafts 200, Flora & Fauna 300, Herbs & Sprouts 600, Stocks & Cultivars 250, Sugar & Spice 730, Natural Philosophy 250
+}}
+
+==Flavor Text==
+
+''Talls buds with the odorous hint of hot stew cooked over a hillside fire''
+
+==About==
+
+Wild Onion can be found in the wild or, with the [[Gardening]] Skill learned, grown by Planting another {{i|Wild Onion}} in a {{i|Gardening Pot}}.
+Picking {{i|Any Flower}}s from the wild or Planting them in Gardening Pots lowers [[Insanity]]. You may receive a {{i|Drone Bee}} or {{i|Queen Bee}} when Picking Any Flower from the wild.
+Wild Onion be stored in a {{i|Flower Sack}}.

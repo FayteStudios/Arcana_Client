@@ -63,11 +63,11 @@ public class Label extends Widget {
     }
 
     public Label(Coord c, Widget parent, String text, int w) {
-	this(c, parent, text, w, Text.std);
+	this(c, parent, text, w, FayteSkin.on() ? FayteSkin.labelf : Text.std);
     }
 	
     public Label(Coord c, Widget parent, String text) {
-	this(c, parent, text, Text.std);
+	this(c, parent, text, FayteSkin.on() ? FayteSkin.labelf : Text.std);
     }
 	
     public void settext(String text) {

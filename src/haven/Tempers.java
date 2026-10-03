@@ -112,6 +112,7 @@ public class Tempers extends SIWidget {
 	    if(max[i] != lmax[i]) {
 		redraw();
 		texts = null;
+		flabels = null;
 		tt = null;
 	    }
 	}
@@ -123,7 +124,7 @@ public class Tempers extends SIWidget {
 			new NormAnim(0.25) {
 			    public void ntick(double a) {
 				c = new Coord(Tempers.this.c.x + ((Tempers.this.sz.x - sz.x) / 2),
-					      (int)(Tempers.this.c.y + boxsz.y - (a * sz.y)));
+					      (int)(Tempers.this.c.y + fbottom() - (a * sz.y)));
 				if(a == 1.0)
 				    destroy();
 			    }
@@ -136,7 +137,7 @@ public class Tempers extends SIWidget {
 
 		    public void presize() {
 			c = new Coord(Tempers.this.c.x + ((Tempers.this.sz.x - sz.x) / 2),
-				      (int)(Tempers.this.c.y + boxsz.y));
+				      (int)(Tempers.this.c.y + fbottom()));
 		    }
 
 		    {
@@ -146,7 +147,7 @@ public class Tempers extends SIWidget {
 			    public void ntick(double a) {
 				double f = Math.abs(1.0 - (6 * Math.pow(a, 2)) + (5 * Math.pow(a, 3)));
 				c = new Coord(Tempers.this.c.x + ((Tempers.this.sz.x - sz.x) / 2),
-					      (int)(Tempers.this.c.y + boxsz.y - (f * sz.y)));
+					      (int)(Tempers.this.c.y + fbottom() - (f * sz.y)));
 			    }
 			}.ntick(0.0);
 		    }
@@ -166,11 +167,12 @@ public class Tempers extends SIWidget {
 
 		    void move(double a) {
 			c = new Coord(Tempers.this.c.x + xoff,
-				      (int)(Tempers.this.c.y + boxsz.y + ((a - 1.0) * sz.y)));
+				      (int)(Tempers.this.c.y + fbottom() + ((a - 1.0) * sz.y)));
 		    }
 
 		    public void draw(GOut g) {
-			g.image(crbg, Coord.z);
+			if(!FayteSkin.on())
+			    g.image(crbg, Coord.z);
 			try {
 			    if(img == null)
 				img = crres.get().layer(Resource.imgc).tex();
@@ -228,6 +230,10 @@ public class Tempers extends SIWidget {
     }
 
     public void cravail(Indir<Resource> res) {
+	if((cravail != null) && (res == null))
+	    FayteGains.craving(cravail);
+	if((cravail != null) && (res == null) && (ui != null))
+	    FayteBuffTimers.craving(ui.gui);
 	cravail = res;
 	if(crimg != null) {
 	    crimg.reqdestroy();
@@ -308,14 +314,158 @@ public class Tempers extends SIWidget {
 	    String direction = insanity > n ? "decreased" : "increased";
 	    GameUI.MsgType type = insanity > n ? GameUI.MsgType.GOOD : GameUI.MsgType.BAD;
 	    ui.gui.message(String.format("Your madness %s to level %d!", direction, n), type);
+	    if((insanity > n) && (insanity >= 0)) {
+		String obj = FayteTools.lastobject(ui.gui);
+		FayteLog.log("Madness went down to " + n + "; last clicked object: " + obj + " (" + (FayteTools.lastclickage() / 1000) + " s ago)");
+		if((obj != null) && obj.toLowerCase().contains("hookah") && (FayteTools.lastclickage() < 600000L)) {
+		    String who = Config.currentCharName;
+		    FayteTimers.restart("Hookah" + (((who != null) && !who.isEmpty()) ? (": " + who) : ""), 20L * 3600L * 1000L);
+		    ui.gui.message("Hookah timer started: 20 hours until your next puff.", GameUI.MsgType.INFO);
+		}
+	    }
 	}
 	insanity = n;
+	flabels = null;
 	redraw();
 	tt = null;
     }
-    
+
+    public static final Coord FSZ = new Coord(FayteSkin.s(230), 6 + 7 * FayteSkin.s(24) + 10);
+    static final Color[] fcolors = {
+	new Color(0xC0, 0x3A, 0x3A),
+	new Color(0x3A, 0x7C, 0xC8),
+	new Color(0xC8, 0xB4, 0x3A),
+	new Color(0x8C, 0x8C, 0x8C),
+    };
+    private boolean fmode = false;
+    private Text[] flabels = null;
+    private Text fmad = null;
+
+    private boolean fayte() {
+	boolean on = FayteSkin.on();
+	if(on != fmode) {
+	    fmode = on;
+	    sz = on ? FSZ : imgsz(bg[0]);
+	    flabels = null;
+	    redraw();
+	    if(parent instanceof GameUI) {
+		GameUI gui = (GameUI)parent;
+		gui.resize(gui.sz);
+	    }
+	}
+	return(on);
+    }
+
+    private static String whole(int v) {
+	return(Integer.toString(v / 1000));
+    }
+
+    static final int ROWH = FayteSkin.s(24), PAD = 6, BARH = 6;
+    static final int WROW = 4, IROW = 5;
+    private final java.util.Map<String, Text> ftexts = new java.util.HashMap<>();
+
+    private Text ftext(String s, Color c) {
+	String k = c.getRGB() + "|" + s;
+	Text t = ftexts.get(k);
+	if(t == null) {
+	    if(ftexts.size() > 200)
+		ftexts.clear();
+	    t = FayteSkin.labelf.render(s, c);
+	    ftexts.put(k, t);
+	}
+	return(t);
+    }
+
+    private int rowy(int row) {
+	return(PAD + (row * ROWH) + ((row >= WROW) ? 6 : 0));
+    }
+
+    private void frow(GOut g, int row, String left, String right, Color rc, double full, double soft, double food, Color c) {
+	int y = rowy(row);
+	int w = sz.x - (PAD * 2);
+	Text l = ftext(left, FayteSkin.TEXT);
+	g.chcolor();
+	g.image(l.tex(), new Coord(PAD, y));
+	g.aimage(ftext(right, rc).tex(), new Coord(sz.x - PAD, y), 1.0, 0.0);
+	int by = y + l.sz().y + 1;
+	g.chcolor(FayteSkin.mix(FayteSkin.PANEL, c, 0.22));
+	g.frect(new Coord(PAD, by), new Coord(w, BARH));
+	if(food >= 0) {
+	    g.chcolor(FayteSkin.mix(FayteSkin.PANEL, FayteSkin.TEXT, 0.55));
+	    g.frect(new Coord(PAD, by), new Coord((int)(Utils.clip(food, 0, 1) * w), BARH));
+	}
+	if(soft >= 0) {
+	    g.chcolor(FayteSkin.mix(c, FayteSkin.TEXT, 0.45));
+	    g.frect(new Coord(PAD, by), new Coord((int)(Utils.clip(soft, 0, 1) * w), BARH));
+	}
+	g.chcolor(c);
+	g.frect(new Coord(PAD, by), new Coord((int)(Utils.clip(full, 0, 1) * w), BARH));
+	g.chcolor(FayteSkin.BORDER);
+	g.rect(new Coord(PAD, by), new Coord(w + 1, BARH + 1));
+	g.chcolor();
+    }
+
+    static final Color WEIGHTC = new Color(0x9A, 0x7A, 0x52);
+    static final Color INSPC = new Color(0xA8, 0x80, 0xC8);
+
+    public int carry() {
+	Glob.CAttr ca = ui.sess.glob.cattr.get("carry");
+	return((ca != null && ca.comp > 0) ? ca.comp : 25000);
+    }
+
+    private void fdraw(GOut g) {
+	FayteSkin.panel(g, Coord.z, sz, "tempers");
+	Color dim = FayteSkin.mix(FayteSkin.BORDER, FayteSkin.TEXT, 0.75);
+	for(int i = 0; i < 4; i++) {
+	    double max = Math.max(lmax[i], 1);
+	    String r = whole(hard[i]) + ((soft[i] > hard[i]) ? (" +" + whole(soft[i] - hard[i])) : "") + " / " + whole(lmax[i]);
+	    double food = (lfood != null) ? ((soft[i] + lfood.tempers[i]) / max) : -1;
+	    frow(g, i, rnm[i], r, dim, hard[i] / max, soft[i] / max, food, fcolors[i]);
+	}
+	g.chcolor(FayteSkin.BORDER);
+	g.frect(new Coord(PAD, rowy(WROW) - 4), new Coord(sz.x - (PAD * 2), 1));
+	g.chcolor();
+	GameUI gui = ui.gui;
+	int wt = (gui != null) ? gui.weight : 0;
+	int cap = carry();
+	frow(g, WROW, "Weight", String.format("%.2f / %.2f kg", wt / 1000.0, cap / 1000.0), (wt > cap) ? new Color(0xE0, 0x50, 0x48) : dim, (double)wt / cap, -1, -1, (wt > cap) ? new Color(0xE0, 0x50, 0x48) : WEIGHTC);
+	if((gui != null) && (gui.maininv != null))
+	    g.image(ftext("(" + gui.maininv.usedslots() + ")", dim).tex(), new Coord(PAD + ftext("Weight", FayteSkin.TEXT).sz().x + FayteSkin.s(10), rowy(WROW)));
+	Glob.CAttr ac = ui.sess.glob.cattr.get("scap"), ar = ui.sess.glob.cattr.get("srate");
+	int ins = (gui != null && gui.chrwdg != null) ? gui.chrwdg.tmexp : 0;
+	int icap = (ac != null) ? ac.comp : 0;
+	double rate = (ar != null) ? (3 * ar.comp / 1000.0) : 0;
+	String il = String.format("Inspiration  +%.2f/s", rate);
+	frow(g, IROW, il, String.format("%,d / %,d", ins, icap), dim, (icap > 0) ? ((double)ins / icap) : 0, -1, -1, INSPC);
+	int my = rowy(MROW);
+	g.chcolor();
+	g.image(ftext("Madness", FayteSkin.TEXT).tex(), new Coord(PAD, my));
+	int levels = bg.length - 1;
+	int nw = 12, gap = 3;
+	int nx = sz.x - PAD - (levels * (nw + gap) - gap);
+	for(int i = 0; i < levels; i++) {
+	    Coord nc = new Coord(nx + i * (nw + gap), my + 2);
+	    g.chcolor((i < insanity) ? MADC : FayteSkin.mix(FayteSkin.PANEL, MADC, 0.22));
+	    g.frect(nc, new Coord(nw, 10));
+	    g.chcolor(FayteSkin.BORDER);
+	    g.rect(nc, new Coord(nw + 1, 11));
+	}
+	g.chcolor();
+    }
+
+    static final Color MADC = new Color(0x6C, 0xB0, 0x4A);
+    static final int MROW = 6;
+
+    public int fbottom() {
+	return(fmode ? sz.y : boxsz.y);
+    }
+
     @Override
     public void draw(GOut g) {
+	if(fayte()) {
+	    fdraw(g);
+	    return;
+	}
 	super.draw(g);
 	if(Config.show_tempers){
 	    int i;
@@ -335,6 +485,7 @@ public class Tempers extends SIWidget {
 
     public void upds(int[] n) {
 	texts = null;
+	flabels = null;
 	this.soft = n;
 	redraw();
 	tt = null;
@@ -342,19 +493,36 @@ public class Tempers extends SIWidget {
     
     public void updh(int[] n) {
 	texts = null;
+	flabels = null;
 	this.hard = n;
 	redraw();
 	tt = null;
     }
     
     public boolean mousedown(Coord c, int button) {
+	if(fmode) {
+	    if(button == 1 && ui.gui != null && !FayteHud.editing()) {
+		if(c.y >= rowy(WROW) && c.y < rowy(IROW))
+		    FayteXfer.invpack(ui.gui);
+		else if(c.y >= rowy(IROW) && c.y < rowy(MROW))
+		    ui.gui.fayteskills();
+	    }
+	    return(true);
+	}
 	if(bg[insanity].getRaster().getSample(c.x, c.y, 3) > 128)
 	    return(true);
 	return(super.mousedown(c, button));
     }
 
     public Object tooltip(Coord c, Widget prev) {
-	if(c.isect(boxc, boxsz)) {
+	if(fmode && c.y >= rowy(WROW)) {
+	    if(c.y < rowy(IROW))
+		return("Click: open your inventory and backpack");
+	    if(c.y >= rowy(MROW))
+		return("Madness level. The game only tells the client the level, not the progress toward the next one.");
+	    return("Inspiration fills over time and is spent on skills. Click: open skills");
+	}
+	if(fmode || c.isect(boxc, boxsz)) {
 	    if(tt == null) {
 		StringBuilder buf = new StringBuilder();
 		for(int i = 0; i < 4; i++)

@@ -1,0 +1,50 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Colonial Tradesmanship}} [[Colonial Tradesmanship]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Any Pot]], {{icon|Fireplace}} [[Fireplace]], [[Potable Water]] ×5, {{icon|Yellow Morel}} [[Yellow Morel]]
+}}
+
+{{Facts
+| Title=Used By
+| Counts as= [[Any Mushroom]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 7 || 7 || 7 || 7
+|-
+! Gluttony min
+| 8 || 8 || 8 || 8
+|-
+! Gluttony max
+| 8 || 8 || 8 || 8
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Mushrooms}} [[Mushrooms]]
+| Full and Fed= 00:08:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Mushrooms= 50% (50% chance)
+}}
+
+==About==
+
+A {{i|Boiled Yellow Morel}} is made by boiling a {{i|Yellow Morel}} in a {{i|Clay Pot}}, {{i|Copper Pot}}, or {{i|Cauldron}}. With the [[Fungiculture]] Skill learned, a Boiled Yellow Morel can still be planted in a {{i|Gardening Pot}} to grow a Waning Toadstool. When planting a Boiled Yellow Morel there is a chance for it to grow into a {{i|Spooky Redcap}} instead. Planting Mushrooms in Gardening Pots lowers [[Insanity]].Both a Boiled Yellow Morel and a Yellow Morel count as a Yellow Morel when planting and in Food recipes. '''NOTE:''' There is a chance that even after boiling, a Yellow Morel will still be poisonous.

@@ -1,0 +1,59 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.35
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+| Skill 2= {{icon|Turkey Farming}} [[Turkey Farming]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Poultry Drumstick}} [[Any Poultry Drumstick]], {{icon|Tomato}} [[Tomato]] ×2
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 12.5 || 12.5 || 10 || 10
+|-
+! Argopelter min
+| style="background:#e6b8b8" | 36.25 || 12.5 || style="background:#f0d860" | 36.25 || 12.5
+|-
+! Argopelter max
+| style="background:#e6b8b8" | 44.95 || 15.5 || style="background:#f0d860" | 44.95 || 15.5
+|-
+! Domesticated Turkey min
+| 12.5 || style="background:#6fa0ff" | 30 || 12.5 || style="background:#b8c8e6" | 30
+|-
+! Domesticated Turkey max
+| 15.5 || style="background:#6fa0ff" | 37.2 || 15.5 || style="background:#b8c8e6" | 37.2
+|-
+! Wild Turkey min
+| 12.5 || style="background:#6fa0ff" | 26.25 || 12.5 || style="background:#b8c8e6" | 26.25
+|-
+! Wild Turkey max
+| 15.5 || style="background:#6fa0ff" | 32.55 || 15.5 || style="background:#b8c8e6" | 32.55
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Poultry}} [[Poultry]]
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Poultry= 20% (40% chance)
+| Menu= Craft > Food > Poultry & Fowl
+}}
+
+==About==
+
+{{i|Turkish Delight}} does '''NOT''' need to be cooked.

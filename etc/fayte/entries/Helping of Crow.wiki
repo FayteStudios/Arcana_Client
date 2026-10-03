@@ -1,0 +1,45 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.17
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Simple Cooking}} [[Simple Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Stuffed Crow}} [[Stuffed Crow]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 12 || 12 || 16 || 12
+|-
+! Gluttony min
+| 1 || 1 || 1 || 1
+|-
+! Gluttony max
+| 1 || 1 || 1 || 1
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Poultry}} [[Poultry]]
+| Full and Fed= 01:51:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 2
+| Reduces Poultry= 99% (0% chance)
+}}
+
+==About==
+
+3 x {{i|Helping of Crow}} are received when Cutting Up a {{i|Stuffed Crow}}.

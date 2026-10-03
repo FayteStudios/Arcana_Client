@@ -1,0 +1,112 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.75
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Pumpkin Planting}} [[Pumpkin Planting]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Fire]], {{icon|Leaf of Red Cabbage}} [[Leaf of Red Cabbage]] ×3, {{icon|Pumpkin Flesh}} [[Pumpkin Flesh]] ×3, {{icon|Small Sugar}} [[Small Sugar]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 16 || 14 || 14 || 14
+|-
+! Ghost Rider min
+| style="background:#e6b8b8" | 36.45 || 13.5 || 13.5 || 13.5
+|-
+! Ghost Rider max
+| style="background:#e6b8b8" | 40.5 || 15 || 15 || 15
+|-
+! Jack-o-Lantern min
+| style="background:#e6b8b8" | 37.8 || 13.5 || 13.5 || 13.5
+|-
+! Jack-o-Lantern max
+| style="background:#e6b8b8" | 42 || 15 || 15 || 15
+|-
+! Spooktacular min
+| style="background:#e6b8b8" | 35.1 || 13.5 || 13.5 || 13.5
+|-
+! Spooktacular max
+| style="background:#e6b8b8" | 39 || 15 || 15 || 15
+|-
+! Big Autumn min
+| 13.5 || style="background:#6fa0ff" | 32.4 || 13.5 || 13.5
+|-
+! Big Autumn max
+| 15 || style="background:#6fa0ff" | 36 || 15 || 15
+|-
+! Bushkin min
+| 13.5 || style="background:#6fa0ff" | 33.75 || 13.5 || 13.5
+|-
+! Bushkin max
+| 15 || style="background:#6fa0ff" | 37.5 || 15 || 15
+|-
+! Small Sugar min
+| 13.5 || style="background:#6fa0ff" | 31.05 || 13.5 || 13.5
+|-
+! Small Sugar max
+| 15 || style="background:#6fa0ff" | 34.5 || 15 || 15
+|-
+! Connecticut Field min
+| 13.5 || 13.5 || style="background:#f0d860" | 32.4 || 13.5
+|-
+! Connecticut Field max
+| 15 || 15 || style="background:#f0d860" | 36 || 15
+|-
+! Harvest Moon min
+| 13.5 || 13.5 || style="background:#f0d860" | 33.75 || 13.5
+|-
+! Harvest Moon max
+| 15 || 15 || style="background:#f0d860" | 37.5 || 15
+|-
+! Sugar Treat min
+| 13.5 || 13.5 || style="background:#f0d860" | 31.05 || 13.5
+|-
+! Sugar Treat max
+| 15 || 15 || style="background:#f0d860" | 34.5 || 15
+|-
+! Aspen min
+| 13.5 || 13.5 || 13.5 || style="background:#b8c8e6" | 29.7
+|-
+! Aspen max
+| 15 || 15 || 15 || style="background:#b8c8e6" | 33
+|-
+! Autumn Gold min
+| 13.5 || 13.5 || 13.5 || style="background:#b8c8e6" | 31.05
+|-
+! Autumn Gold max
+| 15 || 15 || 15 || style="background:#b8c8e6" | 34.5
+|-
+! Baby Bear min
+| 13.5 || 13.5 || 13.5 || style="background:#b8c8e6" | 28.35
+|-
+! Baby Bear max
+| 15 || 15 || 15 || style="background:#b8c8e6" | 31.5
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Pumpkins & Gourds}} [[Pumpkins and Gourds]]
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Pumpkins and Gourds= 20% (40% chance)
+| Menu= Craft > Food > Pumpkins
+}}
+
+==About==
+
+{{i|Sugar Delight}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

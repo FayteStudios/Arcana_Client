@@ -1,0 +1,49 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.04
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= [[Developers]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= None
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 1 || 1 || 1 || 1
+|-
+! Gluttony min
+| 1 || 1 || 1 || 1
+|-
+! Gluttony max
+| 2 || 2 || 2 || 2
+|}
+
+{{Facts
+| Title=Food Group
+| Group= [[Candies]]
+| Full and Fed= 00:01:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+}}
+
+==About==
+
+{{i|Valentine Candies}} were given out by the [[Developers]] on Valentines Day. Unlike other {{i|Candies}}, Valentine Candies Reduced rather than Restored Food Groups with the Food Group and amount being random. There are 5 different Valentine's Candies:
+*{{i|Be My Belgear}}
+*{{i|BBQ BBY}}
+*{{i|Marp + JC Grandma}}
+*{{i|Sexy Pilgrim}}
+*{{i|Woodshed2nite}}

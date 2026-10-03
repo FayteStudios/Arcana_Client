@@ -1,0 +1,46 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 5.00
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Pig Keeping}} [[Pig Keeping]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Apple}} [[Apple]], [[Fire]], {{icon|Raw Suckling Pig}} [[Raw Suckling Pig]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 7.5 || 7.5 || 7.5 || 7.5
+|-
+! Gluttony min
+| 150 || 150 || 150 || 150
+|-
+! Gluttony max
+| 300 || 300 || 300 || 300
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Domesticated Meats}} [[Domesticated Meat]]
+| Full and Fed= 02:00:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Domesticated Meat= 100% (100% chance)
+| Menu= Craft > Food > Domesticated Meats
+}}
+
+==About==
+
+A {{i|Cooked Suckling Pig}} takes ***HALF*** the [[Purity]] of its {{i|Apple}}. A Cooked Suckling Pig must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

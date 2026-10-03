@@ -1,0 +1,62 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.06
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Gardening}} [[Gardening]]
+}}
+
+{{Facts
+| Title=Forage
+| Found= [[Badlands]], [[Grassland]], [[Marshland]], [[Shrub]]
+| Or= {{icon|Gardening Pot}} [[Gardening Pot]], {{icon|Humus}} [[Humus]], [[Potable Water]] 0.2 L, {{icon|Wild Garlic}} [[Wild Garlic]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Flower Arrangement}} [[Flower Arrangement]]
+| b)= {{icon|Flowers & Herbs}} [[Flowers & Herbs]]
+| c)= {{icon|Garlic}} [[Garlic]]
+| d)= {{icon|Garlic Rabbit}} [[Garlic Rabbit]]
+| e)= {{icon|Grub De La Grub}} [[Grub De La Grub]]
+| f)= [[Wine Ingredients]]
+| Counts as= [[Any Flower]], {{icon|Any Garlic}} [[Any Garlic]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 1 || 4 || 1 || 2.5
+|-
+! Gluttony min
+| 6 || 0 || 0 || 0
+|-
+! Gluttony max
+| 7 || 0 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Vegetables & Greens}} [[Vegetables and Greens]]
+| Full and Fed= 00:04:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Variable food multiplier= Blood 1.05 / Phlegm 1.05 / Yellow 1.05 / Black 1.05
+| Inspiration= Arts & Crafts 200, Flora & Fauna 500, Sparks & Embers 370, Stocks & Cultivars 350, Sugar & Spice 430, Natural Philosophy 195
+}}
+
+==Flavor Text==
+
+''A fragrance of West winds, and of sunlight on green leaves''
+
+==About==
+
+Wild Garlic can be found in the wild or, with the [[Gardening]] Skill learned, grown by Planting another {{i|Wild Garlic}} in a {{i|Gardening Pot}}. Picking {{i|Any Flower}}s from the wild or Planting them in Gardening Pots lowers [[Insanity]]. You may receive a {{i|Drone Bee}} or {{i|Queen Bee}} when Picking Any Flower from the wild. Wild Garlic restores the {{i2|Crustacea and Shellfish}} Food Group by 15% with a 80% chance when used as {{i|Any Garlic}} in a Food recipe. Wild Garlic be stored in either a {{i|Flower Sack}} or a {{i|Garlic Sack}}.

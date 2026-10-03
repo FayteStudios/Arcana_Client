@@ -1,0 +1,82 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.17
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Nuts & Seeds}} [[Nuts & Seeds]]
+| Skill 2= {{icon|Simple Cooking}} [[Simple Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= [[Any Nuts]] ×2, {{icon|Coarse Salt}} [[Coarse Salt]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 15 || 15 || 15 || 15
+|-
+! Stray Chestnut min
+| style="background:#e6b8b8" | 15.6 || 6.5 || 6.5 || 6.5
+|-
+! Stray Chestnut max
+| style="background:#e6b8b8" | 20.4 || 8.5 || 8.5 || 8.5
+|-
+! Acorn min
+| 6.5 || style="background:#6fa0ff" | 14.95 || 6.5 || 6.5
+|-
+! Acorn max
+| 8.5 || style="background:#6fa0ff" | 19.55 || 8.5 || 8.5
+|-
+! Majestic Acorn min
+| 6.5 || style="background:#6fa0ff" | 20.8 || 6.5 || style="background:#b8c8e6" | 14.95
+|-
+! Majestic Acorn max
+| 8.5 || style="background:#6fa0ff" | 27.2 || 8.5 || style="background:#b8c8e6" | 20.4
+|-
+! Pine Nuts min
+| 6.5 || 6.5 || style="background:#f0d860" | 16.9 || 6.5
+|-
+! Pine Nuts max
+| 8.5 || 8.5 || style="background:#f0d860" | 22.1 || 8.5
+|-
+! Testicles min
+| style="background:#e6b8b8" | 15.6 || 11.05 || style="background:#f0d860" | 20.8 || 11.05
+|-
+! Testicles max
+| style="background:#e6b8b8" | 20.4 || 14.45 || style="background:#f0d860" | 27.2 || 14.45
+|-
+! Hickory min
+| 6.5 || 6.5 || 6.5 || style="background:#b8c8e6" | 14.95
+|-
+! Hickory max
+| 8.5 || 8.5 || 8.5 || style="background:#b8c8e6" | 19.55
+|-
+! Walnut min
+| style="background:#e6b8b8" | 15.6 || style="background:#6fa0ff" | 14.95 || style="background:#f0d860" | 16.9 || style="background:#b8c8e6" | 20.8
+|-
+! Walnut max
+| style="background:#e6b8b8" | 20.4 || style="background:#6fa0ff" | 19.55 || style="background:#f0d860" | 22.1 || style="background:#b8c8e6" | 27.2
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Nuts & Seeds}} [[Nuts and Seeds]]
+| Full and Fed= 00:15:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 2
+| Menu= Craft > Food > Nuts
+}}
+
+==About==
+
+{{i|Salty Nuts}} do '''NOT''' need to be cooked.

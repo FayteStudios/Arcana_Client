@@ -1,0 +1,82 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Raw Steak}} [[Any Raw Steak]], {{icon|Board}} [[Board]], {{icon|Pepper}} [[Pepper]] 0.02 L
+| Second Stage= [[Any Stove]], {{icon|Plank Steak}} [[Unbaked Plank Steak]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 15 || 6 || 15.5 || 7.5
+|-
+! Bear min
+| style="background:#e6b8b8" | 32.55 || 10.5 || 10.5 || 10.5
+|-
+! Bear max
+| style="background:#e6b8b8" | 34.1 || 11 || 11 || 11
+|-
+! Timber Rattler min
+| style="background:#e6b8b8" | 26.25 || 10.5 || 10.5 || 10.5
+|-
+! Timber Rattler max
+| style="background:#e6b8b8" | 27.5 || 11 || 11 || 11
+|-
+! Cougar min
+| 10.5 || style="background:#6fa0ff" | 30.45 || 10.5 || 10.5
+|-
+! Cougar max
+| 11 || style="background:#6fa0ff" | 31.9 || 11 || 11
+|-
+! Rabbit min
+| 10.5 || style="background:#6fa0ff" | 26.25 || 10.5 || 10.5
+|-
+! Rabbit max
+| 11 || style="background:#6fa0ff" | 27.5 || 11 || 11
+|-
+! Deer min
+| 10.5 || 10.5 || style="background:#f0d860" | 30.45 || 10.5
+|-
+! Deer max
+| 11 || 11 || style="background:#f0d860" | 31.9 || 11
+|-
+! Varmint min
+| 10.5 || 10.5 || style="background:#f0d860" | 24.15 || 10.5
+|-
+! Varmint max
+| 11 || 11 || style="background:#f0d860" | 25.3 || 11
+|-
+! Beaver min
+| 10.5 || 10.5 || 10.5 || style="background:#b8c8e6" | 28.35
+|-
+! Beaver max
+| 11 || 11 || 11 || style="background:#b8c8e6" | 29.7
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Game}} [[Game Meat]]
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Game Meats
+}}
+
+==About==
+
+Crafting a {{i|Plank Steak}} will make an {{i|Unbaked Plank Steak}} which can then be baked in {{i|Any Stove}} to produce a Plank Steak.

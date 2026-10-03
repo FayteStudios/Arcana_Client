@@ -1,0 +1,57 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Potato Growing}} [[Potato Growing]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Potato Chunk}} [[Potato Chunk]], [[Tilled Field]]
+| Or= [[Tilled Field]], {{icon|Wild Tuber}} [[Wild Tuber]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|New England Dinner}} [[New England Dinner]]
+| Counts as= {{icon|Any Potato}} [[Any Potato]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 10 || 10 || 10 || 10
+|-
+! Gluttony min
+| 5 || 5 || 5 || 5
+|-
+! Gluttony max
+| 10 || 10 || 10 || 10
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Potato Food}} [[Potato Food]]
+| Full and Fed= 00:05:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Restores Potato Food= 30% (90% chance)
+| Inspiration= Hunting & Hideworking 650, Mines & Mountains 950, Stocks & Cultivars 2200, Sugar & Spice 1150
+}}
+
+==Flavor Text==
+
+''An old face grown weary in consternation, bemoaning days of misspent youth and the newfound aches of life's twilight.''
+
+==About==
+
+A {{i|Curious Potato}} received by chance when Harvesting {{i|Any Potato}}es. A Curious Potato can be baked in a {{i|Bread Oven}} to produce a {{i|Baked Potato}} or boiled in a {{i|Clay Pot}}, {{i|Copper Pot}}, or {{i|Cauldron}} to produce a {{i|Boiled Potato}}. '''Note:''' Curious Potato is a minor [[Restore Food]] for the {{i2|Potato Food}} Food Group.

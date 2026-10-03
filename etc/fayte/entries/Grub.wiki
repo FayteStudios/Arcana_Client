@@ -1,0 +1,54 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.03
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= None
+}}
+
+{{Facts
+| Title=Forage
+| Found= [[Argopelter Gizzard]], [[Boulder]], [[Dirt]], [[Hollow Log]], [[Hollow Stump]], {{icon|Toad}} [[Toad]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Beetle}} [[Beetle]]
+| b)= {{icon|Juvenile Argopelter}} [[Juvenile Argopelter]]
+| c)= {{icon|Sizzled Grub}} [[Sizzled Grub]]
+| d)= [[Stuffed Argopelter]]
+| Counts as= [[Any Bait]], [[Any Bugs]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 3 || 5 || 5 || 1
+|-
+! Gluttony min
+| 0 || 0 || 5 || 0
+|-
+! Gluttony max
+| 0 || 0 || 8 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Slugs N' Bugs}} [[Slugs Bugs and Kritters]]
+| Full and Fed= 00:05:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Slugs Bugs and Kritters= 50% (50% chance)
+}}
+
+==About==
+
+A {{i|Grub}} can be found most commonly by {{i|Lift}}ing any {{i|Boulder}} that has sat long enough on the surface and looking underneath. Additionally a Grub can be found by chance inside {{i|Hollow Log}}s, {{i|Hollow Stump}}s, when Dissecting {{i|Argopelter Gizzard}}s and {{i|Toad}}s, or when {{i|Dig}}ging. If placed in a [[Container]] for a few days a Grub will grow into a {{i|Beetle}}. A Grub can be used as a one use {{i|Any Bait}} when {{i|Fish}}ing.

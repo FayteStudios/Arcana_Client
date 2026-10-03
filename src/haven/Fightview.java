@@ -114,7 +114,60 @@ public class Fightview extends Widget {
 	super.destroy();
     }
     
+    private void fdraw(GOut g) {
+	int pad = 4, gap = 8;
+	int x = pad, h = 0;
+	if(curava != null)
+	    h = Math.max(curava.sz.y, curgive.sz.y);
+	for(Relation rel : lsrel) {
+	    if(rel != current)
+		h = Math.max(h, Math.max(rel.ava.sz.y, rel.give.sz.y));
+	}
+	h = Math.max(h, 30);
+	if(curava != null) {
+	    curgive.c = new Coord(x, pad + ((h - curgive.sz.y) / 2));
+	    x += curgive.sz.x + 2;
+	    curava.c = new Coord(x, pad + ((h - curava.sz.y) / 2));
+	    x += curava.sz.x + gap;
+	}
+	for(Relation rel : lsrel) {
+	    if(rel == current) {
+		rel.show(false);
+		continue;
+	    }
+	    rel.give.c = new Coord(x, pad + ((h - rel.give.sz.y) / 2));
+	    x += rel.give.sz.x + 2;
+	    rel.ava.c = new Coord(x, pad + ((h - rel.ava.sz.y) / 2));
+	    x += rel.ava.sz.x + gap;
+	    rel.show(true);
+	}
+	Coord want = new Coord(Math.max(x - gap + pad, 40), h + (pad * 2));
+	if(!want.equals(sz))
+	    sz = want;
+	FayteSkin.panel(g, Coord.z, sz, "combat");
+	if(curava != null) {
+	    g.chcolor(FayteSkin.BORDER);
+	    int sx = curava.c.x + curava.sz.x + (gap / 2);
+	    if(sx < sz.x - pad)
+		g.line(new Coord(sx, pad), new Coord(sx, sz.y - pad), 1.0);
+	    g.chcolor();
+	}
+	super.draw(g);
+    }
+
     public void draw(GOut g) {
+	if(FayteSkin.on()) {
+	    fdraw(g);
+	    return;
+	}
+	Coord csz = new Coord(width, (iheight + ymarg) * height);
+	if(!csz.equals(sz)) {
+	    sz = csz;
+	    if(curava != null) {
+		curava.c = cavac;
+		curgive.c = cgivec;
+	    }
+	}
         int y = 10;
 	if(curava != null)
 	    y = curava.c.y + curava.sz.y + 10;

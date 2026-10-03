@@ -1,0 +1,56 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Pumpkin Planting}} [[Pumpkin Planting]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= Seeds of Pumpkin;θ, [[Tilled Field]]
+| Or= {{icon|Gardening Pot}} [[Gardening Pot]], {{icon|Humus}} [[Humus]], [[Potable Water]] 0.2 L, {{icon|Spooktacular}} [[Spooktacular]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Ghost Loaf}} [[Ghost Loaf]]
+| b)= [[Pumpkin]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 4.5 || 4.5 || 4.5 || 4.5
+|-
+! Gluttony min
+| 6 || 0 || 0 || 0
+|-
+! Gluttony max
+| 9 || 0 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Pumpkins & Gourds}} [[Pumpkins and Gourds]]
+| Full and Fed= 01:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Inspiration= Herbs & Sprouts 2500, Law & Lore 1250, Stocks & Cultivars 1000, Sugar & Spice 1550
+}}
+
+==Flavor Text==
+
+''Delicate tones of earth and sweetest autumn.''
+
+==About==
+
+A {{i|Spooktacular}} is the product of a first growth stage, third tier {{i|Pumpkin}} Harvest. Additionally a Spooktacular can be grown by Planting another Spooktacular in a {{i|Gardening Pot}}. Planting in Gardening Pots lowers [[Insanity]]. Right-clicking a Spooktacular and selecting "Slice" will give you 2x {{i|Pumpkin Flesh}} and 6x {{i|Seeds of Pumpkin}}. A Spooktacular can be stored in a {{i|Stockbin}}.

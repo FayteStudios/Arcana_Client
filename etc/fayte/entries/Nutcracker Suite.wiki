@@ -1,0 +1,239 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.18
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Nuts & Seeds}} [[Nuts & Seeds]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Bellpeppers}} [[Any Bellpeppers]], [[Any Nuts]] ×3
+| Second Stage= [[Any Stove]], {{icon|Unbaked Nutcracker Suite}} [[Unbaked Nutcracker Suite]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 9 || 9 || 9 || 9
+|-
+! Stray Chestnut min
+| style="background:#e6b8b8" | 0 || 0 || 0 || 0
+|-
+! Stray Chestnut max
+| style="background:#e6b8b8" | 0 || 0 || 0 || 0
+|-
+! Acorn min
+| 0 || style="background:#6fa0ff" | 0 || 0 || 0
+|-
+! Acorn max
+| 0 || style="background:#6fa0ff" | 0 || 0 || 0
+|-
+! Majestic Acorn min
+| 0 || style="background:#6fa0ff" | 0 || 0 || style="background:#b8c8e6" | 0
+|-
+! Majestic Acorn max
+| 0 || style="background:#6fa0ff" | 0 || 0 || style="background:#b8c8e6" | 0
+|-
+! Pine Nuts min
+| 0 || 0 || style="background:#f0d860" | 0 || 0
+|-
+! Pine Nuts max
+| 0 || 0 || style="background:#f0d860" | 0 || 0
+|-
+! Testicles min
+| style="background:#e6b8b8" | 0 || 0 || style="background:#f0d860" | 0 || 0
+|-
+! Testicles max
+| style="background:#e6b8b8" | 0 || 0 || style="background:#f0d860" | 0 || 0
+|-
+! Hickory min
+| 0 || 0 || 0 || style="background:#b8c8e6" | 0
+|-
+! Hickory max
+| 0 || 0 || 0 || style="background:#b8c8e6" | 0
+|-
+! Walnut min
+| style="background:#e6b8b8" | 0 || style="background:#6fa0ff" | 0 || style="background:#f0d860" | 0 || style="background:#b8c8e6" | 0
+|-
+! Walnut max
+| style="background:#e6b8b8" | 0 || style="background:#6fa0ff" | 0 || style="background:#f0d860" | 0 || style="background:#b8c8e6" | 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Nuts & Seeds}} [[Nuts and Seeds]]
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Nuts
+}}
+
+==About==
+
+Crafting a {{i|Nutcracker Suite}} will make an {{i|Unbaked Nutcracker Suite}} which can then be baked in {{i|Any Stove}} to produce a Nutcracker Suite.
+
+==Temporary: New Gluttony Values==
+The new gluttony values below will be properly codded into the recipe (on the left and across the wiki) once player Bridget Bishop figures out how that can be done for this trickier double variable recipe that doesn't have a generic version that can be optionally boosted by using either green or red peppers.
+
+! style="color:white; font-size:1.4em" | '''Variable [[Green Bell Peppers]] (<span style="color:#de7373;">Blood and Yellow Bile</span>) Gluttony Values:'''
+
+<!--Stray Chestnut Rows-->
+|- style="background:#FFFFFF; color:#000000"
+| style="background:#4c4c4c; text-align:right" | '''[[Stray Chestnut]] Min:'''
+| style="background:#E6B8B8;" | 37.5
+| 12.5
+| 15.6
+| 12.5
+|- style="background:#FFFFFF; color:#000000"
+| style="background:#4c4c4c; text-align:right" | '''[[Stray Chestnut]] Max:'''
+| style="background:#E6B8B8;" | 69
+| 23
+| 28.7
+| 23
+|- style="background:#FFFFFF; color:#000000";colspan="10"
+
+<!--Acorn Rows-->
+|- style="background:#FFFFFF; color:#000000"
+| style="background:#4c4c4c; text-align:right" | '''[[Myrtle Oak Acorn|Acorn]] Min:'''
+| 15.6
+| style="background:#BACAEA;" | 28.7
+| 15.6
+| 12.5
+|- style="background:#FFFFFF; color:#000000"
+| style="background:#4c4c4c; text-align:right" | '''[[Myrtle Oak Acorn|Acorn]] Max:'''
+| 28.7
+| style="background:#BACAEA;" | 52.9
+| 28.7
+| 23
+|- style="background:#FFFFFF; color:#000000";colspan="10"
+
+<!--Pine Nut Rows-->
+|- style="background:#FFFFFF; color:#000000"
+| style="background:#4c4c4c; text-align:right" | '''[[Pine Nuts]] Min:'''
+| 15.6
+| 12.5
+| style="background:#FFFFB8;" | 40.6
+| 12.5
+|- style="background:#FFFFFF; color:#000000"
+| style="background:#4c4c4c; text-align:right" | '''[[Pine Nuts]] Max:'''
+| 28.7
+| 23
+| style="background:#FFFFB8;" | 74.7
+| 23
+|- style="background:#FFFFFF; color:#000000";colspan="10"
+
+<!--Hickory Rows-->
+|- style="background:#FFFFFF; color:#000000"
+| style="background:#4c4c4c; text-align:right" | '''[[Hickory Nut|Hickory]] Min:'''
+| 15.6
+| 12.5
+| 15.6
+| style="background:#CFCFCF;" | 28.7
+|- style="background:#FFFFFF; color:#000000"
+| style="background:#4c4c4c; text-align:right" | '''[[Hickory Nut|Hickory]] Max:'''
+| 28.7
+| 23
+| 28.7
+| style="background:#CFCFCF;" | 52.9
+|- style="background:#FFFFFF; color:#000000";colspan="10"
+
+<!--Walnut Rows-->
+|- style="background:#FFFFFF; color:#000000"
+| style="background:#4c4c4c; text-align:right" | '''[[Walnut]] Min:'''
+| style="background:#E6B8B8;" | 37.5
+| style="background:#BACAEA;" | 28.7
+| style="background:#FFFFB8;" | 40.6
+| style="background:#CFCFCF;" | 40.0
+|- style="background:#FFFFFF; color:#000000"
+| style="background:#4c4c4c; text-align:right" | '''[[Walnut]] Max:'''
+| style="background:#E6B8B8;" | 69.0
+| style="background:#BACAEA;" | 52.9
+| style="background:#FFFFB8;" | 74.7
+| style="background:#CFCFCF;" | 73.6
+
+! style="color:white; font-size:1.4em" | '''Variable [[Red Bell Peppers]] (<span style="color:#de7373;">Phlegm and Black Bile</span>) Gluttony Values:'''
+
+<!--Stray Chestnut Rows-->
+|- style="background:#FFFFFF; color:#000000"
+| style="background:#4c4c4c; text-align:right" | '''[[Stray Chestnut]] Min:'''
+| style="background:#E6B8B8;" | 37.5
+| 12.5
+| 15.6
+| 12.5
+|- style="background:#FFFFFF; color:#000000"
+| style="background:#4c4c4c; text-align:right" | '''[[Stray Chestnut]] Max:'''
+| style="background:#E6B8B8;" | 69
+| 23
+| 28.7
+| 23
+|- style="background:#FFFFFF; color:#000000";colspan="10"
+
+<!--Acorn Rows-->
+|- style="background:#FFFFFF; color:#000000"
+| style="background:#4c4c4c; text-align:right" | '''[[Myrtle Oak Acorn|Acorn]] Min:'''
+| 12.5
+| style="background:#BACAEA;" | 35.9
+| 12.5
+| 15.6
+|- style="background:#FFFFFF; color:#000000"
+| style="background:#4c4c4c; text-align:right" | '''[[Myrtle Oak Acorn|Acorn]] Max:'''
+| 23
+| style="background:#BACAEA;" | 66.1
+| 23
+| 28.7
+|- style="background:#FFFFFF; color:#000000";colspan="10"
+
+<!--Pine Nut Rows-->
+|- style="background:#FFFFFF; color:#000000"
+| style="background:#4c4c4c; text-align:right" | '''[[Pine Nuts]] Min:'''
+| 12.5
+| 15.6
+| style="background:#FFFFB8;" | 32.5
+| 15.6
+|- style="background:#FFFFFF; color:#000000"
+| style="background:#4c4c4c; text-align:right" | '''[[Pine Nuts]] Max:'''
+| 23
+| 28.7
+| style="background:#FFFFB8;" | 59.8
+| 28.7
+|- style="background:#FFFFFF; color:#000000";colspan="10"
+
+<!--Hickory Rows-->
+|- style="background:#FFFFFF; color:#000000"
+| style="background:#4c4c4c; text-align:right" | '''[[Hickory Nut|Hickory]] Min:'''
+| 12.5
+| 15.6
+| 12.5
+| style="background:#CFCFCF;" | 35.9
+|- style="background:#FFFFFF; color:#000000"
+| style="background:#4c4c4c; text-align:right" | '''[[Hickory Nut|Hickory]] Max:'''
+| 23
+| 28.7
+| 23
+| style="background:#CFCFCF;" | 66.1
+|- style="background:#FFFFFF; color:#000000";colspan="10"
+
+<!--Walnut Rows-->
+|- style="background:#FFFFFF; color:#000000"
+| style="background:#4c4c4c; text-align:right" | '''[[Walnut]] Min:'''
+| style="background:#E6B8B8;" | 30.0
+| style="background:#BACAEA;" | 35.9
+| style="background:#FFFFB8;" | 32.5
+| style="background:#CFCFCF;" | 50.0
+|- style="background:#FFFFFF; color:#000000"
+| style="background:#4c4c4c; text-align:right" | '''[[Walnut]] Max:'''
+| style="background:#E6B8B8;" | 55.2
+| style="background:#BACAEA;" | 66.1
+| style="background:#FFFFB8;" | 59.8
+| style="background:#CFCFCF;" | 92.0
+
+! style="color:white; font-size:1.4em" | '''Variable [[Jalapeno]] (<span style="color:#de7373;">Unknown</span>) Gluttony Values:'''

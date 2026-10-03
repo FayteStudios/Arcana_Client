@@ -377,6 +377,14 @@ public class BuddyWnd extends Window implements Iterable<BuddyWnd.Buddy> {
 	};
     }
     
+    public String pname() {
+	return((pname == null) ? "" : pname.text);
+    }
+
+    public String secret() {
+	return((charpass == null) ? "" : charpass.text);
+    }
+
     private String randpwd() {
 	String charset = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 	StringBuilder buf = new StringBuilder();
@@ -457,6 +465,13 @@ public class BuddyWnd extends Window implements Iterable<BuddyWnd.Buddy> {
 	    serial++;
 	} else if(msg.equals("sel")) {
 	    int id = (Integer)args[0];
+	    if(FayteSkin.on() && FayteModules.ALMANAC.on()) {
+		bl.change(find(id));
+		GameUI gui = getparent(GameUI.class);
+		if(gui != null)
+		    FayteAlmanacWnd.pilgrims(gui);
+		return;
+	    }
 	    show();
 	    raise();
 	    bl.change(find(id));

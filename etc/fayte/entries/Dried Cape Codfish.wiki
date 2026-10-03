@@ -1,0 +1,44 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= [[Legacy]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Cape Codfish}} [[Cape Codfish]], {{icon|Drying Frame}} [[Drying Frame]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 10 || 10 || 8 || 8
+|-
+! Gluttony min
+| 0 || 0 || 0 || 0
+|-
+! Gluttony max
+| 0 || 0 || 1 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= None
+| Full and Fed= 00:03:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+}}
+
+==About==
+
+A {{i|Cape Codfish}} can be dried on a {{i|Drying Frame}} for 72 hours to make a {{i|Dried Cape Codfish}}. Due to the current nature of the most recent Fish rework there is no reason to ever make a Dried Cape Codfish.

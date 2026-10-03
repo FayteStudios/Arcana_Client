@@ -1,0 +1,79 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.03
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= None
+}}
+
+{{Facts
+| Title=Forage
+| Found= {{icon|Bug in a Blanket}} [[Bug in a Blanket]], {{icon|Frog}} [[Frog]], {{icon|Toad}} [[Toad]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 25 || 10 || 10 || 15
+|-
+! Gluttony min
+| 13 || 13 || 13 || 13
+|-
+! Gluttony max
+| 17 || 17 || 17 || 17
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Slugs N' Bugs}} [[Slugs Bugs and Kritters]]
+| Full and Fed= 00:05:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Restores Slugs Bugs and Kritters= 30% (90% chance)
+}}
+
+{{Notice| NOTE: | … This is a Testpage for Testing the New Namespaces to separate Content for Providence and New Haven! …}}
+
+==About==
+
+A {{i|Ladybug}} is rarely received when Releasing a {{i|Bug in a Blanket}}, or when Dissecting {{i|Frog}}s and {{i|Toad}}s. A Ladybug Test is a minor [[Restore Food]] for the {{i2|Slugs Bugs and Kritters}} Food Group.
+restores|
+==Ladybug As a Variable Ingredient==
+
+When used as a variable ingredient in recipes a {{i|Ladybug}} gives a Restore [[:Category:Variable Food#Bonus Values|Bonus]].
+{{{!}} class=wikitable
+{{!}}-
+{{!}} '''Restores'''
+{{!}} '''Amount'''
+{{!}} '''Chance'''
+{{!}}-
+{{!}} {{i2|Potato Food}}
+{{!}} 60%
+{{!}} 30%
+{{!}}-
+{{!}} {{i2|Slugs Bugs and Kritters}}
+{{!}} 10%
+{{!}} 30%
+{{!}}}
+
+{{Notice| NOTE: | … This is a Testtable for Testing the New Namespaces to separate Content for Providence and New Haven! …}}
+
+===Heal values only for Providence (TEST!)===
+{{#ask: [[:+]] OR [[NewHaven:+]]
+|link=all
+|format=widetable
+|limit=500
+|mainlabel=Item
+| ?Heals Blood = Heals Blood
+| ?Heals Phlegm = Heals Phlegm
+| ?Heals Yellow = Heals Yellow
+| ?Heals Black = Heals Black
+| ?Heal Uses = Uses

@@ -51,7 +51,13 @@ public class MenuGrid extends Widget {
     public final Pagina next = paginafor(Resource.load("gfx/hud/sc-next").loadwait());
     public final Pagina bk = paginafor(Resource.load("gfx/hud/sc-back").loadwait());
     public final static RichText.Foundry ttfnd = new RichText.Foundry(TextAttribute.FAMILY, "SansSerif", TextAttribute.SIZE, 10);
-    private static Coord gsz = new Coord(4, 4);
+    public static final int STRIP = 10;
+    public static final int PAD = 4;
+    public static final int GAP = 2;
+    private Coord gsz = wantgsz();
+    private boolean flat = FayteSkin.on();
+    private boolean moving = false;
+    private Coord moff;
     public Pagina cur, pressed, dragging, layout[][] = new Pagina[gsz.x][gsz.y];
     private int curoff = 0;
     private int pagseq = 0;
@@ -121,7 +127,8 @@ public class MenuGrid extends Widget {
     }
 	
     public MenuGrid(Coord c, Widget parent) {
-	super(c, Inventory.invsz(gsz), parent);
+	super(c, Coord.z, parent);
+	sz = gridsz();
 	ui.mnu = this;
 	CRAFT = paginafor(Resource.load("paginae/act/craft"));
         XTendedPaginae.loadXTendedPaginae(ui);
@@ -140,6 +147,73 @@ public class MenuGrid extends Widget {
 	}
     };
 
+    public static Coord wantgsz() {
+	if(!FayteSkin.on())
+	    return(new Coord(4, 4));
+	int cols = FayteConfig.actionGridCols.get();
+	int rows = FayteConfig.actionGridRows.get();
+	while(cols * rows < 3)
+	    rows++;
+	return(new Coord(cols, rows));
+    }
+
+    private Coord gridsz() {
+	if(flat)
+	    return(new Coord((PAD * 2) + (gsz.x * (Inventory.isqsz.x + GAP)) - GAP, STRIP + (PAD * 2) + (gsz.y * (Inventory.isqsz.y + GAP)) - GAP));
+	return(Inventory.invsz(gsz));
+    }
+
+    private Coord cellc(Coord bc) {
+	if(flat)
+	    return(new Coord(PAD + (bc.x * (Inventory.isqsz.x + GAP)), STRIP + PAD + (bc.y * (Inventory.isqsz.y + GAP))));
+	return(Inventory.sqoff(bc));
+    }
+
+    private Coord cellat(Coord c) {
+	if(!flat)
+	    return(Inventory.sqroff(c));
+	Coord r = c.sub(PAD, STRIP + PAD);
+	if((r.x < 0) || (r.y < 0))
+	    return(new Coord(-1, -1));
+	Coord p = Inventory.isqsz.add(GAP, GAP);
+	Coord bc = r.div(p);
+	if(((r.x - (bc.x * p.x)) >= Inventory.isqsz.x) || ((r.y - (bc.y * p.y)) >= Inventory.isqsz.y))
+	    return(new Coord(-1, -1));
+	return(bc);
+    }
+
+    private int nextslot() {
+	return((gsz.x * gsz.y) - 2);
+    }
+
+    private Pagina atslot(int k) {
+	return(layout[k % gsz.x][k / gsz.x]);
+    }
+
+    private void relayout() {
+	Coord want = wantgsz();
+	boolean wflat = FayteSkin.on();
+	if(!want.equals(gsz) || (wflat != flat)) {
+	    gsz = want;
+	    flat = wflat;
+	    layout = new Pagina[gsz.x][gsz.y];
+	    curoff = 0;
+	    sz = gridsz();
+	    updlayout();
+	    place(parent.sz);
+	}
+    }
+
+    public void place(Coord psz) {
+	Coord pos = flat ? FayteConfig.actionGridPos.get() : null;
+	if(pos == null)
+	    this.c = psz.sub(sz);
+	else
+	    this.c = new Coord(Math.max(0, Math.min(pos.x, psz.x - sz.x)), Math.max(0, Math.min(pos.y, psz.y - sz.y)));
+	if(parent instanceof GameUI)
+	    ((GameUI)parent).menumoved();
+    }
+
     private void updlayout() {
 	synchronized(ui.sess.glob.paginae) {
 	    List<Pagina> cur = new ArrayList<Pagina>();
@@ -147,12 +221,14 @@ public class MenuGrid extends Widget {
 	    Collections.sort(cur, sorter);
 	    int i = curoff;
 	    hotmap.clear();
+	    int n = gsz.x * gsz.y;
 	    for(int y = 0; y < gsz.y; y++) {
 		for(int x = 0; x < gsz.x; x++) {
 		    Pagina btn = null;
-		    if((this.cur != null) && (x == gsz.x - 1) && (y == gsz.y - 1)) {
+		    int k = (y * gsz.x) + x;
+		    if((this.cur != null) && (k == n - 1)) {
 			btn = bk;
-		    } else if((cur.size() > ((gsz.x * gsz.y) - 1)) && (x == gsz.x - 2) && (y == gsz.y - 1)) {
+		    } else if((cur.size() > (n - 1)) && (k == n - 2)) {
 			btn = next;
 		    } else if(i < cur.size()) {
 			Resource.AButton ad = cur.get(i).act();
@@ -404,10 +480,19 @@ public class MenuGrid extends Widget {
     }
     public void draw(GOut g) {
 	long now = System.currentTimeMillis();
-	Inventory.invsq(g, Coord.z, gsz);
+	if(flat) {
+	    FayteSkin.panel(g, Coord.z, sz, "actions");
+	    FayteSkin.box(g, new Coord(FayteSkin.BW, FayteSkin.BW), new Coord(sz.x - (FayteSkin.BW * 2), STRIP - FayteSkin.BW), FayteSkin.BORDER, null);
+	    for(int y = 0; y < gsz.y; y++) {
+		for(int x = 0; x < gsz.x; x++)
+		    FayteSkin.frame(g, cellc(new Coord(x, y)).sub(1, 1), Inventory.isqsz.add(2, 2), "cell");
+	    }
+	} else {
+	    Inventory.invsq(g, Coord.z, gsz);
+	}
 	for(int y = 0; y < gsz.y; y++) {
 	    for(int x = 0; x < gsz.x; x++) {
-		Coord p = Inventory.sqoff(new Coord(x, y));
+		Coord p = cellc(new Coord(x, y));
 		Pagina btn = layout[x][y];
 		if(btn != null) {
 		    Tex btex = btn.img.tex();
@@ -483,7 +568,7 @@ public class MenuGrid extends Widget {
     }
 
     private Pagina bhit(Coord c) {
-	Coord bc = Inventory.sqroff(c);
+	Coord bc = cellat(c);
 	if((bc.x >= 0) && (bc.y >= 0) && (bc.x < gsz.x) && (bc.y < gsz.y))
 	    return(layout[bc.x][bc.y]);
 	else
@@ -491,15 +576,33 @@ public class MenuGrid extends Widget {
     }
 	
     public boolean mousedown(Coord c, int button) {
+	if(flat && (button == 1) && (c.y < STRIP)) {
+	    moving = true;
+	    moff = c;
+	    ui.grabmouse(this);
+	    return(true);
+	}
 	Pagina h = bhit(c);
 	if((button == 1) && (h != null)) {
 	    pressed = h;
 	    ui.grabmouse(this);
+	} else if((button == 3) && (h != null)) {
+	    if(FayteModules.KEYS.on())
+		FayteKeys.bindgrid(h);
 	}
 	return(true);
     }
 	
     public void mousemove(Coord c) {
+	if(moving) {
+	    if(FayteHud.locked(ui))
+		return;
+	    Coord np = WindowSnap.snap(this, this.c.add(c.sub(moff)));
+	    this.c = new Coord(Math.max(0, Math.min(np.x, parent.sz.x - sz.x)), Math.max(0, Math.min(np.y, parent.sz.y - sz.y)));
+	    if(parent instanceof GameUI)
+		((GameUI)parent).menumoved();
+	    return;
+	}
 	if((dragging == null) && (pressed != null)) {
 	    Pagina h = bhit(c);
 	    if(h != pressed)
@@ -529,6 +632,10 @@ public class MenuGrid extends Widget {
 	use(paginafor(r), false);
     }
 
+    public void use(Pagina r) {
+	use(r, false);
+    }
+
     public void use(Pagina r, boolean reset) {
 	Collection<Pagina> sub = new LinkedList<Pagina>(),
 	    cur = new LinkedList<Pagina>();
@@ -544,7 +651,7 @@ public class MenuGrid extends Widget {
 	    this.curoff = 0;
 	    selectCraft(this.cur);
 	} else if(r == next) {
-	    int off = gsz.x*gsz.y - 2;
+	    int off = nextslot();
 	    if((curoff + off) >= cur.size())
 		curoff = 0;
 	    else
@@ -571,6 +678,7 @@ public class MenuGrid extends Widget {
                 use(null, false);
 	} else {
 	    wdgmsg("act", (Object[])ad);
+	    FayteTools.acted(ad);
 	}
 	return true;
     }
@@ -585,11 +693,18 @@ public class MenuGrid extends Widget {
     }
     
     public void tick(double dt) {
+	relayout();
 	if(loading || (pagseq != ui.sess.glob.pagseq))
 	    updlayout();
     }
     
     public boolean mouseup(Coord c, int button) {
+	if(moving) {
+	    moving = false;
+	    ui.grabmouse(null);
+	    FayteConfig.actionGridPos.set(this.c);
+	    return(true);
+	}
 	Pagina h = bhit(c);
 	if(button == 1) {
 	    if(dragging != null) {
@@ -618,6 +733,7 @@ public class MenuGrid extends Widget {
     }
 	
     public boolean globtype(char k, KeyEvent ev) {
+	if(!visible){return false;}
 	if(ev.isAltDown() || ev.isControlDown() || k == 0){return false;}
 	k = (char) ev.getKeyCode();
 	if(Character.toUpperCase(k) != k){return false;}
@@ -627,7 +743,7 @@ public class MenuGrid extends Widget {
 	    curoff = 0;
 	    updlayout();
 	    return(true);
-	} else if((k == KeyEvent.VK_N) && (layout[gsz.x - 2][gsz.y - 1] == next)) {
+	} else if((k == KeyEvent.VK_N) && (atslot(nextslot()) == next)) {
 	    use(next, false);
 	    return(true);
 	}

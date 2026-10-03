@@ -1,0 +1,101 @@
+# vFool: Fool's Path
+A new journey begins.
+# Things to look out for
+- The New Arcana Layout. Dark panels, golden accents, and slim design. Stripped down for efficiency, but left open for future custom UI mods.
+- Completely redone Humour UI, including weight, inspiration points, and madness all in one spot. Fully redone Feasting UI.
+- Fields and Pedigree UI overhauled.
+- Locking UI elements, allowing for custom UI layouts. (see keybinding or Actions)
+- Pop out timers, proficiencies, skills, selection, achievements, and shopping list.
+- SHOPPING LISTS for when you need to go to the store for beaver meat.
+- ACHIEVEMENTS, a proof of concept now. But plans to expand it are already underway.
+- Selection/Height tool refactored to allow for multiple selection areas, pop outs, toggling on and off, all retaining visuals and data between sessions.
+- Timers now have auto-timer functionality for certain things like Ore Smelters, Trade Orders, Cravings, and <Redacted by the Inquisition>
+- Interface scaling for text, tooltips, and chat with 3 text fonts and spacing to help make things more readable for you.
+- Pretty season change animation using existing image. Very nice.
+# The Almanac
+- Most of the UI can now be found condensed inside the Almanac.
+- It is a collection of your skills/profs, crafting recipes, building recipes, pilgrim/kin, and more!
+- Consists of all wiki entries with links to other entries for more info.
+- The Almanac is gated by the skills and experiences you have had on your character. So a new player does not see <Redacted by the Inquisition> or <No seriously, the King tapped my phone>
+- An ever-growing collection of data meant to help new players and old try new things, plan their next project, and keep them in Salem longer. (The biggest cliff is asking "What the heck am I supposed to do?" or "What am I doing?") The Almanac attempts to help reduce the cliff.
+- Taken directly from the wiki, the entries are true to the information already available there.
+- Middle clicking anything in the game allows you to open an Inspect window. It will show a stripped down wiki entry. You can also open the Almanac entry which is closer to the wiki in terms of content. You can also change the order of actions for items that have multiple choices. "Pick Branch" "Gather Nuts" "Open Log". You choose the universal order, the item specific order, and choose to hide some and automatically use others.
+- Mark items in the game with colors, making every instance of it glow that color.
+- Set alerts for anything from Bears to Garlic to Town Bells. The chat will let you know, and the minimap will flash and point you in the direction of the alert. Never get ambushed by a Cougar again (without consent).
+- Add notes and personal photos to any entry for your own personalized touch to remember your experiences.
+- A journal documenting your experiences. Keeps track of cravings, feasts, proficiency increases, achievements, and kin activity.
+# Crafting and Building
+- Every recipe and build plan is now in the Almanac.
+- Right clicking workstations opens a smaller recipe book for things makable at that station.
+- Workstations have overhauled UI, showing relevant data like time-until-done and content information. Several include "Add Timer" buttons to automatically keep track of when to come back.
+- Each recipe in the Almanac now lets you pick which "any" ingredient you want. If you have several berries, for example, open a chest before crafting, set which berry you want to make your Berry Straws out of, and the client will move the other berries to the chest or your backpack if it is open to keep the game using the type you actually want. No more having to manually worry about it. (One of the most likely to break.... so report any issues and use at own risk at first)
+- Choose a number of crafts you want (5 Abyssal Stew on your mind?) pop out the shopping list to show the things you need. Including the specific variable foods. The list live updates as you gather the items.
+# Containers and Items
+- Item tooltips trimmed down to what they actually do:
+- Name, purity, details, weight.
+- Sacks and pouches show their cumulative weight.
+- Every container has its own abacus, with the player's being able to detach. Hovering a line in the abacus highlights what it refers to. clicking the line keeps them highlighted.
+- Dry and wet good vessels are color-coded by content, and in the case of wine, shows the food group in the tooltip. More info in the abacus.
+- Containers and Sacks can be renamed for organization purposes.
+- Opening a chest-like object highlights the open object for truer visual fidelity.
+- New items to a container flash gold for a few seconds.
+- Expanded sorting for each container. Weight, Purity, Name, type, gobble value for each humour.
+# Actions and Macros
+- New Action Bar UI setup with more customization for size, style, hotkey assignment
+- New Action Menu to keep track of all the things you actually "Can do"
+- Right click any of the toggles to have them turn on automatically when you log in
+- Create macros. Anything from multi-attack combos to gear swap hotkeys
+- Rebind most keystrokes in the game. See the Keybind option menu for more information.
+# Timers and Alerts
+- Timers are now on server clock, not local. Name them, set the duration, pop some of them out so you see them flash when they are done. Keep some character specific or account specific.
+- Auto-timers for things like Cravings, trade orders, and no-interaction workstations like smelters.
+- All are removable if you so please.
+# World Map and Mini Map
+- New World map window that stitches together the map tiles you explore. If just starting, look for the "Show this character the whole map" to get them back to where you've already journeyed. This takes in the map images in your Salem folder, so it will include all your characters you've played locally. Use with caution, as building too big a map might attract the wrath of <redacted by the colony of Boston>
+- Place markers and choose it as your target to see an arrow point toward your goal
+- Getting knocked down leaves a temporary marker at your corpse
+- Minimap now draws from the worldmap to hopefully remove tearing and missing squares appearing
+# Chat
+- You can now have many chat boxes
+- Each chat box can filter what gets shown in them
+- Several settings for chat font and sizing
+# Pilgrims (kin)
+- New Kin Book in the Almanac
+- Portraits, formed from the last time you saw the character
+- Filter them by tabs so you remember who the heck that one guy was and why you kinned him
+- Add notes and photos to anyone
+- All the normal kin functionality is also included
+# Skills and Proficiencies
+- The new skills menu in the Almanac adds wiki data to each proficiency and skill. Get a clear look at what it takes to become the pilgrim you want
+- Pop out Proficiencies to keep track of the things you actually care about
+- Set a skill as a goal, giving you a pop out of the proficiencies you still need and what levels are not being met yet.
+- Small warning when trying to study something a second time in the same study session. This is meant to help new players understand the cost of repeatedly studying the same inspirational.
+# Views and performance
+- Tons of visual and performance settings including draw distances, hiding certain objects, hitboxes (now referred to as Footprints, which use the same concept as the world item marking), frame rate caps, and more.
+- New Area Selection tool replaces the need for the old height map elevation tool. Allows for planning builds, saving progress, and working on multiple dig projects at the same time.
+- Tools including right-click filling vessels, repeated-use, auto gates, and smart interact are working and offer more control of what they actually do. A nice mix of old and new.
+# Options and Profiles
+- Lots of new options. Worth going in and checking them out
+- Most modules added by Arcana can be disabled individually (Though extensive testing has not been done with this, so be careful and report any issues)
+- Profiles. Each character keeps its whole setup as one profile: window and HUD layout, chat windows, action bars and macros, right-click choices, recipe favorites, and highlights and alerts. It saves when you log out. Load another character's profile, keep your own snapshots, get older versions back from History, or start fresh from Default. (World map markers stay with each character.)
+# Help and Reliability
+- Send feedback from the game in the Help panel. This will send an error report and your message to my own discord channel. If that does not work, feel free to DM it to me on Discord.
+- Freeze reports and Arcana Log (files within the client files) being sent will also give great info on what went wrong.
+# Removed/Changed from old client
+- The old buttons, timers, and alerts are all replaced.
+- Several of the original windows can be accessed manually in case something goes wrong. So if a craft seems off, use the game's original "Game Window"
+# And More
+- Likely much more I forgot to mention because this became a monster fast!
+# Plans Moving Forward
+- More immersive guides and goals for new players
+- Achievement expansion! Hoping to implement Bridget's badge system ingame!
+- Networked features like market boards, inboxes, leaderboards, titles and more!
+- More collection of data not recorded anywhere. If you see missing data, let me know! I want the Almanac (and wiki) to be up to date with the right stuff
+- Better designed workstations like Alchemy Table, which act really janky
+- Better table UI to help with gluttony sessions
+- More trimmed/cleaner UI in some places including better text clip-resistance
+- Community events????
+- A better "First Login Experience"
+- Better Wiki and entry formatting over time (big long-term goal due to so much data). Might make the editor public if anyone wants to help contribute. Must follow the design format, though.
+- Any suggestions from you guys are welcome!
+Let's work together to make the most magical client ever! That'll convince Marp to get new content out! The age of the Salemite is just beginning! Join me on my Fool's Journey into the lumberwoods.

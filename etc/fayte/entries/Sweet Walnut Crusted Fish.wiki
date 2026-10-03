@@ -1,0 +1,45 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= [[Legacy]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Any Fish]], {{icon|Dehydrated Huckleberry}} [[Dehydrated Huckleberry]], [[Fire]], {{icon|Sugar}} [[Sugar]] 0.5 L, {{icon|Walnut}} [[Walnut]] ×2
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 50 || 40 || 45 || 90
+|-
+! Gluttony min
+| 10 || 10 || 10 || 10
+|-
+! Gluttony max
+| 10 || 10 || 10 || 10
+|}
+
+{{Facts
+| Title=Food Group
+| Group= None
+| Full and Fed= 02:00:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Restores Nuts and Seeds= 100% (100% chance)
+}}
+
+==About==
+
+{{i|Sweet Walnut Crusted Fish}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}. Sweet Walnut Crusted Fish is a major [[Restore Food]] for the {{i2|Nuts and Seeds}} Food Group.

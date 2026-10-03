@@ -1,0 +1,70 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Advanced Cooking}} [[Advanced Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Argopelter Egg}} [[Argopelter Egg]], [[Any Bugs]] ×3, {{icon|Autumn Grass}} [[Autumn Grass]] ×2, {{icon|Dead Wartbite Cricket}} [[Dead Wartbite Cricket]] ×2, {{icon|Devil's Wort}} [[Devil's Wort]], {{icon|Pine Nuts}} [[Pine Nuts]] ×2
+| Or= [[Any Stove]], {{icon|Unbaked Wortbaked Wartbite}} [[Unbaked Wortbaked Wartbite]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 48 || 46 || 45 || 49
+|-
+! Caterpillar min
+| style="background:#e6b8b8" | 70.2 || 26 || 26 || 26
+|-
+! Caterpillar max
+| style="background:#e6b8b8" | 76.95 || 28.5 || 28.5 || 28.5
+|-
+! Ladybug min
+| style="background:#e6b8b8" | 78 || 26 || 26 || 26
+|-
+! Ladybug max
+| style="background:#e6b8b8" | 85.5 || 28.5 || 28.5 || 28.5
+|-
+! Snail min
+| 26 || style="background:#6fa0ff" | 70.2 || 26 || 26
+|-
+! Snail max
+| 28.5 || style="background:#6fa0ff" | 76.95 || 28.5 || 28.5
+|-
+! Grub min
+| 26 || 26 || style="background:#f0d860" | 59.8 || 26
+|-
+! Grub max
+| 28.5 || 28.5 || style="background:#f0d860" | 65.55 || 28.5
+|-
+! Beetle min
+| 26 || 26 || 26 || style="background:#b8c8e6" | 65
+|-
+! Beetle max
+| 28.5 || 28.5 || 28.5 || style="background:#b8c8e6" | 71.25
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Slugs N' Bugs}} [[Slugs Bugs and Kritters]]
+| Full and Fed= 00:45:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Slugs, Bugs & Kritters
+}}
+
+==About==
+
+Crafting a {{i|Wortbaked Wartbite}} will make an {{i|Unbaked Wortbaked Wartbite}} which can then be baked in {{i|Any Stove}} to produce a Wortbaked Wartbite.

@@ -1,0 +1,449 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Baking}} [[Baking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= [[Any Poultry Egg]], {{icon|Barley Flour}} [[Barley Flour]] 0.15 L, {{icon|Pumpkin Flesh}} [[Pumpkin Flesh]] ×2
+}}
+
+{|
+|+ Heal and Gluttony values — With Argopelter Egg (Blood)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 16 || 14 || 14 || 14
+|-
+! Argopelter Egg min
+| style="background:#e6b8b8" | 52.36 || 34 || 34 || 34
+|-
+! Argopelter Egg max
+| style="background:#e6b8b8" | 70.84 || 46 || 46 || 46
+|-
+! Ghost Rider min
+| style="background:#e6b8b8" | 70.72 || 17 || 17 || 17
+|-
+! Ghost Rider max
+| style="background:#e6b8b8" | 95.68 || 23 || 23 || 23
+|-
+! Jack-o-Lantern min
+| style="background:#e6b8b8" | 73.1 || 17 || 17 || 17
+|-
+! Jack-o-Lantern max
+| style="background:#e6b8b8" | 98.9 || 23 || 23 || 23
+|-
+! Spooktacular min
+| style="background:#e6b8b8" | 68 || 17 || 17 || 17
+|-
+! Spooktacular max
+| style="background:#e6b8b8" | 92 || 23 || 23 || 23
+|-
+! Big Autumn min
+| 26.18 || style="background:#6fa0ff" | 40.8 || 17 || 17
+|-
+! Big Autumn max
+| 35.42 || style="background:#6fa0ff" | 55.2 || 23 || 23
+|-
+! Bushkin min
+| 26.18 || style="background:#6fa0ff" | 42.5 || 17 || 17
+|-
+! Bushkin max
+| 35.42 || style="background:#6fa0ff" | 57.5 || 23 || 23
+|-
+! Small Sugar min
+| 26.18 || style="background:#6fa0ff" | 39.1 || 17 || 17
+|-
+! Small Sugar max
+| 35.42 || style="background:#6fa0ff" | 52.9 || 23 || 23
+|-
+! Connecticut Field min
+| 26.18 || 17 || style="background:#f0d860" | 40.8 || 17
+|-
+! Connecticut Field max
+| 35.42 || 23 || style="background:#f0d860" | 55.2 || 23
+|-
+! Harvest Moon min
+| 26.18 || 17 || style="background:#f0d860" | 42.5 || 17
+|-
+! Harvest Moon max
+| 35.42 || 23 || style="background:#f0d860" | 57.5 || 23
+|-
+! Sugar Treat min
+| 26.18 || 17 || style="background:#f0d860" | 39.1 || 17
+|-
+! Sugar Treat max
+| 35.42 || 23 || style="background:#f0d860" | 52.9 || 23
+|-
+! Aspen min
+| 26.18 || 17 || 17 || style="background:#b8c8e6" | 37.4
+|-
+! Aspen max
+| 35.42 || 23 || 23 || style="background:#b8c8e6" | 50.6
+|-
+! Autumn Gold min
+| 26.18 || 17 || 17 || style="background:#b8c8e6" | 39.1
+|-
+! Autumn Gold max
+| 35.42 || 23 || 23 || style="background:#b8c8e6" | 52.9
+|-
+! Baby Bear min
+| 26.18 || 17 || 17 || style="background:#b8c8e6" | 35.7
+|-
+! Baby Bear max
+| 35.42 || 23 || 23 || style="background:#b8c8e6" | 48.3
+|}
+
+{|
+|+ With Sparrow Eggs (Phlegm)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Sparrow Eggs min
+| 34 || style="background:#6fa0ff" | 46.24 || 34 || 34
+|-
+! Sparrow Eggs max
+| 46 || style="background:#6fa0ff" | 62.56 || 46 || 46
+|-
+! Ghost Rider min
+| style="background:#e6b8b8" | 45.9 || 23.12 || 17 || 17
+|-
+! Ghost Rider max
+| style="background:#e6b8b8" | 62.1 || 31.28 || 23 || 23
+|-
+! Jack-o-Lantern min
+| style="background:#e6b8b8" | 47.6 || 23.12 || 17 || 17
+|-
+! Jack-o-Lantern max
+| style="background:#e6b8b8" | 64.4 || 31.28 || 23 || 23
+|-
+! Spooktacular min
+| style="background:#e6b8b8" | 44.2 || 23.12 || 17 || 17
+|-
+! Spooktacular max
+| style="background:#e6b8b8" | 59.8 || 31.28 || 23 || 23
+|-
+! Big Autumn min
+| 17 || style="background:#6fa0ff" | 55.42 || 17 || 17
+|-
+! Big Autumn max
+| 23 || style="background:#6fa0ff" | 74.98 || 23 || 23
+|-
+! Bushkin min
+| 17 || style="background:#6fa0ff" | 61.2 || 17 || 17
+|-
+! Bushkin max
+| 23 || style="background:#6fa0ff" | 82.8 || 23 || 23
+|-
+! Small Sugar min
+| 17 || style="background:#6fa0ff" | 53.04 || 17 || 17
+|-
+! Small Sugar max
+| 23 || style="background:#6fa0ff" | 71.76 || 23 || 23
+|-
+! Connecticut Field min
+| 17 || 23.12 || style="background:#f0d860" | 40.8 || 17
+|-
+! Connecticut Field max
+| 23 || 31.28 || style="background:#f0d860" | 55.2 || 23
+|-
+! Harvest Moon min
+| 17 || 23.12 || style="background:#f0d860" | 42.5 || 17
+|-
+! Harvest Moon max
+| 23 || 31.28 || style="background:#f0d860" | 57.5 || 23
+|-
+! Sugar Treat min
+| 17 || 23.12 || style="background:#f0d860" | 39.1 || 17
+|-
+! Sugar Treat max
+| 23 || 31.28 || style="background:#f0d860" | 52.9 || 23
+|-
+! Aspen min
+| 17 || 23.12 || 17 || style="background:#b8c8e6" | 37.4
+|-
+! Aspen max
+| 23 || 31.28 || 23 || style="background:#b8c8e6" | 50.6
+|-
+! Autumn Gold min
+| 17 || 23.12 || 17 || style="background:#b8c8e6" | 39.1
+|-
+! Autumn Gold max
+| 23 || 31.28 || 23 || style="background:#b8c8e6" | 52.9
+|-
+! Baby Bear min
+| 17 || 23.12 || 17 || style="background:#b8c8e6" | 35.7
+|-
+! Baby Bear max
+| 23 || 31.28 || 23 || style="background:#b8c8e6" | 48.3
+|}
+
+{|
+|+ With Eagle Egg (Yellow Bile)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Eagle Egg min
+| 34 || 34 || style="background:#f0d860" | 49.3 || 34
+|-
+! Eagle Egg max
+| 46 || 46 || style="background:#f0d860" | 66.7 || 46
+|-
+! Ghost Rider min
+| style="background:#e6b8b8" | 45.9 || 17 || 24.82 || 17
+|-
+! Ghost Rider max
+| style="background:#e6b8b8" | 62.1 || 23 || 33.58 || 23
+|-
+! Jack-o-Lantern min
+| style="background:#e6b8b8" | 47.6 || 17 || 24.82 || 17
+|-
+! Jack-o-Lantern max
+| style="background:#e6b8b8" | 64.4 || 23 || 33.58 || 23
+|-
+! Spooktacular min
+| style="background:#e6b8b8" | 44.2 || 17 || 24.82 || 17
+|-
+! Spooktacular max
+| style="background:#e6b8b8" | 59.8 || 23 || 33.58 || 23
+|-
+! Big Autumn min
+| 17 || style="background:#6fa0ff" | 40.8 || 24.82 || 17
+|-
+! Big Autumn max
+| 23 || style="background:#6fa0ff" | 55.2 || 33.58 || 23
+|-
+! Bushkin min
+| 17 || style="background:#6fa0ff" | 42.5 || 24.82 || 17
+|-
+! Bushkin max
+| 23 || style="background:#6fa0ff" | 57.5 || 33.58 || 23
+|-
+! Small Sugar min
+| 17 || style="background:#6fa0ff" | 39.1 || 24.82 || 17
+|-
+! Small Sugar max
+| 23 || style="background:#6fa0ff" | 52.9 || 33.58 || 23
+|-
+! Connecticut Field min
+| 17 || 17 || style="background:#f0d860" | 59.16 || 17
+|-
+! Connecticut Field max
+| 23 || 23 || style="background:#f0d860" | 80.04 || 23
+|-
+! Harvest Moon min
+| 17 || 17 || style="background:#f0d860" | 61.54 || 17
+|-
+! Harvest Moon max
+| 23 || 23 || style="background:#f0d860" | 83.26 || 23
+|-
+! Sugar Treat min
+| 17 || 17 || style="background:#f0d860" | 56.44 || 17
+|-
+! Sugar Treat max
+| 23 || 23 || style="background:#f0d860" | 76.36 || 23
+|-
+! Aspen min
+| 17 || 17 || 24.82 || style="background:#b8c8e6" | 37.4
+|-
+! Aspen max
+| 23 || 23 || 33.58 || style="background:#b8c8e6" | 50.6
+|-
+! Autumn Gold min
+| 17 || 17 || 24.82 || style="background:#b8c8e6" | 39.1
+|-
+! Autumn Gold max
+| 23 || 23 || 33.58 || style="background:#b8c8e6" | 52.9
+|-
+! Baby Bear min
+| 17 || 17 || 17 || style="background:#b8c8e6" | 35.7
+|-
+! Baby Bear max
+| 23 || 23 || 33.58 || style="background:#b8c8e6" | 48.3
+|}
+
+{|
+|+ With Turkey Egg (Black Bile)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Turkey Egg min
+| 34 || 34 || 34 || style="background:#b8c8e6" | 41.48
+|-
+! Turkey Egg max
+| 46 || 46 || 46 || style="background:#b8c8e6" | 56.12
+|-
+! Ghost Rider min
+| style="background:#e6b8b8" | 45.9 || 17 || 17 || 20.74
+|-
+! Ghost Rider max
+| style="background:#e6b8b8" | 62.1 || 23 || 23 || 28.06
+|-
+! Jack-o-Lantern min
+| style="background:#e6b8b8" | 47.6 || 17 || 17 || 20.74
+|-
+! Jack-o-Lantern max
+| style="background:#e6b8b8" | 64.4 || 23 || 23 || 28.06
+|-
+! Spooktacular min
+| style="background:#e6b8b8" | 44.2 || 17 || 17 || 20.74
+|-
+! Spooktacular max
+| style="background:#e6b8b8" | 59.8 || 23 || 23 || 28.06
+|-
+! Big Autumn min
+| 17 || style="background:#6fa0ff" | 40.8 || 17 || 20.74
+|-
+! Big Autumn max
+| 23 || style="background:#6fa0ff" | 55.2 || 23 || 28.06
+|-
+! Bushkin min
+| 17 || style="background:#6fa0ff" | 42.5 || 17 || 20.74
+|-
+! Bushkin max
+| 23 || style="background:#6fa0ff" | 57.5 || 23 || 28.06
+|-
+! Small Sugar min
+| 17 || style="background:#6fa0ff" | 39.1 || 17 || 20.74
+|-
+! Small Sugar max
+| 23 || style="background:#6fa0ff" | 52.9 || 23 || 28.06
+|-
+! Connecticut Field min
+| 17 || 17 || style="background:#f0d860" | 40.8 || 20.74
+|-
+! Connecticut Field max
+| 23 || 23 || style="background:#f0d860" | 55.2 || 28.06
+|-
+! Harvest Moon min
+| 17 || 17 || style="background:#f0d860" | 42.5 || 20.74
+|-
+! Harvest Moon max
+| 23 || 23 || style="background:#f0d860" | 57.5 || 28.06
+|-
+! Sugar Treat min
+| 17 || 17 || style="background:#f0d860" | 39.1 || 20.74
+|-
+! Sugar Treat max
+| 23 || 23 || style="background:#f0d860" | 52.9 || 28.06
+|-
+! Aspen min
+| 17 || 17 || 17 || style="background:#b8c8e6" | 45.56
+|-
+! Aspen max
+| 23 || 23 || 23 || style="background:#b8c8e6" | 61.64
+|-
+! Autumn Gold min
+| 17 || 17 || 17 || style="background:#b8c8e6" | 47.6
+|-
+! Autumn Gold max
+| 23 || 23 || 23 || style="background:#b8c8e6" | 64.4
+|-
+! Baby Bear min
+| 17 || 17 || 17 || style="background:#b8c8e6" | 43.52
+|-
+! Baby Bear max
+| 23 || 23 || 23 || style="background:#b8c8e6" | 58.88
+|}
+
+{|
+|+ With Green Easter Egg (Bonus)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Green Easter Egg min
+| style="background:#e6b8b8" | 55.76 || style="background:#6fa0ff" | 55.76 || style="background:#f0d860" | 55.76 || style="background:#b8c8e6" | 55.76
+|-
+! Green Easter Egg max
+| style="background:#e6b8b8" | 75.44 || style="background:#6fa0ff" | 75.44 || style="background:#f0d860" | 75.44 || style="background:#b8c8e6" | 75.44
+|-
+! Ghost Rider min
+| style="background:#e6b8b8" | 74.8 || 27.54 || 27.54 || 27.54
+|-
+! Ghost Rider max
+| style="background:#e6b8b8" | 101.2 || 37.26 || 37.26 || 37.26
+|-
+! Jack-o-Lantern min
+| style="background:#e6b8b8" | 77.52 || 27.54 || 27.54 || 27.54
+|-
+! Jack-o-Lantern max
+| style="background:#e6b8b8" | 104.88 || 37.26 || 37.26 || 37.26
+|-
+! Spooktacular min
+| style="background:#e6b8b8" | 72.08 || 27.54 || 27.54 || 27.54
+|-
+! Spooktacular max
+| style="background:#e6b8b8" | 97.52 || 37.26 || 37.26 || 37.26
+|-
+! Big Autumn min
+| 27.54 || style="background:#6fa0ff" | 66.3 || 27.54 || 27.54
+|-
+! Big Autumn max
+| 37.26 || style="background:#6fa0ff" | 89.7 || 37.26 || 37.26
+|-
+! Bushkin min
+| 27.54 || style="background:#6fa0ff" | 69.36 || 27.54 || 27.54
+|-
+! Bushkin max
+| 37.26 || style="background:#6fa0ff" | 93.84 || 37.26 || 37.26
+|-
+! Small Sugar min
+| 27.54 || style="background:#6fa0ff" | 63.58 || 27.54 || 27.54
+|-
+! Small Sugar max
+| 37.26 || style="background:#6fa0ff" | 86.02 || 37.26 || 37.26
+|-
+! Connecticut Field min
+| 27.54 || 27.54 || style="background:#f0d860" | 66.3 || 27.54
+|-
+! Connecticut Field max
+| 37.26 || 37.26 || style="background:#f0d860" | 89.7 || 37.26
+|-
+! Harvest Moon min
+| 27.54 || 27.54 || style="background:#f0d860" | 69.02 || 27.54
+|-
+! Harvest Moon max
+| 37.26 || 37.26 || style="background:#f0d860" | 93.38 || 37.26
+|-
+! Sugar Treat min
+| 27.54 || 27.54 || style="background:#f0d860" | 63.58 || 27.54
+|-
+! Sugar Treat max
+| 37.26 || 37.26 || style="background:#f0d860" | 86.02 || 37.26
+|-
+! Aspen min
+| 27.54 || 27.54 || 27.54 || style="background:#b8c8e6" | 60.86
+|-
+! Aspen max
+| 37.26 || 37.26 || 37.26 || style="background:#b8c8e6" | 82.34
+|-
+! Autumn Gold min
+| 27.54 || 27.54 || 27.54 || style="background:#b8c8e6" | 63.58
+|-
+! Autumn Gold max
+| 37.26 || 37.26 || 37.26 || style="background:#b8c8e6" | 86.02
+|-
+! Baby Bear min
+| 27.54 || 27.54 || 27.54 || style="background:#b8c8e6" | 58.14
+|-
+! Baby Bear max
+| 37.26 || 37.26 || 37.26 || style="background:#b8c8e6" | 78.66
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Pumpkins & Gourds}} [[Pumpkins and Gourds]]
+| Full and Fed= 00:35:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Pumpkins
+}}
+
+==About==
+
+{{i|Pumpkin Gnochi}} must be prepared on a {{i|Baking Table}}. When preparing Foods at a Baking Table there is a chance to receive a {{i|Eloped Gingerbread Man}}. Preparing Foods on a Baking Table removes a small amount of [[Insanity]]. Pumpkin Gnochi is [[Gluttony#Double Variable Recipe|Double Variable Recipe]].

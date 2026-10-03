@@ -1,0 +1,69 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.18
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Foraging}} [[Foraging]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Any Bugs]], [[Fire]], {{icon|Sizzled Slug}} [[Sizzled Slug]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 2 || 8 || 2 || 2
+|-
+! Caterpillar min
+| style="background:#e6b8b8" | 20.25 || 7.5 || 7.5 || 7.5
+|-
+! Caterpillar max
+| style="background:#e6b8b8" | 32.4 || 12 || 12 || 12
+|-
+! Ladybug min
+| style="background:#e6b8b8" | 22.5 || 7.5 || 7.5 || 7.5
+|-
+! Ladybug max
+| style="background:#e6b8b8" | 36 || 12 || 12 || 12
+|-
+! Snail min
+| 7.5 || style="background:#6fa0ff" | 20.25 || 7.5 || 7.5
+|-
+! Snail max
+| 12 || style="background:#6fa0ff" | 32.4 || 12 || 12
+|-
+! Grub min
+| 7.5 || 7.5 || style="background:#f0d860" | 17.25 || 7.5
+|-
+! Grub max
+| 12 || 12 || style="background:#f0d860" | 27.6 || 12
+|-
+! Beetle min
+| 7.5 || 7.5 || 7.5 || style="background:#b8c8e6" | 18.75
+|-
+! Beetle max
+| 12 || 12 || 12 || style="background:#b8c8e6" | 30
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Slugs N' Bugs}} [[Slugs Bugs and Kritters]]
+| Full and Fed= 00:20:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Slugs, Bugs & Kritters
+}}
+
+==About==
+
+A {{i|Virginian Shellroast}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

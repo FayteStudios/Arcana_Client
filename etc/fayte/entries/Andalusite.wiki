@@ -1,0 +1,19 @@
+{{Icons|Uncut Andalusite}}
+
+{{Facts
+| Title=Basics
+| Type= Uncut Gem
+| Weight= 0.05
+}}
+
+{{Facts
+| Title=Required Skill
+| Mineral Sifting = {{icon|Mineral Sifting}} Mineral Sifting
+}}
+
+{{Facts
+| Title=Sifting
+| Sifting= {{icon|Sift Rubble}} Sift from Rubble using a {{icon|Sifting Pan}} Sifting Pan.
+}}
+
+

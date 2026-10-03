@@ -1,0 +1,83 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Colonial Tradesmanship}} [[Colonial Tradesmanship]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Any Pot]], [[Any Poultry Egg]], {{icon|Fireplace}} [[Fireplace]], [[Potable Water]] ×5
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 12 || 16 || 14 || 16
+|-
+! Argopelter Egg min
+| style="background:#e6b8b8" | 30.49 || 19.8 || 19.8 || 19.8
+|-
+! Argopelter Egg max
+| style="background:#e6b8b8" | 35.57 || 23.1 || 23.1 || 23.1
+|-
+! Sparrow Eggs min
+| 19.8 || style="background:#6fa0ff" | 26.93 || 19.8 || 19.8
+|-
+! Sparrow Eggs max
+| 23.1 || style="background:#6fa0ff" | 31.42 || 23.1 || 23.1
+|-
+! Eagle Egg min
+| 19.8 || 19.8 || style="background:#f0d860" | 28.71 || 19.8
+|-
+! Eagle Egg max
+| 23.1 || 23.1 || style="background:#f0d860" | 33.5 || 23.1
+|-
+! Turkey Egg min
+| 9.9 || 19.8 || 9.9 || style="background:#b8c8e6" | 24.16
+|-
+! Turkey Egg max
+| 23.1 || 23.1 || 23.1 || style="background:#b8c8e6" | 28.18
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Poultry}} [[Poultry]]
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Poultry= 20% (40% chance)
+}}
+
+==About==
+
+A {{i|Hardboiled Egg}} is made by boiling an {{i|Argopelter Egg}}, {{i|Goose Egg}}, {{i|Eagle Egg}}, {{i|Sparrow Eggs}}, or {{i|Turkey Egg}} in a {{i|Clay Pot}}, {{i|Copper Pot}}, or {{i|Cauldron}}.
+
+==Any Poultry Egg As a Variable Ingredient==
+When used as a variable ingredient in recipes {{i|Any Poultry Egg}} gives a Restore [[:Category:Variable Food#Bonus Values|Bonus]].
+{{{!}} class=wikitable
+{{!}}-
+{{!}} '''Egg'''
+{{!}} '''Restores'''
+{{!}}-
+{{!}} {{i|Argopelter Egg}}
+{{!}} {{i2|Domesticated Meat}} Food Group by 15% with a 85% chance.
+{{!}}-
+{{!}} {{i|Eagle Egg}}
+{{!}} {{i2|Game Meat}} Food Group by 15% with a 85% chance.
+{{!}}-
+{{!}} {{i|Sparrow Eggs}}
+{{!}} {{i2|Nuts and Seeds}} Food Group by 15% with a 85% chance.
+{{!}}-
+{{!}} {{i|Turkey Egg}}
+{{!}} {{i2|Slugs Bugs and Kritters}} Food Group by 15% with a 85% chance.
+{{!}}}

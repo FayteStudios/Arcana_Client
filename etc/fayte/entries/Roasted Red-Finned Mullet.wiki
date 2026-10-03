@@ -1,0 +1,44 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.17
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Fishing}} [[Fishing]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Fire]], {{icon|Filet of Red-Finned Mullet}} [[Filet of Red-Finned Mullet]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 8 || 4 || 8 || 8
+|-
+! Gluttony min
+| 0 || 5 || 0 || 0
+|-
+! Gluttony max
+| 0 || 5 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= None
+| Full and Fed= 00:03:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+}}
+
+==About==
+
+A {{i|Roasted Red-Finned Mullet}} is obtained when crafting {{i|Roasted Fish}} using a {{i|Filet of Red-Finned Mullet}} over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

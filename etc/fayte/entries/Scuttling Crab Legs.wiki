@@ -1,0 +1,45 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= [[Inherent Rights]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= [[Any Stone]], {{icon|Crab}} [[Crab]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 19 || 21 || 12 || 4
+|-
+! Gluttony min
+| 5 || 5 || 5 || 5
+|-
+! Gluttony max
+| 10 || 10 || 10 || 10
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Shellfish}} [[Crustacea and Shellfish]]
+| Full and Fed= 00:05:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Restores Crustacea and Shellfish= 30% (90% chance)
+}}
+
+==About==
+
+{{i|Scuttling Crab Legs}} is received by chance when cracking open a {{i|Crab}} with {{i|Any Stone}}. Scuttling Crab Legs is a minor [[Restore Food]] for the {{i2|Crustacea and Shellfish}} Food Group.

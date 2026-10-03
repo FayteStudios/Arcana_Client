@@ -1,0 +1,45 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Nuts & Seeds}} [[Nuts & Seeds]]
+| Skill 2= {{icon|Simple Cooking}} [[Simple Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= [[Myrtle Oak Acorn]] ×2, [[Pine Nut]] ×2, {{icon|Raisins}} [[Raisins]], {{icon|Stray Chestnut}} [[Stray Chestnut]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 9 || 9 || 9 || 9
+|-
+! Gluttony min
+| 1 || 1 || 1 || 1
+|-
+! Gluttony max
+| 2 || 2 || 2 || 2
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Nuts & Seeds}} [[Nuts and Seeds]]
+| Full and Fed= 00:01:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 20
+| Reduces Nuts and Seeds= 5% (5% chance)
+| Menu= Craft > Food > Nuts
+}}
+
+==About==

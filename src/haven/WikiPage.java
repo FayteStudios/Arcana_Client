@@ -123,7 +123,12 @@ public class WikiPage extends SIWidget implements Callback, HyperlinkListener {
     public void hyperlinkUpdate(HyperlinkEvent ev) {
 	try {
 	    String path = ev.getURL().getPath();
-	    String name = path.substring(path.lastIndexOf("index.php/") + 10);
+	    String name;
+	    if (path.contains("/page/")) {
+		name = path.substring(path.lastIndexOf("/page/") + 6);
+	    } else {
+		name = path.substring(path.lastIndexOf("index.php/") + 10);
+	    }
 	    name = URLDecoder.decode(name, "UTF-8");
 	    System.out.println(String.format("Link: '%s', name: '%s'", path, name));
 	    open(name, false);

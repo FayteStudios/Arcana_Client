@@ -1,0 +1,53 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.03
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= None
+}}
+
+{{Facts
+| Title=Forage
+| Found= [[Argopelter Gizzard]], [[Autumnal]], [[Badlands]], [[Coniferous]], [[Crag]], [[Grassland]], [[Greenwood]], {{icon|Honeysuckle Kudzu}} [[Honeysuckle Kudzu]], [[Marshland]], [[Myrtle Oak Tree]], [[Shrub]]
+| Or= {{icon|Gardening Pot}} [[Gardening Pot]], {{icon|Humus}} [[Humus]], [[Potable Water]], {{icon|Any Vegetable}} [[Any Vegetable]] 0.2 L
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Caterpillar in a jar}} [[Caterpillar in a Jar]]
+| b)= [[Cocoon]]
+| c)= {{icon|Three Virginians}} [[Three Virginians]]
+| Counts as= [[Any Bugs]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 5 || 3 || 2 || 4
+|-
+! Gluttony min
+| 1 || 0 || 0 || 0
+|-
+! Gluttony max
+| 1.5 || 0 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Slugs N' Bugs}} [[Slugs Bugs and Kritters]]
+| Full and Fed= 00:20:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+}}
+
+==About==
+
+{{i|Caterpillar}}s are commonly found in the wild, inside {{i|Myrtle Oak Tree}}s, when Dissecting {{i|Argopelter Gizzard}}s, or when Picking {{i|Honeysuckle Kudzu}}. Additionally, when Picking ripe {{i|Any Vegetable}}s which have sat for a day or two, you may occasionally find that a Caterpillar has eaten one of your Vegetables and taken its [[Purity]].

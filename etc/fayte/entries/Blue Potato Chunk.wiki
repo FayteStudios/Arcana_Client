@@ -1,0 +1,45 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= [[Legacy]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= None
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 5 || 5 || 5 || 5
+|-
+! Gluttony min
+| 0 || 2 || 0 || 0
+|-
+! Gluttony max
+| 0 || 6 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Potato Food}} [[Potato Food]]
+| Full and Fed= 00:08:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Potato Food= 50% (50% chance)
+}}
+
+==About==
+
+A {{i|Blue Potato Chunk}} was formerly received when Splitting a {{i|Blue Potato}}. It has now been replaced with a {{i|Potato Chunk}}.

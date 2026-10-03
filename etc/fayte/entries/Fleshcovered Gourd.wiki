@@ -1,0 +1,112 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 1.00
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Simple Cooking}} [[Simple Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|New World Gourd}} [[New World Gourd]], {{icon|Pumpkin Flesh}} [[Pumpkin Flesh]] ×2
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 16 || 14 || 14 || 14
+|-
+! Ghost Rider min
+| style="background:#e6b8b8" | 110.7 || 41 || 41 || 41
+|-
+! Ghost Rider max
+| style="background:#e6b8b8" | 162 || 60 || 60 || 60
+|-
+! Jack-o-Lantern min
+| style="background:#e6b8b8" | 114.8 || 41 || 41 || 41
+|-
+! Jack-o-Lantern max
+| style="background:#e6b8b8" | 168 || 60 || 60 || 60
+|-
+! Spooktacular min
+| style="background:#e6b8b8" | 106.6 || 41 || 41 || 41
+|-
+! Spooktacular max
+| style="background:#e6b8b8" | 156 || 60 || 60 || 60
+|-
+! Big Autumn min
+| 41 || style="background:#6fa0ff" | 98.4 || 41 || 41
+|-
+! Big Autumn max
+| 60 || style="background:#6fa0ff" | 144 || 60 || 60
+|-
+! Bushkin min
+| 41 || style="background:#6fa0ff" | 102.5 || 41 || 41
+|-
+! Bushkin max
+| 60 || style="background:#6fa0ff" | 150 || 60 || 60
+|-
+! Small Sugar min
+| 41 || style="background:#6fa0ff" | 94.3 || 41 || 41
+|-
+! Small Sugar max
+| 60 || style="background:#6fa0ff" | 138 || 60 || 60
+|-
+! Connecticut Field min
+| 41 || 41 || style="background:#f0d860" | 98.4 || 41
+|-
+! Connecticut Field max
+| 60 || 60 || style="background:#f0d860" | 144 || 60
+|-
+! Harvest Moon min
+| 41 || 41 || style="background:#f0d860" | 102.5 || 41
+|-
+! Harvest Moon max
+| 60 || 60 || style="background:#f0d860" | 150 || 60
+|-
+! Sugar Treat min
+| 41 || 41 || style="background:#f0d860" | 94.3 || 41
+|-
+! Sugar Treat max
+| 60 || 60 || style="background:#f0d860" | 138 || 60
+|-
+! Aspen min
+| 41 || 41 || 41 || style="background:#b8c8e6" | 90.2
+|-
+! Aspen max
+| 60 || 60 || 60 || style="background:#b8c8e6" | 132
+|-
+! Autumn Gold min
+| 41 || 41 || 41 || style="background:#b8c8e6" | 94.3
+|-
+! Autumn Gold max
+| 60 || 60 || 60 || style="background:#b8c8e6" | 138
+|-
+! Baby Bear min
+| 41 || 41 || 41 || style="background:#b8c8e6" | 86.1
+|-
+! Baby Bear max
+| 60 || 60 || 60 || style="background:#b8c8e6" | 126
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Pumpkins & Gourds}} [[Pumpkins and Gourds]]
+| Full and Fed= 00:15:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Pumpkins and Gourds= 20% (15% chance)
+| Menu= Craft > Food > Pumpkins
+}}
+
+==About==
+
+A {{i|Fleshcovered Gourd}} does '''NOT''' need to be cooked. As a {{i|New World Gourd}} is a rare [[Inspirational]] make sure to use all but its last charge before using it to make a Fleshcovered Gourd.

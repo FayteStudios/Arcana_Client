@@ -1,0 +1,51 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.04
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= [[Inherent Rights]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Blindfold}} [[Blindfold]], {{icon|Loot Pignatta}} [[Loot Pignatta]], {{icon|Pignatta Pole}} [[Pignatta Pole]], {{icon|Wooden Handle}} [[Wooden Handle]]
+| Or= [[Gingerbread House]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= [[Candies]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 7 || 7 || 7 || 7
+|-
+! Gluttony min
+| 5 || 5 || 5 || 5
+|-
+! Gluttony max
+| 5 || 5 || 5 || 5
+|}
+
+{{Facts
+| Title=Food Group
+| Group= [[Candies]]
+| Full and Fed= 00:05:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Restores Foods= 30% (40% chance)
+}}
+
+==About==
+
+A {{i|Franklin Bar}} is obtained by chance when breaking open a {{i|Loot Pignatta}} or by gathering them from a {{i|Gingerbread House}} Franklin Bars restores All Food Groups by 30% with a 40% '''EXCEPT''' for {{i2|Fruit}}. A Franklin Bar be stored a {{i|Candy Basket}}. Older pilgrims may be interested in [[Trading|Buying]] this item from you.

@@ -296,6 +296,20 @@ public class Widget {
 	}
     }
 	
+    public boolean linked() {
+	return((parent != null) && ((parent.child == this) || (prev != null)));
+    }
+
+    public boolean attached() {
+	Widget w = this;
+	while(w.parent != null) {
+	    if(!w.linked())
+		return(false);
+	    w = w.parent;
+	}
+	return((ui != null) && (w == ui.root));
+    }
+
     public void unlink() {
 	synchronized(ui) {
 	    if(next != null)
@@ -468,6 +482,7 @@ public class Widget {
 		cursor = null;
 	    else
 		cursor = Resource.load((String)args[0], (Integer)args[1]);
+	    FayteTools.cursor(this, args.length > 0);
 	} else if(msg == "tip") {
 	    int a = 0;
 	    Object tt = args[a++];

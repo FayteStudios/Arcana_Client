@@ -1,0 +1,70 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= None
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Advanced Cooking}} [[Advanced Cooking]]
+| Skill 2= {{icon|Potato Growing}} [[Potato Growing]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Any Potato}} [[Any Potato]] ×2, {{icon|Curious Potato}} [[Curious Potato]], [[Fire]], {{icon|Leaf of Green Cabbage}} [[Leaf of Green Cabbage]] ×2, {{icon|Onion}} [[Onion]], {{icon|Raw Beef Steak}} [[Raw Beef Steak]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 35 || 45 || 25 || 25
+|-
+! Red Potato min
+| style="background:#e6b8b8" | 56 || 20 || 20 || 20
+|-
+! Red Potato max
+| style="background:#e6b8b8" | 79.8 || 28.5 || 28.5 || 28.5
+|-
+! Blue Potato min
+| 20 || style="background:#6fa0ff" | 52 || 20 || 20
+|-
+! Blue Potato max
+| 28.5 || style="background:#6fa0ff" | 74.1 || 28.5 || 28.5
+|-
+! Yellow Potato min
+| 20 || 20 || style="background:#f0d860" | 52 || 20
+|-
+! Yellow Potato max
+| 28.5 || 28.5 || style="background:#f0d860" | 74.1 || 28.5
+|-
+! Brown Potato min
+| 20 || 20 || 20 || style="background:#b8c8e6" | 48
+|-
+! Brown Potato max
+| 28.5 || 28.5 || 28.5 || style="background:#b8c8e6" | 68.4
+|-
+! Curious Potato min
+| 40 || 40 || 40 || 40
+|-
+! Curious Potato max
+| 57 || 57 || 57 || 57
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Potato Food}} [[Potato Food]]
+| Full and Fed= 00:45:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Potatoes
+}}
+
+==About==
+
+{{i|New England Dinner}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

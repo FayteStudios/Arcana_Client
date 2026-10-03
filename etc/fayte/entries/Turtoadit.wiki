@@ -1,0 +1,70 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.75
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Advanced Cooking}} [[Advanced Cooking]]
+}}
+
+{{Facts
+| Title=Bake
+| Needs= [[Any Bugs]], {{icon|Dead Rabbit}} [[Dead Rabbit]], {{icon|Plucked Turkey}} [[Plucked Turkey]], {{icon|Toad}} [[Toad]]
+| Second Stage= {{icon|Bread Oven}} [[Bread Oven]], {{icon|Uncooked Turtoadit}} [[Uncooked Turtoadit]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 20 || 16 || 17.5 || 9.5
+|-
+! Caterpillar min
+| style="background:#e6b8b8" | 64.8 || 24 || 24 || 24
+|-
+! Caterpillar max
+| style="background:#e6b8b8" | 81 || 30 || 30 || 30
+|-
+! Ladybug min
+| style="background:#e6b8b8" | 72 || 24 || 24 || 24
+|-
+! Ladybug max
+| style="background:#e6b8b8" | 90 || 30 || 30 || 30
+|-
+! Snail min
+| 24 || style="background:#6fa0ff" | 64.8 || 24 || 24
+|-
+! Snail max
+| 30 || style="background:#6fa0ff" | 81 || 30 || 30
+|-
+! Grub min
+| 24 || 24 || style="background:#f0d860" | 55.2 || 24
+|-
+! Grub max
+| 30 || 30 || style="background:#f0d860" | 69 || 30
+|-
+! Beetle min
+| 24 || 24 || 24 || style="background:#b8c8e6" | 60
+|-
+! Beetle max
+| 30 || 30 || 30 || style="background:#b8c8e6" | 75
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Slugs N' Bugs}} [[Slugs Bugs and Kritters]]
+| Full and Fed= 02:00:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 20
+| Menu= Craft > Food > Slugs, Bugs & Kritters
+}}
+
+==About==
+
+Crafting a {{i|Turtoadit}} will make an {{i|Uncooked Turtoadit}} which can then be baked in a {{i|Bread Oven}} to produce a Turtoadit. When baking Foods in a Bread Oven there is a chance for them to become {{i|Animal Crackers}} instead.

@@ -194,14 +194,26 @@ public class ChatUI extends Widget {
 	    public abstract Text text();
 	    public abstract Tex tex();
 	    public abstract Coord sz();
+
+	    public String plain() {
+		return(text().text);
+	    }
+
+	    public Color color() {
+		return(null);
+	    }
 	}
 	
 	public static class SimpleMessage extends Message {
 	    private final Text t;
+	    private final String plain;
+	    private final Color col;
 	    
 	    public SimpleMessage(String text, Color col, int w) {
 		if(Config.timestamp)
 		    text = Utils.timestamp(text);
+		this.plain = text;
+		this.col = col;
 		if(col == null)
 		    this.t = fnd.render(RichText.Parser.quote(text), w);
 		else
@@ -218,6 +230,14 @@ public class ChatUI extends Widget {
 	    
 	    public Coord sz() {
 		return(t.sz());
+	    }
+
+	    public String plain() {
+		return(plain);
+	    }
+
+	    public Color color() {
+		return(col);
 	    }
 	}
 
@@ -259,6 +279,8 @@ public class ChatUI extends Widget {
         }
 	
 	public void append(Message msg, boolean attn) {
+	    if(FayteModules.CHAT.on())
+		FayteChatWindow.feed(this, msg);
 	    synchronized(msgs) {
 		msgs.add(msg);
 		int y = 0;
@@ -816,6 +838,16 @@ public class ChatUI extends Widget {
 		    return(text().sz());
 		else
 		    return(r.sz());
+	    }
+
+	    public String plain() {
+		text();
+		String s = String.format("%s: %s", cn, text);
+		return(Config.timestamp ? Utils.timestamp(s) : s);
+	    }
+
+	    public Color color() {
+		return(col);
 	    }
 	}
 

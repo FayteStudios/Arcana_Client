@@ -1,0 +1,52 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.05
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Survival Skills}} [[Survival Skills]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Fire]], [[Pine Nut]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Adventurer's Trailmix}} [[Adventurer's Trailmix]]
+| b)= {{icon|Roasted Pine Nut Stuffing}} [[Roasted Pine Nut Stuffing]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 2 || 5 || 2 || 8
+|-
+! Gluttony min
+| 0 || 0 || 10 || 0
+|-
+! Gluttony max
+| 0 || 0 || 14 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Nuts & Seeds}} [[Nuts and Seeds]]
+| Full and Fed= 00:10:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 2
+| Reduces Nuts and Seeds= 50% (50% chance)
+| Menu= Craft > Food > Nuts
+}}
+
+==About==
+
+{{i|Roasted Pine Nuts}} is obtained when crafting {{i|Roasted Nuts}} using {{i|Pine Nuts}} over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

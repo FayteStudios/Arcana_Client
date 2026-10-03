@@ -90,12 +90,76 @@ public class Charlist extends Widget {
     @RName("charlist")
     public static class $_ implements Factory {
 	public Widget create(Coord c, Widget parent, Object[] args) {
-	    return(new Charlist(c, parent, (Integer)args[0]));
+	    int h = (Integer)args[0];
+	    cscale = 1.0;
+	    if(!FayteSkin.on())
+		return(new Charlist(c, parent, h));
+	    Widget root = parent.ui.root;
+	    if((parent == root) || (parent.parent != root))
+		return(new Charlist(c, parent, h));
+	    Coord bs = LoginScreen.bg.sz();
+	    double f = Math.max(0.5, (double)(root.sz.y - 32) / bs.y);
+	    Coord o = root.sz.sub(new Coord((int)(bs.x * f), (int)(bs.y * f))).div(2);
+	    if(!parent.c.equals(Coord.z) || !parent.sz.equals(root.sz)) {
+		parent.c = Coord.z;
+		parent.sz = root.sz;
+	    }
+	    for(Widget ch = parent.child; ch != null; ch = ch.next)
+		place(ch, o, f);
+	    cscale = Math.max(1.0, Math.min(1.6, f));
+	    int cy = o.y + (int)Math.round(c.y * f);
+	    int maxrows = (root.sz.y - 20 - cy - (bmargin * 2)) / (card().y + margin);
+	    int rows = Math.max(1, Math.min(h, Math.max(1, maxrows)));
+	    Charlist cl = new Charlist(c, parent, rows);
+	    place(cl, o, f);
+	    cl.origin = o;
+	    cl.factor = f;
+	    return(cl);
 	}
     }
 
+    private static final java.util.Map<Widget, Boolean> placed = new java.util.WeakHashMap<Widget, Boolean>();
+    Coord origin = null;
+    double factor = 1.0;
+
+    private static void place(Widget w, Coord o, double f) {
+	if(placed.containsKey(w))
+	    return;
+	placed.put(w, true);
+	w.c = o.add((int)Math.round(w.c.x * f), (int)Math.round(w.c.y * f));
+	double s = Math.max(1.0, Math.min(1.6, f));
+	if(w instanceof IButton)
+	    ((IButton)w).scale(s);
+	else if(w instanceof Img)
+	    ((Img)w).scale(s);
+    }
+
+    public void tick(double dt) {
+	super.tick(dt);
+	if((origin != null) && (parent != null)) {
+	    for(Widget ch = parent.child; ch != null; ch = ch.next)
+		place(ch, origin, factor);
+	}
+    }
+
+    public static Charlist live = null;
+
+    public void destroy() {
+	if(live == this)
+	    live = null;
+	super.destroy();
+    }
+
+    static double cscale = 1.0;
+
+    static Coord card() {
+	Coord b = bg.sz();
+	return(new Coord((int)Math.round(b.x * cscale), (int)Math.round(b.y * cscale)));
+    }
+
     public Charlist(Coord c, Widget parent, int height) {
-	super(c, new Coord(clu[0].getWidth(), (bmargin * 2) + (bg.sz().y * height) + (margin * (height - 1))), parent);
+	super(c, new Coord(Math.max(clu[0].getWidth(), card().x + 20), (bmargin * 2) + (card().y * height) + (margin * (height - 1))), parent);
+	live = this;
 	this.height = height;
 	y = 0;
 	sau = new IButton(new Coord(0, 0), this, clu[0], clu[1], clu[2]) {
@@ -178,7 +242,8 @@ public class Charlist extends Widget {
     }
     
     public void draw(GOut g) {
-	Coord cc = new Coord((clu[0].getWidth() - bg.sz().x) / 2, bmargin);
+	Coord cs = FayteSkin.on() ? card() : bg.sz();
+	Coord cc = new Coord((sz.x - cs.x) / 2, bmargin);
 	synchronized(chars) {
             //project alphabet
             if(charschanged)
@@ -223,15 +288,27 @@ public class Charlist extends Widget {
                 if(i+this.y*ymanip<0)
                     continue;
 		Char c = filteredchars.get(i + this.y*ymanip);
-		g.image(bg, cc);
+		int nx = 15;
+		if(FayteSkin.on()) {
+		    FayteSkin.box(g, cc, cs, new java.awt.Color(0x15, 0x18, 0x1D, 225), FayteSkin.BORDER);
+		    Tex pic = FaytePilgrims.selfpic(c.name);
+		    if(pic != null) {
+			int ph = cs.y - 10;
+			int pw = pic.sz().x * ph / Math.max(1, pic.sz().y);
+			g.image(pic, cc.add(5, 5), new Coord(pw, ph));
+			nx = pw + 14;
+		    }
+		} else {
+		    g.image(bg, cc);
+		}
 		// c.ava.show();
 		c.plb.show();
 		// int off = (bg.sz().y - c.ava.sz.y) / 2;
 		// c.ava.c = new Coord(off, off + y);
-		c.plb.c = cc.add(bg.sz()).sub(110, 30);
+		c.plb.c = cc.add(cs).sub(110, 30);
 		// g.image(c.nt.tex(), new Coord(off + c.ava.sz.x + 5, off + y));
-		g.image(c.nt.tex(), cc.add(15, 10));
-		cc = cc.add(0, bg.sz().y + margin);
+		g.image(c.nt.tex(), cc.add(nx, 10));
+		cc = cc.add(0, cs.y + margin);
 	    }
             if(filteredchars.size() > height) {
 		    sau.show();

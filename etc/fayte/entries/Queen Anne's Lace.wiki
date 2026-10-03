@@ -1,0 +1,54 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= None
+}}
+
+{{Facts
+| Title=Forage
+| Found= [[Coniferous]]
+}}
+
+{{Facts
+| Title=Used By
+| Counts as= [[Any Flower]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 5 || 5 || 5 || 5
+|-
+! Gluttony min
+| 0 || 1 || 0 || 0
+|-
+! Gluttony max
+| 0 || 8 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Vegetables & Greens}} [[Vegetables and Greens]]
+| Full and Fed= 00:06:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Inspiration= Arts & Crafts 400, Flora & Fauna 200, Sparks & Embers 100, Stocks & Cultivars 450, Sugar & Spice 130, Natural Philosophy 550
+}}
+
+==Flavor Text==
+
+''The lace of queens vaulted above a golden root!''
+
+==About==
+
+{{i|Queen Anne's Lace}} can be found uncommonly in the wild. When hovering over its icon on the map it will show up as 'Wild Carrot.' Picking {{i|Any Flower}}s from the wild lowers  [[Insanity]]. You may receive a {{i|Drone Bee}} or {{i|Queen Bee}} when Picking Any Flower from the wild. With the [[Gardening]] skill learned, a Queen Anne's Lace can be planted} in a {{i|Gardening Pot}} and will become either a {{i|Queen Anne's Lace}}, or a {{i|Carrot}} by chance. Planting in Gardening Pots lowers [[Insanity]]. Queen Anne's Lace be stored in either a {{i|Flower Sack}} or a {{i|Veggie Sack}}.

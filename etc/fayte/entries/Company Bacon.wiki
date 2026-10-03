@@ -1,0 +1,50 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= [[Stalls]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Silver Pieces}} [[Silver Pieces]] ×45
+}}
+
+{{Facts
+| Title=Used By
+| a)= {{icon|Farmer's Omelette}} [[Farmer's Omelette]]
+| b)= {{icon|Red October}} [[Red October]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 25 || 25 || 25 || 25
+|-
+! Gluttony min
+| 0 || 0 || 0 || 0
+|-
+! Gluttony max
+| 0 || 0 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= None
+| Full and Fed= None
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 10
+}}
+
+==About==
+
+{{i|Company Bacon}} can be purchased from [[Stalls#Jordan Gramsey - Cooking Needs|Jordan Gramsey]] in [[Providence]] for 45x {{i|Silver Pieces}}.

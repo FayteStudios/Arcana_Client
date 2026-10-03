@@ -1,0 +1,44 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.10
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Simple Cooking}} [[Simple Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Drying Frame}} [[Drying Frame]], {{icon|Turkey Neck}} [[Turkey Neck]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 12 || 24 || 12 || 24
+|-
+! Gluttony min
+| 3 || 3 || 3 || 3
+|-
+! Gluttony max
+| 6 || 6 || 6 || 6
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Poultry}} [[Poultry]]
+| Full and Fed= 00:20:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 7
+}}
+
+==About==
+
+A {{i|Turkey Neck}} can be dried on a {{i|Drying Frame}} for about 10 hours to make {{i|Turkey Jerky}}.

@@ -1,0 +1,49 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 1.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= [[Salem Store]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= [[Harvest Pack]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= [[Empty Cornucopia]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 30 || 30 || 30 || 30
+|-
+! Gluttony min
+| 0 || 0 || 0 || 0
+|-
+! Gluttony max
+| 0 || 0 || 0 || 0
+|}
+
+{{Facts
+| Title=Food Group
+| Group= None
+| Full and Fed= 00:00:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 10
+}}
+
+==About==
+
+A {{i|Cornucopia}} is obtained from the Store bought {{i2|Harvest Pack}}. After consuming a Cornucopia's last use it will become an {{i|Empty Cornucopia}}.

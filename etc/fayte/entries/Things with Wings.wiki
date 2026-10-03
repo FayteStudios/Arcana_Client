@@ -1,0 +1,58 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.35
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= {{icon|Any Poultry Wing}} [[Any Poultry Wing]], {{icon|Beetle}} [[Beetle]], {{icon|Dead Wartbite Cricket}} [[Dead Wartbite Cricket]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 9.5 || 9.5 || 9 || 9
+|-
+! Argopelter min
+| style="background:#e6b8b8" | 56.55 || 19.5 || style="background:#f0d860" | 56.55 || 19.5
+|-
+! Argopelter max
+| style="background:#e6b8b8" | 68.15 || 23.5 || style="background:#f0d860" | 68.15 || 23.5
+|-
+! Domesticated Turkey min
+| 19.5 || style="background:#6fa0ff" | 46.8 || 19.5 || style="background:#b8c8e6" | 46.8
+|-
+! Domesticated Turkey max
+| 23.5 || style="background:#6fa0ff" | 56.4 || 23.5 || style="background:#b8c8e6" | 56.4
+|-
+! Wild Turkey min
+| 19.5 || style="background:#6fa0ff" | 40.95 || 19.5 || style="background:#b8c8e6" | 40.95
+|-
+! Wild Turkey max
+| 23.5 || style="background:#6fa0ff" | 49.35 || 23.5 || style="background:#b8c8e6" | 49.35
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Poultry}} [[Poultry]]
+| Full and Fed= 03:00:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Poultry= 25% (15% chance)
+| Menu= Craft > Food > Poultry & Fowl
+}}
+
+==About==
+
+{{i|Things with Wings}} does '''NOT''' need to be cooked.

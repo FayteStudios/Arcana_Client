@@ -1,0 +1,95 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.25
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+}}
+
+{{Facts
+| Title=Bake
+| Needs= {{icon|Any Bellpeppers}} [[Any Bellpeppers]], [[Any Mushroom]] ×2, {{icon|Raw Rabbit Cut}} [[Raw Rabbit Cut]]
+| Second Stage= {{icon|Bread Oven}} [[Bread Oven]], {{icon|Unbaked 'Shroom-Stuffed Bellpepper}} [[Unbaked 'Shroom-Stuffed Bellpepper]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 12 || 8 || 12 || 8
+|-
+! Spooky Redcap min
+| 51.2 || 51.2 || 51.2 || 51.2
+|-
+! Spooky Redcap max
+| 68.8 || 68.8 || 68.8 || 68.8
+|-
+! Monk's Pan min
+| style="background:#e6b8b8" | 40 || 16 || 16 || 16
+|-
+! Monk's Pan max
+| style="background:#e6b8b8" | 53.75 || 21.5 || 21.5 || 21.5
+|-
+! Toadstool min
+| style="background:#e6b8b8" | 43.2 || 16 || 16 || 16
+|-
+! Toadstool max
+| style="background:#e6b8b8" | 58.05 || 21.5 || 21.5 || 21.5
+|-
+! Lavender Blewit min
+| 16 || style="background:#6fa0ff" | 40 || 16 || 16
+|-
+! Lavender Blewit max
+| 21.5 || style="background:#6fa0ff" | 53.75 || 21.5 || 21.5
+|-
+! Honeylamp min
+| 16 || style="background:#6fa0ff" | 40 || 16 || 16
+|-
+! Honeylamp max
+| 21.5 || style="background:#6fa0ff" | 53.75 || 21.5 || 21.5
+|-
+! Lobster Mushroom min
+| 16 || 16 || style="background:#f0d860" | 40 || 16
+|-
+! Lobster Mushroom max
+| 21.5 || 21.5 || style="background:#f0d860" | 53.75 || 21.5
+|-
+! Yellow Morel min
+| 16 || 16 || style="background:#f0d860" | 43.2 || 16
+|-
+! Yellow Morel max
+| 21.5 || 21.5 || style="background:#f0d860" | 58.05 || 21.5
+|-
+! Sugar Caps min
+| 16 || 16 || 16 || style="background:#b8c8e6" | 40
+|-
+! Sugar Caps max
+| 21.5 || 21.5 || 21.5 || style="background:#b8c8e6" | 53.75
+|-
+! Witch's Hat min
+| 16 || 16 || 16 || style="background:#b8c8e6" | 43.2
+|-
+! Witch's Hat max
+| 21.5 || 21.5 || 21.5 || style="background:#b8c8e6" | 58.05
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Mushrooms}} [[Mushrooms]]
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Mushrooms= 20% (40% chance)
+| Menu= Craft > Food > Fungus
+}}
+
+==About==
+
+Crafting a {{i|'Shroom-Stuffed Bellpepper}} will make an {{i|Unbaked 'Shroom-Stuffed Bellpepper}} which can then be baked in a {{i|Bread Oven}} to produce a 'Shroom-Stuffed Bellpepper. When baking Foods in a Bread Oven there is a chance for them to become {{i|Animal Crackers}} instead. '''NOTE:''' Remember to boil your Mushrooms to reduce {{i|'Shroom Poisoning}}.

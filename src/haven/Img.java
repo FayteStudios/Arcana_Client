@@ -30,6 +30,7 @@ public class Img extends Widget {
     private Indir<Resource> res;
     private Tex img;
     public boolean hit = false;
+    public double scale = 1.0;
 	
     @RName("img")
     public static class $_ implements Factory {
@@ -54,12 +55,26 @@ public class Img extends Widget {
 	if(res != null) {
 	    try {
 		img = res.get().layer(Resource.imgc).tex();
-		resize(img.sz());
+		resize(scaled());
 		res = null;
 	    } catch(Loading e) {}
 	}
+	if(img != null) {
+	    if(FayteSkin.on() && (Charlist.live != null) && (Charlist.live.parent != null) && img.sz().equals(LoginScreen.bg.sz()))
+		return;
+	    g.image(img, Coord.z, scaled());
+	}
+    }
+
+    private Coord scaled() {
+	Coord s = img.sz();
+	return(new Coord((int)Math.round(s.x * scale), (int)Math.round(s.y * scale)));
+    }
+
+    public void scale(double f) {
+	scale = f;
 	if(img != null)
-	    g.image(img, Coord.z);
+	    resize(scaled());
     }
 	
     public Img(Coord c, Tex img, Widget parent) {

@@ -1,0 +1,81 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Advanced Cooking}} [[Advanced Cooking]]
+}}
+
+{{Facts
+| Title=Make
+| Needs= [[Any Nuts]] ×6, {{icon|Any Garlic}} [[Any Garlic]] ×2, {{icon|Majestic Acorn}} [[Majestic Acorn]], {{icon|Pepper}} [[Pepper]] 0.04 L, {{icon|Raw Venison Steak}} [[Raw Venison Steak]], {{icon|Vinegar}} [[Vinegar]] 0.5 L
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 65 || 53 || 48 || 65
+|-
+! Stray Chestnut min
+| style="background:#e6b8b8" | 132.24 || 55.1 || 55.1 || 55.1
+|-
+! Stray Chestnut max
+| style="background:#e6b8b8" | 144.84 || 60.35 || 60.35 || 60.35
+|-
+! Acorn min
+| 55.1 || style="background:#6fa0ff" | 126.73 || 55.1 || 55.1
+|-
+! Acorn max
+| 60.35 || style="background:#6fa0ff" | 138.8 || 60.35 || 60.35
+|-
+! Majestic Acorn min
+| 55.1 || style="background:#6fa0ff" | 176.32 || 55.1 || style="background:#b8c8e6" | 126.73
+|-
+! Majestic Acorn max
+| 60.35 || style="background:#6fa0ff" | 193.12 || 60.35 || style="background:#b8c8e6" | 144.84
+|-
+! Pine Nuts min
+| 55.1 || 55.1 || style="background:#f0d860" | 143.26 || 55.1
+|-
+! Pine Nuts max
+| 60.35 || 60.35 || style="background:#f0d860" | 156.91 || 60.35
+|-
+! Testicles min
+| style="background:#e6b8b8" | 132.24 || 93.67 || style="background:#f0d860" | 176.32 || 93.67
+|-
+! Testicles max
+| style="background:#e6b8b8" | 144.84 || 102.59 || style="background:#f0d860" | 193.12 || 102.59
+|-
+! Hickory min
+| 55.1 || 55.1 || 55.1 || style="background:#b8c8e6" | 126.73
+|-
+! Hickory max
+| 60.35 || 60.35 || 60.35 || style="background:#b8c8e6" | 138.8
+|-
+! Walnut min
+| style="background:#e6b8b8" | 132.24 || style="background:#6fa0ff" | 126.73 || style="background:#f0d860" | 143.26 || style="background:#b8c8e6" | 176.32
+|-
+! Walnut max
+| style="background:#e6b8b8" | 144.84 || style="background:#6fa0ff" | 138.8 || style="background:#f0d860" | 156.91 || style="background:#b8c8e6" | 193.12
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Nuts & Seeds}} [[Nuts and Seeds]]
+| Full and Fed= 00:25:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Nuts and Seeds= 15% (35% chance)
+| Menu= Craft > Food > Nuts
+}}
+
+==About==
+A {{i|Venison with Pickled Nuts}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

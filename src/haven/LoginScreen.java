@@ -45,13 +45,81 @@ public class LoginScreen extends Widget {
     Login cur;
     Text error;
     Window log;
-    IButton btn;
+    Widget btn;
+    private volatile String statustext = null;
+    private static final Tex fbg = Resource.loadtex("gfx/loginscr");
     static final Text.Furnace textf, texte, textfs;
     static final Tex bg = Resource.loadtex("gfx/loginscr");
     static final Tex cbox = Resource.loadtex("gfx/hud/login/cbox");
     static final Coord cboxc = new Coord((bg.sz().x - cbox.sz().x) / 2, 310);
     Text progress = null;
     AccountList accounts;
+    Widget notes, authbtn;
+    Coord cardc = null;
+
+    Coord cb() {
+	return((FayteSkin.on() && (cardc != null)) ? cardc : cboxc);
+    }
+
+    private static final int SIDEW = 340;
+    private static final int RIGHTW = 240;
+
+    private Coord bgsz() {
+	if(!FayteSkin.on())
+	    return(bg.sz());
+	Coord bs = bg.sz();
+	double hs = (double)(sz.y - 32) / bs.y;
+	double ws = (double)(sz.x - 2 * (Math.max(SIDEW, RIGHTW) + 32)) / bs.x;
+	double f = Math.max(0.5, Math.min(hs, ws));
+	return(new Coord((int)(bs.x * f), (int)(bs.y * f)));
+    }
+
+    private Coord bgoff() {
+	return(sz.sub(bgsz()).div(2));
+    }
+
+    Button hidebtn;
+
+    private void flayout() {
+	if(!FayteSkin.on())
+	    return;
+	Coord off = bgoff();
+	Coord bs = bgsz();
+	int lw = SIDEW;
+	boolean left = off.x >= lw + 24;
+	int lx = left ? off.x - lw - 16 : off.x + 8;
+	int top = Math.max(8, off.y);
+	if(notes != null) {
+	    int nh = left ? Math.max(200, Math.min(sz.y - top - 16, bs.y)) : Math.min(300, bs.y / 2);
+	    notes.c = new Coord(lx, top);
+	    notes.resize(new Coord(lw, nh));
+	}
+	boolean right = sz.x - (off.x + bs.x) >= 250;
+	int rx = right ? off.x + bs.x + 16 : off.x + bs.x - 240;
+	int ry = top;
+	if(authbtn != null) {
+	    authbtn.c = new Coord(rx, ry);
+	    ry += 25;
+	}
+	if(providencestate != null) {
+	    providencestate.c = new Coord(rx, ry);
+	    ry += 37;
+	}
+	if(hidebtn != null) {
+	    hidebtn.c = new Coord(rx, ry);
+	    ry += 37;
+	}
+	if(accounts != null)
+	    accounts.c = new Coord(rx, ry);
+	int ch = cbox.sz().y + 44;
+	int cy = off.y + (bs.y * 55) / 100 - ch / 2 + 44;
+	cardc = new Coord((sz.x - cbox.sz().x) / 2, Math.max(44, Math.min(cy, sz.y - ch + 36)));
+	if(cur != null)
+	    cur.c = cardc;
+	if(btn != null)
+	    btn.c = cardc.add((cbox.sz().x - btn.sz.x) / 2, 140);
+    }
+
     Button providencestate;
 	
     static {
@@ -61,15 +129,32 @@ public class LoginScreen extends Widget {
     }
 	
     public LoginScreen(Widget parent) {
-	super(parent.sz.div(2).sub(bg.sz().div(2)), bg.sz(), parent);
+	super(FayteSkin.on() ? Coord.z : parent.sz.div(2).sub(bg.sz().div(2)), FayteSkin.on() ? parent.sz : bg.sz(), parent);
 	setfocustab(true);
 	parent.setfocus(this);
-	new Img(Coord.z, bg, this);
-	new Img(cboxc, cbox, this);
+	if(!FayteSkin.on()) {
+	    new Img(Coord.z, bg, this);
+	    new Img(cboxc, cbox, this);
+	} else {
+	    notes = new FayteLoginNotes(Coord.z, new Coord(340, 300), this);
+	}
 
 	accounts = new AccountList(Coord.z, this, 10);
 
-        new Button(new Coord(this.sz.x-210, 20),190,this, "Connecting to New Haven"){
+        if(FayteSkin.on()) {
+	    hidebtn = new Button(Coord.z, 200, this, AccountList.hidden() ? "Show account names" : "Hide account names") {
+		public void click() {
+		    AccountList.sethidden(!AccountList.hidden());
+		    change(AccountList.hidden() ? "Show account names" : "Hide account names");
+		    accounts.relabel();
+		    if(cur instanceof Tokenbox)
+			((Tokenbox)cur).relabel();
+		}
+	    };
+	    hidebtn.tooltip = Text.render("Hide your account names, for example while streaming.");
+	}
+
+        authbtn = new Button(new Coord(this.sz.x-210, 20),FayteSkin.on() ? 200 : 190,this, "Connecting to New Haven"){
             @Override
             public void click()
             {
@@ -94,7 +179,7 @@ public class LoginScreen extends Widget {
             }
         };
 
-        providencestate = new Button(new Coord(this.sz.x-210, 45),190,this,"Providence: unknown"){
+        providencestate = new Button(new Coord(this.sz.x-210, 45),FayteSkin.on() ? 200 : 190,this,"Providence: unknown"){
             @Override
             public void click()
             {
@@ -102,16 +187,29 @@ public class LoginScreen extends Widget {
             }
         };
         update_server_statuses();
+        flayout();
         
-	if(Config.isUpdate){
+	if(Config.isUpdate && !FayteSkin.on()){
 	    showChangelog();
 	}
     }
     
     private void update_server_statuses()
     {
-        providencestate.change("Providence: checking ...");
+        providencestate.change("New Haven: checking ...");
+        new Thread(this::fetchstatus, "Server status").start();
+    }
 
+    public void tick(double dt) {
+        super.tick(dt);
+        String st = statustext;
+        if(st != null) {
+            statustext = null;
+            providencestate.change(st);
+        }
+    }
+
+    private void fetchstatus() {
         try{
             URL statepage = new URL("http://login.salemthegame.com/portal/state");
             InputStream is = statepage.openStream();
@@ -124,12 +222,11 @@ public class LoginScreen extends Widget {
             String html = buffer.toString();
             String[] lines = html.split("\n");
             String prov = lines[48];
-            providencestate.change("New Haven: "+prov.substring(prov.indexOf('>')+1,prov.lastIndexOf('<')));
+            statustext = "New Haven: "+prov.substring(prov.indexOf('>')+1,prov.lastIndexOf('<'));
         }
         catch(IOException ex)
         {
-            String explanation = "Status page not found.";
-            providencestate.change(explanation);
+            statustext = "Server status unavailable";
         }
     }
 
@@ -177,11 +274,11 @@ public class LoginScreen extends Widget {
 	CheckBox savepass;
 
 	private PwCommon(String username, boolean save) {
-	    super(cboxc, cbox.sz(), LoginScreen.this);
+	    super(LoginScreen.this.cb(), cbox.sz(), LoginScreen.this);
 	    setfocustab(true);
-	    new Img(new Coord(35, 30), textf.render("User name").tex(), this);
+	    new Img(new Coord(35, 30), lbl("User name"), this);
 	    user = new TextEntry(new Coord(150, 30), new Coord(150, 20), this, username);
-	    new Img(new Coord(35, 60), textf.render("Password").tex(), this);
+	    new Img(new Coord(35, 60), lbl("Password"), this);
 	    pass = new TextEntry(new Coord(150, 60), new Coord(150, 20), this, "");
 	    pass.pw = true;
 	    savepass = new CheckBox(new Coord(150, 90), this, "Remember me");
@@ -260,7 +357,7 @@ public class LoginScreen extends Widget {
 
     private abstract class WebCommon extends Login {
 	private WebCommon() {
-	    super(cboxc, cbox.sz(), LoginScreen.this);
+	    super(LoginScreen.this.cb(), cbox.sz(), LoginScreen.this);
 	}
 
 	boolean enter() {
@@ -284,11 +381,16 @@ public class LoginScreen extends Widget {
 	Button btn;
 		
 	private Tokenbox(String username, String token) {
-	    super(cboxc, cbox.sz(), LoginScreen.this);
-	    label = textfs.render("Identity is saved for " + username);
-	    btn = new Button(new Coord((sz.x - 100) / 2, 55), 100, this, "Forget me");
+	    super(LoginScreen.this.cb(), cbox.sz(), LoginScreen.this);
 	    this.name = username;
 	    this.token = token;
+	    relabel();
+	    btn = new Button(new Coord((sz.x - 100) / 2, 55), 100, this, "Forget me");
+	}
+
+	void relabel() {
+	    String who = AccountList.hidden() ? "this account" : name;
+	    label = FayteSkin.on() ? Window.bigtf.render("Identity is saved for " + who, FayteSkin.TEXT) : textfs.render("Identity is saved for " + who);
 	}
 		
 	Object[] data() {
@@ -328,7 +430,10 @@ public class LoginScreen extends Widget {
     };
     private void mklogin() {
 	synchronized(ui) {
-	    btn = new IButton(cboxc.add((cbox.sz().x - loginb[0].getWidth()) / 2, 140), this, loginb[0], loginb[1], loginb[2]);
+	    if(FayteSkin.on())
+		btn = new Button(cb().add((cbox.sz().x - 146) / 2, 140), 146, this, "Log in");
+	    else
+		btn = new IButton(cboxc.add((cbox.sz().x - loginb[0].getWidth()) / 2, 140), this, loginb[0], loginb[1], loginb[2]);
 	    progress(null);
 	}
     }
@@ -347,7 +452,7 @@ public class LoginScreen extends Widget {
 	    if(progress != null)
 		progress = null;
 	    if(p != null)
-		progress = textf.render(p);
+		progress = FayteSkin.on() ? Window.bigtf.render(p, FayteSkin.TEXT) : textf.render(p);
 	}
     }
     
@@ -407,20 +512,45 @@ public class LoginScreen extends Widget {
     }
     
     public void presize() {
+	if(FayteSkin.on()) {
+	    c = Coord.z;
+	    sz = parent.sz;
+	    flayout();
+	    return;
+	}
 	c = parent.sz.div(2).sub(sz.div(2));
     }
 	
+    private static Tex lbl(String s) {
+	if(FayteSkin.on())
+	    return(Window.bigtf.render(s, FayteSkin.TEXT).tex());
+	return(textf.render(s).tex());
+    }
+
+    private Text ftitle, fsub;
+
     public void draw(GOut g) {
+	if(FayteSkin.on()) {
+	    g.image(fbg, bgoff(), bgsz());
+	    Coord cc = cb().sub(0, 44);
+	    Coord cs = cbox.sz().add(0, 44);
+	    FayteSkin.box(g, cc, cs, new Color(0x15, 0x18, 0x1D, 140), new Color(0x3A, 0x41, 0x4C, 200));
+	    if(ftitle == null) {
+		ftitle = new Text.Foundry(new Font("Serif", Font.BOLD, 26), FayteSkin.TEXT).aa(true).render("Arcana");
+		fsub = FayteSkin.labelf.render("A Salem client  \u00b7  " + Config.authserver_name, FayteSkin.mix(FayteSkin.BORDER, FayteSkin.TEXT, 0.7));
+	    }
+	    g.image(ftitle.tex(), new Coord(cc.x + 16, cc.y + 8));
+	}
 	super.draw(g);
 	if(error != null) {
-	    Coord c = new Coord((sz.x - error.sz().x) / 2, 290);
+	    Coord c = FayteSkin.on() ? new Coord((sz.x - error.sz().x) / 2, cb().y - 44 - error.sz().y - 10) : new Coord((sz.x - error.sz().x) / 2, 290);
 	    g.chcolor(0, 0, 0, 224);
 	    g.frect(c.sub(4, 2), error.sz().add(8, 4));
 	    g.chcolor();
 	    g.image(error.tex(), c);
 	}
 	if(progress != null)
-	    g.image(progress.tex(), new Coord((sz.x - progress.sz().x) / 2, cboxc.y + ((cbox.sz().y - progress.sz().y) / 2)));
+	    g.image(progress.tex(), new Coord((sz.x - progress.sz().x) / 2, cb().y + ((cbox.sz().y - progress.sz().y) / 2)));
     }
 	
     public boolean type(char k, KeyEvent ev) {

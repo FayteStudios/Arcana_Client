@@ -1,0 +1,63 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.50
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= {{icon|Any Cabbage Leaf}} [[Any Cabbage Leaf]] ×4, {{icon|Brown Potato}} [[Brown Potato]], [[Fire]], {{icon|Raw Venison Steak}} [[Raw Venison Steak]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 24.5 || 17.5 || 20.5 || 22.5
+|-
+! White Cabbage min
+| style="background:#e6b8b8" | 25.2 || 10.5 || 10.5 || 10.5
+|-
+! White Cabbage max
+| style="background:#e6b8b8" | 42 || 17.5 || 17.5 || 17.5
+|-
+! Red Cabbage min
+| 10.5 || style="background:#6fa0ff" | 27.3 || 10.5 || 10.5
+|-
+! Red Cabbage max
+| 17.5 || style="background:#6fa0ff" | 45.5 || 17.5 || 17.5
+|-
+! Green Cabbage min
+| 10.5 || 10.5 || style="background:#f0d860" | 25.2 || 10.5
+|-
+! Green Cabbage max
+| 17.5 || 17.5 || style="background:#f0d860" | 42 || 17.5
+|-
+! Colewort min
+| 10.5 || 10.5 || 10.5 || style="background:#b8c8e6" | 23.1
+|-
+! Colewort max
+| 17.5 || 17.5 || 17.5 || style="background:#b8c8e6" | 38.5
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Cabbage & Kale}} [[Cabbage and Kale]]
+| Full and Fed= 00:25:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Cabbage
+}}
+
+==About==
+
+A {{i|Green Cabbage Chuck Roast}} must be cooked over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}.

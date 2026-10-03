@@ -1,0 +1,181 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 0.08
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Intermediate Cooking}} [[Intermediate Cooking]]
+| Skill 2= {{icon|Seafood Chef}} [[Seafood Chef]]
+}}
+
+{{Facts
+| Title=Cook
+| Needs= [[Any Poultry Egg]], {{icon|Any Shellfish}} [[Any Shellfish]], [[Fire]], {{icon|Frying Pan}} [[Frying Pan]], {{icon|Milk}} [[Milk]] 0.05 L
+}}
+
+{|
+|+ Heal and Gluttony values — With Argopelter Egg (Blood)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 17.5 || 17.5 || 17.5 || 17.5
+|-
+! Crawdad min
+| style="background:#e6b8b8" | 45.98 || 11 || 11 || 11
+|-
+! Crawdad max
+| style="background:#e6b8b8" | 52.25 || 12.5 || 12.5 || 12.5
+|-
+! Crab min
+| 16.94 || style="background:#6fa0ff" | 27.5 || 11 || 11
+|-
+! Crab max
+| 19.25 || style="background:#6fa0ff" | 31.25 || 12.5 || 12.5
+|-
+! Lobster min
+| 16.94 || 11 || style="background:#f0d860" | 37.4 || 11
+|-
+! Lobster max
+| 19.25 || 12.5 || style="background:#f0d860" | 42.5 || 12.5
+|-
+! Oyster min
+| 16.94 || 11 || 11 || style="background:#b8c8e6" | 27.5
+|-
+! Oyster max
+| 19.25 || 12.5 || 12.5 || style="background:#b8c8e6" | 31.25
+|}
+
+{|
+|+ With Sparrow Eggs (Phlegm)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Crawdad min
+| style="background:#e6b8b8" | 29.7 || 14.96 || 11 || 11
+|-
+! Crawdad max
+| style="background:#e6b8b8" | 33.75 || 17 || 12.5 || 12.5
+|-
+! Crab min
+| 11 || style="background:#6fa0ff" | 37.62 || 11 || 11
+|-
+! Crab max
+| 12.5 || style="background:#6fa0ff" | 42.75 || 12.5 || 12.5
+|-
+! Lobster min
+| 11 || 14.96 || style="background:#f0d860" | 37.4 || 11
+|-
+! Lobster max
+| 12.5 || 17 || style="background:#f0d860" | 42.5 || 12.5
+|-
+! Oyster min
+| 11 || 14.96 || 11 || style="background:#b8c8e6" | 27.5
+|-
+! Oyster max
+| 12.5 || 17 || 12.5 || style="background:#b8c8e6" | 31.25
+|}
+
+{|
+|+ With Eagle Egg (Yellow Bile)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Crawdad min
+| style="background:#e6b8b8" | 29.7 || 11 || 16.06 || 11
+|-
+! Crawdad max
+| style="background:#e6b8b8" | 33.75 || 12.5 || 18.25 || 12.5
+|-
+! Crab min
+| 11 || style="background:#6fa0ff" | 27.5 || 11 || 16.06
+|-
+! Crab max
+| 12.5 || style="background:#6fa0ff" | 31.25 || 18.25 || 12.5
+|-
+! Lobster min
+| 11 || 11 || style="background:#f0d860" | 54.56 || 11
+|-
+! Lobster max
+| 12.5 || 12.5 || style="background:#f0d860" | 62 || 12.5
+|-
+! Oyster min
+| 11 || 11 || 16.06 || style="background:#b8c8e6" | 27.5
+|-
+! Oyster max
+| 12.5 || 12.5 || 18.25 || style="background:#b8c8e6" | 31.25
+|}
+
+{|
+|+ With Turkey Egg (Black Bile)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Crawdad min
+| style="background:#e6b8b8" | 29.7 || 11 || 11 || 13.42
+|-
+! Crawdad max
+| style="background:#e6b8b8" | 33.75 || 12.5 || 12.5 || 15.25
+|-
+! Crab min
+| 11 || style="background:#6fa0ff" | 27.5 || 11 || 13.42
+|-
+! Crab max
+| 12.5 || style="background:#6fa0ff" | 31.25 || 12.5 || 15.25
+|-
+! Lobster min
+| 11 || 11 || style="background:#f0d860" | 39.38 || 13.42
+|-
+! Lobster max
+| 12.5 || 12.5 || style="background:#f0d860" | 42.5 || 15.25
+|-
+! Oyster min
+| 11 || 11 || 11 || style="background:#b8c8e6" | 34.1
+|-
+! Oyster max
+| 12.5 || 12.5 || 12.5 || style="background:#b8c8e6" | 38.75
+|}
+
+{|
+|+ With Green Easter Egg (Bonus)
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Crawdad min
+| style="background:#e6b8b8" | 49.06 || 18.26 || 18.26 || 18.26
+|-
+! Crawdad max
+| style="background:#e6b8b8" | 55.75 || 20.75 || 20.75 || 20.75
+|-
+! Crab min
+| 18.26 || style="background:#6fa0ff" | 45.54 || 18.26 || 18.26
+|-
+! Crab max
+| 20.75 || style="background:#6fa0ff" | 51.75 || 20.75 || 20.75
+|-
+! Lobster min
+| 18.26 || 18.26 || style="background:#f0d860" | 61.82 || 18.26
+|-
+! Lobster max
+| 20.75 || 20.75 || style="background:#f0d860" | 70.25 || 20.75
+|-
+! Oyster min
+| 18.26 || 18.26 || 18.26 || style="background:#b8c8e6" | 45.54
+|-
+! Oyster max
+| 20.75 || 20.75 || 20.75 || style="background:#b8c8e6" | 51.75
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Any Shellfish}} [[Crustacea and Shellfish]]
+| Full and Fed= 00:30:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Reduces Crustacea and Shellfish= 20% (40% chance)
+| Menu= Craft > Food > Shellfish
+}}
+
+==About==
+
+A {{i|Shellfish Omelette}} must be cooked with a {{i|Frying Pan}} equipped and over a source of {{i|Fire}} such as a lit {{i|Fireplace}} or {{i|Pile of Wood}}. Cooking things over a Fire lowers your [[Insanity]] a little and has a chance to give you a {{i|Gelatinous Lard}}. Shellfish Omelette is [[Gluttony#Double Variable Recipe|Double Variable Recipe]].

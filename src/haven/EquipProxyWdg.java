@@ -79,7 +79,9 @@ public class EquipProxyWdg extends Widget implements DTarget {
     public boolean drop(Coord cc, Coord ul) {
 	Equipory e = ui.gui.getEquipory();
 	if(e != null){
-	    e.wdgmsg("drop", slot(cc));
+	    int s = slot(cc);
+	    if(!FayteXfer.equipdrop(e, s))
+		e.wdgmsg("drop", s);
 	    return true;
 	}
 	return false;

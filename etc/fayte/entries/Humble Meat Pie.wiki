@@ -1,0 +1,53 @@
+{{Facts
+| Title=Basics
+| Type= None
+| Weight= 1.00
+}}
+
+{{Facts
+| Title=Required Skills
+| Skill= {{icon|Baking}} [[Baking]]
+}}
+
+{{Facts
+| Title=Bake
+| Needs= {{icon|Any Raw Meat Cut}} [[Any Raw Meat Cut]] ×2, {{icon|Baking Table}} [[Baking Table]], {{icon|Rested Pie Dough}} [[Rested Pie Dough]]
+| Second Stage= {{icon|Bread Oven}} [[Bread Oven]], {{icon|Unbaked Humble Meat Pie}} [[Unbaked Humble Meat Pie]]
+}}
+
+{{Facts
+| Title=Used By
+| a)= [[Little Jack Horner's Thumbnail]]
+| b)= {{icon|Slice of Pie}} [[Slice of Pie]]
+}}
+
+{|
+|+ Heal and Gluttony values
+! !! Blood !! Phlegm !! Yellow !! Black
+|-
+! Heals
+| 17.5 || 6.5 || 12.5 || 4.5
+|-
+! Gluttony min
+| 45 || 45 || 45 || 45
+|-
+! Gluttony max
+| 50 || 50 || 50 || 50
+|}
+
+{{Facts
+| Title=Food Group
+| Group= {{icon|Game}} [[Game Meat]]
+| Full and Fed= 00:32:00
+}}
+
+{{Facts
+| Title=Other info
+| Uses= 1
+| Menu= Craft > Food > Game Meats
+}}
+
+==About==
+
+Crafting {{i|Humble Meat Pie}} at a {{i|Baking Table}} will make an {{i|Unbaked Humble Meat Pie}} which can then be baked in a {{i|Bread Oven}} to produce a Humble Meat Pie. Preparing Foods on a Baking Table removes a small amount of [[Insanity]] and has a chance of giving you an {{i|Eloped Gingerbread Man}}. When baking Foods in a Bread Oven there is a chance for them to become {{i|Animal Crackers}} instead. Right-clicking a Humble Meat Pie with the [[Baking]] Skill learned and selecting "Slice" will divide your Pie into 8x {{i|Slice of Pie}}s. When Slicing Pie there is small chance to receive a {{i|Little Jack Horner's Thumbnail}}.
+{{Notice|WARNING!| Finding a Little Jack Horner's Thumbnail in your Pie adds a great deal of [[Insanity]].}}
