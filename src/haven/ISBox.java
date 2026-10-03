@@ -56,9 +56,6 @@ public class ISBox extends Widget implements DTarget {
 	this.res = res;
 	setlabel(rem, av, bi);
     }
-
-    private void putting() {
-    }
     
     public void draw(GOut g) {
 	g.image(bg, Coord.z);
@@ -82,8 +79,6 @@ public class ISBox extends Widget implements DTarget {
 		int dir = ui.modctrl?-1:1;	//CTRL means pull out, SHIFT pull in
 		int all = (dir > 0)?rem:av;	//count depends on direction
 		int k = ui.modmeta?all:1;	//ALT means pull all
-		if(dir > 0)
-		    putting();
 		for(int i=0; i<k; i++){wdgmsg("xfer2", dir, 1);} //modflags set to 1 to emulate only SHIFT pressed
 	    } else {
 		wdgmsg("click");
@@ -96,21 +91,17 @@ public class ISBox extends Widget implements DTarget {
     public boolean mousewheel(Coord c, int amount) {
 	if(amount < 0)
 	    wdgmsg("xfer2", -1, ui.modflags());
-	if(amount > 0) {
-	    putting();
+	if(amount > 0)
 	    wdgmsg("xfer2", 1, ui.modflags());
-	}
 	return(true);
     }
     
     public boolean drop(Coord cc, Coord ul) {
-	putting();
 	wdgmsg("drop");
 	return(true);
     }
     
     public boolean iteminteract(Coord cc, Coord ul) {
-	putting();
 	wdgmsg("iact");
 	return(true);
     }
