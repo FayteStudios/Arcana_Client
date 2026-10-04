@@ -38,6 +38,36 @@ public class FayteAuto {
         return FayteModules.TIMERS.on() && FayteConfig.autoTimers.get();
     }
 
+    private static final String TOKE = "gfx/borka/tokestart";
+    private static final long HOOKAH = 20L * 3600L * 1000L;
+
+    private static final long TOKEMIN = 12000L;
+    private static final long TOKEMAX = 15000L;
+    private static long tokeat = 0L;
+
+    public static void posed(GameUI gui, String poses) {
+        if (!on()) {
+            return;
+        }
+        if (poses.contains(TOKE)) {
+            if (tokeat == 0L) {
+                tokeat = System.currentTimeMillis();
+            }
+            return;
+        }
+        if (tokeat == 0L || poses.isEmpty()) {
+            return;
+        }
+        long held = System.currentTimeMillis() - tokeat;
+        tokeat = 0L;
+        String obj = FayteTools.lastobject(gui);
+        boolean hookah = obj != null && obj.toLowerCase().contains("hookah") && FayteTools.lastclickage() < 600000L;
+        if (hookah && held >= TOKEMIN && held <= TOKEMAX) {
+            FayteTimers.restart("Hookah", HOOKAH);
+            gui.message("Hookah timer started: 20 hours until your next puff.", GameUI.MsgType.INFO);
+        }
+    }
+
     private static boolean burning(Gob g) {
         synchronized (g.ols) {
             for (Gob.Overlay ol : g.ols) {

@@ -50,6 +50,7 @@ public class FayteDeath {
                 if (ko && FayteConfig.diag()) {
                     FayteLog.log("Death check: your poses are now [" + all + "]");
                 }
+                FayteAuto.posed(gui, all);
             }
             if (ko) {
                 mark(gui);

@@ -314,14 +314,6 @@ public class Tempers extends SIWidget {
 	    String direction = insanity > n ? "decreased" : "increased";
 	    GameUI.MsgType type = insanity > n ? GameUI.MsgType.GOOD : GameUI.MsgType.BAD;
 	    ui.gui.message(String.format("Your madness %s to level %d!", direction, n), type);
-	    if((insanity > n) && (insanity >= 0)) {
-		String obj = FayteTools.lastobject(ui.gui);
-		FayteLog.log("Madness went down to " + n + "; last clicked object: " + obj + " (" + (FayteTools.lastclickage() / 1000) + " s ago)");
-		if((obj != null) && obj.toLowerCase().contains("hookah") && (FayteTools.lastclickage() < 600000L)) {
-		    FayteTimers.restart("Hookah", 20L * 3600L * 1000L);
-		    ui.gui.message("Hookah timer started: 20 hours until your next puff.", GameUI.MsgType.INFO);
-		}
-	    }
 	}
 	insanity = n;
 	flabels = null;
