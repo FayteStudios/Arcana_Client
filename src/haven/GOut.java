@@ -381,17 +381,12 @@ public class GOut {
     }
 
     public void rect(Coord ul, Coord sz) {
-	st.set(def2d);
-	state(color);
-	apply();
-	gl.glLineWidth(1);
-	gl.glBegin(GL.GL_LINE_LOOP);
-	vertex(ul.x + 0.5f, ul.y + 0.5f);
-	vertex(ul.x + sz.x - 0.5f, ul.y + 0.5f);
-	vertex(ul.x + sz.x - 0.5f, ul.y + sz.y - 0.5f);
-	vertex(ul.x + 0.5f, ul.y + sz.y - 0.5f);
-	gl.glEnd();
-	checkerr();
+	if((sz.x <= 0) || (sz.y <= 0))
+	    return;
+	frect(ul, new Coord(sz.x, 1));
+	frect(new Coord(ul.x, ul.y + sz.y - 1), new Coord(sz.x, 1));
+	frect(new Coord(ul.x, ul.y + 1), new Coord(1, Math.max(0, sz.y - 2)));
+	frect(new Coord(ul.x + sz.x - 1, ul.y + 1), new Coord(1, Math.max(0, sz.y - 2)));
     }
 
     public void prect(Coord c, Coord ul, Coord br, double a) {
