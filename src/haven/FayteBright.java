@@ -26,7 +26,7 @@ public class FayteBright {
     }
 
     public static void set(boolean c, float v, GameUI gui) {
-        v = Math.max(0f, Math.min(1f, v));
+        v = Math.max(0f, Math.min(2f, v));
         if (c) {
             cave = v;
             Utils.setpreff("fayte_bright_cave", v);

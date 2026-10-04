@@ -449,20 +449,20 @@ public class FayteOptWnd extends Window {
                 (v) -> Utils.setpref(FayteTextSize.NOTES, Long.toString(Math.round(10 + v * 30))));
         String where = FayteBright.incave(gui) ? "You are underground right now." : "You are on the surface right now.";
         if (Config.alwaysbright) {
-            note("Night vision is on (Ctrl+N), so these sliders do nothing right now.");
+            note("Night vision is on, so these sliders do nothing. Press Ctrl+N until it turns off (up to 4 times).");
         }
         slider(
                 "Surface brightness",
                 "How bright the world is outdoors. " + where,
-                FayteBright.surface(),
-                FayteOptWnd::pct,
-                (v) -> FayteBright.set(false, (float) v, gui));
+                FayteBright.surface() / 2,
+                (v) -> pct(v * 2),
+                (v) -> FayteBright.set(false, (float) (v * 2), gui));
         slider(
                 "Cave brightness",
                 "How bright mines and caves are. " + where,
-                FayteBright.cave(),
-                FayteOptWnd::pct,
-                (v) -> FayteBright.set(true, (float) v, gui));
+                FayteBright.cave() / 2,
+                (v) -> pct(v * 2),
+                (v) -> FayteBright.set(true, (float) (v * 2), gui));
         check(
                 "Season pictures",
                 "Show the season's picture when the season changes.",

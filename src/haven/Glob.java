@@ -343,8 +343,10 @@ public class Glob {
             hsb = Color.RGBtoHSB(origamb.getRed(), origamb.getGreen(), origamb.getBlue(), null);
             float b = hsb[2];
             if(b < MAX_BRIGHT){
-                    hsb[2] = b + Config.brighten*(MAX_BRIGHT - b);
+                    hsb[2] = b + Math.min(1f, Config.brighten)*(MAX_BRIGHT - b);
             }
+            if(Config.brighten > 1f)
+                    hsb[2] = Math.max(hsb[2], MAX_BRIGHT) + (Math.min(2f, Config.brighten) - 1f)*(1f - Math.max(hsb[2], MAX_BRIGHT));
         }
         else
         {
