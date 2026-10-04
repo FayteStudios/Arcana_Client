@@ -8,12 +8,6 @@ public class FayteSession {
             return;
         }
         current = gui;
-        if (Config.currentCharName == null || Config.currentCharName.isEmpty()) {
-            FayteMsg.say(
-                    "New character: you start from the Default layout. The game doesn't tell Arcana a new character's"
-                            + " name until you log in again, so changes are saved from your next login.",
-                    GameUI.MsgType.INFO);
-        }
         FayteNotesPanel.save(true);
         FayteRecipes.reset();
         FayteBagSel.reset();
@@ -25,5 +19,10 @@ public class FayteSession {
         FayteKeys.reset();
         FayteSkillGoal.reset();
         FaytePilgrims.flush();
+        if (Config.currentCharName == null || Config.currentCharName.isEmpty()) {
+            FayteMsg.say(
+                    "New characters start with the default layout and journal. Enjoy the Game! -Sorin",
+                    GameUI.MsgType.INFO);
+        }
     }
 }
