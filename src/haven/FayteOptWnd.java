@@ -448,6 +448,9 @@ public class FayteOptWnd extends Window {
                 (v) -> Math.round(10 + v * 30) + " pt",
                 (v) -> Utils.setpref(FayteTextSize.NOTES, Long.toString(Math.round(10 + v * 30))));
         String where = FayteBright.incave(gui) ? "You are underground right now." : "You are on the surface right now.";
+        if (Config.alwaysbright) {
+            note("Night vision is on (Ctrl+N), so these sliders do nothing right now.");
+        }
         slider(
                 "Surface brightness",
                 "How bright the world is outdoors. " + where,

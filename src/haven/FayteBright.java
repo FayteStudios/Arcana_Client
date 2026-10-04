@@ -5,7 +5,10 @@ import haven.resutil.CaveTile;
 public class FayteBright {
     private static Float surface = null;
     private static Float cave = null;
+    private static final String CAVEFLOOR = "gfx/tiles/mountain";
     private static Boolean incave = null;
+    private static GameUI lastgui = null;
+    private static Coord lastpg = null;
     private static long last = 0L;
 
     public static float surface() {
@@ -49,8 +52,22 @@ public class FayteBright {
         }
         try {
             MCache map = gui.ui.sess.glob.map;
-            int t = map.gettile(pl.rc.div(MCache.tilesz));
-            return map.tiler(t) instanceof CaveTile;
+            Coord tc = pl.rc.div(MCache.tilesz);
+            Coord pg = tc.div(MCache.cmaps);
+            int t = map.gettile(tc);
+            if (map.tiler(t) instanceof CaveTile) {
+                lastgui = gui;
+                lastpg = pg;
+                return true;
+            }
+            boolean jumped = gui != lastgui || lastpg == null || FayteMapStore.bigjump(lastpg, pg);
+            Resource r = map.tilesetr(t);
+            lastgui = gui;
+            lastpg = pg;
+            if (!jumped) {
+                return Boolean.TRUE.equals(incave);
+            }
+            return r != null && CAVEFLOOR.equals(r.name);
         } catch (Loading e) {
             return Boolean.TRUE.equals(incave);
         } catch (RuntimeException e) {

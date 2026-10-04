@@ -466,7 +466,7 @@ public class FayteActs {
                 if (!alreadyon(id)) {
                     run(gui, id);
                     if (id.startsWith("pag:") && !TOGGLES.contains(id.substring(4))) {
-                        FayteMsg.say(name(gui, id) + " is now turned on.");
+                        FayteMsg.say(name(gui, id) + " is now turned on.", GameUI.getMsgColor(GameUI.MsgType.BAD));
                     }
                 }
                 pending.remove(id);

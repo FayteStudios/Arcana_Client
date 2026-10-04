@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class FayteMsg {
     public static void say(String text) {
-        say(text, null);
+        say(text, Color.WHITE);
     }
 
     public static void say(String text, GameUI.MsgType type) {
@@ -17,8 +17,17 @@ public class FayteMsg {
         } else if (type == GameUI.MsgType.BAD || type == GameUI.MsgType.ERROR) {
             gui.message(text, type);
         } else {
+            say(text, type == null ? Color.WHITE : GameUI.getMsgColor(type));
+        }
+    }
+
+    public static void say(String text, Color c) {
+        GameUI gui = UI.instance == null ? null : UI.instance.gui;
+        if (gui == null || gui.syslog == null) {
+            System.out.println(text);
+        } else {
             ChatUI.Channel ch = ownchannel() ? channel(gui, category()) : gui.syslog;
-            ch.append(text, type == null ? Color.WHITE : GameUI.getMsgColor(type));
+            ch.append(text, c);
         }
     }
 

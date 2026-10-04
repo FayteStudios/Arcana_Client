@@ -502,6 +502,10 @@ public class FayteMapStore {
                         p.c.y + (tile.y - cg.y * MCache.cmaps.y + 0.5) / MCache.cmaps.y);
     }
 
+    public static boolean bigjump(Coord fromgrid, Coord togrid) {
+        return togrid.manhattan(fromgrid) > 3;
+    }
+
     public static FayteMapStore current() {
         return get(WorldMapData.mapfolder());
     }
@@ -963,7 +967,7 @@ public class FayteMapStore {
                     return;
                 }
                 Coord pg = pl.rc.div(MCache.tilesz).div(MCache.cmaps);
-                if (lastpg != null && pg.manhattan(lastpg) > 3) {
+                if (lastpg != null && bigjump(lastpg, pg)) {
                     quietuntil = now + 5000L;
                     FayteLog.log("Map store: big jump in position, pausing map saving for 5 s");
                 }
