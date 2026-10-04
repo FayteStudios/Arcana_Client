@@ -465,6 +465,9 @@ public class FayteActs {
             if (ok) {
                 if (!alreadyon(id)) {
                     run(gui, id);
+                    if (id.startsWith("pag:") && !TOGGLES.contains(id.substring(4))) {
+                        FayteMsg.say(name(gui, id) + " is now turned on.");
+                    }
                 }
                 pending.remove(id);
             }
