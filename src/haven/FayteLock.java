@@ -26,7 +26,10 @@ public class FayteLock {
     private static Set<String> load() {
         if (free == null) {
             free = new HashSet<>();
-            String v = Utils.getpref(PREF, "Almanac,Inspect");
+            String v = Utils.getpref(
+                    PREF,
+                    "Almanac,Inspect,Chat windows,Selections,Tools & Automation,View & Performance,Key Bindings,"
+                            + "Arcana Modules");
             for (String s : v.split(",")) {
                 if (!s.trim().isEmpty()) {
                     free.add(s.trim());

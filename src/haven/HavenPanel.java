@@ -47,6 +47,7 @@ public class HavenPanel extends GLCanvas implements Runnable, Console.Directory 
     private Resource lastcursor = null;
     public Coord mousepos = new Coord(0, 0);
     private Object tipkey = null;
+    private Coord tippos = null;
     private long tipsince = 0;
     private Object lastreal = null;
     private static final int TIPW = 240;
@@ -361,10 +362,12 @@ public class HavenPanel extends GLCanvas implements Runnable, Console.Directory 
 	Tex tt = null;
 	boolean fstyle = FayteSkin.on();
 	if(fstyle) {
-	    Object key = (tooltip instanceof String) ? tooltip : ((tooltip instanceof Text) ? ((Text)tooltip).text : tooltip);
+	    Object key = (tooltip instanceof String) ? tooltip : ((tooltip instanceof Text) ? ((Text)tooltip).text : null);
 	    long nowt = System.currentTimeMillis();
-	    if((key == null) ? (tipkey != null) : !key.equals(tipkey)) {
+	    boolean moved = (tippos == null) || (Math.abs(mousepos.x - tippos.x) > 3) || (Math.abs(mousepos.y - tippos.y) > 3);
+	    if((tooltip == null) || moved || ((key != null) && !key.equals(tipkey))) {
 		tipkey = key;
+		tippos = mousepos;
 		tipsince = nowt;
 	    }
 	    if((tooltip != null) && (nowt - tipsince < (long)(FayteConfig.tooltipDelay.get() * 1000)))

@@ -73,7 +73,7 @@ public class FayteConfig {
     public static final FayteConfig.DoubleSetting almanacIcons =
             add(new FayteConfig.DoubleSetting("almanac_icons", 1.0, 0.0, 2.0));
     public static final FayteConfig.DoubleSetting tooltipDelay =
-            add(new FayteConfig.DoubleSetting("tooltip_delay", 2.0, 0.0, 3.0));
+            add(new FayteConfig.DoubleSetting("tooltip_delay", 0.0, 0.0, 3.0));
     public static final FayteConfig.DoubleSetting tooltipScale =
             add(new FayteConfig.DoubleSetting("tooltip_scale", 1.0, 1.0, 2.0));
     public static final FayteConfig.BoolSetting diagnostics = add(new FayteConfig.BoolSetting("diagnostics", false));
