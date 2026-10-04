@@ -308,13 +308,35 @@ public class Text {
     }
 
     static BufferedImage paintscaled(Coord lsz, double s, Consumer<Graphics2D> painter) {
-	BufferedImage buf = TexI.mkbuf(new Coord((int)Math.ceil(lsz.x * s), (int)Math.ceil(lsz.y * s)));
+	int w = (int)Math.ceil(lsz.x * s), h = (int)Math.ceil(lsz.y * s);
+	BufferedImage buf = TexI.mkbuf(new Coord(w + h, h));
 	Graphics2D g = buf.createGraphics();
 	Utils.AA(g);
 	g.scale(s, s);
 	painter.accept(g);
 	g.dispose();
-	return(buf);
+	int right = inkright(buf, w);
+	BufferedImage ret = TexI.mkbuf(new Coord(w, h));
+	Graphics2D rg = ret.createGraphics();
+	if(right > w) {
+	    rg.setRenderingHint(RenderingHints.KEY_INTERPOLATION, RenderingHints.VALUE_INTERPOLATION_BILINEAR);
+	    rg.drawImage(buf, 0, 0, w, h, 0, 0, right, h, null);
+	} else {
+	    rg.drawImage(buf, 0, 0, null);
+	}
+	rg.dispose();
+	return(ret);
+    }
+
+    private static int inkright(BufferedImage img, int from) {
+	java.awt.image.Raster r = img.getRaster();
+	for(int x = img.getWidth() - 1; x >= from; x--) {
+	    for(int y = 0; y < img.getHeight(); y++) {
+		if(r.getSample(x, y, 3) != 0)
+		    return(x + 1);
+	    }
+	}
+	return(from);
     }
     
     public static void main(String[] args) throws Exception {
