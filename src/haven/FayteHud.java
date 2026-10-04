@@ -202,7 +202,7 @@ public class FayteHud {
         }
     }
 
-    private static Coord at(int[] v, Coord psz, Coord sz) {
+    public static Coord at(int[] v, Coord psz, Coord sz) {
         int x = place((char) v[0], v[2], psz.x, sz.x);
         int y = place((char) v[1], v[3], psz.y, sz.y);
         return new Coord(Math.max(0, Math.min(x, psz.x - sz.x)), Math.max(0, Math.min(y, psz.y - sz.y)));
@@ -248,18 +248,21 @@ public class FayteHud {
         }
     }
 
+    public static int[] anchor(Coord c, Coord sz, Coord psz) {
+        char ax = third(c.x + sz.x / 2, psz.x);
+        char ay = third(c.y + sz.y / 2, psz.y);
+        return new int[] {ax, ay, offset(ax, c.x, sz.x, psz.x), offset(ay, c.y, sz.y, psz.y)};
+    }
+
     private static void save(Widget parent, FayteHud.Target t) {
         if (t.w instanceof MenuGrid) {
             FayteConfig.actionGridPos.set(t.w.c);
         } else if (t.w instanceof GameUI.MainMenu) {
             FayteConfig.buttonPanelPos.set(t.w.c);
         } else {
-            Coord psz = parent.sz;
-            char ax = third(t.c.x + t.sz.x / 2, psz.x);
-            char ay = third(t.c.y + t.sz.y / 2, psz.y);
-            int[] v = {ax, ay, offset(ax, t.c.x, t.sz.x, psz.x), offset(ay, t.c.y, t.sz.y, psz.y)};
+            int[] v = anchor(t.c, t.sz, parent.sz);
             layout.put(t.key, v);
-            Utils.setpref(pref(t.key), ax + " " + ay + " " + v[2] + " " + v[3]);
+            Utils.setpref(pref(t.key), (char) v[0] + " " + (char) v[1] + " " + v[2] + " " + v[3]);
         }
     }
 
