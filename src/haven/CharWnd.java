@@ -451,6 +451,7 @@ public class CharWnd extends Window {
 	
 	public void buy() {
 	    CharWnd.this.wdgmsg("sattr", nm);
+	    FayteAlmanac.studyreset();
 	}
 
 	@Override

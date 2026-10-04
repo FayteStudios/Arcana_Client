@@ -251,9 +251,8 @@ public class FayteCraving {
             return false;
         }
         String nm = FayteAlmanac.itemname(w.item);
-        FayteAlmanac.Rec r = nm == null ? null : FayteAlmanac.get(FayteAlmanac.ITEMS, nm);
-        Integer times = r == null || r.counts == null ? null : r.counts.get("Studied");
-        if (times == null || times < 1) {
+        int times = FayteAlmanac.studiedsince(nm);
+        if (times < 1) {
             return false;
         }
         m.choose(null);

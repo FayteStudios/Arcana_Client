@@ -123,6 +123,32 @@ public class FayteAlmanac {
         public boolean gainsfixed;
         public List<String> favs = new ArrayList<>();
         public List<String> history = new ArrayList<>();
+        public Map<String, Integer> studied = new TreeMap<>();
+    }
+
+    public static synchronized int studiedsince(String name) {
+        if (book == null || book.studied == null || name == null) {
+            return 0;
+        }
+        return book.studied.getOrDefault(clean(name), 0);
+    }
+
+    private static synchronized void studiedonce(String name) {
+        if (book == null) {
+            return;
+        }
+        if (book.studied == null) {
+            book.studied = new TreeMap<>();
+        }
+        book.studied.merge(clean(name), 1, Integer::sum);
+        dirty = true;
+    }
+
+    public static synchronized void studyreset() {
+        if (book != null && book.studied != null && !book.studied.isEmpty()) {
+            book.studied.clear();
+            dirty = true;
+        }
     }
 
     public static synchronized void visited(FayteAlmanac.Rec r) {
@@ -555,6 +581,9 @@ public class FayteAlmanac {
             r.fresh = seeded;
             book.recs.put(k, r);
             dirty = true;
+            if (seeded && SKILLS.equals(cat)) {
+                studyreset();
+            }
         } else if (r.icon == null && icon != null) {
             r.icon = icon;
             dirty = true;
@@ -665,6 +694,9 @@ public class FayteAlmanac {
         }
         if (verb != null && rcname != null && System.currentTimeMillis() - rctime < ACT_MS) {
             count(ITEMS, rcname, verb);
+            if ("Studied".equals(verb)) {
+                studiedonce(rcname);
+            }
         }
         rcname = null;
     }
