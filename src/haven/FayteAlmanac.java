@@ -454,6 +454,7 @@ public class FayteAlmanac {
     }
 
     private static final Pattern STACK = Pattern.compile("^\\d+\\s+([a-z].*)$");
+    private static final Pattern WEIGHT = Pattern.compile("^\\d+(?:\\.\\d+)?\\s*kg of (.+)$");
 
     public static String clean(String name) {
         if (name == null) {
@@ -463,6 +464,10 @@ public class FayteAlmanac {
         if (m.matches()) {
             String n = m.group(1);
             return Character.toUpperCase(n.charAt(0)) + n.substring(1);
+        }
+        m = WEIGHT.matcher(name.trim());
+        if (m.matches()) {
+            return m.group(1);
         }
         return name;
     }
