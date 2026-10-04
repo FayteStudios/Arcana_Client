@@ -257,7 +257,7 @@ public class ChatUI extends Widget {
         
         protected final void startLogging()
         {
-            if(Config.chatlogs)
+            if(Config.chatlogs && (Config.currentCharName != null) && !Config.currentCharName.isEmpty())
             {
                 try {
                     String fixed_char_name = name().replaceAll("[\\/:*?\"<>|]","");

@@ -318,8 +318,7 @@ public class Tempers extends SIWidget {
 		String obj = FayteTools.lastobject(ui.gui);
 		FayteLog.log("Madness went down to " + n + "; last clicked object: " + obj + " (" + (FayteTools.lastclickage() / 1000) + " s ago)");
 		if((obj != null) && obj.toLowerCase().contains("hookah") && (FayteTools.lastclickage() < 600000L)) {
-		    String who = Config.currentCharName;
-		    FayteTimers.restart("Hookah" + (((who != null) && !who.isEmpty()) ? (": " + who) : ""), 20L * 3600L * 1000L);
+		    FayteTimers.restart("Hookah", 20L * 3600L * 1000L);
 		    ui.gui.message("Hookah timer started: 20 hours until your next puff.", GameUI.MsgType.INFO);
 		}
 	    }
