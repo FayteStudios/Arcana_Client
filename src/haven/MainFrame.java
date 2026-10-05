@@ -61,7 +61,7 @@ import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
 public class MainFrame extends Frame implements Runnable, Console.Directory {
-    public static final String VERSION = "Fool - Seven of Swords";
+    public static final String VERSION = "Fool - Reversed 3 of Pentacles";
     private static final String TITLE = "Salem (Arcana Client v" + VERSION + ")";
     public static MainFrame instance;
     HavenPanel p;

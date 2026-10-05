@@ -1,3 +1,22 @@
+# vFool - Reversed 3 of Pentacles
+From the first few days post release, we found several important pieces worth fixing. In this patch, we tackle the big ones.
+- Tooltips show again! They were being shy (set to 2 seconds, now 0)
+- Arcana's own windows can be moved while the UI is locked.
+- New characters start with action bars that don't overlap, and get a welcome message.
+- Changing the interface scale keeps chat, minimap, windows and bars where you put them. Revert puts them back. (hopefully)
+- Text no longer loses its last letters at bigger interface scales.
+- Cave brightness works now. Turns out, caves are just reverse mountains in data (hah)
+- Options tells you when night vision (Ctrl+N) is overriding the brightness sliders. (Will eventually fold it in)
+- The Hookah timer starts when the hookah actually goes on cooldown, madness or not.
+- No more stray lines under the Skills page.
+- Goldflakes, Sugar and Pepper are one Almanac entry, however much you hold.
+- The study warning resets after you learn a skill or raise a proficiency, and "Ask again" works.
+- Run says so in chat when it turns on at login.
+- Chat logs start after your first relog. The Hookah timer belongs to the character.
+- Map markers no longer get lost silently.
+- The Modules window can be moved again.
+- Arcana no longer writes developer files into your folder. (whoops)
+Another card falls. Thank you everyone who has experienced Arcana so far! I look forward to hearing your feedback!
 # vFool - Seven of Swords
 Day 1 Hotfix: Several features shipped turned off by default.
 Obviously, this looks like they were broken, because they were!
